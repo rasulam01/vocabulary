@@ -1,6 +1,6 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
-import { VocabularySection } from "../vocabularySection/vocabularySection";
+import { VocabularySection } from "../vocabularySection/vocabularySection.component";
 import { Context } from "../../navigation";
 
 

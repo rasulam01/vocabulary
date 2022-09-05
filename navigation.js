@@ -5,7 +5,7 @@ import {
 } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { Food } from "./components/fields/Food";
+import { Food } from "./components/fields/food.component";
 import { Menu } from "./components/menu/menu.component";
 import { Vocabulary } from "./components/vocabulary/vocabulary.component";
 import { Subsections } from "./components/vocabularySubsections/vocabularySubsections";
@@ -13,6 +13,7 @@ import { Settings } from "./components/settings/settings.component";
 import React, { useState } from "react";
 import { Image, Platform } from "react-native";
 import { COLORS } from "./colors";
+import { Fruit } from "./components/content/fruit";
 
 
 
@@ -26,6 +27,9 @@ const VocabularyComponentName = "Languages";
 const SettingsName = "Settings";
 const VocabularySubSectionsName = "Subsections";
 const FoodName = "Food"
+const FruitName = "Fruit"
+const FruitContentName = "FruitContent"
+const VegetablesName = "Vegetables"
 
 const darkMode = {
   ...DarkTheme,
@@ -46,6 +50,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={VocabularyComponentName} component={Vocabulary} />
     <Stack.Screen name={VocabularySubSectionsName} component={Subsections} />
     <Stack.Screen name={FoodName} component={Food} />
+    <Stack.Screen name={FruitName} component={Fruit} />
   </Stack.Navigator>
 )
 

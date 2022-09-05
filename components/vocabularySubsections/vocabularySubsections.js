@@ -1,7 +1,7 @@
 import React from "react";
 import { SafeAreaView, View, Text, StyleSheet, FlatList } from "react-native";
 import { Context } from "../../navigation";
-import { VocabularySection } from "../vocabularySection/vocabularySection";
+import { VocabularySection } from "../vocabularySection/vocabularySection.component";
 
 export const Subsections = ({ navigation }) => {
   const { androidPadding } = React.useContext(Context);
@@ -37,7 +37,7 @@ export const Subsections = ({ navigation }) => {
       data={sectionsList}
       keyExtractor={(item) => item.src}
       renderItem={({ item }) => (
-        <VocabularySection imageSource={item.src} title={item.title}  />
+        <VocabularySection imageSource={item.src} title={item.title} onPress={() => navigation.navigate({name: item.navigateTo})} />
       )}
     />
   );
