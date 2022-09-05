@@ -4,6 +4,7 @@ import {
   Image,
   View,
   TouchableWithoutFeedback,
+  Platform,
 } from "react-native";
 import { CustomText } from "../custom/CustomText";
 import { Context } from "../../navigation";
@@ -35,7 +36,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    paddingBottom: 10,
+    paddingBottom: Platform.OS === "android" ? 20 : 10,
   },
   sectionPiece: {
     flexDirection: "row",
