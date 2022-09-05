@@ -8,21 +8,22 @@ import {
 import { CustomText } from "../custom/CustomText";
 import { Context } from "../../navigation";
 import { iconSize } from "../../navigation";
+import { arrowSize } from "../../navigation";
 
-export const VocabularySection = ({ imageSource }) => {
-  const { dynamicColor } = React.useContext(Context);
+export const VocabularySection = ({ imageSource, title, onPress }) => {
+  const { dynamicColor, iosPadding } = React.useContext(Context);
   return (
-    <TouchableWithoutFeedback>
-      <View style={styles.section}>
+    <TouchableWithoutFeedback onPress={onPress}>
+      <View style={[styles.section, {padding: iosPadding}]}>
         <View style={styles.sectionPiece}>
           <Image
             source={imageSource}
             style={[iconSize, { marginRight: 20, borderColor: dynamicColor }]}
           />
-          <CustomText color={dynamicColor} title="Кадарский язык" />
+          <CustomText color={dynamicColor} title={title} />
         </View>
         <View>
-          <Image source={require("../../assets/arrow.png")} style={iconSize} />
+          <Image source={require("../../assets/arrow.png")} style={arrowSize} />
         </View>
       </View>
     </TouchableWithoutFeedback>

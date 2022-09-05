@@ -1,11 +1,14 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
 import { VocabularySection } from "../vocabularySection/vocabularySection";
+import { Context } from "../../navigation";
 
-export const Vocabulary = () => {  
+
+export const Vocabulary = ({ navigation }) => {  
+  const { androidPadding } = React.useContext(Context)
   return (
-    <SafeAreaView style={styles.container}>
-       <VocabularySection imageSource={require('../../assets/mountain.png')}/>
+    <SafeAreaView style={[styles.container, {padding: androidPadding}]}>
+       <VocabularySection imageSource={require('../../assets/mountain.png')} title="Кадарский язык" onPress={() => navigation.navigate('Subsections')} />
     </SafeAreaView>
   );
 };
@@ -13,16 +16,5 @@ export const Vocabulary = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
   },
-  section: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    paddingBottom: 10,           
-  },
-  sectionPiece: {
-    flexDirection: "row",
-    alignItems: "center",
-  }
 });
