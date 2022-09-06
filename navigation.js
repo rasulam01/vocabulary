@@ -8,6 +8,8 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Food } from "./components/fields/food.component";
 import { Menu } from "./components/menu/menu.component";
 import { Vocabulary } from "./components/vocabulary/vocabulary.component";
+import { VocabularyParts } from "./components/vocabularyParts/vocabularyParts";
+import { VocabularySpeechParts } from "./components/vocabularySpeechParts/vocabularySpeechParts";
 import { Subsections } from "./components/vocabularySubsections/vocabularySubsections";
 import { Settings } from "./components/settings/settings.component";
 import React, { useState } from "react";
@@ -24,8 +26,11 @@ const Stack = createNativeStackNavigator();
 const MenuName = "Menu";
 const VocabularyName = "Vocabulary";
 const VocabularyComponentName = "Languages";
-const SettingsName = "Settings";
+const VocabularyPartsName = "Parts"
+const VocabularySpeechPartsName = "Speech Parts"
 const VocabularySubSectionsName = "Subsections";
+const SettingsName = "Settings";
+
 const FoodName = "Food"
 const FruitName = "Fruit"
 const FruitContentName = "FruitContent"
@@ -48,7 +53,9 @@ export const Context = React.createContext();
 export const StackNavigation = () => (
   <Stack.Navigator screenOptions={{gestureEnabled: false}} initialRouteName={VocabularyName}>
     <Stack.Screen name={VocabularyComponentName} component={Vocabulary} />
+    <Stack.Screen name={VocabularyPartsName} component={VocabularyParts} />
     <Stack.Screen name={VocabularySubSectionsName} component={Subsections} />
+    <Stack.Screen name={VocabularySpeechPartsName} component={VocabularySpeechParts} />
     <Stack.Screen name={FoodName} component={Food} />
     <Stack.Screen name={FruitName} component={Fruit} />
   </Stack.Navigator>

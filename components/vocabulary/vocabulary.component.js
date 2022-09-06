@@ -1,20 +1,12 @@
 import React from "react";
-import { SafeAreaView, StyleSheet } from "react-native";
+import { SafeAreaView } from "react-native";
 import { VocabularySection } from "../vocabularySection/vocabularySection.component";
-import { Context } from "../../navigation";
-
+import commonStyles from "../commonStyles";
 
 export const Vocabulary = ({ navigation }) => {  
-  const { androidPadding } = React.useContext(Context)
   return (
-    <SafeAreaView style={[styles.container, {padding: androidPadding}]}>
-       <VocabularySection imageSource={require('../../assets/mountain.png')} title="Кадарский язык" onPress={() => navigation.navigate('Subsections')} />
+    <SafeAreaView style={commonStyles.container}>
+       <VocabularySection imageSource={require('../../assets/mountain.png')} title="Кадарский язык" onPress={() => navigation.navigate('Parts')} />
     </SafeAreaView>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});

@@ -1,11 +1,12 @@
 import React from "react";
-import { StyleSheet, SafeAreaView, View, Text } from "react-native";
+import { SafeAreaView, Text } from "react-native";
+import commonStyles from "../commonStyles";
 
 
 export const Fruit = () => {
     return (
-        <SafeAreaView>
-            <Text>fruit</Text>
+        <SafeAreaView style={commonStyles.container}>
+            
         </SafeAreaView>
     )
 }

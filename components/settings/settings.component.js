@@ -3,17 +3,18 @@ import { SafeAreaView, View, Text, StyleSheet, Switch, Platform } from 'react-na
 import { Context } from '../../navigation';
 import { COLORS } from '../../colors';
 import { CustomText } from '../custom/CustomText';
+import commonStyles from '../commonStyles';
 
 
 
-export const Settings = ({ navigation }) => {
-    const { dynamicColor, dark, setDark, androidPadding, iosPadding } = React.useContext(Context)
+export const Settings = () => {
+    const { dynamicColor, dark, setDark, iosPadding } = React.useContext(Context)
     const setDarkness = () => {
         setDark(!dark)
     }
     const darkModeText = dark ? 'Disable Dark Mode' : 'Enable Dark Mode'
     return (
-        <SafeAreaView style={[styles.container, {padding: androidPadding}]}>
+        <SafeAreaView style={commonStyles.container}>
             <View style={[styles.section, { padding: iosPadding }]}>
                 <CustomText color={dynamicColor} title={darkModeText} />
                 <Switch value={dark} onValueChange={setDarkness} trackColor={{false: COLORS.VEINY_RED, true: COLORS.BEACH_TURQUOISE}} />
@@ -23,10 +24,6 @@ export const Settings = ({ navigation }) => {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        
-    },
     section: {
         flexDirection: 'row',
         justifyContent: 'space-between',
