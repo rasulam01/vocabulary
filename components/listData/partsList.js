@@ -1,11 +1,11 @@
 export const partsList = [
   {
-    src: require("../../assets/rules.png"),
+    src: require("../../assets/sections/rules.png"),
     title: "Правила",
     navigateTo: "Subsections",
   },
   {
-    src: require("../../assets/dictionary.png"),
+    src: require("../../assets/sections/dictionary.png"),
     title: "Словарь",
     navigateTo: "Speech Parts",
   },

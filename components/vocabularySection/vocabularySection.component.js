@@ -26,7 +26,11 @@ export const VocabularySection = ({ imageSource, title, onPress }) => {
           <CustomText color={dynamicColor} title={title} />
         </View>
         <View>
+<<<<<<< HEAD
           <Image source={ARROW_PATH} style={arrowSize} />
+=======
+          <Image source={require("../../assets/sections/arrow.png")} style={arrowSize} />
+>>>>>>> c3be2c7e0fbc37624e7296772921d31f4b01f396
         </View>
       </View>
     </TouchableWithoutFeedback>
