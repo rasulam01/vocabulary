@@ -3,7 +3,7 @@ export const fruitData = [{
     russian: "яблоко",
     khadar: "гIинц",
     english: "apple",
-    additional_info: "",
+    additional_info: "Также существует тюркский вариант - эльма.",
     sound_src: "../../sounds.apple.m4a"
 
 }]

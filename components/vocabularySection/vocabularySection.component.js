@@ -10,27 +10,24 @@ import { CustomText } from "../custom/CustomText";
 import { Context } from "../../navigation";
 import { iconSize } from "../../navigation";
 import { arrowSize } from "../../navigation";
+import commonStyles from "../commonStyles";
 
-const ARROW_PATH = require("../../assets/arrow.png")
+const ARROW_PATH = require("../../assets/sections/arrow.png")
 
 export const VocabularySection = ({ imageSource, title, onPress }) => {
-  const { dynamicColor, iosPadding } = React.useContext(Context);
+  const { dynamicColor } = React.useContext(Context);
   return (
     <TouchableWithoutFeedback onPress={onPress}>
-      <View style={[styles.section, {padding: iosPadding}]}>
+      <View style={commonStyles.section}>
         <View style={styles.sectionPiece}>
           <Image
             source={imageSource}
-            style={[iconSize, { marginRight: 20, borderColor: dynamicColor }]}
+            style={[iconSize, { marginRight: 20 }]}
           />
           <CustomText color={dynamicColor} title={title} />
         </View>
         <View>
-<<<<<<< HEAD
           <Image source={ARROW_PATH} style={arrowSize} />
-=======
-          <Image source={require("../../assets/sections/arrow.png")} style={arrowSize} />
->>>>>>> c3be2c7e0fbc37624e7296772921d31f4b01f396
         </View>
       </View>
     </TouchableWithoutFeedback>
@@ -42,6 +39,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+
     paddingBottom: Platform.OS === "android" ? 20 : 10,
   },
   sectionPiece: {
