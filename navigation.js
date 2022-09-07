@@ -65,7 +65,7 @@ const Navigation = () => {
   const isDarkTheme = dark ? darkMode : DefaultTheme
   const iosPadding = Platform.OS === "ios" ? 20 : 0
   return (
-    <Context.Provider value={{dark, setDark, dynamicColor,  iosPadding, VocabularySubSectionsName}}>
+    <Context.Provider value={{dark, setDark, dynamicColor,  iosPadding}}>
       <NavigationContainer theme={isDarkTheme}>
         <Tab.Navigator
           initialRouteName={VocabularyName}

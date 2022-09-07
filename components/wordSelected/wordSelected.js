@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   SafeAreaView,
   View,
@@ -10,9 +10,7 @@ import commonStyles from "../commonStyles";
 import { Context } from "../../navigation";
 import Sound from "react-native-sound";
 
-
-export const WordSelected = ({ route }) => {
-  const [sound, setSound] = useState(null)
+export const WordSelected = ({ route }) => {  
   const { dynamicColor } = React.useContext(Context);
   const {
     src,
@@ -23,18 +21,11 @@ export const WordSelected = ({ route }) => {
     sound_src,
   } = route.params;
   const MIC_PATH = require("../../assets/sections/mic.png");
+  
   const play = () => {
-      const audio = new Sound('apple.m4a', Sound.MAIN_BUNDLE, (err) => {
-          if (err) {
-              console.log(err)
-              return
-          }
-          audio.play((res) => {
-              console.log(res)
-              audio.release()
-          })
+      const audio = new Sound(sound_src, Sound.MAIN_BUNDLE, () => {
+          audio.play()
       })
-      setSound(audio)
   }
 
   return (
@@ -51,7 +42,7 @@ export const WordSelected = ({ route }) => {
           fontWeight="700"
           fontSize={20}
         />
-        <TouchableOpacity onPress={() => {play()}}>
+        <TouchableOpacity onPress={() => play()}>
           <Image
             source={MIC_PATH}
             style={{ width: 20, height: 20, marginLeft: 5 }} 

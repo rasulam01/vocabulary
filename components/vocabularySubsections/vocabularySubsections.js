@@ -1,22 +1,13 @@
 import React from "react";
-import { SafeAreaView, FlatList } from "react-native";
-import { VocabularySection } from "../vocabularySection/vocabularySection.component";
+import { SafeAreaView } from "react-native";
 import { sectionsList } from "../listData/sectionsList";
 import commonStyles from "../commonStyles";
+import { VocabularyList } from "../vocabularyList/vocabularyList";
 
 export const Subsections = ({ navigation }) => {
-  const sections = (
-    <FlatList
-      data={sectionsList}
-      keyExtractor={(item) => item.src}
-      renderItem={({ item }) => (
-        <VocabularySection imageSource={item.src} title={item.title} onPress={() => navigation.navigate({name: item.navigateTo})} />
-      )}
-    />
-  );
   return (
-    <SafeAreaView style={commonStyles.container}>
-      {sections}
+    <SafeAreaView style={commonStyles.container}>      
+      <VocabularyList data={sectionsList} navigation={navigation} />
     </SafeAreaView>
   );
 };

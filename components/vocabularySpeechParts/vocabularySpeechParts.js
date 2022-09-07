@@ -1,16 +1,13 @@
 import React from "react";
-import { SafeAreaView, FlatList } from 'react-native'
-import { VocabularySection } from "../vocabularySection/vocabularySection.component";
+import { SafeAreaView } from 'react-native'
 import { speechPartsList } from "../listData/speechPartsList";
 import commonStyles from "../commonStyles";
+import { VocabularyList } from "../vocabularyList/vocabularyList";
 
 export const VocabularySpeechParts = ({ navigation }) => {
-    const speechParts = <FlatList data={speechPartsList} keyExtractor={item => item.src} renderItem={({ item }) => (
-        <VocabularySection imageSource={item.src} title={item.title} onPress={() => navigation.navigate({name: item.navigateTo})} />
-      )} />
     return (
         <SafeAreaView style={commonStyles.container}>
-            {speechParts}
+            <VocabularyList data={speechPartsList} navigation={navigation} />
         </SafeAreaView>
     )
 }

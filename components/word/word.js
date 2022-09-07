@@ -5,13 +5,14 @@ import { CustomText } from "../custom/CustomText";
 import commonStyles from "../commonStyles";
 import { iconSize } from "../../navigation";
 
-export const Word = ({ src, russian, khadar, english, onPress, additional_info, sound_src, navigation }) => {
+export const Word = ({ id, src, russian, khadar, english, onPress }) => {
   const { dynamicColor } = React.useContext(Context);
   return (
     <TouchableOpacity onPress={onPress}>
-      <View style={commonStyles.section}>
+      <View style={[commonStyles.section, {justifyContent: 'space-around'}]}>
+        <CustomText title={id + '.'} color={dynamicColor} />
         <Image source={src} style={iconSize} />
-        <CustomText title={khadar} color={dynamicColor} />
+        <CustomText fontWeight="700" title={khadar} color={dynamicColor} />
         <CustomText title={russian} color={dynamicColor} />
         <CustomText title={english} color={dynamicColor} />
       </View>

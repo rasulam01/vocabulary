@@ -5,8 +5,6 @@ import { COLORS } from '../../colors';
 import { CustomText } from '../custom/CustomText';
 import commonStyles from '../commonStyles';
 
-
-
 export const Settings = () => {
     const { dynamicColor, dark, setDark, iosPadding } = React.useContext(Context)
     const setDarkness = () => {
