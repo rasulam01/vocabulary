@@ -17,12 +17,9 @@ import { Image, Platform } from "react-native";
 import { COLORS } from "./colors";
 import { Fruit } from "./components/content/fruit";
 
-
-
-
-
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
+
 const MenuName = "Menu";
 const VocabularyName = "Vocabulary";
 const VocabularyComponentName = "Languages";
@@ -30,7 +27,6 @@ const VocabularyPartsName = "Parts"
 const VocabularySpeechPartsName = "Speech Parts"
 const VocabularySubSectionsName = "Subsections";
 const SettingsName = "Settings";
-
 const FoodName = "Food"
 const FruitName = "Fruit"
 const FruitContentName = "FruitContent"
@@ -47,7 +43,6 @@ const darkMode = {
 export const iconSize = {width: 30, height: 30}
 export const arrowSize = {width: 20, height: 20}
 
-
 export const Context = React.createContext();
 
 export const StackNavigation = () => (
@@ -61,18 +56,13 @@ export const StackNavigation = () => (
   </Stack.Navigator>
 )
 
-
-
-
-
 const Navigation = () => {
   const [dark, setDark] = useState(false);
   const dynamicColor = dark ? COLORS.WHITE : COLORS.VEINY_RED
   const isDarkTheme = dark ? darkMode : DefaultTheme
-  const androidPadding = Platform.OS === "android" ? 20 : 0
   const iosPadding = Platform.OS === "ios" ? 20 : 0
   return (
-    <Context.Provider value={{dark, setDark, dynamicColor, androidPadding, iosPadding, VocabularySubSectionsName}}>
+    <Context.Provider value={{dark, setDark, dynamicColor,  iosPadding, VocabularySubSectionsName}}>
       <NavigationContainer theme={isDarkTheme}>
         <Tab.Navigator
           initialRouteName={VocabularyName}

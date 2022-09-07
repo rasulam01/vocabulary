@@ -11,6 +11,8 @@ import { Context } from "../../navigation";
 import { iconSize } from "../../navigation";
 import { arrowSize } from "../../navigation";
 
+const ARROW_PATH = require("../../assets/arrow.png")
+
 export const VocabularySection = ({ imageSource, title, onPress }) => {
   const { dynamicColor, iosPadding } = React.useContext(Context);
   return (
@@ -24,7 +26,7 @@ export const VocabularySection = ({ imageSource, title, onPress }) => {
           <CustomText color={dynamicColor} title={title} />
         </View>
         <View>
-          <Image source={require("../../assets/arrow.png")} style={arrowSize} />
+          <Image source={ARROW_PATH} style={arrowSize} />
         </View>
       </View>
     </TouchableWithoutFeedback>
