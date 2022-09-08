@@ -5,6 +5,6 @@ export const fruitData = [{
     khadar: "гIинц",
     english: "apple",
     additional_info: "Также существует тюркский вариант - эльма.",
-    sound_src: "apple.m4a"
+    sound_src: "apple.m4a",
 
 }]

@@ -6,7 +6,7 @@ import {
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Food } from "./components/fields/food.component";
-import { Menu } from "./components/menu/menu.component";
+// import { Menu } from "./components/menu/menu.component";
 import { Vocabulary } from "./components/vocabulary/vocabulary.component";
 import { VocabularyParts } from "./components/vocabularyParts/vocabularyParts";
 import { VocabularySpeechParts } from "./components/vocabularySpeechParts/vocabularySpeechParts";
@@ -21,7 +21,7 @@ import { WordSelected } from "./components/wordSelected/wordSelected";
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
-const MenuName = "Menu";
+// const MenuName = "Menu";
 const VocabularyName = "Vocabulary";
 const VocabularyComponentName = "Languages";
 const VocabularyPartsName = "Parts"
@@ -71,9 +71,9 @@ const Navigation = () => {
           initialRouteName={VocabularyName}
           screenOptions={{ headerShown: false, tabBarActiveBackgroundColor: COLORS.CLOUDY_BLUE, tabBarLabel: () => null, tabBarInactiveBackgroundColor: dark ? COLORS.DARK_GRAY : COLORS.WHITE }}                              
         >
-          <Tab.Screen name={MenuName} component={Menu} options={{tabBarIcon: () => (
+          {/* <Tab.Screen name={MenuName} component={Menu} options={{tabBarIcon: () => (
             <Image source={require("./assets/sections/menu.png")}  style={iconSize} />
-          )}} />
+          )}} /> */}
           <Tab.Screen name={VocabularyName} component={StackNavigation}  options={{tabBarIcon: () => (
             <Image source={require("./assets/sections/vocabulary.png")}  style={iconSize} />
           )}}
