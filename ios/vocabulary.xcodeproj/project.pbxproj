@@ -45,7 +45,7 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-vocabulary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vocabulary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = vocabulary/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88B80A3628C8C0FD00412F6C /* page-flip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "page-flip.wav"; path = "../sounds/page-flip.wav"; sourceTree = "<group>"; };
-		88B80A3728C8C0FE00412F6C /* apple.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = apple.m4a; path = ../sounds/apple.m4a; sourceTree = "<group>"; };
+		88B80A3728C8C0FE00412F6C /* apple.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = apple.m4a; path = /Users/imac/projects/vocabulary/ios/../sounds/apple.m4a; sourceTree = "<absolute>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-vocabulary-vocabularyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vocabulary-vocabularyTests.release.xcconfig"; path = "Target Support Files/Pods-vocabulary-vocabularyTests/Pods-vocabulary-vocabularyTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -96,8 +96,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				88B80A3728C8C0FE00412F6C /* apple.m4a */,
-				88B80A3628C8C0FD00412F6C /* page-flip.wav */,
 			);
 			name = vocabulary;
 			sourceTree = "<group>";
@@ -122,6 +120,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				88B80A3728C8C0FE00412F6C /* apple.m4a */,
+				88B80A3628C8C0FD00412F6C /* page-flip.wav */,
 				13B07FAE1A68108700A75B9A /* vocabulary */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* vocabularyTests */,
