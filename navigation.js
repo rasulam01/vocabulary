@@ -74,7 +74,7 @@ const Navigation = () => {
             <Image source={require("./assets/sections/vocabulary.png")}  style={iconSize} />
           )}}
            />
-          <Tab.Screen name={SettingsName} component={Settings} options={{tabBarIcon: () => (
+          <Tab.Screen name={SettingsName} component={Settings} options={{headerShown: true, tabBarIcon: () => (
             <Image source={require("./assets/sections/settings.png")} style={iconSize} />
           )}} />
         </Tab.Navigator>

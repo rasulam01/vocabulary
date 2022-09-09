@@ -9,7 +9,7 @@ export const Word = ({ id, index, src, russian, khadar, english, onPress }) => {
   const { dynamicColor, alignment } = React.useContext(Context);
   return (
     <TouchableOpacity onPress={onPress}>
-      <View style={[commonStyles.section, { justifyContent: "space-between" }]}>
+      <View style={commonStyles.section}>
         <View style={{ flex: 1 }}>
           <CustomText title={index + "."} color={dynamicColor} />
         </View>
@@ -17,13 +17,13 @@ export const Word = ({ id, index, src, russian, khadar, english, onPress }) => {
           <Image source={src} style={[iconSize]}  />
         </View>
         
-        <View style={[{ flex: 2, alignItems: alignment ? "center" : "" }]}>
+        <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
           <CustomText fontWeight="700" title={khadar} color={dynamicColor}  />
         </View>
-        <View style={{ flex: 2, alignItems: alignment ? "center" : "" }}>
+        <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
           <CustomText title={russian} color={dynamicColor}   />
         </View>
-        <View style={{ flex: 2, alignItems: alignment ? "center" : "" }}>
+        <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
           <CustomText title={english} color={dynamicColor}   />
         </View>
       </View>

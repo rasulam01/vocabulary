@@ -4,7 +4,11 @@ import { FlatList, View } from "react-native";
 import { CustomText } from "../custom/CustomText";
 import { Context } from "../../navigation";
 
-export const WordList = ({ data, navigation }) => (
+export const WordList = ({ data, navigation }) => {
+  
+  return (
+
+  
   <>
     <View
       style={[
@@ -34,6 +38,7 @@ export const WordList = ({ data, navigation }) => (
               id: item.id,
               index: index + 1,
               src: item.src,
+              category: item.category,
               russian: item.russian,
               khadar: item.khadar,
               english: item.english,
@@ -46,4 +51,5 @@ export const WordList = ({ data, navigation }) => (
       )}
     />
   </>
-);
+  )
+};

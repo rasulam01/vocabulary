@@ -2,6 +2,7 @@ export const fruitData = [
   {
     id: 1,
     src: require("../../assets/fruit/apple.png"),
+    category: "Фрукты",
     russian: "яблоко",
     khadar: "гIинц",
     english: "apple",
@@ -11,6 +12,7 @@ export const fruitData = [
   {
     id: 2,
     src: require("../../assets/fruit/apricot.png"),
+    category: "Фрукты",
     russian: "абрикос",
     khadar: "корага",
     english: "apricot",
@@ -20,6 +22,7 @@ export const fruitData = [
   {
     id: 3,
     src: require("../../assets/fruit/quince.png"),
+    category: "Фрукты",
     russian: "айва",
     khadar: "гимиргьи",
     english: "quince",
@@ -29,6 +32,7 @@ export const fruitData = [
   {
     id: 4,
     src: require("../../assets/fruit/cherry_plum.png"),
+    category: "Фрукты",
     russian: "алыча",
     khadar: "цимихI",
     english: "cherry plum",
@@ -38,6 +42,7 @@ export const fruitData = [
   {
     id: 5,
     src: require("../../assets/fruit/grape.png"),
+    category: "Фрукты",
     russian: "виноград",
     khadar: "тIутIи",
     english: "grape",
@@ -47,6 +52,7 @@ export const fruitData = [
   {
     id: 6,
     src: require("../../assets/fruit/pear.png"),
+    category: "Фрукты",
     russian: "груша",
     khadar: "алмут",
     english: "pear",
@@ -56,6 +62,7 @@ export const fruitData = [
   {
     id: 7,
     src: require("../../assets/fruit/plum.png"),
+    category: "Фрукты",
     russian: "слива",
     khadar: "кIакIан",
     english: "plum",
@@ -65,6 +72,7 @@ export const fruitData = [
   {
     id: 8,
     src: require("../../assets/fruit/pumpkin.png"),
+    category: "Фрукты",
     russian: "тыква",
     khadar: "гонзари",
     english: "pumpkin",
@@ -74,6 +82,7 @@ export const fruitData = [
   {
     id: 9,
     src: require("../../assets/fruit/date.png"),
+    category: "Фрукты",
     russian: "финик",
     khadar: "финик",
     english: "date",
@@ -83,6 +92,7 @@ export const fruitData = [
   {
     id: 10,
     src: require("../../assets/fruit/fruit.png"),
+    category: "Фрукты",
     russian: "фрукты",
     khadar: "цIедехь",
     english: "fruit",
