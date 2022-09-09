@@ -9,6 +9,7 @@ export const WordSelected = ({ route }) => {
   const { dynamicColor } = React.useContext(Context);
   const {
     id,
+    index,
     src,
     russian,
     khadar,
@@ -26,7 +27,7 @@ export const WordSelected = ({ route }) => {
         return;
       } else {
         audio.play((res) => {
-          console.log("result: ", res, audio.getDuration());
+          console.log("result: ", res);
         })
       }
     });
@@ -66,7 +67,7 @@ export const WordSelected = ({ route }) => {
           { flexDirection: "column", alignItems: "flex-start" },
         ]}
       >
-        <CustomText color={dynamicColor} title={`Слово ${id} / ${length}`} fontWeight="700"/>
+        <CustomText color={dynamicColor} title={`Слово ${index + 1} / ${length}`} fontWeight="700"/>
         <CustomText color={dynamicColor} title={`На русском: ${russian}`} />
         <CustomText color={dynamicColor} title={`На английском: ${english}`} />
       </View>
