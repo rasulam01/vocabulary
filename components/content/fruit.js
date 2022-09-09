@@ -8,9 +8,6 @@ import { WordList } from "../wordList/wordList";
 export const Fruit = ({ navigation }) => {
   return (
     <SafeAreaView style={commonStyles.container}>
-      {/* <View style={[{ paddingLeft: 20, paddingBottom: 20 }, Platform.OS === "ios" ? {marginTop: 30, marginLeft: 20} : ""]}>
-        <CustomText title={`Слов в категории: ${fruitData.length}`} />
-      </View> */}
       <WordList data={fruitData} navigation={navigation} />
     </SafeAreaView>
   );

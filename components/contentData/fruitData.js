@@ -1,4 +1,5 @@
-export const fruitData = [{
+export const fruitData = [
+  {
     id: 1,
     src: require("../../assets/fruit/apple.png"),
     russian: "яблоко",
@@ -6,7 +7,8 @@ export const fruitData = [{
     english: "apple",
     additional_info: "",
     sound_src: "apple.m4a",
-}, {
+  },
+  {
     id: 2,
     src: require("../../assets/fruit/apricot.png"),
     russian: "абрикос",
@@ -14,8 +16,8 @@ export const fruitData = [{
     english: "apricot",
     additional_info: "",
     sound_src: "apricot.m4a",
-
-},{     
+  },
+  {
     id: 3,
     src: require("../../assets/fruit/quince.png"),
     russian: "айва",
@@ -23,5 +25,68 @@ export const fruitData = [{
     english: "quince",
     additional_info: "",
     sound_src: "quince.m4a",
-
-}]
+  },
+  {
+    id: 4,
+    src: require("../../assets/fruit/cherry_plum.png"),
+    russian: "алыча",
+    khadar: "цимихI",
+    english: "cherry plum",
+    additional_info: "",
+    sound_src: "cherry_plum.m4a",
+  },
+  {
+    id: 5,
+    src: require("../../assets/fruit/grape.png"),
+    russian: "виноград",
+    khadar: "тIутIи",
+    english: "grape",
+    additional_info: "",
+    sound_src: "grape.m4a",
+  },
+  {
+    id: 6,
+    src: require("../../assets/fruit/pear.png"),
+    russian: "груша",
+    khadar: "алмут",
+    english: "pear",
+    additional_info: "",
+    sound_src: "pear.m4a",
+  },
+  {
+    id: 7,
+    src: require("../../assets/fruit/plum.png"),
+    russian: "слива",
+    khadar: "кIакIан",
+    english: "plum",
+    additional_info: "",
+    sound_src: "plum.m4a",
+  },
+  {
+    id: 8,
+    src: require("../../assets/fruit/pumpkin.png"),
+    russian: "тыква",
+    khadar: "гонзари",
+    english: "pumpkin",
+    additional_info: "",
+    sound_src: "pumpkin.m4a",
+  },
+  {
+    id: 9,
+    src: require("../../assets/fruit/date.png"),
+    russian: "финик",
+    khadar: "финик",
+    english: "date",
+    additional_info: "",
+    sound_src: "date.m4a",
+  },
+  {
+    id: 10,
+    src: require("../../assets/fruit/fruit.png"),
+    russian: "фрукты",
+    khadar: "цIедехь",
+    english: "fruit",
+    additional_info: "",
+    sound_src: "fruit.m4a",
+  }, 
+];

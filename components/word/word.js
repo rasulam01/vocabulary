@@ -6,17 +6,27 @@ import commonStyles from "../commonStyles";
 import { iconSize } from "../../navigation";
 
 export const Word = ({ id, index, src, russian, khadar, english, onPress }) => {
-  const { dynamicColor } = React.useContext(Context);
+  const { dynamicColor, alignment } = React.useContext(Context);
   return (
     <TouchableOpacity onPress={onPress}>
-      <View style={[commonStyles.section, {justifyContent: 'space-between'}]}>
-        <CustomText title={index + '.'} color={dynamicColor} />
-        <Image source={src} style={iconSize} />
-        <CustomText fontWeight="700" title={khadar} color={dynamicColor} />
-        <CustomText title={russian} color={dynamicColor} />
-        <CustomText title={english} color={dynamicColor} />
+      <View style={[commonStyles.section, { justifyContent: "space-between" }]}>
+        <View style={{ flex: 1 }}>
+          <CustomText title={index + "."} color={dynamicColor} />
+        </View>
+        <View style={{ flex: 1 }}>
+          <Image source={src} style={[iconSize]}  />
+        </View>
+        
+        <View style={[{ flex: 2, alignItems: alignment ? "center" : "" }]}>
+          <CustomText fontWeight="700" title={khadar} color={dynamicColor}  />
+        </View>
+        <View style={{ flex: 2, alignItems: alignment ? "center" : "" }}>
+          <CustomText title={russian} color={dynamicColor}   />
+        </View>
+        <View style={{ flex: 2, alignItems: alignment ? "center" : "" }}>
+          <CustomText title={english} color={dynamicColor}   />
+        </View>
       </View>
     </TouchableOpacity>
   );
 };
-

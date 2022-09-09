@@ -6,7 +6,6 @@ import {
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Food } from "./components/fields/food.component";
-// import { Menu } from "./components/menu/menu.component";
 import { Vocabulary } from "./components/vocabulary/vocabulary.component";
 import { VocabularyParts } from "./components/vocabularyParts/vocabularyParts";
 import { VocabularySpeechParts } from "./components/vocabularySpeechParts/vocabularySpeechParts";
@@ -21,7 +20,6 @@ import { WordSelected } from "./components/wordSelected/wordSelected";
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
-// const MenuName = "Menu";
 const VocabularyName = "Vocabulary";
 const VocabularyComponentName = "Languages";
 const VocabularyPartsName = "Parts"
@@ -38,7 +36,7 @@ const darkMode = {
   ...DarkTheme,
   colors: {
     ...DarkTheme.colors,
-    background: "rgb(95, 105, 115)",    
+    background: "rgb(105, 115, 125)",    
   },
 };
 
@@ -60,20 +58,18 @@ export const StackNavigation = () => (
 )
 
 const Navigation = () => {
+  const [alignment, setAlignment] = useState(false)
   const [dark, setDark] = useState(false);
   const dynamicColor = dark ? COLORS.WHITE : COLORS.VEINY_RED
   const isDarkTheme = dark ? darkMode : DefaultTheme
   const iosPadding = Platform.OS === "ios" ? 20 : 0
   return (
-    <Context.Provider value={{dark, setDark, dynamicColor,  iosPadding}}>
+    <Context.Provider value={{dark, setDark, alignment, setAlignment, dynamicColor, iosPadding}}>
       <NavigationContainer theme={isDarkTheme}>
         <Tab.Navigator
           initialRouteName={VocabularyName}
           screenOptions={{ headerShown: false, tabBarActiveBackgroundColor: COLORS.CLOUDY_BLUE, tabBarLabel: () => null, tabBarInactiveBackgroundColor: dark ? COLORS.DARK_GRAY : COLORS.WHITE }}                              
         >
-          {/* <Tab.Screen name={MenuName} component={Menu} options={{tabBarIcon: () => (
-            <Image source={require("./assets/sections/menu.png")}  style={iconSize} />
-          )}} /> */}
           <Tab.Screen name={VocabularyName} component={StackNavigation}  options={{tabBarIcon: () => (
             <Image source={require("./assets/sections/vocabulary.png")}  style={iconSize} />
           )}}
