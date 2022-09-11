@@ -42,7 +42,7 @@ export const WordSelected = ({ route }) => {
         style={[
           commonStyles.section,
           { justifyContent: "center", alignItems: "flex-end" },
-        ]}
+        ]}        
       >
         
         <CustomText
@@ -55,6 +55,7 @@ export const WordSelected = ({ route }) => {
           onPress={() => {
             play()
           }}
+          hitSlop={25}
         >
           <Image
             source={MIC_PATH}

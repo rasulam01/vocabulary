@@ -15,6 +15,7 @@ import React, { useState } from "react";
 import { Image, Platform } from "react-native";
 import { COLORS } from "./colors";
 import { Fruit } from "./components/content/fruit";
+import { Vegetables } from "./components/content/vegetables";
 import { WordSelected } from "./components/wordSelected/wordSelected";
 
 const Tab = createBottomTabNavigator();
@@ -28,7 +29,6 @@ const VocabularySubSectionsName = "Subsections";
 const SettingsName = "Settings";
 const FoodName = "Food"
 const FruitName = "Fruit"
-const FruitContentName = "FruitContent"
 const VegetablesName = "Vegetables"
 const WordSelectedName = "Selected Word"
 
@@ -53,6 +53,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={VocabularySpeechPartsName} component={VocabularySpeechParts} />
     <Stack.Screen name={FoodName} component={Food} />
     <Stack.Screen name={FruitName} component={Fruit} />
+    <Stack.Screen name={VegetablesName} component={Vegetables} />
     <Stack.Screen name={WordSelectedName} component={WordSelected} options={({route}) => ({title: route.params.khadar.charAt(0).toUpperCase() + route.params.khadar.substring(1)})} />
   </Stack.Navigator>
 )

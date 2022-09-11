@@ -14,7 +14,7 @@ export const Word = ({ id, index, src, russian, khadar, english, onPress }) => {
           <CustomText title={index + "."} color={dynamicColor} />
         </View>
         <View style={{ flex: 1 }}>
-          <Image source={src} style={[iconSize]}  />
+          <Image source={src} style={[iconSize, {width: 32, height: 32, resizeMode: "center"}]}  />
         </View>
         
         <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
