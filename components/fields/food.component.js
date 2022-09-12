@@ -1,15 +1,14 @@
 import React from "react";
 import { SafeAreaView } from "react-native";
 import { VocabularySection } from "../vocabularySection/vocabularySection.component";
+import { VocabularyList } from "../vocabularyList/vocabularyList";
+import { foodList } from "../listData/foodList";
 import commonStyles from "../commonStyles";
 
 export const Food = ({ navigation }) => {
     return (
         <SafeAreaView style={commonStyles.container}>
-            <VocabularySection imageSource={require("../../assets/sections/food_fruit.png")} title="Фрукты" onPress={() => navigation.navigate("Fruit")} />
-            <VocabularySection imageSource={require("../../assets/sections/food_vegetable.png")} title="Овощи" onPress={() => navigation.navigate("Vegetables")} />
-            <VocabularySection imageSource={require("../../assets/sections/food_berries.png")} title="Ягоды" onPress={() => navigation.navigate("Berries")} />
-            <VocabularySection imageSource={require("../../assets/sections/food_berries.png")} title="Молочные продукты" onPress={() => navigation.navigate("Berries")} />
+            <VocabularyList data={foodList} navigation={navigation} />
         </SafeAreaView>
     )
 }

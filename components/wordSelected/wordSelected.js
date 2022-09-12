@@ -60,8 +60,8 @@ export const WordSelected = ({ route }) => {
           />
         </TouchableOpacity>
       </View>
-      <View style={{alignItems: 'center'}}>
-        <Image source={src} style={{width: 90, height: 90, resizeMode: 'contain'}} />
+      <View style={{alignItems: 'center', paddingBottom: 20}}>
+        <Image source={src} style={{width: 120, height: 120, resizeMode: 'contain'}} />
       </View>
       <View
         style={[
@@ -69,7 +69,8 @@ export const WordSelected = ({ route }) => {
           { flexDirection: "column", alignItems: "flex-start" },
         ]}
       >
-        <CustomText color={dynamicColor} title={`Слово ${index} / ${length}, категория: ${category}.`} fontWeight="700"/>
+        <CustomText color={dynamicColor} title={`Слово ${index} / ${length}.`} fontWeight="700"/>
+        <CustomText color={dynamicColor} title={`Категория: ${category}.`} fontWeight="700"/>
         <CustomText color={dynamicColor} title={`На русском: ${russian}`} />
         <CustomText color={dynamicColor} title={`На английском: ${english}`} />
       </View>
