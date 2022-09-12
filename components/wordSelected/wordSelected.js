@@ -34,8 +34,6 @@ export const WordSelected = ({ route }) => {
     });
   };
 
-  
-
   return (
     <SafeAreaView style={commonStyles.container}>
       <View
@@ -44,7 +42,6 @@ export const WordSelected = ({ route }) => {
           { justifyContent: "center", alignItems: "flex-end" },
         ]}        
       >
-        
         <CustomText
           color={dynamicColor}
           title={khadar}
@@ -62,6 +59,9 @@ export const WordSelected = ({ route }) => {
             style={{ width: 20, height: 20, marginLeft: 5 }}
           />
         </TouchableOpacity>
+      </View>
+      <View style={{alignItems: 'center'}}>
+        <Image source={src} style={{width: 90, height: 90, resizeMode: 'contain'}} />
       </View>
       <View
         style={[

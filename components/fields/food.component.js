@@ -8,6 +8,7 @@ export const Food = ({ navigation }) => {
         <SafeAreaView style={commonStyles.container}>
             <VocabularySection imageSource={require("../../assets/sections/food_fruit.png")} title="Фрукты" onPress={() => navigation.navigate("Fruit")} />
             <VocabularySection imageSource={require("../../assets/sections/food_vegetable.png")} title="Овощи" onPress={() => navigation.navigate("Vegetables")} />
+            <VocabularySection imageSource={require("../../assets/sections/food_berries.png")} title="Ягоды" onPress={() => navigation.navigate("Berries")} />
         </SafeAreaView>
     )
 }

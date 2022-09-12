@@ -16,6 +16,7 @@ import { Image, Platform } from "react-native";
 import { COLORS } from "./colors";
 import { Fruit } from "./components/content/fruit";
 import { Vegetables } from "./components/content/vegetables";
+import { Berries } from "./components/content/berries";
 import { WordSelected } from "./components/wordSelected/wordSelected";
 
 const Tab = createBottomTabNavigator();
@@ -30,6 +31,7 @@ const SettingsName = "Settings";
 const FoodName = "Food"
 const FruitName = "Fruit"
 const VegetablesName = "Vegetables"
+const BerriesName = "Berries"
 const WordSelectedName = "Selected Word"
 
 const darkMode = {
@@ -53,6 +55,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={VocabularySpeechPartsName} component={VocabularySpeechParts} />
     <Stack.Screen name={FoodName} component={Food} />
     <Stack.Screen name={FruitName} component={Fruit} />
+    <Stack.Screen name={BerriesName} component={Berries} />
     <Stack.Screen name={VegetablesName} component={Vegetables} />
     <Stack.Screen name={WordSelectedName} component={WordSelected} options={({route}) => ({title: route.params.khadar.charAt(0).toUpperCase() + route.params.khadar.substring(1)})} />
   </Stack.Navigator>

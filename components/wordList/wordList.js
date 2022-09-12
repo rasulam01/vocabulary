@@ -5,10 +5,9 @@ import { CustomText } from "../custom/CustomText";
 import { Context } from "../../navigation";
 
 export const WordList = ({ data, navigation }) => {
-  
-  return (
+  const { dynamicColor } = React.useContext(Context)
 
-  
+  return (
   <>
     <View
       style={[
@@ -16,7 +15,7 @@ export const WordList = ({ data, navigation }) => {
         Platform.OS === "ios" ? { marginTop: 30, marginLeft: 20, paddingLeft: 17 } : "",
       ]}
     >
-      <CustomText title={`Слов в категории: ${data.length}`} />
+      <CustomText title={`Слов в категории: ${data.length}`} color={dynamicColor} />
     </View>
     <FlatList
       data={data.sort((a, b) => a.khadar.localeCompare(b.khadar))}

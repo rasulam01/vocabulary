@@ -99,4 +99,14 @@ export const fruitData = [
     additional_info: "",
     sound_src: "fruit.m4a",
   }, 
+  {
+    id: 11,
+    src: require("../../assets/fruit/peach.png"),
+    category: "Фрукты",
+    russian: "персик",
+    khadar: "щаптIал",
+    english: "peach",
+    additional_info: "",
+    sound_src: "fruit.m4a",
+  }, 
 ];
