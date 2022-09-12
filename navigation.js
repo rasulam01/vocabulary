@@ -17,6 +17,7 @@ import { COLORS } from "./colors";
 import { Fruit } from "./components/content/fruit";
 import { Vegetables } from "./components/content/vegetables";
 import { Berries } from "./components/content/berries";
+import { Dairy } from "./components/content/dairy";
 import { WordSelected } from "./components/wordSelected/wordSelected";
 
 const Tab = createBottomTabNavigator();
@@ -28,6 +29,7 @@ const VocabularyPartsName = "Parts"
 const VocabularySpeechPartsName = "Speech Parts"
 const VocabularySubSectionsName = "Subsections";
 const SettingsName = "Settings";
+const DairyName = "Dairy"
 const FoodName = "Food"
 const FruitName = "Fruit"
 const VegetablesName = "Vegetables"
@@ -53,6 +55,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={VocabularyPartsName} component={VocabularyParts} />
     <Stack.Screen name={VocabularySubSectionsName} component={Subsections} />
     <Stack.Screen name={VocabularySpeechPartsName} component={VocabularySpeechParts} />
+    <Stack.Screen name={DairyName} component={Dairy} />
     <Stack.Screen name={FoodName} component={Food} />
     <Stack.Screen name={FruitName} component={Fruit} />
     <Stack.Screen name={BerriesName} component={Berries} />
