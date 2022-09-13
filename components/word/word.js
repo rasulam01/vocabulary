@@ -18,13 +18,13 @@ export const Word = ({ id, index, src, russian, khadar, english, onPress }) => {
         </View>
         
         <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
-          <CustomText fontWeight="700" title={khadar} color={dynamicColor}  />
+          <CustomText fontWeight="700" title={khadar} color={dynamicColor} textAlign="center"  />
         </View>
         <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
-          <CustomText title={russian} color={dynamicColor}   />
+          <CustomText title={russian} color={dynamicColor} textAlign="center"  />
         </View>
         <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
-          <CustomText title={english} color={dynamicColor}   />
+          <CustomText title={english} color={dynamicColor} textAlign="center"   />
         </View>
       </View>
     </TouchableOpacity>

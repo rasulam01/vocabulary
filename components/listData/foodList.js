@@ -17,4 +17,12 @@ export const foodList = [{
     src: require("../../assets/sections/food_dairy.png"),
     title: "Молочные продукты",
     navigateTo: "Dairy"
-},]
+},{
+    src: require("../../assets/sections/food_grain.png"),
+    title: "Злаковые, зерновые, их производные",
+    navigateTo: "Grain"
+}, {
+    src: require("../../assets/sections/food_other.png"),
+    title: "Другое",
+    navigateTo: "Other"
+}]

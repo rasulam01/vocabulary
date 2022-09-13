@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView, View, Image, TouchableOpacity } from "react-native";
+import { SafeAreaView, View, Image, TouchableOpacity, Dimensions } from "react-native";
 import { CustomText } from "../custom/CustomText";
 import commonStyles from "../commonStyles";
 import { Context } from "../../navigation";
@@ -33,6 +33,9 @@ export const WordSelected = ({ route }) => {
       }
     });
   };
+  const iconWidth = Dimensions.get("window").width / 2
+  const iconHeight = Dimensions.get("window").height / 4
+  const iconSelectedSize = {width: iconWidth, height: iconHeight, resizeMode: "contain"}
 
   return (
     <SafeAreaView style={commonStyles.container}>
@@ -61,7 +64,7 @@ export const WordSelected = ({ route }) => {
         </TouchableOpacity>
       </View>
       <View style={{alignItems: 'center', paddingBottom: 20}}>
-        <Image source={src} style={{width: 120, height: 120, resizeMode: 'contain'}} />
+        <Image source={src} style={iconSelectedSize} />
       </View>
       <View
         style={[
