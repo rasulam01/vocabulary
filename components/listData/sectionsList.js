@@ -7,7 +7,7 @@ export const sectionsList = [
     {
       src: require("../../assets/sections/animals.png"),
       title: "Животные",
-      navigateTo: "Food",
+      navigateTo: "Animals",
     },
     {
       src: require("../../assets/sections/nature.png"),

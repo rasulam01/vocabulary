@@ -22,7 +22,7 @@ export const VocabularySection = ({ imageSource, title, onPress }) => {
         <View style={styles.sectionPiece}>
           <Image
             source={imageSource}
-            style={[iconSize, { marginRight: 20 }]}
+            style={[iconSize, { marginRight: 20, resizeMode: "contain" }]}
           />
           <CustomText color={dynamicColor} title={title} />
         </View>

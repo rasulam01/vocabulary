@@ -8,7 +8,9 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React, { useState } from "react";
 import { Image, Platform, StatusBar } from "react-native";
+import { Animals } from "./components/fields/animals.component";
 import { Berries } from "./components/content/berries";
+import { Birds } from "./components/content/birds";
 import { Dairy } from "./components/content/dairy";
 import { Food } from "./components/fields/food.component";
 import { Fruit } from "./components/content/fruit";
@@ -25,7 +27,9 @@ import { WordSelected } from "./components/wordSelected/wordSelected";
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
+const AnimalsName = "Animals"
 const BerriesName = "Berries"
+const BirdsName = "Birds"
 const DairyName = "Dairy"
 const FoodName = "Food"
 const FruitName = "Fruit"
@@ -59,6 +63,8 @@ export const StackNavigation = () => (
     <Stack.Screen name={VocabularyPartsName} component={VocabularyParts} />
     <Stack.Screen name={VocabularySubSectionsName} component={Subsections} />
     <Stack.Screen name={VocabularySpeechPartsName} component={VocabularySpeechParts} />
+    <Stack.Screen name={AnimalsName} component={Animals} />
+    <Stack.Screen name={BirdsName} component={Birds} />
     <Stack.Screen name={DairyName} component={Dairy} />
     <Stack.Screen name={FoodName} component={Food} />
     <Stack.Screen name={FruitName} component={Fruit} />

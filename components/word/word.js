@@ -14,17 +14,17 @@ export const Word = ({ id, index, src, russian, khadar, english, onPress }) => {
           <CustomText title={index + "."} color={dynamicColor} />
         </View>
         <View style={{ flex: 1 }}>
-          <Image source={src} style={[iconSize, {width: 32, height: 32, resizeMode: "center"}]}  />
+          <Image source={src} style={[iconSize, {width: 32, height: 32, resizeMode: "contain"}]}  />
         </View>
         
-        <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
-          <CustomText fontWeight="700" title={khadar} color={dynamicColor} textAlign="center"  />
+        <View style={{ flex: 2.25, alignItems: alignment ? "center" : "flex-start" }}>
+          <CustomText fontWeight="700" title={khadar} color={dynamicColor} width="90%"    />
         </View>
         <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
-          <CustomText title={russian} color={dynamicColor} textAlign="center"  />
+          <CustomText title={russian} color={dynamicColor}  />
         </View>
         <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
-          <CustomText title={english} color={dynamicColor} textAlign="center"   />
+          <CustomText title={english} color={dynamicColor}  />
         </View>
       </View>
     </TouchableOpacity>
