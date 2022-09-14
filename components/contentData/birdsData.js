@@ -113,7 +113,7 @@ export const birdsData = [
         id: 12,
         src: require("../../assets/birds/bird.png"),
         category: "Молочные продукты",
-        russian: "Птицы",
+        russian: "птица",
         khadar: "чикIа",
         english: "bird",
         additional_info: "",

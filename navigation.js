@@ -15,6 +15,7 @@ import { Dairy } from "./components/content/dairy";
 import { Food } from "./components/fields/food.component";
 import { Fruit } from "./components/content/fruit";
 import { Grain } from "./components/content/grain";
+import { Insects } from "./components/content/insects";
 import { Other } from "./components/content/other";
 import { Subsections } from "./components/vocabularySubsections/vocabularySubsections";
 import { Settings } from "./components/settings/settings.component";
@@ -34,6 +35,7 @@ const DairyName = "Dairy"
 const FoodName = "Food"
 const FruitName = "Fruit"
 const GrainName = "Grain"
+const InsectsName = "Insects"
 const OtherName = "Other"
 const SettingsName = "Settings";
 const VegetablesName = "Vegetables"
@@ -69,6 +71,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={FoodName} component={Food} />
     <Stack.Screen name={FruitName} component={Fruit} />
     <Stack.Screen name={GrainName} component={Grain} />
+    <Stack.Screen name={InsectsName} component={Insects} />
     <Stack.Screen name={BerriesName} component={Berries} />
     <Stack.Screen name={OtherName} component={Other} />
     <Stack.Screen name={VegetablesName} component={Vegetables} />
