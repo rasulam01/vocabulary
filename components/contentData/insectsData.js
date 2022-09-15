@@ -89,5 +89,15 @@ export const insectsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       },
+      {
+        id: 10,
+        src: require("../../assets/insects/mole_cricket.png"),
+        category: "Насекомые",
+        russian: "медведка",
+        khadar: "безалтуш",
+        english: "mole cricket",
+        additional_info: "",
+        sound_src: "apple.m4a",
+      },
       
 ]

@@ -139,4 +139,14 @@ export const birdsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       },
+      {
+        id: 15,
+        src: require("../../assets/birds/owl.png"),
+        category: "Птицы",
+        russian: "сова",
+        khadar: "тIуми",
+        english: "owl",
+        additional_info: "",
+        sound_src: "apple.m4a",
+      },
 ]

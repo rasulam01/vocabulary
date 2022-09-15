@@ -11,11 +11,14 @@ import { Image, Platform, StatusBar } from "react-native";
 import { Animals } from "./components/fields/animals.component";
 import { Berries } from "./components/content/berries";
 import { Birds } from "./components/content/birds";
+import { Crawling } from "./components/content/crawling";
 import { Dairy } from "./components/content/dairy";
 import { Food } from "./components/fields/food.component";
 import { Fruit } from "./components/content/fruit";
 import { Grain } from "./components/content/grain";
 import { Insects } from "./components/content/insects";
+import { Mammals } from "./components/content/mammals";
+import { Nature } from "./components/fields/nature.component";
 import { Other } from "./components/content/other";
 import { Subsections } from "./components/vocabularySubsections/vocabularySubsections";
 import { Settings } from "./components/settings/settings.component";
@@ -31,11 +34,14 @@ const Stack = createNativeStackNavigator();
 const AnimalsName = "Animals"
 const BerriesName = "Berries"
 const BirdsName = "Birds"
+const CrawlingName = "Crawling"
 const DairyName = "Dairy"
 const FoodName = "Food"
 const FruitName = "Fruit"
 const GrainName = "Grain"
 const InsectsName = "Insects"
+const MammalsName = "Mammals"
+const NatureName = "Nature"
 const OtherName = "Other"
 const SettingsName = "Settings";
 const VegetablesName = "Vegetables"
@@ -67,12 +73,15 @@ export const StackNavigation = () => (
     <Stack.Screen name={VocabularySpeechPartsName} component={VocabularySpeechParts} />
     <Stack.Screen name={AnimalsName} component={Animals} />
     <Stack.Screen name={BirdsName} component={Birds} />
+    <Stack.Screen name={CrawlingName} component={Crawling} />
     <Stack.Screen name={DairyName} component={Dairy} />
     <Stack.Screen name={FoodName} component={Food} />
     <Stack.Screen name={FruitName} component={Fruit} />
     <Stack.Screen name={GrainName} component={Grain} />
     <Stack.Screen name={InsectsName} component={Insects} />
     <Stack.Screen name={BerriesName} component={Berries} />
+    <Stack.Screen name={MammalsName} component={Mammals} />
+    <Stack.Screen name={NatureName} component={Nature} />
     <Stack.Screen name={OtherName} component={Other} />
     <Stack.Screen name={VegetablesName} component={Vegetables} />
     <Stack.Screen name={WordSelectedName} component={WordSelected} options={({route}) => ({title: route.params.khadar.charAt(0).toUpperCase() + route.params.khadar.substring(1)})} />

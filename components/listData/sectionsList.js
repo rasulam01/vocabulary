@@ -12,7 +12,7 @@ export const sectionsList = [
     {
       src: require("../../assets/sections/nature.png"),
       title: "Природа",
-      navigateTo: "Food",
+      navigateTo: "Nature",
     },
     {
       src: require("../../assets/sections/body_part.png"),

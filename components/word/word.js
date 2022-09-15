@@ -21,10 +21,10 @@ export const Word = ({ id, index, src, russian, khadar, english, onPress }) => {
           <CustomText fontWeight="700" title={khadar} color={dynamicColor} width="90%"    />
         </View>
         <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
-          <CustomText title={russian} color={dynamicColor}  />
+          <CustomText title={russian} color={dynamicColor} width="90%" />
         </View>
         <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
-          <CustomText title={english} color={dynamicColor}  />
+          <CustomText title={english} color={dynamicColor} width="90%" />
         </View>
       </View>
     </TouchableOpacity>
