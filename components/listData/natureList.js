@@ -8,7 +8,7 @@ export const natureList = [{
     navigateTo: "Greenness"
 }, {
     src: require("../../assets/sections/nature_event.png"),
-    title: "Явления",
+    title: "Явления / окружающая среда.",
     navigateTo: "Events"
 }, 
 ]

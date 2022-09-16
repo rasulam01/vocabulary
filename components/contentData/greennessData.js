@@ -143,7 +143,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 18,
+    id: 17,
     src: require("../../assets/greenness/weed.png"),
     category: "Растительность",
     russian: "сорняк",
@@ -152,7 +152,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 19,
+    id: 18,
     src: require("../../assets/greenness/grass.png"),
     category: "Растительность",
     russian: "трава",
@@ -161,7 +161,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 20,
+    id: 19,
     src: require("../../assets/greenness/cotton.png"),
     category: "Растительность",
     russian: "хлопок",

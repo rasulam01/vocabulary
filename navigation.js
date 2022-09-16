@@ -13,6 +13,7 @@ import { Berries } from "./components/content/berries";
 import { Birds } from "./components/content/birds";
 import { Crawling } from "./components/content/crawling";
 import { Dairy } from "./components/content/dairy";
+import { Events } from "./components/content/events";
 import { Food } from "./components/fields/food.component";
 import { Fruit } from "./components/content/fruit";
 import { Grain } from "./components/content/grain";
@@ -38,6 +39,7 @@ const BerriesName = "Berries"
 const BirdsName = "Birds"
 const CrawlingName = "Crawling"
 const DairyName = "Dairy"
+const EventsName = "Events"
 const FoodName = "Food"
 const FruitName = "Fruit"
 const GrainName = "Grain"
@@ -79,6 +81,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={BirdsName} component={Birds} />
     <Stack.Screen name={CrawlingName} component={Crawling} />
     <Stack.Screen name={DairyName} component={Dairy} />
+    <Stack.Screen name={EventsName} component={Events} />
     <Stack.Screen name={FoodName} component={Food} />
     <Stack.Screen name={FruitName} component={Fruit} />
     <Stack.Screen name={GrainName} component={Grain} />
