@@ -3,9 +3,9 @@ export const natureList = [{
     title: "Деревья",
     navigateTo: "Trees"
 }, {
-    src: require("../../assets/sections/nature_greeness.png"),
+    src: require("../../assets/sections/nature_greenness.png"),
     title: "Растительность",
-    navigateTo: "Greeness"
+    navigateTo: "Greenness"
 }, {
     src: require("../../assets/sections/nature_event.png"),
     title: "Явления",

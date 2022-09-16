@@ -1,14 +1,14 @@
 import React from "react";
 import { SafeAreaView } from "react-native";
 import commonStyles from "../commonStyles";
-import { treesData } from "../contentData/treesData";
+import { greennessData } from "../contentData/greennessData";
 import { WordList } from "../wordList/wordList";
 
-export const Trees = ({ navigation }) => {
+export const Greenness = ({ navigation }) => {
   
   return (
     <SafeAreaView style={commonStyles.container}>
-      <WordList data={treesData} navigation={navigation} />
+      <WordList data={greennessData} navigation={navigation} />
     </SafeAreaView>
   );
 };

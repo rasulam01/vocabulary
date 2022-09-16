@@ -16,12 +16,14 @@ import { Dairy } from "./components/content/dairy";
 import { Food } from "./components/fields/food.component";
 import { Fruit } from "./components/content/fruit";
 import { Grain } from "./components/content/grain";
+import { Greenness } from "./components/content/greenness";
 import { Insects } from "./components/content/insects";
 import { Mammals } from "./components/content/mammals";
 import { Nature } from "./components/fields/nature.component";
 import { Other } from "./components/content/other";
 import { Subsections } from "./components/vocabularySubsections/vocabularySubsections";
 import { Settings } from "./components/settings/settings.component";
+import { Trees } from "./components/content/trees";
 import { Vegetables } from "./components/content/vegetables";
 import { Vocabulary } from "./components/vocabulary/vocabulary.component";
 import { VocabularyParts } from "./components/vocabularyParts/vocabularyParts";
@@ -39,11 +41,13 @@ const DairyName = "Dairy"
 const FoodName = "Food"
 const FruitName = "Fruit"
 const GrainName = "Grain"
+const GreennessName = "Greenness"
 const InsectsName = "Insects"
 const MammalsName = "Mammals"
 const NatureName = "Nature"
 const OtherName = "Other"
 const SettingsName = "Settings";
+const TreesName = "Trees";
 const VegetablesName = "Vegetables"
 const VocabularyName = "Vocabulary";
 const VocabularyComponentName = "Languages";
@@ -78,11 +82,13 @@ export const StackNavigation = () => (
     <Stack.Screen name={FoodName} component={Food} />
     <Stack.Screen name={FruitName} component={Fruit} />
     <Stack.Screen name={GrainName} component={Grain} />
+    <Stack.Screen name={GreennessName} component={Greenness} />
     <Stack.Screen name={InsectsName} component={Insects} />
     <Stack.Screen name={BerriesName} component={Berries} />
     <Stack.Screen name={MammalsName} component={Mammals} />
     <Stack.Screen name={NatureName} component={Nature} />
     <Stack.Screen name={OtherName} component={Other} />
+    <Stack.Screen name={TreesName} component={Trees} />
     <Stack.Screen name={VegetablesName} component={Vegetables} />
     <Stack.Screen name={WordSelectedName} component={WordSelected} options={({route}) => ({title: route.params.khadar.charAt(0).toUpperCase() + route.params.khadar.substring(1)})} />
   </Stack.Navigator>

@@ -3,7 +3,7 @@ export const birdsData = [
         id: 1,
         src: require("../../assets/birds/sparrow.png"),
         category: "Птицы",
-        russian: "соловей",
+        russian: "воробей",
         khadar: "тIавтIав",
         english: "sparrow",
         additional_info: "",
