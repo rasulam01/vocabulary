@@ -11,6 +11,7 @@ import { Image, Platform, StatusBar } from "react-native";
 import { Animals } from "./components/fields/animals.component";
 import { Berries } from "./components/content/berries";
 import { Birds } from "./components/content/birds";
+import { BodyParts } from "./components/fields/body_parts.component";
 import { Crawling } from "./components/content/crawling";
 import { Dairy } from "./components/content/dairy";
 import { Events } from "./components/content/events";
@@ -37,6 +38,7 @@ const Stack = createNativeStackNavigator();
 const AnimalsName = "Animals"
 const BerriesName = "Berries"
 const BirdsName = "Birds"
+const BodyPartsName = "Body Parts"
 const CrawlingName = "Crawling"
 const DairyName = "Dairy"
 const EventsName = "Events"
@@ -79,6 +81,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={VocabularySpeechPartsName} component={VocabularySpeechParts} />
     <Stack.Screen name={AnimalsName} component={Animals} />
     <Stack.Screen name={BirdsName} component={Birds} />
+    <Stack.Screen name={BodyPartsName} component={BodyParts} />
     <Stack.Screen name={CrawlingName} component={Crawling} />
     <Stack.Screen name={DairyName} component={Dairy} />
     <Stack.Screen name={EventsName} component={Events} />

@@ -30,7 +30,7 @@ export const crawlingData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 3,
+        id: 4,
         src: require("../../assets/crawling/scorpion.png"),
         category: "Ползучие",
         russian: "скорпион",
@@ -40,7 +40,7 @@ export const crawlingData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 4,
+        id: 5,
         src: require("../../assets/crawling/rat.png"),
         category: "Ползучие",
         russian: "крыса",

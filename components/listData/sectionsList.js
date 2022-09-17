@@ -17,7 +17,7 @@ export const sectionsList = [
     {
       src: require("../../assets/sections/body_part.png"),
       title: "Части тела",
-      navigateTo: "Food",
+      navigateTo: "Body Parts",
     },
     {
         src: require("../../assets/sections/career.png"),
