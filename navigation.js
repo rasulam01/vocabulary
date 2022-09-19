@@ -25,11 +25,14 @@ import { Nature } from "./components/fields/nature.component";
 import { Other } from "./components/content/other";
 import { Subsections } from "./components/vocabularySubsections/vocabularySubsections";
 import { Settings } from "./components/settings/settings.component";
+import { Time } from "./components/fields/time.component";
 import { Trees } from "./components/content/trees";
+import { Utensils } from "./components/content/utensils";
 import { Vegetables } from "./components/content/vegetables";
 import { Vocabulary } from "./components/vocabulary/vocabulary.component";
 import { VocabularyParts } from "./components/vocabularyParts/vocabularyParts";
 import { VocabularySpeechParts } from "./components/vocabularySpeechParts/vocabularySpeechParts";
+import { Weapons } from "./components/fields/weapons.component";
 import { WordSelected } from "./components/wordSelected/wordSelected";
 
 const Tab = createBottomTabNavigator();
@@ -51,14 +54,26 @@ const MammalsName = "Mammals"
 const NatureName = "Nature"
 const OtherName = "Other"
 const SettingsName = "Settings";
+const TimeName = "Time";
 const TreesName = "Trees";
+const UtensilsName = "Utensils"
 const VegetablesName = "Vegetables"
 const VocabularyName = "Vocabulary";
 const VocabularyComponentName = "Languages";
 const VocabularyPartsName = "Parts"
 const VocabularySpeechPartsName = "Speech Parts"
 const VocabularySubSectionsName = "Subsections";
+const WeaponsName = "Weapons"
 const WordSelectedName = "Selected Word"
+
+const defaultMode = {
+  ...DefaultTheme,
+  colors: {
+    ...DefaultTheme.colors,
+    background: "rgb(215, 225, 255)",    
+    card: "rgb(185, 215, 255)"
+  },
+};
 
 const darkMode = {
   ...DarkTheme,
@@ -94,8 +109,11 @@ export const StackNavigation = () => (
     <Stack.Screen name={MammalsName} component={Mammals} />
     <Stack.Screen name={NatureName} component={Nature} />
     <Stack.Screen name={OtherName} component={Other} />
+    <Stack.Screen name={TimeName} component={Time} />
     <Stack.Screen name={TreesName} component={Trees} />
+    <Stack.Screen name={UtensilsName} component={Utensils} />
     <Stack.Screen name={VegetablesName} component={Vegetables} />
+    <Stack.Screen name={WeaponsName} component={Weapons} />
     <Stack.Screen name={WordSelectedName} component={WordSelected} options={({route}) => ({title: route.params.khadar.charAt(0).toUpperCase() + route.params.khadar.substring(1)})} />
   </Stack.Navigator>
 )
@@ -104,7 +122,7 @@ const Navigation = () => {
   const [alignment, setAlignment] = useState(false)
   const [dark, setDark] = useState(false);
   const dynamicColor = dark ? COLORS.WHITE : COLORS.VEINY_RED
-  const isDarkTheme = dark ? darkMode : DefaultTheme
+  const isDarkTheme = dark ? darkMode : defaultMode
   const iosPadding = Platform.OS === "ios" ? 20 : 0
   return (
     <Context.Provider value={{dark, setDark, alignment, setAlignment, dynamicColor, iosPadding}}>

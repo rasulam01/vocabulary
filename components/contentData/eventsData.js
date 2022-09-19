@@ -277,4 +277,22 @@ export const eventsData = [{
     english: "seeds",
     additional_info: "",
     sound_src: "apple.m4a",
+  }, {
+    id: 32,
+    src: require("../../assets/events/oil.png"),
+    category: "Явления / окружающая среда",
+    russian: "нефть",
+    khadar: "нап",
+    english: "oil",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  }, {
+    id: 33,
+    src: require("../../assets/events/moon.png"),
+    category: "Явления / окружающая среда",
+    russian: "луна",
+    khadar: "бас",
+    english: "moon",
+    additional_info: "",
+    sound_src: "apple.m4a",
   },]
