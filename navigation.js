@@ -26,6 +26,7 @@ import { Other } from "./components/content/other";
 import { Subsections } from "./components/vocabularySubsections/vocabularySubsections";
 import { Settings } from "./components/settings/settings.component";
 import { Time } from "./components/fields/time.component";
+import { Tools } from "./components/fields/tools.component";
 import { Trees } from "./components/content/trees";
 import { Utensils } from "./components/content/utensils";
 import { Vegetables } from "./components/content/vegetables";
@@ -55,6 +56,7 @@ const NatureName = "Nature"
 const OtherName = "Other"
 const SettingsName = "Settings";
 const TimeName = "Time";
+const ToolsName = "Tools";
 const TreesName = "Trees";
 const UtensilsName = "Utensils"
 const VegetablesName = "Vegetables"
@@ -110,6 +112,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={NatureName} component={Nature} />
     <Stack.Screen name={OtherName} component={Other} />
     <Stack.Screen name={TimeName} component={Time} />
+    {/* <Stack.Screen name={ToolsName} component={Tools} /> */}
     <Stack.Screen name={TreesName} component={Trees} />
     <Stack.Screen name={UtensilsName} component={Utensils} />
     <Stack.Screen name={VegetablesName} component={Vegetables} />

@@ -34,4 +34,9 @@ export const sectionsList = [
     title: "Оружия",
     navigateTo: "Weapons",
   },
+  {
+    src: require("../../assets/sections/tools.png"),
+    title: "Инструменты",
+    navigateTo: "Tools",
+  },
 ];
