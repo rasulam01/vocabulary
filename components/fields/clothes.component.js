@@ -1,13 +1,13 @@
 import React from "react";
 import { SafeAreaView } from "react-native";
 import { WordList } from "../wordList/wordList";
-import { toolsData } from "../contentData/toolsData";
+import { clothesData } from "../contentData/clothesData";
 import commonStyles from "../commonStyles";
 
-export const Tools = ({ navigation }) => {
+export const Clothes = ({ navigation }) => {
     return (
         <SafeAreaView style={commonStyles.container}>
-            <WordList data={toolsData} navigation={navigation} />
+            <WordList data={clothesData} navigation={navigation} />
         </SafeAreaView>
     )
 }

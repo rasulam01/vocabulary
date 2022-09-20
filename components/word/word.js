@@ -13,11 +13,11 @@ export const Word = ({ id, index, src, russian, khadar, english, onPress }) => {
         <View style={{ flex: 1 }}>
           <CustomText title={index + "."} color={dynamicColor} />
         </View>
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1.25 }}>
           <Image source={src} style={[iconSize, {width: 35, height: 35, resizeMode: "contain"}]}  />
         </View>
         
-        <View style={{ flex: 2.25, alignItems: alignment ? "center" : "flex-start" }}>
+        <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
           <CustomText fontWeight="700" title={khadar} color={dynamicColor} width="90%" textAlign={alignment ? "center" : "left"}   />
         </View>
         <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>

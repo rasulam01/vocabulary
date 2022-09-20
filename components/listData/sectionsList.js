@@ -39,4 +39,9 @@ export const sectionsList = [
     title: "Инструменты",
     navigateTo: "Tools",
   },
+  {
+    src: require("../../assets/sections/clothes.png"),
+    title: "Одежда",
+    navigateTo: "Clothes",
+  },
 ];

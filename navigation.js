@@ -12,6 +12,7 @@ import { Animals } from "./components/fields/animals.component";
 import { Berries } from "./components/content/berries";
 import { Birds } from "./components/content/birds";
 import { BodyParts } from "./components/fields/body_parts.component";
+import { Clothes } from "./components/fields/clothes.component";
 import { Crawling } from "./components/content/crawling";
 import { Dairy } from "./components/content/dairy";
 import { Events } from "./components/content/events";
@@ -43,6 +44,7 @@ const AnimalsName = "Animals"
 const BerriesName = "Berries"
 const BirdsName = "Birds"
 const BodyPartsName = "Body Parts"
+const ClothesName = "Clothes"
 const CrawlingName = "Crawling"
 const DairyName = "Dairy"
 const EventsName = "Events"
@@ -72,7 +74,7 @@ const defaultMode = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
-    background: "rgb(215, 225, 255)",    
+    background: "rgb(200, 225, 255)",    
     card: "rgb(185, 215, 255)"
   },
 };
@@ -99,6 +101,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={AnimalsName} component={Animals} />
     <Stack.Screen name={BirdsName} component={Birds} />
     <Stack.Screen name={BodyPartsName} component={BodyParts} />
+    <Stack.Screen name={ClothesName} component={Clothes} />
     <Stack.Screen name={CrawlingName} component={Crawling} />
     <Stack.Screen name={DairyName} component={Dairy} />
     <Stack.Screen name={EventsName} component={Events} />
@@ -112,7 +115,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={NatureName} component={Nature} />
     <Stack.Screen name={OtherName} component={Other} />
     <Stack.Screen name={TimeName} component={Time} />
-    {/* <Stack.Screen name={ToolsName} component={Tools} /> */}
+    <Stack.Screen name={ToolsName} component={Tools} />
     <Stack.Screen name={TreesName} component={Trees} />
     <Stack.Screen name={UtensilsName} component={Utensils} />
     <Stack.Screen name={VegetablesName} component={Vegetables} />
