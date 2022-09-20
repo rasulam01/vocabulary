@@ -535,7 +535,16 @@ export const bodyPartsData = [
         english: "buttock",
         additional_info: "",
         sound_src: "apple.m4a",
-      }, 
+      }, {
+        id: 58,
+        src: require("../../assets/body_parts/nose.png"),
+        category: "Части тела",
+        russian: "нос",
+        khadar: "гъангъва",
+        english: "nose",
+        additional_info: "",
+        sound_src: "apple.m4a",
+      }
 
 
 ]

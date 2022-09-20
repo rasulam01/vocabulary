@@ -22,6 +22,7 @@ import { Grain } from "./components/content/grain";
 import { Greenness } from "./components/content/greenness";
 import { Insects } from "./components/content/insects";
 import { Mammals } from "./components/content/mammals";
+import { Materials } from "./components/fields/materials.component";
 import { Nature } from "./components/fields/nature.component";
 import { Other } from "./components/content/other";
 import { Subsections } from "./components/vocabularySubsections/vocabularySubsections";
@@ -40,22 +41,23 @@ import { WordSelected } from "./components/wordSelected/wordSelected";
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
-const AnimalsName = "Animals"
-const BerriesName = "Berries"
-const BirdsName = "Birds"
-const BodyPartsName = "Body Parts"
-const ClothesName = "Clothes"
-const CrawlingName = "Crawling"
-const DairyName = "Dairy"
-const EventsName = "Events"
-const FoodName = "Food"
-const FruitName = "Fruit"
-const GrainName = "Grain"
-const GreennessName = "Greenness"
-const InsectsName = "Insects"
-const MammalsName = "Mammals"
-const NatureName = "Nature"
-const OtherName = "Other"
+const AnimalsName = "Animals";
+const BerriesName = "Berries";
+const BirdsName = "Birds";
+const BodyPartsName = "Body Parts";
+const ClothesName = "Clothes";
+const CrawlingName = "Crawling";
+const DairyName = "Dairy";
+const EventsName = "Events";
+const FoodName = "Food";
+const FruitName = "Fruit";
+const GrainName = "Grain";
+const GreennessName = "Greenness";
+const InsectsName = "Insects";
+const MammalsName = "Mammals";
+const MaterialsName = "Materials";
+const NatureName = "Nature";
+const OtherName = "Other";
 const SettingsName = "Settings";
 const TimeName = "Time";
 const ToolsName = "Tools";
@@ -112,6 +114,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={InsectsName} component={Insects} />
     <Stack.Screen name={BerriesName} component={Berries} />
     <Stack.Screen name={MammalsName} component={Mammals} />
+    <Stack.Screen name={MaterialsName} component={Materials} />
     <Stack.Screen name={NatureName} component={Nature} />
     <Stack.Screen name={OtherName} component={Other} />
     <Stack.Screen name={TimeName} component={Time} />
