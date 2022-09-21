@@ -18,6 +18,7 @@ import { Dairy } from "./components/content/dairy";
 import { Events } from "./components/content/events";
 import { Food } from "./components/fields/food.component";
 import { Fruit } from "./components/content/fruit";
+import { Furniture } from "./components/fields/furniture.component";
 import { Grain } from "./components/content/grain";
 import { Greenness } from "./components/content/greenness";
 import { Insects } from "./components/content/insects";
@@ -25,6 +26,7 @@ import { Mammals } from "./components/content/mammals";
 import { Materials } from "./components/fields/materials.component";
 import { Nature } from "./components/fields/nature.component";
 import { Other } from "./components/content/other";
+import { Science } from "./components/fields/science.component";
 import { Subsections } from "./components/vocabularySubsections/vocabularySubsections";
 import { Settings } from "./components/settings/settings.component";
 import { Time } from "./components/fields/time.component";
@@ -51,6 +53,7 @@ const DairyName = "Dairy";
 const EventsName = "Events";
 const FoodName = "Food";
 const FruitName = "Fruit";
+const FurnitureName = "Furniture";
 const GrainName = "Grain";
 const GreennessName = "Greenness";
 const InsectsName = "Insects";
@@ -58,6 +61,7 @@ const MammalsName = "Mammals";
 const MaterialsName = "Materials";
 const NatureName = "Nature";
 const OtherName = "Other";
+const ScienceName = "Science";
 const SettingsName = "Settings";
 const TimeName = "Time";
 const ToolsName = "Tools";
@@ -109,6 +113,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={EventsName} component={Events} />
     <Stack.Screen name={FoodName} component={Food} />
     <Stack.Screen name={FruitName} component={Fruit} />
+    <Stack.Screen name={FurnitureName} component={Furniture} />
     <Stack.Screen name={GrainName} component={Grain} />
     <Stack.Screen name={GreennessName} component={Greenness} />
     <Stack.Screen name={InsectsName} component={Insects} />
@@ -117,6 +122,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={MaterialsName} component={Materials} />
     <Stack.Screen name={NatureName} component={Nature} />
     <Stack.Screen name={OtherName} component={Other} />
+    <Stack.Screen name={ScienceName} component={Science} />
     <Stack.Screen name={TimeName} component={Time} />
     <Stack.Screen name={ToolsName} component={Tools} />
     <Stack.Screen name={TreesName} component={Trees} />

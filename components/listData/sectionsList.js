@@ -49,4 +49,14 @@ export const sectionsList = [
     title: "Материалы",
     navigateTo: "Materials",
   },
+  {
+    src: require("../../assets/sections/furniture.png"),
+    title: "Мебель",
+    navigateTo: "Furniture",
+  },
+  {
+    src: require("../../assets/sections/science.png"),
+    title: "Наука",
+    navigateTo: "Science",
+  },
 ];

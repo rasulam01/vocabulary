@@ -1,4 +1,4 @@
-export const timeData = [{
+export const scienceData = [{
     id: 1,
     src: require("../../assets/time/spring.png"),
     category: "Время",
@@ -133,4 +133,4 @@ export const timeData = [{
     english: "year",
     additional_info: "",
     sound_src: "apple.m4a",
-  },]
+  }]
