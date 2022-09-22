@@ -99,7 +99,7 @@ export const arrowSize = {width: 20, height: 20}
 export const Context = React.createContext();
 
 export const StackNavigation = () => (
-  <Stack.Navigator screenOptions={{gestureEnabled: false}} initialRouteName={VocabularyName}>
+  <Stack.Navigator screenOptions={{gestureEnabled: false, headerTitleStyle: {fontFamily: "Palatino"}}} initialRouteName={VocabularyName}>
     <Stack.Screen name={VocabularyComponentName} component={Vocabulary} />
     <Stack.Screen name={VocabularyPartsName} component={VocabularyParts} />
     <Stack.Screen name={VocabularySubSectionsName} component={Subsections} />
