@@ -130,7 +130,7 @@ def reactNativeArchitectures() {
 
 android {
     ndkVersion rootProject.ext.ndkVersion
-        
+        1
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
