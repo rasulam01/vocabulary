@@ -4,7 +4,7 @@ import { sectionsList } from "../listData/sectionsList";
 import commonStyles from "../commonStyles";
 import { VocabularyList } from "../vocabularyList/vocabularyList";
 
-export const Subsections = ({ navigation }) => {
+export const Nouns = ({ navigation }) => {
   return (
     <SafeAreaView style={commonStyles.container}>      
       <VocabularyList data={sectionsList} navigation={navigation} />

@@ -27,13 +27,14 @@ import { Materials } from "./components/fields/materials.component";
 import { Nature } from "./components/fields/nature.component";
 import { Other } from "./components/content/other";
 import { Science } from "./components/fields/science.component";
-import { Subsections } from "./components/vocabularySubsections/vocabularySubsections";
+import { Nouns } from "./components/nouns/nouns";
 import { Settings } from "./components/settings/settings.component";
 import { Time } from "./components/fields/time.component";
 import { Tools } from "./components/fields/tools.component";
 import { Trees } from "./components/content/trees";
 import { Utensils } from "./components/content/utensils";
 import { Vegetables } from "./components/content/vegetables";
+import { Verbs } from "./components/verbs/verbs";
 import { Vocabulary } from "./components/vocabulary/vocabulary.component";
 import { VocabularyParts } from "./components/vocabularyParts/vocabularyParts";
 import { VocabularySpeechParts } from "./components/vocabularySpeechParts/vocabularySpeechParts";
@@ -68,11 +69,12 @@ const ToolsName = "Tools";
 const TreesName = "Trees";
 const UtensilsName = "Utensils"
 const VegetablesName = "Vegetables"
+const VerbsName = "Verbs";
 const VocabularyName = "Vocabulary";
 const VocabularyComponentName = "Languages";
 const VocabularyPartsName = "Parts"
 const VocabularySpeechPartsName = "Speech Parts"
-const VocabularySubSectionsName = "Subsections";
+const VocabularyNounsName = "Nouns";
 const WeaponsName = "Weapons"
 const WordSelectedName = "Selected Word"
 
@@ -102,7 +104,7 @@ export const StackNavigation = () => (
   <Stack.Navigator screenOptions={{gestureEnabled: false, headerTitleStyle: {fontFamily: "Palatino"}}} initialRouteName={VocabularyName}>
     <Stack.Screen name={VocabularyComponentName} component={Vocabulary} />
     <Stack.Screen name={VocabularyPartsName} component={VocabularyParts} />
-    <Stack.Screen name={VocabularySubSectionsName} component={Subsections} />
+    <Stack.Screen name={VocabularyNounsName} component={Nouns} />
     <Stack.Screen name={VocabularySpeechPartsName} component={VocabularySpeechParts} />
     <Stack.Screen name={AnimalsName} component={Animals} />
     <Stack.Screen name={BirdsName} component={Birds} />
@@ -128,6 +130,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={TreesName} component={Trees} />
     <Stack.Screen name={UtensilsName} component={Utensils} />
     <Stack.Screen name={VegetablesName} component={Vegetables} />
+    <Stack.Screen name={VerbsName} component={Verbs} />
     <Stack.Screen name={WeaponsName} component={Weapons} />
     <Stack.Screen name={WordSelectedName} component={WordSelected} options={({route}) => ({title: route.params.khadar.charAt(0).toUpperCase() + route.params.khadar.substring(1)})} />
   </Stack.Navigator>

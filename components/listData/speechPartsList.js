@@ -1,11 +1,11 @@
 export const speechPartsList = [{
     src: require("../../assets/sections/noun.png"),
     title: "Существительные",
-    navigateTo: "Subsections"
+    navigateTo: "Nouns"
 }, {
     src: require("../../assets/sections/verb.png"),
     title: "Глаголы",
-    navigateTo: "Subsections"
+    navigateTo: "Verbs"
 },
 {
     src: require("../../assets/sections/adjective.png"),
