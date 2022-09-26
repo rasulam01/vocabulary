@@ -9,6 +9,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React, { useState } from "react";
 import { Image, Platform, StatusBar } from "react-native";
 import { Adjectives } from "./components/adjectives/adjectives";
+import { Adverbs } from "./components/adverbs/adverbs";
 import { Animals } from "./components/fields/animals.component";
 import { Berries } from "./components/content/berries";
 import { Birds } from "./components/content/birds";
@@ -26,6 +27,7 @@ import { Insects } from "./components/content/insects";
 import { Mammals } from "./components/content/mammals";
 import { Materials } from "./components/fields/materials.component";
 import { Nature } from "./components/fields/nature.component";
+import { Numbers } from "./components/numbers/numbers";
 import { Other } from "./components/content/other";
 import { Science } from "./components/fields/science.component";
 import { Nouns } from "./components/nouns/nouns";
@@ -46,6 +48,7 @@ const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
 const AdjectivesName = "Adjectives";
+const AdverbsName = "Adverbs";
 const AnimalsName = "Animals";
 const BerriesName = "Berries";
 const BirdsName = "Birds";
@@ -63,6 +66,7 @@ const InsectsName = "Insects";
 const MammalsName = "Mammals";
 const MaterialsName = "Materials";
 const NatureName = "Nature";
+const NumbersName = "Numbers";
 const OtherName = "Other";
 const ScienceName = "Science";
 const SettingsName = "Settings";
@@ -109,6 +113,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={VocabularyNounsName} component={Nouns} />
     <Stack.Screen name={VocabularySpeechPartsName} component={VocabularySpeechParts} />
     <Stack.Screen name={AdjectivesName} component={Adjectives} />
+    <Stack.Screen name={AdverbsName} component={Adverbs} />
     <Stack.Screen name={AnimalsName} component={Animals} />
     <Stack.Screen name={BirdsName} component={Birds} />
     <Stack.Screen name={BodyPartsName} component={BodyParts} />
@@ -126,6 +131,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={MammalsName} component={Mammals} />
     <Stack.Screen name={MaterialsName} component={Materials} />
     <Stack.Screen name={NatureName} component={Nature} />
+    <Stack.Screen name={NumbersName} component={Numbers} />
     <Stack.Screen name={OtherName} component={Other} />
     <Stack.Screen name={ScienceName} component={Science} />
     <Stack.Screen name={TimeName} component={Time} />

@@ -15,5 +15,9 @@ export const speechPartsList = [{
 {
     src: require("../../assets/sections/adverb.png"),
     title: "Наречия",
-    navigateTo: "Subsections"
+    navigateTo: "Adverbs"
+}, {
+    src: require("../../assets/sections/numbers.png"),
+    title: "Числительные",
+    navigateTo: "Numbers"
 }]
