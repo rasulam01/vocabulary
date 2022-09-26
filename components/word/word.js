@@ -3,7 +3,7 @@ import { View, TouchableOpacity, Image } from "react-native";
 import { Context } from "../../navigation";
 import { CustomText } from "../custom/CustomText";
 import commonStyles from "../commonStyles";
-import { iconSize } from "../../navigation";
+
 
 export const Word = ({ id, index, src, russian, khadar, english, onPress }) => {
   const { dynamicColor, alignment } = React.useContext(Context);
@@ -14,7 +14,7 @@ export const Word = ({ id, index, src, russian, khadar, english, onPress }) => {
           <CustomText title={index + "."} color={dynamicColor} />
         </View>
         <View style={{ flex: 1.25 }}>
-          <Image source={src} style={[iconSize, {width: 35, height: 35, resizeMode: "contain"}]}  />
+          <Image source={src} style={{width: 35, height: 35, resizeMode: "contain"}}  />
         </View>
         
         <View style={{ flex: 2, alignItems: alignment ? "center" : "flex-start" }}>
