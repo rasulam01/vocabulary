@@ -8,6 +8,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React, { useState } from "react";
 import { Image, Platform, StatusBar } from "react-native";
+import { Adjectives } from "./components/adjectives/adjectives";
 import { Animals } from "./components/fields/animals.component";
 import { Berries } from "./components/content/berries";
 import { Birds } from "./components/content/birds";
@@ -44,6 +45,7 @@ import { WordSelected } from "./components/wordSelected/wordSelected";
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
+const AdjectivesName = "Adjectives";
 const AnimalsName = "Animals";
 const BerriesName = "Berries";
 const BirdsName = "Birds";
@@ -106,6 +108,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={VocabularyPartsName} component={VocabularyParts} />
     <Stack.Screen name={VocabularyNounsName} component={Nouns} />
     <Stack.Screen name={VocabularySpeechPartsName} component={VocabularySpeechParts} />
+    <Stack.Screen name={AdjectivesName} component={Adjectives} />
     <Stack.Screen name={AnimalsName} component={Animals} />
     <Stack.Screen name={BirdsName} component={Birds} />
     <Stack.Screen name={BodyPartsName} component={BodyParts} />

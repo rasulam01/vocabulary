@@ -10,7 +10,7 @@ export const speechPartsList = [{
 {
     src: require("../../assets/sections/adjective.png"),
     title: "Прилагательные",
-    navigateTo: "Subsections"
+    navigateTo: "Adjectives"
 },
 {
     src: require("../../assets/sections/adverb.png"),
