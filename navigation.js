@@ -29,6 +29,7 @@ import { Materials } from "./components/fields/materials.component";
 import { Nature } from "./components/fields/nature.component";
 import { Numbers } from "./components/numbers/numbers";
 import { Other } from "./components/content/other";
+import { Pronouns } from "./components/pronouns/pronouns";
 import { Science } from "./components/fields/science.component";
 import { Nouns } from "./components/nouns/nouns";
 import { Settings } from "./components/settings/settings.component";
@@ -43,6 +44,7 @@ import { VocabularyParts } from "./components/vocabularyParts/vocabularyParts";
 import { VocabularySpeechParts } from "./components/vocabularySpeechParts/vocabularySpeechParts";
 import { Weapons } from "./components/fields/weapons.component";
 import { WordSelected } from "./components/wordSelected/wordSelected";
+
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -68,6 +70,7 @@ const MaterialsName = "Materials";
 const NatureName = "Nature";
 const NumbersName = "Numbers";
 const OtherName = "Other";
+const PronounsName = "Pronouns";
 const ScienceName = "Science";
 const SettingsName = "Settings";
 const TimeName = "Time";
@@ -133,6 +136,7 @@ export const StackNavigation = () => (
     <Stack.Screen name={NatureName} component={Nature} />
     <Stack.Screen name={NumbersName} component={Numbers} />
     <Stack.Screen name={OtherName} component={Other} />
+    <Stack.Screen name={PronounsName} component={Pronouns} />
     <Stack.Screen name={ScienceName} component={Science} />
     <Stack.Screen name={TimeName} component={Time} />
     <Stack.Screen name={ToolsName} component={Tools} />

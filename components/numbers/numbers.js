@@ -6,7 +6,7 @@ import commonStyles from "../commonStyles";
 
 export const Numbers = ({ navigation }) => {
     return (
-        <SafeAreaView style={commonStyles.container}>
+        <SafeAreaView style={commonStyles.container}>            
             <WordList data={numbersData} navigation={navigation} />
         </SafeAreaView>
     )

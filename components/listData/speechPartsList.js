@@ -20,4 +20,8 @@ export const speechPartsList = [{
     src: require("../../assets/sections/numbers.png"),
     title: "Числительные",
     navigateTo: "Numbers"
+}, {
+    src: require("../../assets/sections/pronouns.png"),
+    title: "Местоимения",
+    navigateTo: "Pronouns"
 }]
