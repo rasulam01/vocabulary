@@ -438,5 +438,15 @@ export const verbsData = [
     additional_info: "",
     sound_src: "apple.m4a",
   },
+  {
+    id: 46,
+    src: require("../../assets/verbs/fly.png"),
+    category: "Глаголы",
+    russian: "летать",
+    khadar: "урцес",
+    english: "to fly",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  },
 
 ];

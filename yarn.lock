@@ -5600,6 +5600,11 @@ react-native-vector-icons@^9.2.0:
     prop-types "^15.7.2"
     yargs "^16.1.1"
 
+react-native-yandex-mobile-ads@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/react-native-yandex-mobile-ads/-/react-native-yandex-mobile-ads-0.5.0.tgz#7240bdd691da5d9e1b2cdb422be34899d168f3e3"
+  integrity sha512-FfnBSd1E5RAtYSMPQCkYwgBPEQyYPkwihipbuVnmlNJyb6/tCbGaZNI3FnM4xPqcOSo5qRK0awClGRh3s0Oc1g==
+
 react-native@0.69.5:
   version "0.69.5"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.69.5.tgz#959142bfef21beed837160b54aa17313f5e1898f"
