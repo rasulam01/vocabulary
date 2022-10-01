@@ -19,8 +19,7 @@ export const WordList = ({ data, navigation }) => {
     </View>
     <FlatList
       data={data.sort((a, b) => a.khadar.localeCompare(b.khadar))}
-      keyExtractor={(item) => item.src}
-      initialNumToRender={data.length}
+      keyExtractor={(item) => item.src}      
       renderItem={({ item, index }) => (
         <Word
           id={item.id}
