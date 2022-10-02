@@ -448,5 +448,15 @@ export const verbsData = [
     additional_info: "",
     sound_src: "apple.m4a",
   },
+  {
+    id: 47,
+    src: require("../../assets/verbs/jump.png"),
+    category: "Глаголы",
+    russian: "прыгать",
+    khadar: "парсукIас",
+    english: "to jump",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  },
 
 ];

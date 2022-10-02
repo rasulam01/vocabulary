@@ -15,8 +15,7 @@ export const WordList = ({ data, navigation }) => {
       item.khadar.toLowerCase().includes(searchWord.toLowerCase()) ||
       item.english.toLowerCase().includes(searchWord.toLowerCase())
   );
-  console.log(filteredBySearch);
-
+  
   return (
     <>
       <View
@@ -29,6 +28,7 @@ export const WordList = ({ data, navigation }) => {
       >
         <TextInput
           placeholder="Найти слово (введите любой его эквивалент)"
+          placeholderTextColor={COLORS.VEINY_RED}
           value={searchWord}
           onChangeText={setSearchWord}
           style={{
@@ -37,13 +37,6 @@ export const WordList = ({ data, navigation }) => {
             marginBottom: 12,
           }}
         />
-
-        {/* <CustomText
-          title={`Слов в категории: ${
-            searchWord ? filteredBySearch.length : data.length
-          }`}
-          color={dynamicColor}
-        /> */}
         {searchWord && !filteredBySearch.length ? (
           <View>
             <CustomText

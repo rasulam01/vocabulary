@@ -579,6 +579,36 @@ export const adjectivesData = [
     additional_info: "",
     sound_src: "apple.m4a",
   },
+  {
+    id: 60,
+    src: require("../../assets/adjectives/thin.png"),
+    category: "Прилагательные",
+    russian: "тонкий",
+    khadar: "чукъай",
+    english: "thin",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  },
+  {
+    id: 61,
+    src: require("../../assets/adjectives/fat.png"),
+    category: "Прилагательные",
+    russian: "толстый",
+    khadar: "церхил",
+    english: "fat",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  },
+  {
+    id: 61,
+    src: require("../../assets/adjectives/shallow.png"),
+    category: "Прилагательные",
+    russian: "мелкий, неглубокий",
+    khadar: "сагIил",
+    english: "shallow",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  },
   
   
 ];
