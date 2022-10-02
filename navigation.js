@@ -164,11 +164,11 @@ const Navigation = () => {
           screenOptions={{ headerShown: false, tabBarActiveBackgroundColor: COLORS.CLOUDY_BLUE, tabBarLabel: () => null, tabBarInactiveBackgroundColor: dark ? COLORS.DARK_GRAY : COLORS.WHITE }}                              
         >
           <Tab.Screen name={VocabularyName} component={StackNavigation}  options={{tabBarIcon: () => (
-            <Image source={require("./assets/sections/vocabulary.png")}  style={iconSize} />
+            <Image source={require("./assets/sections/vocabulary.png")}  style={{width: 30, height: 30}} />
           )}}
            />
           <Tab.Screen name={SettingsName} component={Settings} options={{headerShown: true, tabBarIcon: () => (
-            <Image source={require("./assets/sections/settings.png")} style={iconSize} />
+            <Image source={require("./assets/sections/settings.png")} style={{width: 30, height: 30}} />
           )}} />
         </Tab.Navigator>
       </NavigationContainer>
