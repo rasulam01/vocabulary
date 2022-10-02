@@ -96,6 +96,7 @@ export const WordList = ({ data, navigation }) => {
             firstByAlphabet.khadar.localeCompare(secondByAlphabet.khadar)
           )}
           keyExtractor={(item) => item.src}
+          initialNumToRender={10}
           renderItem={({ item, index }) => (
             <Word
               id={item.id}

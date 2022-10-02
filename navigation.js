@@ -104,7 +104,7 @@ const darkMode = {
   },
 };
 
-export const iconSize = {width: 30, height: 30}
+export const iconSize = {width: 45, height: 45}
 export const arrowSize = {width: 20, height: 20}
 
 export const Context = React.createContext();
