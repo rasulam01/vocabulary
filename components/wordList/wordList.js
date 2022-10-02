@@ -28,9 +28,9 @@ export const WordList = ({ data, navigation }) => {
       >
         <TextInput
           placeholder="Найти слово (введите любой его эквивалент)"
-          placeholderTextColor={COLORS.VEINY_RED}
+          placeholderTextColor={COLORS.DARK_GRAY}
           value={searchWord}
-          onChangeText={setSearchWord}
+          onChangeText={setSearchWord}          
           style={{
             borderBottomWidth: 1,
             borderBottomColor: COLORS.DARK_GRAY,
