@@ -1,6 +1,6 @@
 export const treesData = [{
     id: 1,
-    src: require("../../assets/trees/birch.png"),
+    src: require("../../assets/nature/trees/birch.png"),
     category: "Деревья",
     russian: "береза",
     khadar: "гIянъа",
@@ -9,7 +9,7 @@ export const treesData = [{
     sound_src: "apple.m4a",
   },   {
     id: 2,
-    src: require("../../assets/trees/oak.png"),
+    src: require("../../assets/nature/trees/oak.png"),
     category: "Деревья",
     russian: "дуб",
     khadar: "мич",
@@ -18,7 +18,7 @@ export const treesData = [{
     sound_src: "apple.m4a",
   },   {
     id: 3,
-    src: require("../../assets/trees/pine.png"),
+    src: require("../../assets/nature/trees/pine.png"),
     category: "Деревья",
     russian: "сосна",
     khadar: "яда",
@@ -27,7 +27,7 @@ export const treesData = [{
     sound_src: "apple.m4a",
   },   {
     id: 4,
-    src: require("../../assets/trees/willow.png"),
+    src: require("../../assets/nature/trees/willow.png"),
     category: "Деревья",
     russian: "ива",
     khadar: "жар",
@@ -36,7 +36,7 @@ export const treesData = [{
     sound_src: "apple.m4a",
   },   {
     id: 5,
-    src: require("../../assets/trees/linden.png"),
+    src: require("../../assets/nature/trees/linden.png"),
     category: "Деревья",
     russian: "липа",
     khadar: "щима",
@@ -45,7 +45,7 @@ export const treesData = [{
     sound_src: "apple.m4a",
   },   {
     id: 6,
-    src: require("../../assets/trees/poplar.png"),
+    src: require("../../assets/nature/trees/poplar.png"),
     category: "Деревья",
     russian: "тополь",
     khadar: "ахътерек",
@@ -54,7 +54,7 @@ export const treesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 7,
-    src: require("../../assets/trees/tree.png"),
+    src: require("../../assets/nature/trees/tree.png"),
     category: "Деревья",
     russian: "дерево",
     khadar: "гъотI",

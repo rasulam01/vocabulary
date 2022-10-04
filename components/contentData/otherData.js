@@ -1,7 +1,7 @@
 export const otherData = [
   {
     id: 3,
-    src: require("../../assets/other/water.png"),
+    src: require("../../assets/food/other/water.webp"),
     category: "Другое",
     russian: "вода",
     khadar: "шин",
@@ -11,7 +11,7 @@ export const otherData = [
   },
   {
     id: 4,
-    src: require("../../assets/other/vodka.png"),
+    src: require("../../assets/food/other/vodka.webp"),
     category: "Другое",
     russian: "водка",
     khadar: "хIярякьи",
@@ -21,7 +21,7 @@ export const otherData = [
   },
   {
     id: 5,
-    src: require("../../assets/other/walnut.png"),
+    src: require("../../assets/food/other/walnut.webp"),
     category: "Другое",
     russian: "грецкий орех",
     khadar: "гъиве",
@@ -31,7 +31,7 @@ export const otherData = [
   },
   {
     id: 6,
-    src: require("../../assets/other/wine.png"),
+    src: require("../../assets/food/other/wine.webp"),
     category: "Другое",
     russian: "вино",
     khadar: "чагьир",
@@ -41,7 +41,7 @@ export const otherData = [
   },
   {
     id: 7,
-    src: require("../../assets/other/mushroom.png"),
+    src: require("../../assets/food/other/mushroom.webp"),
     category: "Другое",
     russian: "гриб",
     khadar: "къашкъар",
@@ -51,7 +51,7 @@ export const otherData = [
   },
   {
     id: 8,
-    src: require("../../assets/other/food.png"),
+    src: require("../../assets/food/other/food.webp"),
     category: "Другое",
     russian: "еда",
     khadar: "берконе",
@@ -61,7 +61,7 @@ export const otherData = [
   },
   {
     id: 9,
-    src: require("../../assets/other/candy.png"),
+    src: require("../../assets/food/other/candy.webp"),
     category: "Другое",
     russian: "конфета",
     khadar: "кемпет",
@@ -71,7 +71,7 @@ export const otherData = [
   },
   {
     id: 10,
-    src: require("../../assets/other/slice.png"),
+    src: require("../../assets/food/other/slice.webp"),
     category: "Другое",
     russian: "кусок",
     khadar: "къац",
@@ -81,7 +81,7 @@ export const otherData = [
   },
   {
     id: 11,
-    src: require("../../assets/other/lemonade.png"),
+    src: require("../../assets/food/other/lemonade.webp"),
     category: "Другое",
     russian: "лимонад",
     khadar: "лиманат",
@@ -91,7 +91,7 @@ export const otherData = [
   },
   {
     id: 12,
-    src: require("../../assets/other/honey.png"),
+    src: require("../../assets/food/other/honey.webp"),
     category: "Другое",
     russian: "мед",
     khadar: "варъа",
@@ -101,7 +101,7 @@ export const otherData = [
   },
   {
     id: 13,
-    src: require("../../assets/other/egg.png"),
+    src: require("../../assets/food/other/egg.webp"),
     category: "Другое",
     russian: "яйцо",
     khadar: "гигари",
@@ -111,7 +111,7 @@ export const otherData = [
   },
   {
     id: 14,
-    src: require("../../assets/other/hazelnut.png"),
+    src: require("../../assets/food/other/hazelnut.webp"),
     category: "Другое",
     russian: "фундук",
     khadar: "сирмуга",
@@ -121,7 +121,7 @@ export const otherData = [
   },
   {
     id: 15,
-    src: require("../../assets/other/nut.png"),
+    src: require("../../assets/food/other/nut.webp"),
     category: "Другое",
     russian: "орех",
     khadar: "гъив",
@@ -131,7 +131,7 @@ export const otherData = [
   },
   {
     id: 16,
-    src: require("../../assets/other/olive.png"),
+    src: require("../../assets/food/other/olive.webp"),
     category: "Другое",
     russian: "оливка",
     khadar: "зайтун",
@@ -141,7 +141,7 @@ export const otherData = [
   },
   {
     id: 17,
-    src: require("../../assets/other/pepper.png"),
+    src: require("../../assets/food/other/pepper.webp"),
     category: "Другое",
     russian: "перец",
     khadar: "жибжи",
@@ -151,7 +151,7 @@ export const otherData = [
   },
   {
     id: 18,
-    src: require("../../assets/other/salt.png"),
+    src: require("../../assets/food/other/salt.webp"),
     category: "Другое",
     russian: "соль",
     khadar: "зеъ",
@@ -161,7 +161,7 @@ export const otherData = [
   },
   {
     id: 19,
-    src: require("../../assets/other/scrambled_eggs.png"),
+    src: require("../../assets/food/other/scrambled_eggs.webp"),
     category: "Другое",
     russian: "яичница",
     khadar: "гигала гъайнакъ",
@@ -171,7 +171,7 @@ export const otherData = [
   },
   {
     id: 20,
-    src: require("../../assets/other/sugar.png"),
+    src: require("../../assets/food/other/sugar.webp"),
     category: "Другое",
     russian: "сахар",
     khadar: "шекер",

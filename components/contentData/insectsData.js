@@ -1,7 +1,7 @@
 export const insectsData = [
     {
         id: 1,
-        src: require("../../assets/insects/butterfly.png"),
+        src: require("../../assets/animals/insects/butterfly.png"),
         category: "Насекомые",
         russian: "бабочка",
         khadar: "хаминдари",
@@ -11,7 +11,7 @@ export const insectsData = [
     },
     {
         id: 2,
-        src: require("../../assets/insects/dragonfly.png"),
+        src: require("../../assets/animals/insects/dragonfly.png"),
         category: "Насекомые",
         russian: "стрекоза",
         khadar: "цIерцI",
@@ -21,7 +21,7 @@ export const insectsData = [
       },
       {
         id: 3,
-        src: require("../../assets/insects/beetle.png"),
+        src: require("../../assets/animals/insects/beetle.png"),
         category: "Насекомые",
         russian: "жук",
         khadar: "тусахIари",
@@ -31,7 +31,7 @@ export const insectsData = [
       },
       {
         id: 4,
-        src: require("../../assets/insects/mite.png"),
+        src: require("../../assets/animals/insects/mite.png"),
         category: "Насекомые",
         russian: "клещ",
         khadar: "кIакIари",
@@ -41,7 +41,7 @@ export const insectsData = [
       },
       {
         id: 5,
-        src: require("../../assets/insects/fly.png"),
+        src: require("../../assets/animals/insects/fly.png"),
         category: "Насекомые",
         russian: "муха",
         khadar: "кIент",
@@ -51,7 +51,7 @@ export const insectsData = [
       },
       {
         id: 6,
-        src: require("../../assets/insects/grasshopper.png"),
+        src: require("../../assets/animals/insects/grasshopper.png"),
         category: "Насекомые",
         russian: "кузнечик",
         khadar: "урцIецIе",
@@ -61,7 +61,7 @@ export const insectsData = [
       },
       {
         id: 7,
-        src: require("../../assets/insects/moth.png"),
+        src: require("../../assets/animals/insects/moth.png"),
         category: "Насекомые",
         russian: "моль",
         khadar: "имс",
@@ -71,7 +71,7 @@ export const insectsData = [
       },
       {
         id: 8,
-        src: require("../../assets/insects/hornet.png"),
+        src: require("../../assets/animals/insects/hornet.png"),
         category: "Насекомые",
         russian: "оса",
         khadar: "гIиндир",
@@ -81,7 +81,7 @@ export const insectsData = [
       },
       {
         id: 9,
-        src: require("../../assets/insects/bee.png"),
+        src: require("../../assets/animals/insects/bee.png"),
         category: "Насекомые",
         russian: "пчела",
         khadar: "мирхъи",
@@ -91,7 +91,7 @@ export const insectsData = [
       },
       {
         id: 10,
-        src: require("../../assets/insects/mole_cricket.png"),
+        src: require("../../assets/animals/insects/mole_cricket.png"),
         category: "Насекомые",
         russian: "медведка",
         khadar: "безалтуш",

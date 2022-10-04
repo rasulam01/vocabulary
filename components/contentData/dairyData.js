@@ -2,7 +2,7 @@ export const dairyData = [
     
     {
         id: 1,
-        src: require("../../assets/dairy/kefir.png"),
+        src: require("../../assets/food/dairy/kefir.webp"),
         category: "Молочные продукты",
         russian: "кефир",
         khadar: "беръне",
@@ -12,7 +12,7 @@ export const dairyData = [
       },
       {
         id: 2,
-        src: require("../../assets/dairy/milk.png"),
+        src: require("../../assets/food/dairy/milk.webp"),
         category: "Молочные продукты",
         russian: "молоко",
         khadar: "миъ",
@@ -22,7 +22,7 @@ export const dairyData = [
       },
       {
         id: 3,
-        src: require("../../assets/dairy/butter.png"),
+        src: require("../../assets/food/dairy/butter.webp"),
         category: "Молочные продукты",
         russian: "сливочное масло",
         khadar: "къама",
@@ -32,7 +32,7 @@ export const dairyData = [
       },
       {
         id: 4,
-        src: require("../../assets/dairy/sour_cream.png"),
+        src: require("../../assets/food/dairy/sour_cream.webp"),
         category: "Молочные продукты",
         russian: "сметана",
         khadar: "гъайнакъ",
@@ -42,7 +42,7 @@ export const dairyData = [
       },
       {
         id: 5,
-        src: require("../../assets/dairy/cheese.png"),
+        src: require("../../assets/food/dairy/cheese.webp"),
         category: "Молочные продукты",
         russian: "сыр",
         khadar: "нусаъ",
@@ -52,7 +52,7 @@ export const dairyData = [
       },
       {
         id: 6,
-        src: require("../../assets/dairy/ghee.png"),
+        src: require("../../assets/food/dairy/ghee.webp"),
         category: "Молочные продукты",
         russian: "топленое масло",
         khadar: "рахсаг",

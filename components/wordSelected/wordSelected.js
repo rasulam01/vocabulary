@@ -4,6 +4,7 @@ import { CustomText } from "../custom/CustomText";
 import commonStyles from "../commonStyles";
 import { Context } from "../../navigation";
 import Sound from "react-native-sound";
+import { COLORS } from "../../colors";
 
 export const WordSelected = ({ route }) => {
   const { dynamicColor } = React.useContext(Context);

@@ -1,7 +1,7 @@
 export const mammalsData = [
     {
         id: 1,
-        src: require("../../assets/mammals/ram.png"),
+        src: require("../../assets/animals/mammals/ram.webp"),
         category: "Млекопитающиеся",
         russian: "баран",
         khadar: "мас",
@@ -11,7 +11,7 @@ export const mammalsData = [
       },
       {
         id: 2,
-        src: require("../../assets/mammals/buffalo.png"),
+        src: require("../../assets/animals/mammals/buffalo.webp"),
         category: "Млекопитающиеся",
         russian: "буйвол",
         khadar: "гамущ",
@@ -21,7 +21,7 @@ export const mammalsData = [
       },
       {
         id: 3,
-        src: require("../../assets/mammals/bull.png"),
+        src: require("../../assets/animals/mammals/bull.webp"),
         category: "Млекопитающиеся",
         russian: "бык",
         khadar: "бугъа",
@@ -31,7 +31,7 @@ export const mammalsData = [
       },
       {
         id: 4,
-        src: require("../../assets/mammals/camel.png"),
+        src: require("../../assets/animals/mammals/camel.webp"),
         category: "Млекопитающиеся",
         russian: "верблюд",
         khadar: "валреъ",
@@ -41,7 +41,7 @@ export const mammalsData = [
       },
       {
         id: 5,
-        src: require("../../assets/mammals/wolf.png"),
+        src: require("../../assets/animals/mammals/wolf.webp"),
         category: "Млекопитающиеся",
         russian: "волк",
         khadar: "бецI",
@@ -51,7 +51,7 @@ export const mammalsData = [
       },
       {
         id: 6,
-        src: require("../../assets/mammals/gazelle.png"),
+        src: require("../../assets/animals/mammals/gazelle.webp"),
         category: "Млекопитающиеся",
         russian: "газель",
         khadar: "жайран",
@@ -61,7 +61,7 @@ export const mammalsData = [
       },
       {
         id: 7,
-        src: require("../../assets/mammals/dragon.png"),
+        src: require("../../assets/animals/mammals/dragon.webp"),
         category: "Млекопитающиеся",
         russian: "дракон",
         khadar: "аждагьа",
@@ -71,7 +71,7 @@ export const mammalsData = [
       },
       {
         id: 8,
-        src: require("../../assets/mammals/hedgehog.png"),
+        src: require("../../assets/animals/mammals/hedgehog.webp"),
         category: "Млекопитающиеся",
         russian: "еж",
         khadar: "кирпи",
@@ -81,7 +81,7 @@ export const mammalsData = [
       },
       {
         id: 9,
-        src: require("../../assets/mammals/goat.png"),
+        src: require("../../assets/animals/mammals/goat.webp"),
         category: "Млекопитающиеся",
         russian: "козел",
         khadar: "гIяжа",
@@ -91,7 +91,7 @@ export const mammalsData = [
       },
       {
         id: 10,
-        src: require("../../assets/mammals/cow.png"),
+        src: require("../../assets/animals/mammals/cow.webp"),
         category: "Млекопитающиеся",
         russian: "корова",
         khadar: "къал",
@@ -101,7 +101,7 @@ export const mammalsData = [
       },
       {
         id: 11,
-        src: require("../../assets/mammals/cat.png"),
+        src: require("../../assets/animals/mammals/cat.webp"),
         category: "Млекопитающиеся",
         russian: "кошка",
         khadar: "кату",
@@ -111,7 +111,7 @@ export const mammalsData = [
       },
       {
         id: 12,
-        src: require("../../assets/mammals/rabbit.png"),
+        src: require("../../assets/animals/mammals/rabbit.webp"),
         category: "Млекопитающиеся",
         russian: "кролик",
         khadar: "гIяри",
@@ -121,7 +121,7 @@ export const mammalsData = [
       },
       {
         id: 13,
-        src: require("../../assets/mammals/lion.png"),
+        src: require("../../assets/animals/mammals/lion.webp"),
         category: "Млекопитающиеся",
         russian: "лев",
         khadar: "арслангъатла",
@@ -131,7 +131,7 @@ export const mammalsData = [
       },
       {
         id: 14,
-        src: require("../../assets/mammals/fox.png"),
+        src: require("../../assets/animals/mammals/fox.webp"),
         category: "Млекопитающиеся",
         russian: "лиса",
         khadar: "гурда",
@@ -141,7 +141,7 @@ export const mammalsData = [
       },
       {
         id: 15,
-        src: require("../../assets/mammals/horse.png"),
+        src: require("../../assets/animals/mammals/horse.webp"),
         category: "Млекопитающиеся",
         russian: "лошадь",
         khadar: "ябу",
@@ -151,7 +151,7 @@ export const mammalsData = [
       },
       {
         id: 16,
-        src: require("../../assets/mammals/bear.png"),
+        src: require("../../assets/animals/mammals/bear.webp"),
         category: "Млекопитающиеся",
         russian: "медведь",
         khadar: "синка",
@@ -161,7 +161,7 @@ export const mammalsData = [
       },
       {
         id: 17,
-        src: require("../../assets/mammals/mouse.png"),
+        src: require("../../assets/animals/mammals/mouse.webp"),
         category: "Млекопитающиеся",
         russian: "мышь",
         khadar: "гоца",
@@ -171,7 +171,7 @@ export const mammalsData = [
       },
       {
         id: 18,
-        src: require("../../assets/mammals/monkey.png"),
+        src: require("../../assets/animals/mammals/monkey.webp"),
         category: "Млекопитающиеся",
         russian: "обезьяна",
         khadar: "маймун",
@@ -181,7 +181,7 @@ export const mammalsData = [
       },
       {
         id: 19,
-        src: require("../../assets/mammals/sheep.png"),
+        src: require("../../assets/animals/mammals/sheep.webp"),
         category: "Млекопитающиеся",
         russian: "овца",
         khadar: "маза",
@@ -191,7 +191,7 @@ export const mammalsData = [
       },
       {
         id: 20,
-        src: require("../../assets/mammals/donkey.png"),
+        src: require("../../assets/animals/mammals/donkey.webp"),
         category: "Млекопитающиеся",
         russian: "осел",
         khadar: "хIамхIа",
@@ -201,7 +201,7 @@ export const mammalsData = [
       },
       {
         id: 21,
-        src: require("../../assets/mammals/pig.png"),
+        src: require("../../assets/animals/mammals/pig.webp"),
         category: "Млекопитающиеся",
         russian: "свинья",
         khadar: "цура",
@@ -211,7 +211,7 @@ export const mammalsData = [
       },
       {
         id: 22,
-        src: require("../../assets/mammals/elephant.png"),
+        src: require("../../assets/animals/mammals/elephant.webp"),
         category: "Млекопитающиеся",
         russian: "слон",
         khadar: "пил",
@@ -221,7 +221,7 @@ export const mammalsData = [
       },
       {
         id: 23,
-        src: require("../../assets/mammals/tiger.png"),
+        src: require("../../assets/animals/mammals/tiger.webp"),
         category: "Млекопитающиеся",
         russian: "тигр",
         khadar: "къаплан",
@@ -231,7 +231,7 @@ export const mammalsData = [
       },
       {
         id: 24,
-        src: require("../../assets/mammals/jackal.png"),
+        src: require("../../assets/animals/mammals/jackal.webp"),
         category: "Млекопитающиеся",
         russian: "шакал",
         khadar: "хIахIбецI",
@@ -241,7 +241,7 @@ export const mammalsData = [
       },
       {
         id: 25,
-        src: require("../../assets/mammals/mutt.png"),
+        src: require("../../assets/animals/mammals/mutt.webp"),
         category: "Млекопитающиеся",
         russian: "щенок",
         khadar: "кIулай",
@@ -251,11 +251,21 @@ export const mammalsData = [
       },
       {
         id: 26,
-        src: require("../../assets/mammals/herd.png"),
+        src: require("../../assets/animals/mammals/herd.webp"),
         category: "Млекопитающиеся",
         russian: "стадо",
         khadar: "хIанкъ",
         english: "herd",
+        additional_info: "",
+        sound_src: "apple.m4a",
+      },
+      {
+        id: 27,
+        src: require("../../assets/animals/mammals/dog.webp"),
+        category: "Млекопитающиеся",
+        russian: "собака",
+        khadar: "хо",
+        english: "dog",
         additional_info: "",
         sound_src: "apple.m4a",
       },

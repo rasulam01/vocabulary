@@ -1,6 +1,6 @@
 export const greennessData = [{
     id: 1,
-    src: require("../../assets/greenness/log.png"),
+    src: require("../../assets/nature/greenness/log.png"),
     category: "Растительность",
     russian: "бревно",
     khadar: "зехли",
@@ -9,7 +9,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 2,
-    src: require("../../assets/greenness/branch.png"),
+    src: require("../../assets/nature/greenness/branch.png"),
     category: "Растительность",
     russian: "ветвь",
     khadar: "къали",
@@ -18,7 +18,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 3,
-    src: require("../../assets/greenness/timber.png"),
+    src: require("../../assets/nature/greenness/timber.png"),
     category: "Растительность",
     russian: "древесина",
     khadar: "дуз",
@@ -27,7 +27,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 4,
-    src: require("../../assets/greenness/greenness.png"),
+    src: require("../../assets/nature/greenness/greenness.png"),
     category: "Растительность",
     russian: "зелень",
     khadar: "къалтIа",
@@ -36,7 +36,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 5,
-    src: require("../../assets/greenness/hedge.png"),
+    src: require("../../assets/nature/greenness/hedge.png"),
     category: "Растительность",
     russian: "изгородь",
     khadar: "чули",
@@ -45,7 +45,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 6,
-    src: require("../../assets/greenness/root.png"),
+    src: require("../../assets/nature/greenness/root.png"),
     category: "Растительность",
     russian: "корень",
     khadar: "макъ",
@@ -54,7 +54,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 7,
-    src: require("../../assets/greenness/nettle.png"),
+    src: require("../../assets/nature/greenness/nettle.png"),
     category: "Растительность",
     russian: "крапива",
     khadar: "низбе",
@@ -63,7 +63,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 8,
-    src: require("../../assets/greenness/bush.png"),
+    src: require("../../assets/nature/greenness/bush.png"),
     category: "Растительность",
     russian: "куст",
     khadar: "хъалта",
@@ -72,7 +72,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 9,
-    src: require("../../assets/greenness/leaf.png"),
+    src: require("../../assets/nature/greenness/leaf.png"),
     category: "Растительность",
     russian: "лист",
     khadar: "кIапIи",
@@ -81,7 +81,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 10,
-    src: require("../../assets/greenness/poppy.png"),
+    src: require("../../assets/nature/greenness/poppy.png"),
     category: "Растительность",
     russian: "мак",
     khadar: "пIялпIялаги",
@@ -90,7 +90,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 11,
-    src: require("../../assets/greenness/mint.png"),
+    src: require("../../assets/nature/greenness/mint.png"),
     category: "Растительность",
     russian: "мята",
     khadar: "шумери",
@@ -99,7 +99,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 12,
-    src: require("../../assets/greenness/manure.png"),
+    src: require("../../assets/nature/greenness/manure.png"),
     category: "Растительность",
     russian: "навоз",
     khadar: "декь",
@@ -108,7 +108,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 13,
-    src: require("../../assets/greenness/stump.png"),
+    src: require("../../assets/nature/greenness/stump.png"),
     category: "Растительность",
     russian: "пень",
     khadar: "хъитIа",
@@ -117,7 +117,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 14,
-    src: require("../../assets/greenness/field.png"),
+    src: require("../../assets/nature/greenness/field.png"),
     category: "Растительность",
     russian: "поле",
     khadar: "аулакъ",
@@ -126,7 +126,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 15,
-    src: require("../../assets/greenness/meadow.png"),
+    src: require("../../assets/nature/greenness/meadow.png"),
     category: "Растительность",
     russian: "луг",
     khadar: "гIянкIа",
@@ -135,7 +135,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 16,
-    src: require("../../assets/greenness/hay.png"),
+    src: require("../../assets/nature/greenness/hay.png"),
     category: "Растительность",
     russian: "сено",
     khadar: "мура",
@@ -144,7 +144,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 17,
-    src: require("../../assets/greenness/weed.png"),
+    src: require("../../assets/nature/greenness/weed.png"),
     category: "Растительность",
     russian: "сорняк",
     khadar: "ернек",
@@ -153,7 +153,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 18,
-    src: require("../../assets/greenness/grass.png"),
+    src: require("../../assets/nature/greenness/grass.png"),
     category: "Растительность",
     russian: "трава",
     khadar: "сага",
@@ -162,7 +162,7 @@ export const greennessData = [{
     sound_src: "apple.m4a",
   }, {
     id: 19,
-    src: require("../../assets/greenness/cotton.png"),
+    src: require("../../assets/nature/greenness/cotton.png"),
     category: "Растительность",
     russian: "хлопок",
     khadar: "бамба",

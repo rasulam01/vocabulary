@@ -1,7 +1,7 @@
 export const fruitData = [
   {
     id: 1,
-    src: require("../../assets/fruit/apple.png"),
+    src: require("../../assets/food/fruit/apple.webp"),
     category: "Фрукты",
     russian: "яблоко",
     khadar: "гIинц",
@@ -11,7 +11,7 @@ export const fruitData = [
   },
   {
     id: 2,
-    src: require("../../assets/fruit/apricot.png"),
+    src: require("../../assets/food/fruit/apricot.webp"),
     category: "Фрукты",
     russian: "абрикос",
     khadar: "корага",
@@ -21,7 +21,7 @@ export const fruitData = [
   },
   {
     id: 3,
-    src: require("../../assets/fruit/quince.png"),
+    src: require("../../assets/food/fruit/quince.webp"),
     category: "Фрукты",
     russian: "айва",
     khadar: "гимиргьи",
@@ -31,7 +31,7 @@ export const fruitData = [
   },
   {
     id: 4,
-    src: require("../../assets/fruit/cherry_plum.png"),
+    src: require("../../assets/food/fruit/cherry_plum.webp"),
     category: "Фрукты",
     russian: "алыча",
     khadar: "цимихI",
@@ -41,7 +41,7 @@ export const fruitData = [
   },
   {
     id: 5,
-    src: require("../../assets/fruit/grape.png"),
+    src: require("../../assets/food/fruit/grape.webp"),
     category: "Фрукты",
     russian: "виноград",
     khadar: "тIутIи",
@@ -51,7 +51,7 @@ export const fruitData = [
   },
   {
     id: 6,
-    src: require("../../assets/fruit/pear.png"),
+    src: require("../../assets/food/fruit/pear.webp"),
     category: "Фрукты",
     russian: "груша",
     khadar: "алмут",
@@ -61,7 +61,7 @@ export const fruitData = [
   },
   {
     id: 7,
-    src: require("../../assets/fruit/plum.png"),
+    src: require("../../assets/food/fruit/plum.webp"),
     category: "Фрукты",
     russian: "слива",
     khadar: "кIакIан",
@@ -71,7 +71,7 @@ export const fruitData = [
   },
   {
     id: 8,
-    src: require("../../assets/fruit/pumpkin.png"),
+    src: require("../../assets/food/fruit/pumpkin.webp"),
     category: "Фрукты",
     russian: "тыква",
     khadar: "гонзари",
@@ -81,7 +81,7 @@ export const fruitData = [
   },
   {
     id: 9,
-    src: require("../../assets/fruit/date.png"),
+    src: require("../../assets/food/fruit/date.webp"),
     category: "Фрукты",
     russian: "финик",
     khadar: "финик",
@@ -91,7 +91,7 @@ export const fruitData = [
   },
   {
     id: 10,
-    src: require("../../assets/fruit/fruit.png"),
+    src: require("../../assets/food/fruit/fruit.webp"),
     category: "Фрукты",
     russian: "фрукты",
     khadar: "цIедехь",
@@ -101,7 +101,7 @@ export const fruitData = [
   }, 
   {
     id: 11,
-    src: require("../../assets/fruit/peach.png"),
+    src: require("../../assets/food/fruit/peach.webp"),
     category: "Фрукты",
     russian: "персик",
     khadar: "щаптIал",

@@ -1,6 +1,6 @@
 export const eventsData = [{
     id: 1,
-    src: require("../../assets/events/coast.png"),
+    src: require("../../assets/nature/events/coast.png"),
     category: "Явления / окружающая среда",
     russian: "берег",
     khadar: "дуб",
@@ -9,7 +9,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 2,
-    src: require("../../assets/events/wind.png"),
+    src: require("../../assets/nature/events/wind.png"),
     category: "Явления / окружающая среда",
     russian: "ветер",
     khadar: "букма",
@@ -18,7 +18,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 3,
-    src: require("../../assets/events/air.png"),
+    src: require("../../assets/nature/events/air.png"),
     category: "Явления / окружающая среда",
     russian: "воздух",
     khadar: "гьава",
@@ -27,7 +27,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 4,
-    src: require("../../assets/events/clay.png"),
+    src: require("../../assets/nature/events/clay.png"),
     category: "Явления / окружающая среда",
     russian: "глина",
     khadar: "гIянжи",
@@ -36,7 +36,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 5,
-    src: require("../../assets/events/mountain.png"),
+    src: require("../../assets/nature/events/mountain.png"),
     category: "Явления / окружающая среда",
     russian: "гора",
     khadar: "дубура",
@@ -45,7 +45,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 6,
-    src: require("../../assets/events/thunder.png"),
+    src: require("../../assets/nature/events/thunder.png"),
     category: "Явления / окружающая среда",
     russian: "гром",
     khadar: "гъугъу",
@@ -54,7 +54,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 7,
-    src: require("../../assets/events/lightning.png"),
+    src: require("../../assets/nature/events/lightning.png"),
     category: "Явления / окружающая среда",
     russian: "молния",
     khadar: "ламцIи",
@@ -63,7 +63,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 8,
-    src: require("../../assets/events/rain.png"),
+    src: require("../../assets/nature/events/rain.png"),
     category: "Явления / окружающая среда",
     russian: "дождь",
     khadar: "заб",
@@ -72,7 +72,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 9,
-    src: require("../../assets/events/hail.png"),
+    src: require("../../assets/nature/events/hail.png"),
     category: "Явления / окружающая среда",
     russian: "град",
     khadar: "къапкъа",
@@ -81,7 +81,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 10,
-    src: require("../../assets/events/smoke.png"),
+    src: require("../../assets/nature/events/smoke.png"),
     category: "Явления / окружающая среда",
     russian: "дым",
     khadar: "эръа",
@@ -90,7 +90,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 11,
-    src: require("../../assets/events/star.png"),
+    src: require("../../assets/nature/events/star.png"),
     category: "Явления / окружающая среда",
     russian: "звезда",
     khadar: "уръи",
@@ -99,7 +99,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 12,
-    src: require("../../assets/events/ground.png"),
+    src: require("../../assets/nature/events/ground.png"),
     category: "Явления / окружающая среда",
     russian: "земля",
     khadar: "гонзари",
@@ -108,7 +108,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 13,
-    src: require("../../assets/events/hoarfrost.png"),
+    src: require("../../assets/nature/events/hoarfrost.png"),
     category: "Явления / окружающая среда",
     russian: "иней",
     khadar: "сулугъа",
@@ -117,7 +117,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 14,
-    src: require("../../assets/events/stone.png"),
+    src: require("../../assets/nature/events/stone.png"),
     category: "Явления / окружающая среда",
     russian: "камень",
     khadar: "гъархъа",
@@ -126,7 +126,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 15,
-    src: require("../../assets/events/drop.png"),
+    src: require("../../assets/nature/events/drop.png"),
     category: "Явления / окружающая среда",
     russian: "капля",
     khadar: "кIантI",
@@ -135,7 +135,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 16,
-    src: require("../../assets/events/sea.png"),
+    src: require("../../assets/nature/events/sea.png"),
     category: "Явления / окружающая среда",
     russian: "море",
     khadar: "урхьне",
@@ -144,7 +144,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 17,
-    src: require("../../assets/events/frost.png"),
+    src: require("../../assets/nature/events/frost.png"),
     category: "Явления / окружающая среда",
     russian: "мороз",
     khadar: "даръ",
@@ -153,7 +153,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 18,
-    src: require("../../assets/events/sky.png"),
+    src: require("../../assets/nature/events/sky.png"),
     category: "Явления / окружающая среда",
     russian: "небо",
     khadar: "зубре",
@@ -162,7 +162,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 19,
-    src: require("../../assets/events/fire.png"),
+    src: require("../../assets/nature/events/fire.png"),
     category: "Явления / окружающая среда",
     russian: "огонь",
     khadar: "цIа",
@@ -171,7 +171,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 20,
-    src: require("../../assets/events/web.png"),
+    src: require("../../assets/nature/events/web.png"),
     category: "Явления / окружающая среда",
     russian: "паутина",
     khadar: "ав",
@@ -180,7 +180,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 21,
-    src: require("../../assets/events/ash.png"),
+    src: require("../../assets/nature/events/ash.png"),
     category: "Явления / окружающая среда",
     russian: "пепел",
     khadar: "палда",
@@ -189,7 +189,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 22,
-    src: require("../../assets/events/soil.png"),
+    src: require("../../assets/nature/events/soil.png"),
     category: "Явления / окружающая среда",
     russian: "почва",
     khadar: "гIяижи",
@@ -198,7 +198,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 23,
-    src: require("../../assets/events/blizzard.png"),
+    src: require("../../assets/nature/events/blizzard.png"),
     category: "Явления / окружающая среда",
     russian: "пурга",
     khadar: "бурам",
@@ -207,7 +207,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 24,
-    src: require("../../assets/events/dust.png"),
+    src: require("../../assets/nature/events/dust.png"),
     category: "Явления / окружающая среда",
     russian: "пыль",
     khadar: "хум",
@@ -216,7 +216,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 25,
-    src: require("../../assets/events/rainbow.png"),
+    src: require("../../assets/nature/events/rainbow.png"),
     category: "Явления / окружающая среда",
     russian: "радуга",
     khadar: "зурхIаб",
@@ -225,7 +225,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 26,
-    src: require("../../assets/events/river.png"),
+    src: require("../../assets/nature/events/river.png"),
     category: "Явления / окружающая среда",
     russian: "река",
     khadar: "хIаркI",
@@ -234,7 +234,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 27,
-    src: require("../../assets/events/light.png"),
+    src: require("../../assets/nature/events/light.png"),
     category: "Явления / окружающая среда",
     russian: "свет",
     khadar: "щаI",
@@ -243,7 +243,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 28,
-    src: require("../../assets/events/snow.png"),
+    src: require("../../assets/nature/events/snow.png"),
     category: "Явления / окружающая среда",
     russian: "снег",
     khadar: "дирив",
@@ -252,7 +252,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 29,
-    src: require("../../assets/events/sun.png"),
+    src: require("../../assets/nature/events/sun.png"),
     category: "Явления / окружающая среда",
     russian: "солнце",
     khadar: "бирхIи",
@@ -261,7 +261,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 30,
-    src: require("../../assets/events/fog.png"),
+    src: require("../../assets/nature/events/fog.png"),
     category: "Явления / окружающая среда",
     russian: "туман",
     khadar: "дирав",
@@ -270,7 +270,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 31,
-    src: require("../../assets/events/seeds.png"),
+    src: require("../../assets/nature/events/seeds.png"),
     category: "Явления / окружающая среда",
     russian: "семена",
     khadar: "гье",
@@ -279,7 +279,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 32,
-    src: require("../../assets/events/oil.png"),
+    src: require("../../assets/nature/events/oil.png"),
     category: "Явления / окружающая среда",
     russian: "нефть",
     khadar: "нап",
@@ -288,7 +288,7 @@ export const eventsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 33,
-    src: require("../../assets/events/moon.png"),
+    src: require("../../assets/nature/events/moon.png"),
     category: "Явления / окружающая среда",
     russian: "луна",
     khadar: "бас",

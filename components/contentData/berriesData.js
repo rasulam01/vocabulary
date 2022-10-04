@@ -1,7 +1,7 @@
 export const berriesData = [
     {
       id: 1,
-      src: require("../../assets/berries/watermelon.png"),
+      src: require("../../assets/food/berries/watermelon.webp"),
       category: "Ягоды",
       russian: "арбуз",
       khadar: "харбуз",
@@ -11,7 +11,7 @@ export const berriesData = [
     },
     {
       id: 2,
-      src: require("../../assets/berries/cherry.png"),
+      src: require("../../assets/food/berries/cherry.webp"),
       category: "Ягоды",
       russian: "вишня",
       khadar: "жиъа",
@@ -21,7 +21,7 @@ export const berriesData = [
     },
     {
       id: 3,
-      src: require("../../assets/berries/pomegranate.png"),
+      src: require("../../assets/food/berries/pomegranate.webp"),
       category: "Ягоды",
       russian: "гранат",
       khadar: "нар",
@@ -31,7 +31,7 @@ export const berriesData = [
     },
     {
       id: 4,
-      src: require("../../assets/berries/melon.png"),
+      src: require("../../assets/food/berries/melon.webp"),
       category: "Ягоды",
       russian: "дыня",
       khadar: "пастан",
@@ -41,7 +41,7 @@ export const berriesData = [
     },
     {
       id: 5,
-      src: require("../../assets/berries/blackberry.png"),
+      src: require("../../assets/food/berries/blackberry.webp"),
       category: "Ягоды",
       russian: "ежевика",
       khadar: "ирбиъа",
@@ -51,7 +51,7 @@ export const berriesData = [
     },
     {
       id: 6,
-      src: require("../../assets/berries/strawberry.png"),
+      src: require("../../assets/food/berries/strawberry.webp"),
       category: "Ягоды",
       russian: "земляника",
       khadar: "гъалаъа",
@@ -61,7 +61,7 @@ export const berriesData = [
     },
     {
       id: 7,
-      src: require("../../assets/berries/dogwood.png"),
+      src: require("../../assets/food/berries/dogwood.webp"),
       category: "Ягоды",
       russian: "кизил",
       khadar: "жугьам",
@@ -71,7 +71,7 @@ export const berriesData = [
     },
     {
       id: 8,
-      src: require("../../assets/berries/raspberry.png"),
+      src: require("../../assets/food/berries/raspberry.webp"),
       category: "Ягоды",
       russian: "малина",
       khadar: "мамаргIя",
@@ -81,7 +81,7 @@ export const berriesData = [
     },
     {
         id: 8,
-        src: require("../../assets/berries/mulberry.png"),
+        src: require("../../assets/food/berries/mulberry.webp"),
         category: "Ягоды",
         russian: "тутовник",
         khadar: "тут",
@@ -91,7 +91,7 @@ export const berriesData = [
       },
       {
         id: 8,
-        src: require("../../assets/berries/persimmon.png"),
+        src: require("../../assets/food/berries/persimmon.webp"),
         category: "Ягоды",
         russian: "хурма",
         khadar: "гургуба",
@@ -101,11 +101,21 @@ export const berriesData = [
       },
       {
         id: 8,
-        src: require("../../assets/berries/sweet_cherry.png"),
+        src: require("../../assets/food/berries/sweet_cherry.webp"),
         category: "Ягоды",
         russian: "черешня",
         khadar: "баъли",
         english: "sweet cherry",
+        additional_info: "",
+        sound_src: "pumpkin.m4a",
+      },
+      {
+        id: 8,
+        src: require("../../assets/food/berries/rosehip.webp"),
+        category: "Ягоды",
+        russian: "шиповник",
+        khadar: "мизуха",
+        english: "rosehip",
         additional_info: "",
         sound_src: "pumpkin.m4a",
       },

@@ -1,7 +1,7 @@
 export const vegetablesData = [
     {
       id: 1,
-      src: require("../../assets/vegetables/cabbage.png"),
+      src: require("../../assets/food/vegetables/cabbage.webp"),
       category: "Овощи",
       russian: "капуста",
       khadar: "гъапуста",
@@ -11,7 +11,7 @@ export const vegetablesData = [
     },
     {
       id: 2,
-      src: require("../../assets/vegetables/onion.png"),
+      src: require("../../assets/food/vegetables/onion.webp"),
       category: "Овощи",
       russian: "лук",
       khadar: "зерхьи",
@@ -21,7 +21,7 @@ export const vegetablesData = [
     },
     {
       id: 3,
-      src: require("../../assets/vegetables/carrot.png"),
+      src: require("../../assets/food/vegetables/carrot.webp"),
       category: "Овощи",
       russian: "морковь",
       khadar: "намадари",
@@ -31,7 +31,7 @@ export const vegetablesData = [
     },
     {
       id: 4,
-      src: require("../../assets/vegetables/cucumber.png"),
+      src: require("../../assets/food/vegetables/cucumber.webp"),
       category: "Овощи",
       russian: "огурец",
       khadar: "хIияр",
@@ -41,7 +41,7 @@ export const vegetablesData = [
     },
     {
       id: 5,
-      src: require("../../assets/vegetables/tomato.png"),
+      src: require("../../assets/food/vegetables/tomato.webp"),
       category: "Овощи",
       russian: "помидор",
       khadar: "памадур",
@@ -51,7 +51,7 @@ export const vegetablesData = [
     },
     {
       id: 6,
-      src: require("../../assets/vegetables/beet.png"),
+      src: require("../../assets/food/vegetables/beet.webp"),
       category: "Овощи",
       russian: "свекла",
       khadar: "кIахIа",
@@ -61,7 +61,7 @@ export const vegetablesData = [
     },
     {
       id: 7,
-      src: require("../../assets/vegetables/bean.png"),
+      src: require("../../assets/food/vegetables/bean.webp"),
       category: "Овощи",
       russian: "фасоль",
       khadar: "кIаръа",
@@ -71,7 +71,7 @@ export const vegetablesData = [
     },
     {
       id: 8,
-      src: require("../../assets/vegetables/garlic.png"),
+      src: require("../../assets/food/vegetables/garlic.webp"),
       category: "Овощи",
       russian: "чеснок",
       khadar: "итанзерхьи",

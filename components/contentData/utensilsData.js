@@ -1,6 +1,6 @@
 export const utensilsData = [{
     id: 1,
-    src: require("../../assets/utensils/saucer.png"),
+    src: require("../../assets/utensils/saucer.webp"),
     category: "Кухонная утварь",
     russian: "блюдце",
     khadar: "нарбики",
@@ -9,7 +9,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 2,
-    src: require("../../assets/utensils/fork.png"),
+    src: require("../../assets/utensils/fork.webp"),
     category: "Кухонная утварь",
     russian: "вилка",
     khadar: "бултане",
@@ -18,7 +18,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 3,
-    src: require("../../assets/utensils/soup_plate.png"),
+    src: require("../../assets/utensils/soup_plate.webp"),
     category: "Кухонная утварь",
     russian: "глубокая тарелка",
     khadar: "сукра",
@@ -27,7 +27,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 4,
-    src: require("../../assets/utensils/colander.png"),
+    src: require("../../assets/utensils/colander.webp"),
     category: "Кухонная утварь",
     russian: "дуршлаг",
     khadar: "чулпу",
@@ -36,7 +36,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 5,
-    src: require("../../assets/utensils/pot.png"),
+    src: require("../../assets/utensils/pot.webp"),
     category: "Кухонная утварь",
     russian: "кастрюля",
     khadar: "щенк",
@@ -45,7 +45,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 6,
-    src: require("../../assets/utensils/mug.png"),
+    src: require("../../assets/utensils/mug.webp"),
     category: "Кухонная утварь",
     russian: "кружка",
     khadar: "крушка",
@@ -54,7 +54,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 7,
-    src: require("../../assets/utensils/bowl.png"),
+    src: require("../../assets/utensils/bowl.webp"),
     category: "Кухонная утварь",
     russian: "миска",
     khadar: "гIям",
@@ -63,7 +63,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 8,
-    src: require("../../assets/utensils/knife.png"),
+    src: require("../../assets/utensils/knife.webp"),
     category: "Кухонная утварь",
     russian: "нож",
     khadar: "дис",
@@ -72,7 +72,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 9,
-    src: require("../../assets/utensils/tray.png"),
+    src: require("../../assets/utensils/tray.webp"),
     category: "Кухонная утварь",
     russian: "поднос",
     khadar: "кIабатI",
@@ -81,7 +81,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 10,
-    src: require("../../assets/utensils/ladle.png"),
+    src: require("../../assets/utensils/ladle.webp"),
     category: "Кухонная утварь",
     russian: "половник",
     khadar: "чумуч",
@@ -90,7 +90,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 11,
-    src: require("../../assets/utensils/glass.png"),
+    src: require("../../assets/utensils/glass.webp"),
     category: "Кухонная утварь",
     russian: "стакан",
     khadar: "истакан",
@@ -99,7 +99,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 12,
-    src: require("../../assets/utensils/plate.png"),
+    src: require("../../assets/utensils/plate.webp"),
     category: "Кухонная утварь",
     russian: "тарелка",
     khadar: "бушхап",
@@ -108,7 +108,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 13,
-    src: require("../../assets/utensils/grater.png"),
+    src: require("../../assets/utensils/grater.webp"),
     category: "Кухонная утварь",
     russian: "терка",
     khadar: "терка",
@@ -117,7 +117,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 14,
-    src: require("../../assets/utensils/apron.png"),
+    src: require("../../assets/utensils/apron.webp"),
     category: "Кухонная утварь",
     russian: "фартук",
     khadar: "пяртук",
@@ -126,7 +126,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 15,
-    src: require("../../assets/utensils/cup.png"),
+    src: require("../../assets/utensils/cup.webp"),
     category: "Кухонная утварь",
     russian: "чашка",
     khadar: "щашка",
@@ -135,7 +135,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 16,
-    src: require("../../assets/utensils/skimmer.png"),
+    src: require("../../assets/utensils/skimmer.webp"),
     category: "Кухонная утварь",
     russian: "шумовка",
     khadar: "квашин",
@@ -144,7 +144,7 @@ export const utensilsData = [{
     sound_src: "apple.m4a",
   }, {
     id: 17,
-    src: require("../../assets/utensils/kettle.png"),
+    src: require("../../assets/utensils/kettle.webp"),
     category: "Кухонная утварь",
     russian: "чайник",
     khadar: "чайник",

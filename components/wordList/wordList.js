@@ -48,7 +48,7 @@ export const WordList = ({ data, navigation }) => {
           </View>
         ) : (
           <CustomText
-            title={`Слов в категории: ${
+            title={`${searchWord ? `Совпадений по запросу "${searchWord.toLowerCase()}" :` : "Слов в категории :"} ${
               searchWord ? filteredBySearch.length : data.length
             }`}
             color={dynamicColor}

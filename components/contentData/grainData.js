@@ -1,17 +1,7 @@
 export const grainData = [
   {
-    id: 1,
-    src: require("../../assets/grain/pancake.png"),
-    category: "Злаки, зерновые, их производные",
-    russian: "блин",
-    khadar: "барщанаги",
-    english: "pancake",
-    additional_info: "",
-    sound_src: "apple.m4a",
-  },
-  {
     id: 2,
-    src: require("../../assets/grain/yeast_dough.png"),
+    src: require("../../assets/food/grain/yeast_dough.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "дрожжевое тесто",
     khadar: "хамир",
@@ -21,7 +11,7 @@ export const grainData = [
   },
   {
     id: 3,
-    src: require("../../assets/grain/groats.png"),
+    src: require("../../assets/food/grain/groats.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "крупа",
     khadar: "курпа",
@@ -31,7 +21,7 @@ export const grainData = [
   },
   {
     id: 4,
-    src: require("../../assets/grain/corn.png"),
+    src: require("../../assets/food/grain/corn.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "кукуруза",
     khadar: "хIежненке",
@@ -41,7 +31,7 @@ export const grainData = [
   },
   {
     id: 5,
-    src: require("../../assets/grain/corn_flour.png"),
+    src: require("../../assets/food/grain/corn_flour.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "кукурузная мука",
     khadar: "мучере",
@@ -51,7 +41,7 @@ export const grainData = [
   },
   {
     id: 6,
-    src: require("../../assets/grain/flour.png"),
+    src: require("../../assets/food/grain/flour.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "мука",
     khadar: "декъ",
@@ -61,7 +51,7 @@ export const grainData = [
   },
   {
     id: 7,
-    src: require("../../assets/grain/millet.png"),
+    src: require("../../assets/food/grain/millet.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "просо",
     khadar: "мучи",
@@ -71,7 +61,7 @@ export const grainData = [
   },
   {
     id: 8,
-    src: require("../../assets/grain/wheat.png"),
+    src: require("../../assets/food/grain/wheat.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "пшеница",
     khadar: "анкIи",
@@ -81,7 +71,7 @@ export const grainData = [
   },
   {
     id: 9,
-    src: require("../../assets/grain/rice.png"),
+    src: require("../../assets/food/grain/rice.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "рис",
     khadar: "дуги",
@@ -91,7 +81,7 @@ export const grainData = [
   },
   {
     id: 10,
-    src: require("../../assets/grain/layered_bread.png"),
+    src: require("../../assets/food/grain/layered_bread.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "слоеный хлеб",
     khadar: "гъатламаги",
@@ -101,7 +91,7 @@ export const grainData = [
   },
   {
     id: 11,
-    src: require("../../assets/grain/dough.png"),
+    src: require("../../assets/food/grain/dough.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "тесто",
     khadar: "бащанаги",
@@ -111,7 +101,7 @@ export const grainData = [
   },
   {
     id: 12,
-    src: require("../../assets/grain/bread.png"),
+    src: require("../../assets/food/grain/bread.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "хлеб",
     khadar: "азихъ",
@@ -121,7 +111,7 @@ export const grainData = [
   },
   {
     id: 13,
-    src: require("../../assets/grain/barley.png"),
+    src: require("../../assets/food/grain/barley.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "ячмень",
     khadar: "мухъа",
