@@ -1,7 +1,7 @@
 export const birdsData = [
     {
         id: 1,
-        src: require("../../assets/animals/birds/sparrow.png"),
+        src: require("../../assets/animals/birds/sparrow.webp"),
         category: "Птицы",
         russian: "воробей",
         khadar: "тIавтIав",
@@ -11,17 +11,17 @@ export const birdsData = [
       },
       {
         id: 1,
-        src: require("../../assets/animals/birds/crow.png"),
+        src: require("../../assets/animals/birds/crow.webp"),
         category: "Птицы",
         russian: "ворона",
         khadar: "гъана",
         english: "crow",
-        additional_info: "",
+        additional_info: "\"Гъана\" также имеет значение \"ложь\".",
         sound_src: "apple.m4a",
       },
       {
         id: 3,
-        src: require("../../assets/animals/birds/pigeon.png"),
+        src: require("../../assets/animals/birds/pigeon.webp"),
         category: "Птицы",
         russian: "голубь",
         khadar: "лахьиъ",
@@ -31,7 +31,7 @@ export const birdsData = [
       },
       {
         id: 4,
-        src: require("../../assets/animals/birds/goose.png"),
+        src: require("../../assets/animals/birds/goose.webp"),
         category: "Птицы",
         russian: "гусь",
         khadar: "къаз",
@@ -41,7 +41,7 @@ export const birdsData = [
       },
       {
         id: 5,
-        src: require("../../assets/animals/birds/woodpecker.png"),
+        src: require("../../assets/animals/birds/woodpecker.webp"),
         category: "Птицы",
         russian: "дятел",
         khadar: "къутIкъутIи",
@@ -51,7 +51,7 @@ export const birdsData = [
       },
       {
         id: 6,
-        src: require("../../assets/animals/birds/turkey.png"),
+        src: require("../../assets/animals/birds/turkey.webp"),
         category: "Птицы",
         russian: "индюк",
         khadar: "гургур",
@@ -61,7 +61,7 @@ export const birdsData = [
       },
       {
         id: 7,
-        src: require("../../assets/animals/birds/cuckoo.png"),
+        src: require("../../assets/animals/birds/cuckoo.webp"),
         category: "Птицы",
         russian: "кукушка",
         khadar: "утук",
@@ -71,7 +71,7 @@ export const birdsData = [
       },
       {
         id: 8,
-        src: require("../../assets/animals/birds/swallow.png"),
+        src: require("../../assets/animals/birds/swallow.webp"),
         category: "Птицы",
         russian: "ласточка",
         khadar: "гъагатIи",
@@ -81,7 +81,7 @@ export const birdsData = [
       },
       {
         id: 9,
-        src: require("../../assets/animals/birds/eagle.png"),
+        src: require("../../assets/animals/birds/eagle.webp"),
         category: "Птицы",
         russian: "орел",
         khadar: "гъуш",
@@ -91,7 +91,7 @@ export const birdsData = [
       },
       {
         id: 10,
-        src: require("../../assets/animals/birds/peacock.png"),
+        src: require("../../assets/animals/birds/peacock.webp"),
         category: "Птицы",
         russian: "павлин",
         khadar: "тIавус",
@@ -101,17 +101,17 @@ export const birdsData = [
       },
       {
         id: 11,
-        src: require("../../assets/animals/birds/rooster.png"),
+        src: require("../../assets/animals/birds/rooster.webp"),
         category: "Птицы",
         russian: "петух",
-        khadar: "датхъа",
+        khadar: "дагъай",
         english: "rooster",
         additional_info: "",
         sound_src: "apple.m4a",
       },
       {
         id: 12,
-        src: require("../../assets/animals/birds/bird.png"),
+        src: require("../../assets/animals/birds/bird.webp"),
         category: "Молочные продукты",
         russian: "птица",
         khadar: "чикIа",
@@ -121,7 +121,7 @@ export const birdsData = [
       },
       {
         id: 13,
-        src: require("../../assets/animals/birds/nightingale.png"),
+        src: require("../../assets/animals/birds/nightingale.webp"),
         category: "Птицы",
         russian: "соловей",
         khadar: "булбул",
@@ -131,7 +131,7 @@ export const birdsData = [
       },
       {
         id: 14,
-        src: require("../../assets/animals/birds/magpie.png"),
+        src: require("../../assets/animals/birds/magpie.webp"),
         category: "Птицы",
         russian: "сорока",
         khadar: "кIамкIамаги",
@@ -141,7 +141,7 @@ export const birdsData = [
       },
       {
         id: 15,
-        src: require("../../assets/animals/birds/owl.png"),
+        src: require("../../assets/animals/birds/owl.webp"),
         category: "Птицы",
         russian: "сова",
         khadar: "тIуми",

@@ -1,6 +1,6 @@
 export const treesData = [{
     id: 1,
-    src: require("../../assets/nature/trees/birch.png"),
+    src: require("../../assets/nature/trees/birch.webp"),
     category: "Деревья",
     russian: "береза",
     khadar: "гIянъа",
@@ -9,7 +9,7 @@ export const treesData = [{
     sound_src: "apple.m4a",
   },   {
     id: 2,
-    src: require("../../assets/nature/trees/oak.png"),
+    src: require("../../assets/nature/trees/oak.webp"),
     category: "Деревья",
     russian: "дуб",
     khadar: "мич",
@@ -18,7 +18,7 @@ export const treesData = [{
     sound_src: "apple.m4a",
   },   {
     id: 3,
-    src: require("../../assets/nature/trees/pine.png"),
+    src: require("../../assets/nature/trees/pine.webp"),
     category: "Деревья",
     russian: "сосна",
     khadar: "яда",
@@ -27,7 +27,7 @@ export const treesData = [{
     sound_src: "apple.m4a",
   },   {
     id: 4,
-    src: require("../../assets/nature/trees/willow.png"),
+    src: require("../../assets/nature/trees/willow.webp"),
     category: "Деревья",
     russian: "ива",
     khadar: "жар",
@@ -36,7 +36,7 @@ export const treesData = [{
     sound_src: "apple.m4a",
   },   {
     id: 5,
-    src: require("../../assets/nature/trees/linden.png"),
+    src: require("../../assets/nature/trees/linden.webp"),
     category: "Деревья",
     russian: "липа",
     khadar: "щима",
@@ -45,7 +45,7 @@ export const treesData = [{
     sound_src: "apple.m4a",
   },   {
     id: 6,
-    src: require("../../assets/nature/trees/poplar.png"),
+    src: require("../../assets/nature/trees/poplar.webp"),
     category: "Деревья",
     russian: "тополь",
     khadar: "ахътерек",
@@ -54,11 +54,20 @@ export const treesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 7,
-    src: require("../../assets/nature/trees/tree.png"),
+    src: require("../../assets/nature/trees/tree.webp"),
     category: "Деревья",
     russian: "дерево",
     khadar: "гъотI",
     english: "tree",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  }, {
+    id: 8,
+    src: require("../../assets/nature/trees/aspen.webp"),
+    category: "Деревья",
+    russian: "осина",
+    khadar: "пялпялаг",
+    english: "aspen",
     additional_info: "",
     sound_src: "apple.m4a",
   }]

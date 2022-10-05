@@ -1,7 +1,7 @@
 export const crawlingData = [
     {
         id: 1,
-        src: require("../../assets/animals/crawling/worm.png"),
+        src: require("../../assets/animals/crawling/worm.webp"),
         category: "Ползучие",
         russian: "червь; глист",
         khadar: "мелякъ / шулерк",
@@ -11,7 +11,7 @@ export const crawlingData = [
       },
       {
         id: 2,
-        src: require("../../assets/animals/crawling/snake.png"),
+        src: require("../../assets/animals/crawling/snake.webp"),
         category: "Ползучие",
         russian: "змея",
         khadar: "мусанабашан",
@@ -21,7 +21,7 @@ export const crawlingData = [
       },
       {
         id: 3,
-        src: require("../../assets/animals/crawling/spider.png"),
+        src: require("../../assets/animals/crawling/spider.webp"),
         category: "Ползучие",
         russian: "паук",
         khadar: "пайлигьан",
@@ -31,7 +31,7 @@ export const crawlingData = [
       },
       {
         id: 4,
-        src: require("../../assets/animals/crawling/scorpion.png"),
+        src: require("../../assets/animals/crawling/scorpion.webp"),
         category: "Ползучие",
         russian: "скорпион",
         khadar: "кьякьярав",
@@ -39,15 +39,4 @@ export const crawlingData = [
         additional_info: "",
         sound_src: "apple.m4a",
       },
-      {
-        id: 5,
-        src: require("../../assets/animals/crawling/rat.png"),
-        category: "Ползучие",
-        russian: "крыса",
-        khadar: "къургугваца",
-        english: "rat",
-        additional_info: "",
-        sound_src: "apple.m4a",
-      },
-      
 ]

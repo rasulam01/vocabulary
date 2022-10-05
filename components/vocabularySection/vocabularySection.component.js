@@ -39,7 +39,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-
     paddingBottom: Platform.OS === "android" ? 20 : 10,
   },
   sectionPiece: {

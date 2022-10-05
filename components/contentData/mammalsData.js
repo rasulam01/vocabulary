@@ -269,4 +269,14 @@ export const mammalsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       },
+      {
+        id: 28,
+        src: require("../../assets/animals/mammals/rat.webp"),
+        category: "Ползучие",
+        russian: "крыса",
+        khadar: "къургугваца",
+        english: "rat",
+        additional_info: "",
+        sound_src: "apple.m4a",
+      },
 ]

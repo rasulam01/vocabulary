@@ -10,7 +10,7 @@ export const clothesData = [{
   }, {
     id: 2,
     src: require("../../assets/clothes/astrakhan_papakha.png"),
-    category: "Наука",
+    category: "Одежда",
     russian: "каракулевая папаха",
     khadar: "бугъалакъапа",
     english: "astrakhan papakha",
@@ -19,7 +19,7 @@ export const clothesData = [{
   }, {
     id: 3,
     src: require("../../assets/clothes/pocket.png"),
-    category: "Наука",
+    category: "Одежда",
     russian: "карман",
     khadar: "киса",
     english: "pocket",
@@ -28,7 +28,7 @@ export const clothesData = [{
   }, {
     id: 4,
     src: require("../../assets/clothes/socks.png"),
-    category: "Наука",
+    category: "Одежда",
     russian: "носки",
     khadar: "чурпуне",
     english: "socks",
@@ -37,7 +37,7 @@ export const clothesData = [{
   }, {
     id: 5,
     src: require("../../assets/clothes/shoes.png"),
-    category: "Наука",
+    category: "Одежда",
     russian: "обувь",
     khadar: "кьяшкиле",
     english: "shoes",
@@ -46,7 +46,7 @@ export const clothesData = [{
   }, {
     id: 6,
     src: require("../../assets/clothes/gloves.png"),
-    category: "Наука",
+    category: "Одежда",
     russian: "перчатки",
     khadar: "гъулгъапуне",
     english: "gloves",
@@ -55,7 +55,7 @@ export const clothesData = [{
   }, {
     id: 7,
     src: require("../../assets/clothes/headscarf.png"),
-    category: "Наука",
+    category: "Одежда",
     russian: "платок",
     khadar: "явлукъ",
     english: "headscarf",
@@ -64,7 +64,7 @@ export const clothesData = [{
   }, {
     id: 8,
     src: require("../../assets/clothes/belt.png"),
-    category: "Наука",
+    category: "Одежда",
     russian: "ремень",
     khadar: "иръи",
     english: "belt",
@@ -73,7 +73,7 @@ export const clothesData = [{
   }, {
     id: 9,
     src: require("../../assets/clothes/shirt.png"),
-    category: "Наука",
+    category: "Одежда",
     russian: "рубашка",
     khadar: "хIава",
     english: "shirt",
@@ -82,7 +82,7 @@ export const clothesData = [{
   }, {
     id: 10,
     src: require("../../assets/clothes/hat.png"),
-    category: "Наука",
+    category: "Одежда",
     russian: "шапка",
     khadar: "къапа",
     english: "hat",
@@ -91,7 +91,7 @@ export const clothesData = [{
   }, {
     id: 11,
     src: require("../../assets/clothes/pants.png"),
-    category: "Наука",
+    category: "Одежда",
     russian: "штаны",
     khadar: "щалбар",
     english: "pants",

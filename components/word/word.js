@@ -16,8 +16,7 @@ export const Word = ({ id, index, src, russian, khadar, english, onPress }) => {
         </View>
         {/* <View style={{ flex: 1.5 }}>
           <Image source={src} style={[iconSize, {resizeMode: "contain"}]}  />
-        </View> */}
-        
+        </View> */}        
         <View style={{ flex: 3, alignItems: alignment ? "center" : "flex-start" }}>
           <CustomText fontWeight="700" title={khadar} color={dynamicColor} width="90%" textAlign={alignment ? "center" : "left"}   />
         </View>

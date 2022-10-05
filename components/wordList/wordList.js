@@ -8,6 +8,7 @@ import { COLORS } from "../../colors";
 export const WordList = ({ data, navigation }) => {
   const { dynamicColor } = React.useContext(Context);
   const [searchWord, setSearchWord] = useState("");
+  
 
   const filteredBySearch = data.filter(
     (item) =>
@@ -63,7 +64,7 @@ export const WordList = ({ data, navigation }) => {
           keyExtractor={(item) => item.src}
           renderItem={({ item, index }) => (
             <Word
-              id={item.id}
+              // id={item.id}
               index={index + 1}
               src={item.src}
               russian={item.russian}
@@ -75,7 +76,7 @@ export const WordList = ({ data, navigation }) => {
               length={data.length}
               onPress={() =>
                 navigation.navigate("Selected Word", {
-                  id: item.id,
+                  // id: item.id,
                   index: index + 1,
                   src: item.src,
                   category: item.category,
@@ -99,7 +100,7 @@ export const WordList = ({ data, navigation }) => {
           initialNumToRender={10}
           renderItem={({ item, index }) => (
             <Word
-              id={item.id}
+              // id={item.id}
               index={index + 1}
               src={item.src}
               russian={item.russian}
@@ -111,7 +112,7 @@ export const WordList = ({ data, navigation }) => {
               length={data.length}
               onPress={() =>
                 navigation.navigate("Selected Word", {
-                  id: item.id,
+                  // id: item.id,
                   index: index + 1,
                   src: item.src,
                   category: item.category,

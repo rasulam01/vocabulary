@@ -7,6 +7,6 @@ export const partsList = [
   {
     src: require("../../assets/sections/dictionary.png"),
     title: "Словарь",
-    navigateTo: "Speech Parts",
+    navigateTo: "Части речи",
   },
 ];

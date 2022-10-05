@@ -9,7 +9,7 @@ import { COLORS } from "../../colors";
 export const WordSelected = ({ route }) => {
   const { dynamicColor } = React.useContext(Context);
   const {
-    id,
+    // id,
     index,
     src,
     category,
@@ -56,7 +56,7 @@ export const WordSelected = ({ route }) => {
           onPress={() => {
             play()
           }}
-          hitSlop={25}
+          hitSlop={25}          
         >
           <Image
             source={MIC_PATH}

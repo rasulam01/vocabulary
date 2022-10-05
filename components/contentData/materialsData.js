@@ -1,7 +1,7 @@
 export const materialsData = [
     {
       id: 1,
-      src: require("../../assets/materials/aluminium.png"),
+      src: require("../../assets/materials/aluminium.webp"),
       category: "Материалы",
       russian: "алюминий",
       khadar: "тутия",
@@ -11,7 +11,7 @@ export const materialsData = [
     },
     {
         id: 2,
-        src: require("../../assets/materials/gold.png"),
+        src: require("../../assets/materials/gold.webp"),
         category: "Материалы",
         russian: "золото",
         khadar: "мургье",
@@ -21,7 +21,7 @@ export const materialsData = [
       },
       {
         id: 3,
-        src: require("../../assets/materials/silver.png"),
+        src: require("../../assets/materials/silver.webp"),
         category: "Материалы",
         russian: "серебро",
         khadar: "мигь",
@@ -31,7 +31,7 @@ export const materialsData = [
       },
       {
         id: 4,
-        src: require("../../assets/materials/ivory.png"),
+        src: require("../../assets/materials/ivory.webp"),
         category: "Материалы",
         russian: "слоновая кость",
         khadar: "магьи",
@@ -41,7 +41,7 @@ export const materialsData = [
       },
       {
         id: 5,
-        src: require("../../assets/materials/steel.png"),
+        src: require("../../assets/materials/steel.webp"),
         category: "Материалы",
         russian: "сталь",
         khadar: "шандан",
@@ -51,7 +51,7 @@ export const materialsData = [
       },
       {
         id: 6,
-        src: require("../../assets/materials/glass.png"),
+        src: require("../../assets/materials/glass.webp"),
         category: "Материалы",
         russian: "стекло",
         khadar: "шиша",
@@ -61,7 +61,7 @@ export const materialsData = [
       },
       {
         id: 7,
-        src: require("../../assets/materials/china.png"),
+        src: require("../../assets/materials/china.webp"),
         category: "Материалы",
         russian: "фарфор",
         khadar: "чини",
@@ -71,12 +71,22 @@ export const materialsData = [
       },
       {
         id: 8,
-        src: require("../../assets/materials/amber.png"),
+        src: require("../../assets/materials/amber.webp"),
         category: "Материалы",
         russian: "янтарь",
         khadar: "юсру",
         english: "amber",
         additional_info: "",
+        sound_src: "apple.m4a",
+      },
+      {
+        id: 9,
+        src: require("../../assets/materials/paper.webp"),
+        category: "Материалы",
+        russian: "бумага",
+        khadar: "къагъат",
+        english: "paper",
+        additional_info: "\"Къагъат\" также имеет значение \"письмо\".",
         sound_src: "apple.m4a",
       },
 ]
