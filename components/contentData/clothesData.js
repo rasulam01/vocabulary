@@ -1,6 +1,6 @@
 export const clothesData = [{
     id: 1,
-    src: require("../../assets/clothes/galoshes.png"),
+    src: require("../../assets/clothes/galoshes.webp"),
     category: "Одежда",
     russian: "галоши",
     khadar: "калшуне",
@@ -9,7 +9,7 @@ export const clothesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 2,
-    src: require("../../assets/clothes/astrakhan_papakha.png"),
+    src: require("../../assets/clothes/astrakhan_papakha.webp"),
     category: "Одежда",
     russian: "каракулевая папаха",
     khadar: "бугъалакъапа",
@@ -18,7 +18,7 @@ export const clothesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 3,
-    src: require("../../assets/clothes/pocket.png"),
+    src: require("../../assets/clothes/pocket.webp"),
     category: "Одежда",
     russian: "карман",
     khadar: "киса",
@@ -27,7 +27,7 @@ export const clothesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 4,
-    src: require("../../assets/clothes/socks.png"),
+    src: require("../../assets/clothes/socks.webp"),
     category: "Одежда",
     russian: "носки",
     khadar: "чурпуне",
@@ -36,7 +36,7 @@ export const clothesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 5,
-    src: require("../../assets/clothes/shoes.png"),
+    src: require("../../assets/clothes/shoes.webp"),
     category: "Одежда",
     russian: "обувь",
     khadar: "кьяшкиле",
@@ -45,7 +45,7 @@ export const clothesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 6,
-    src: require("../../assets/clothes/gloves.png"),
+    src: require("../../assets/clothes/gloves.webp"),
     category: "Одежда",
     russian: "перчатки",
     khadar: "гъулгъапуне",
@@ -54,7 +54,7 @@ export const clothesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 7,
-    src: require("../../assets/clothes/headscarf.png"),
+    src: require("../../assets/clothes/headscarf.webp"),
     category: "Одежда",
     russian: "платок",
     khadar: "явлукъ",
@@ -63,7 +63,7 @@ export const clothesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 8,
-    src: require("../../assets/clothes/belt.png"),
+    src: require("../../assets/clothes/belt.webp"),
     category: "Одежда",
     russian: "ремень",
     khadar: "иръи",
@@ -72,7 +72,7 @@ export const clothesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 9,
-    src: require("../../assets/clothes/shirt.png"),
+    src: require("../../assets/clothes/shirt.webp"),
     category: "Одежда",
     russian: "рубашка",
     khadar: "хIава",
@@ -81,7 +81,7 @@ export const clothesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 10,
-    src: require("../../assets/clothes/hat.png"),
+    src: require("../../assets/clothes/hat.webp"),
     category: "Одежда",
     russian: "шапка",
     khadar: "къапа",
@@ -90,7 +90,7 @@ export const clothesData = [{
     sound_src: "apple.m4a",
   }, {
     id: 11,
-    src: require("../../assets/clothes/pants.png"),
+    src: require("../../assets/clothes/pants.webp"),
     category: "Одежда",
     russian: "штаны",
     khadar: "щалбар",

@@ -1,6 +1,6 @@
 export const scienceData = [{
     id: 1,
-    src: require("../../assets/science/astronomy.png"),
+    src: require("../../assets/science/astronomy.webp"),
     category: "Наука",
     russian: "астрономия",
     khadar: "астранумия",
@@ -8,17 +8,8 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 2,
-    src: require("../../assets/science/fable.png"),
-    category: "Наука",
-    russian: "басня",
-    khadar: "бясня",
-    english: "fable",
-    additional_info: "",
-    sound_src: "apple.m4a",
-  }, {
     id: 3,
-    src: require("../../assets/science/biology.png"),
+    src: require("../../assets/science/biology.webp"),
     category: "Наука",
     russian: "биология",
     khadar: "биалугия",
@@ -27,7 +18,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 4,
-    src: require("../../assets/science/botanics.png"),
+    src: require("../../assets/science/botanics.webp"),
     category: "Наука",
     russian: "ботаника",
     khadar: "бятяника",
@@ -36,7 +27,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 5,
-    src: require("../../assets/science/virus.png"),
+    src: require("../../assets/science/virus.webp"),
     category: "Наука",
     russian: "вирус",
     khadar: "вирус",
@@ -45,7 +36,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 6,
-    src: require("../../assets/science/geography.png"),
+    src: require("../../assets/science/geography.webp"),
     category: "Наука",
     russian: "география",
     khadar: "геограпия",
@@ -54,7 +45,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 7,
-    src: require("../../assets/science/thermometer.png"),
+    src: require("../../assets/science/degree.webp"),
     category: "Наука",
     russian: "градус",
     khadar: "гарадус",
@@ -63,7 +54,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 8,
-    src: require("../../assets/science/diameter.png"),
+    src: require("../../assets/science/diameter.webp"),
     category: "Наука",
     russian: "диаметр",
     khadar: "диаметир",
@@ -72,7 +63,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 9,
-    src: require("../../assets/science/history.png"),
+    src: require("../../assets/science/history.webp"),
     category: "Наука",
     russian: "история",
     khadar: "истурия",
@@ -81,7 +72,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 10,
-    src: require("../../assets/science/map.png"),
+    src: require("../../assets/science/map.webp"),
     category: "Наука",
     russian: "карта",
     khadar: "карта",
@@ -90,7 +81,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 11,
-    src: require("../../assets/science/mathematics.png"),
+    src: require("../../assets/science/mathematics.webp"),
     category: "Наука",
     russian: "математика",
     khadar: "матиматика",
@@ -99,7 +90,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 12,
-    src: require("../../assets/science/microbe.png"),
+    src: require("../../assets/science/microbe.webp"),
     category: "Наука",
     russian: "микроб",
     khadar: "микруб",
@@ -108,7 +99,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 13,
-    src: require("../../assets/science/parasite.png"),
+    src: require("../../assets/science/parasite.webp"),
     category: "Наука",
     russian: "паразит",
     khadar: "пярязит",
@@ -117,7 +108,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 14,
-    src: require("../../assets/science/radius.png"),
+    src: require("../../assets/science/radius.webp"),
     category: "Наука",
     russian: "радиус",
     khadar: "радиус",
@@ -126,7 +117,7 @@ export const scienceData = [{
     sound_src: "apple.m4a",
   }, {
     id: 15,
-    src: require("../../assets/science/physics.png"),
+    src: require("../../assets/science/physics.webp"),
     category: "Наука",
     russian: "физика",
     khadar: "пизика",

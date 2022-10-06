@@ -1,7 +1,7 @@
 export const furnitureData = [
   {
     id: 1,
-    src: require("../../assets/furniture/door.png"),
+    src: require("../../assets/furniture/door.webp"),
     category: "Материалы",
     russian: "дверь",
     khadar: "унза",
@@ -11,7 +11,7 @@ export const furnitureData = [
   },
   {
     id: 2,
-    src: require("../../assets/furniture/curtain.png"),
+    src: require("../../assets/furniture/curtain.webp"),
     category: "Материалы",
     russian: "занавес",
     khadar: "пирда",
@@ -21,7 +21,7 @@ export const furnitureData = [
   },
   {
     id: 3,
-    src: require("../../assets/furniture/bed.png"),
+    src: require("../../assets/furniture/bed.webp"),
     category: "Материалы",
     russian: "кровать",
     khadar: "карват",
@@ -31,7 +31,7 @@ export const furnitureData = [
   },
   {
     id: 4,
-    src: require("../../assets/furniture/stairs.png"),
+    src: require("../../assets/furniture/stairs.webp"),
     category: "Материалы",
     russian: "лестница",
     khadar: "ганзи",
@@ -41,7 +41,7 @@ export const furnitureData = [
   },
   {
     id: 5,
-    src: require("../../assets/furniture/mattress.png"),
+    src: require("../../assets/furniture/mattress.webp"),
     category: "Материалы",
     russian: "матрас",
     khadar: "буруш",
@@ -51,7 +51,7 @@ export const furnitureData = [
   },
   {
     id: 6,
-    src: require("../../assets/furniture/closet.png"),
+    src: require("../../assets/furniture/closet.webp"),
     category: "Материалы",
     russian: "шкаф",
     khadar: "шипанер",
@@ -62,7 +62,7 @@ export const furnitureData = [
   },
   {
     id: 7,
-    src: require("../../assets/furniture/shelf.png"),
+    src: require("../../assets/furniture/shelf.webp"),
     category: "Материалы",
     russian: "полка",
     khadar: "тахча",
@@ -72,7 +72,7 @@ export const furnitureData = [
   },
   {
     id: 8,
-    src: require("../../assets/furniture/table.png"),
+    src: require("../../assets/furniture/table.webp"),
     category: "Материалы",
     russian: "стол",
     khadar: "истIул",
@@ -82,7 +82,7 @@ export const furnitureData = [
   },
   {
     id: 9,
-    src: require("../../assets/furniture/roof.png"),
+    src: require("../../assets/furniture/roof.webp"),
     category: "Материалы",
     russian: "крыша",
     khadar: "хъялхъи",
@@ -92,7 +92,7 @@ export const furnitureData = [
   },
   {
     id: 10,
-    src: require("../../assets/furniture/lamp.png"),
+    src: require("../../assets/furniture/lamp.webp"),
     category: "Материалы",
     russian: "лампа",
     khadar: "лампушкIа",
@@ -102,11 +102,31 @@ export const furnitureData = [
   },
   {
     id: 11,
-    src: require("../../assets/furniture/carpet.png"),
+    src: require("../../assets/furniture/floor.webp"),
     category: "Материалы",
-    russian: "ковер",
-    khadar: "хали",
-    english: "carpet",
+    russian: "пол",
+    khadar: "чабар",
+    english: "floor",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  },
+  {
+    id: 12,
+    src: require("../../assets/furniture/ceiling.webp"),
+    category: "Материалы",
+    russian: "потолок",
+    khadar: "бурх",
+    english: "ceiling",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  },
+  {
+    id: 13,
+    src: require("../../assets/furniture/wall.webp"),
+    category: "Материалы",
+    russian: "стена",
+    khadar: "тIам",
+    english: "wall",
     additional_info: "",
     sound_src: "apple.m4a",
   },

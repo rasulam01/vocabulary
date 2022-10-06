@@ -1,6 +1,6 @@
 export const timeData = [{
     id: 1,
-    src: require("../../assets/time/spring.png"),
+    src: require("../../assets/time/spring.webp"),
     category: "Время",
     russian: "весна",
     khadar: "хIюяб",
@@ -9,7 +9,7 @@ export const timeData = [{
     sound_src: "apple.m4a",
   }, {
     id: 2,
-    src: require("../../assets/time/summer.png"),
+    src: require("../../assets/time/summer.webp"),
     category: "Время",
     russian: "лето",
     khadar: "дуцмур",
@@ -18,7 +18,7 @@ export const timeData = [{
     sound_src: "apple.m4a",
   }, {
     id: 3,
-    src: require("../../assets/time/autumn.png"),
+    src: require("../../assets/time/autumn.webp"),
     category: "Время",
     russian: "осень",
     khadar: "бехьни",
@@ -27,7 +27,7 @@ export const timeData = [{
     sound_src: "apple.m4a",
   }, {
     id: 4,
-    src: require("../../assets/time/winter.png"),
+    src: require("../../assets/time/winter.webp"),
     category: "Время",
     russian: "зима",
     khadar: "эни",
@@ -36,7 +36,7 @@ export const timeData = [{
     sound_src: "apple.m4a",
   }, {
     id: 5,
-    src: require("../../assets/time/morning.png"),
+    src: require("../../assets/time/morning.webp"),
     category: "Время",
     russian: "утро",
     khadar: "салау",
@@ -44,17 +44,8 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 6,
-    src: require("../../assets/time/daytime.png"),
-    category: "Время",
-    russian: "день",
-    khadar: "бари",
-    english: "daytime",
-    additional_info: "",
-    sound_src: "apple.m4a",
-  }, {
     id: 7,
-    src: require("../../assets/time/evening.png"),
+    src: require("../../assets/time/evening.webp"),
     category: "Время",
     russian: "вечер",
     khadar: "берхакъ",
@@ -63,7 +54,7 @@ export const timeData = [{
     sound_src: "apple.m4a",
   }, {
     id: 8,
-    src: require("../../assets/time/night.png"),
+    src: require("../../assets/time/night.webp"),
     category: "Время",
     russian: "ночь",
     khadar: "дуге",
@@ -72,7 +63,7 @@ export const timeData = [{
     sound_src: "apple.m4a",
   }, {
     id: 9,
-    src: require("../../assets/time/second.png"),
+    src: require("../../assets/time/second.webp"),
     category: "Время",
     russian: "секунда",
     khadar: "секунд",
@@ -81,7 +72,7 @@ export const timeData = [{
     sound_src: "apple.m4a",
   }, {
     id: 10,
-    src: require("../../assets/time/minute.png"),
+    src: require("../../assets/time/minute.webp"),
     category: "Время",
     russian: "минута",
     khadar: "минут",
@@ -90,7 +81,7 @@ export const timeData = [{
     sound_src: "apple.m4a",
   }, {
     id: 11,
-    src: require("../../assets/time/hour.png"),
+    src: require("../../assets/time/hour.webp"),
     category: "Время",
     russian: "час",
     khadar: "саат",
@@ -99,16 +90,26 @@ export const timeData = [{
     sound_src: "apple.m4a",
   }, {
     id: 12,
-    src: require("../../assets/time/day.png"),
+    src: require("../../assets/time/day.webp"),
     category: "Время",
     russian: "день",
     khadar: "бари",
     english: "day",
     additional_info: "",
     sound_src: "apple.m4a",
+  },
+  {
+    id: 13,
+    src: require("../../assets/time/daytime.webp"),
+    category: "Время",
+    russian: "дневное время",
+    khadar: "бари",
+    english: "daytime",
+    additional_info: "",
+    sound_src: "apple.m4a",
   }, {
     id: 13,
-    src: require("../../assets/time/week.png"),
+    src: require("../../assets/time/week.webp"),
     category: "Время",
     russian: "неделя",
     khadar: "жумагIя",
@@ -117,7 +118,7 @@ export const timeData = [{
     sound_src: "apple.m4a",
   }, {
     id: 14,
-    src: require("../../assets/time/month.png"),
+    src: require("../../assets/time/month.webp"),
     category: "Время",
     russian: "месяц",
     khadar: "бас",
@@ -126,7 +127,7 @@ export const timeData = [{
     sound_src: "apple.m4a",
   }, {
     id: 15,
-    src: require("../../assets/time/year.png"),
+    src: require("../../assets/time/year.webp"),
     category: "Время",
     russian: "год",
     khadar: "дус",

@@ -19,11 +19,11 @@ export const sectionsList = [
     title: "Части тела",
     navigateTo: "Части тела",
   },
-  {
-    src: require("../../assets/sections/career.png"),
-    title: "Профессии",
-    navigateTo: "Еда",
-  },
+  // {
+  //   src: require("../../assets/sections/career.png"),
+  //   title: "Профессии",
+  //   navigateTo: "Еда",
+  // },
   {
     src: require("../../assets/sections/time.png"),
     title: "Время",

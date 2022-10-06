@@ -1,7 +1,7 @@
 export const weaponsData = [
     {
       id: 1,
-      src: require("../../assets/weapons/pistol.png"),
+      src: require("../../assets/weapons/pistol.webp"),
       category: "Оружия",
       russian: "пистолет",
       khadar: "тапанга",
@@ -11,7 +11,7 @@ export const weaponsData = [
     },
     {
         id: 2,
-        src: require("../../assets/weapons/gunpowder.png"),
+        src: require("../../assets/weapons/gunpowder.webp"),
         category: "Оружия",
         russian: "порох",
         khadar: "янсав",
@@ -21,7 +21,7 @@ export const weaponsData = [
       },
       {
         id: 3,
-        src: require("../../assets/weapons/bullet.png"),
+        src: require("../../assets/weapons/bullet.webp"),
         category: "Оружия",
         russian: "пуля",
         khadar: "хIархIа",
@@ -31,7 +31,7 @@ export const weaponsData = [
       },
       {
         id: 4,
-        src: require("../../assets/weapons/cannon.png"),
+        src: require("../../assets/weapons/cannon.webp"),
         category: "Оружия",
         russian: "пушка",
         khadar: "туп",
@@ -41,7 +41,7 @@ export const weaponsData = [
       },
       {
         id: 5,
-        src: require("../../assets/weapons/rifle.png"),
+        src: require("../../assets/weapons/rifle.webp"),
         category: "Оружия",
         russian: "ружье",
         khadar: "тупанг",
@@ -51,7 +51,7 @@ export const weaponsData = [
       },
       {
         id: 6,
-        src: require("../../assets/weapons/sabre.png"),
+        src: require("../../assets/weapons/sabre.webp"),
         category: "Оружия",
         russian: "сабля",
         khadar: "мушкIа",
@@ -60,7 +60,7 @@ export const weaponsData = [
         sound_src: "apple.m4a",
       }, {
         id: 7,
-        src: require("../../assets/weapons/arrow.png"),
+        src: require("../../assets/weapons/arrow.webp"),
         category: "Оружия",
         russian: "стрела",
         khadar: "урчи",

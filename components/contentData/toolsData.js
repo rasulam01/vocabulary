@@ -1,6 +1,6 @@
 export const toolsData = [{
   id: 1,
-  src: require("../../assets/tools/rake.png"),
+  src: require("../../assets/tools/rake.webp"),
   category: "Инструменты",
   russian: "грабли",
   khadar: "гъарда",
@@ -9,7 +9,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 2,
-  src: require("../../assets/tools/plank.png"),
+  src: require("../../assets/tools/plank.webp"),
   category: "Инструменты",
   russian: "доска",
   khadar: "уркъули",
@@ -18,7 +18,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 3,
-  src: require("../../assets/tools/firewood.png"),
+  src: require("../../assets/tools/firewood.webp"),
   category: "Инструменты",
   russian: "дрова",
   khadar: "урцули",
@@ -27,7 +27,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 4,
-  src: require("../../assets/tools/needle.png"),
+  src: require("../../assets/tools/needle.webp"),
   category: "Инструменты",
   russian: "иголка",
   khadar: "буреба",
@@ -36,7 +36,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 5,
-  src: require("../../assets/tools/scythe.png"),
+  src: require("../../assets/tools/scythe.webp"),
   category: "Инструменты",
   russian: "коса",
   khadar: "чури",
@@ -45,7 +45,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 6,
-  src: require("../../assets/tools/shovel.png"),
+  src: require("../../assets/tools/shovel.webp"),
   category: "Инструменты",
   russian: "лопата",
   khadar: "бел",
@@ -54,7 +54,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 7,
-  src: require("../../assets/tools/hammer.png"),
+  src: require("../../assets/tools/hammer.webp"),
   category: "Инструменты",
   russian: "молоток",
   khadar: "кьякь",
@@ -63,7 +63,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 8,
-  src: require("../../assets/tools/nail_file.png"),
+  src: require("../../assets/tools/nail_file.webp"),
   category: "Инструменты",
   russian: "напильник",
   khadar: "эгал",
@@ -72,7 +72,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 9,
-  src: require("../../assets/tools/thread.png"),
+  src: require("../../assets/tools/thread.webp"),
   category: "Инструменты",
   russian: "нитка",
   khadar: "кIи",
@@ -81,7 +81,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 10,
-  src: require("../../assets/tools/scissors.png"),
+  src: require("../../assets/tools/scissors.webp"),
   category: "Инструменты",
   russian: "ножницы",
   khadar: "кIуцмах",
@@ -90,7 +90,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 11,
-  src: require("../../assets/tools/saw.png"),
+  src: require("../../assets/tools/saw.webp"),
   category: "Инструменты",
   russian: "пила",
   khadar: "рас",
@@ -99,7 +99,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 12,
-  src: require("../../assets/tools/pliers.png"),
+  src: require("../../assets/tools/pliers.webp"),
   category: "Инструменты",
   russian: "плоскогубцы",
   khadar: "келпатI",
@@ -108,7 +108,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 13,
-  src: require("../../assets/tools/spring.png"),
+  src: require("../../assets/tools/spring.webp"),
   category: "Инструменты",
   russian: "пружина",
   khadar: "пуржина",
@@ -117,7 +117,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 14,
-  src: require("../../assets/tools/button.png"),
+  src: require("../../assets/tools/button.webp"),
   category: "Инструменты",
   russian: "пуговица",
   khadar: "кIигIя",
@@ -126,7 +126,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 15,
-  src: require("../../assets/tools/sickle.png"),
+  src: require("../../assets/tools/sickle.webp"),
   category: "Инструменты",
   russian: "серп",
   khadar: "мирща",
@@ -135,7 +135,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 16,
-  src: require("../../assets/tools/axe.png"),
+  src: require("../../assets/tools/axe.webp"),
   category: "Инструменты",
   russian: "топор",
   khadar: "барда",
@@ -144,7 +144,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 17,
-  src: require("../../assets/tools/awl.png"),
+  src: require("../../assets/tools/awl.webp"),
   category: "Инструменты",
   russian: "шило",
   khadar: "дурда",
@@ -153,7 +153,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 18,
-  src: require("../../assets/tools/tongs.png"),
+  src: require("../../assets/tools/tongs.webp"),
   category: "Инструменты",
   russian: "щипцы",
   khadar: "маща",
@@ -162,7 +162,7 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 19,
-  src: require("../../assets/tools/hoe.png"),
+  src: require("../../assets/tools/hoe.webp"),
   category: "Инструменты",
   russian: "тяпка",
   khadar: "гъудгъуд",
@@ -171,11 +171,47 @@ export const toolsData = [{
   sound_src: "apple.m4a",
 }, {
   id: 20,
-  src: require("../../assets/tools/pick.png"),
+  src: require("../../assets/tools/pick.webp"),
   category: "Инструменты",
   russian: "кирка",
   khadar: "газа",
   english: "pick",
+  additional_info: "",
+  sound_src: "apple.m4a",
+}, {
+  id: 21,
+  src: require("../../assets/tools/rope.webp"),
+  category: "Инструменты",
+  russian: "веревка",
+  khadar: "гъайаъ",
+  english: "rope",
+  additional_info: "",
+  sound_src: "apple.m4a",
+}, {
+  id: 22,
+  src: require("../../assets/tools/beam.webp"),
+  category: "Инструменты",
+  russian: "балка",
+  khadar: "зехии",
+  english: "beam",
+  additional_info: "",
+  sound_src: "apple.m4a",
+}, {
+  id: 23,
+  src: require("../../assets/tools/binoculars.webp"),
+  category: "Инструменты",
+  russian: "бинокль",
+  khadar: "дурлама",
+  english: "binoculars",
+  additional_info: "",
+  sound_src: "apple.m4a",
+}, {
+  id: 24,
+  src: require("../../assets/tools/broom.webp"),
+  category: "Инструменты",
+  russian: "веник",
+  khadar: "халтIа",
+  english: "broom",
   additional_info: "",
   sound_src: "apple.m4a",
 },]
