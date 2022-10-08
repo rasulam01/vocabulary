@@ -4,10 +4,12 @@ import { FlatList, View, TextInput } from "react-native";
 import { CustomText } from "../custom/CustomText";
 import { Context } from "../../navigation";
 import { COLORS } from "../../colors";
+import { useTranslation } from "react-i18next";
 
 export const WordList = ({ data, navigation }) => {
   const { dynamicColor } = React.useContext(Context);
   const [searchWord, setSearchWord] = useState("");
+  const { t } = useTranslation()
   
 
   const filteredBySearch = data.filter(
@@ -28,7 +30,7 @@ export const WordList = ({ data, navigation }) => {
         ]}
       >
         <TextInput
-          placeholder="Найти слово (введите любой его эквивалент)"
+          placeholder={t("placeholder")}
           placeholderTextColor={COLORS.DARK_GRAY}
           value={searchWord}
           onChangeText={setSearchWord}          
@@ -41,7 +43,7 @@ export const WordList = ({ data, navigation }) => {
         {searchWord && !filteredBySearch.length ? (
           <View>
             <CustomText
-              title="Нет совпадений."
+              title={t("no_match")}
               color={dynamicColor}
               fontWeight="700"
               textAlign="center"

@@ -1,16 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import {
   SafeAreaView,
-  View,
-  Text,
+  View,  
   StyleSheet,
-  Switch,
-  Platform,
+  Switch,  
 } from "react-native";
 import { Context } from "../../navigation";
 import { COLORS } from "../../colors";
 import { CustomText } from "../custom/CustomText";
 import commonStyles from "../commonStyles";
+import { useTranslation } from "react-i18next";
+import { Dropdown } from "react-native-element-dropdown";
+
 
 
 
@@ -33,6 +34,17 @@ export const Settings = () => {
   const alignmentText = alignment
     ? "Align vocabulary text by center"
     : "Align vocabulary text by left side";
+
+  const options = [{
+    label: "English", value: "en"
+  }, {
+    label: "Русский", value: "ru"
+  }]
+
+  const { t, i18n } = useTranslation()
+  const [value, setValue] = useState("ru")
+
+  
   return (
     <SafeAreaView style={commonStyles.container}>
       <View style={[styles.section, { padding: iosPadding }]}>
@@ -50,6 +62,12 @@ export const Settings = () => {
           onValueChange={changeAlignment}
           trackColor={{ false: COLORS.VEINY_RED, true: COLORS.BEACH_TURQUOISE }}
         />
+      </View>
+      <View style={{paddingBottom: 10}}>
+        <View style={{paddingBottom: 10}}>
+          <CustomText color={dynamicColor} title={t('language')} />
+        </View>        
+        <Dropdown data={options} fontFamily={Platform.OS === "ios" ? "Palatino" : "serif"} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), i18n.changeLanguage(item.value)}} />
       </View>
     </SafeAreaView>
   );

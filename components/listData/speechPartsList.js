@@ -1,27 +1,27 @@
 export const speechPartsList = [{
     src: require("../../assets/sections/noun.png"),
     title: "Существительные",
-    navigateTo: "Существительные"
+    title: "nouns"
 }, {
     src: require("../../assets/sections/verb.png"),
     title: "Глаголы",
-    navigateTo: "Глаголы"
+    title: "verbs"
 },
 {
     src: require("../../assets/sections/adjective.png"),
     title: "Прилагательные",
-    navigateTo: "Прилагательные"
+    title: "adjectives"
 },
 {
     src: require("../../assets/sections/adverb.png"),
     title: "Наречия",
-    navigateTo: "Наречия"
+    title: "adverbs"
 }, {
     src: require("../../assets/sections/numbers.png"),
     title: "Числительные",
-    navigateTo: "Числительные"
+    title: "numbers"
 }, {
     src: require("../../assets/sections/pronouns.png"),
     title: "Местоимения",
-    navigateTo: "Местоимения"
+    title: "pronouns"
 }]

@@ -5,8 +5,10 @@ import commonStyles from "../commonStyles";
 import { Context } from "../../navigation";
 import Sound from "react-native-sound";
 import { COLORS } from "../../colors";
+import { useTranslation } from "react-i18next";
 
 export const WordSelected = ({ route }) => {
+  const { t } = useTranslation()
   const { dynamicColor } = React.useContext(Context);
   const {
     // id,
@@ -37,6 +39,7 @@ export const WordSelected = ({ route }) => {
   const iconWidth = Dimensions.get("window").width / 2
   const iconHeight = Dimensions.get("window").height / 4
   const iconSelectedSize = {width: iconWidth, height: iconHeight, resizeMode: "contain"}
+
 
   return (
     <SafeAreaView style={commonStyles.container}>
@@ -73,10 +76,10 @@ export const WordSelected = ({ route }) => {
           { flexDirection: "column", alignItems: "flex-start" },
         ]}
       >
-        <CustomText color={dynamicColor} title={`Слово ${index} / ${length}.`} fontWeight="700"/>
-        <CustomText color={dynamicColor} title={`Категория: ${category}.`} fontWeight="700"/>
-        <CustomText color={dynamicColor} title={`На русском: ${russian}`} />
-        <CustomText color={dynamicColor} title={`На английском: ${english}`} />
+        <CustomText color={dynamicColor} title={`Слово ${index} ${t("separator")} ${length}.`} fontWeight="700"/>
+        <CustomText color={dynamicColor} title={`${t("category")}: ${category}.`} fontWeight="700"/>
+        <CustomText color={dynamicColor} title={`${t("in_russian")}: ${russian}`} />
+        <CustomText color={dynamicColor} title={`${t("in_english")}: ${english}`} />
       </View>
       <View
         style={[

@@ -1,18 +1,18 @@
 export const animalsList = [{
     src: require("../../assets/sections/animals_mammal.png"),
     title: "Млекопитающиеся",
-    navigateTo: "Млекопитающие"
+    title: "mammals"
 }, {
     src: require("../../assets/sections/animals_bird.png"),
     title: "Птицы",
-    navigateTo: "Птицы"
+    title: "birds"
 }, {
     src: require("../../assets/sections/animals_insect.png"),
     title: "Насекомые",
-    navigateTo: "Насекомые"
+    title: "insects"
 }, {
     src: require("../../assets/sections/animals_crawling.png"),
     title: "Ползучие",
-    navigateTo: "Ползучие"
+    title: "crawling"
 }, 
 ]

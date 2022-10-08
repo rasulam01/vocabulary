@@ -8,6 +8,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React, { useState } from "react";
 import { Image, Platform, StatusBar } from "react-native";
+import { useTranslation } from "react-i18next";
 import { Adjectives } from "./components/adjectives/adjectives";
 import { Adverbs } from "./components/adverbs/adverbs";
 import { Animals } from "./components/fields/animals.component";
@@ -46,6 +47,7 @@ import { Weapons } from "./components/fields/weapons.component";
 import { WordSelected } from "./components/wordSelected/wordSelected";
 
 
+
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
@@ -81,7 +83,7 @@ const VegetablesName = "Овощи"
 const VerbsName = "Глаголы";
 const VocabularyName = "Vocabulary";
 const VocabularyComponentName = "Языки";
-const VocabularyPartsName = "Разделы"
+const VocabularyPartsName = "Parts"
 const VocabularySpeechPartsName = "Части речи"
 const VocabularyNounsName = "Существительные";
 const WeaponsName = "Оружие"
@@ -109,52 +111,60 @@ export const arrowSize = {width: 20, height: 20}
 
 export const Context = React.createContext();
 
-export const StackNavigation = () => (
-  <Stack.Navigator screenOptions={{gestureEnabled: false, headerTitleStyle: {fontFamily: "Palatino"}}} initialRouteName={VocabularyName}>
-    <Stack.Screen name={VocabularyComponentName} component={Vocabulary} />
-    <Stack.Screen name={VocabularyPartsName} component={VocabularyParts} />
-    <Stack.Screen name={VocabularyNounsName} component={Nouns} />
-    <Stack.Screen name={VocabularySpeechPartsName} component={VocabularySpeechParts} />
-    <Stack.Screen name={AdjectivesName} component={Adjectives} />
-    <Stack.Screen name={AdverbsName} component={Adverbs} />
-    <Stack.Screen name={AnimalsName} component={Animals} />
-    <Stack.Screen name={BirdsName} component={Birds} />
-    <Stack.Screen name={BodyPartsName} component={BodyParts} />
-    <Stack.Screen name={ClothesName} component={Clothes} />
-    <Stack.Screen name={CrawlingName} component={Crawling} />
-    <Stack.Screen name={DairyName} component={Dairy} />
-    <Stack.Screen name={EventsName} component={Events} />
-    <Stack.Screen name={FoodName} component={Food} />
-    <Stack.Screen name={FruitName} component={Fruit} />
-    <Stack.Screen name={FurnitureName} component={Furniture} />
-    <Stack.Screen name={GrainName} component={Grain} />
-    <Stack.Screen name={GreennessName} component={Greenness} />
-    <Stack.Screen name={InsectsName} component={Insects} />
-    <Stack.Screen name={BerriesName} component={Berries} />
-    <Stack.Screen name={MammalsName} component={Mammals} />
-    <Stack.Screen name={MaterialsName} component={Materials} />
-    <Stack.Screen name={NatureName} component={Nature} />
-    <Stack.Screen name={NumbersName} component={Numbers} />
-    <Stack.Screen name={OtherName} component={Other} />
-    <Stack.Screen name={PronounsName} component={Pronouns} />
-    <Stack.Screen name={ScienceName} component={Science} />
-    <Stack.Screen name={TimeName} component={Time} />
-    <Stack.Screen name={ToolsName} component={Tools} />
-    <Stack.Screen name={TreesName} component={Trees} />
-    <Stack.Screen name={UtensilsName} component={Utensils} />
-    <Stack.Screen name={VegetablesName} component={Vegetables} />
-    <Stack.Screen name={VerbsName} component={Verbs} />
-    <Stack.Screen name={WeaponsName} component={Weapons} />
+
+
+export const StackNavigation = () => {
+  const { t } = useTranslation();
+  
+  return (
+  <Stack.Navigator screenOptions={{gestureEnabled: false, headerTitleStyle: {fontFamily: Platform.OS === "ios" ? "Palatino" : "serif"}}} initialRouteName={VocabularyComponentName}>
+    <Stack.Screen name={VocabularyComponentName} component={Vocabulary} options={{headerTitle: t("languages")}} />
+    <Stack.Screen name={t("parts")} component={VocabularyParts} />
+    <Stack.Screen name={t("nouns")} component={Nouns} />
+    <Stack.Screen name={t("speech_parts")} component={VocabularySpeechParts} />
+    <Stack.Screen name={t("adjectives")} component={Adjectives} />
+    <Stack.Screen name={t("adverbs")} component={Adverbs} />
+    <Stack.Screen name={t("animals")} component={Animals} />
+    <Stack.Screen name={t("birds")} component={Birds} />
+    <Stack.Screen name={t("body_parts")} component={BodyParts} />
+    <Stack.Screen name={t("clothing")} component={Clothes} />
+    <Stack.Screen name={t("crawling")} component={Crawling} />
+    <Stack.Screen name={t("dairy")} component={Dairy} />
+    <Stack.Screen name={t("events")} component={Events} />
+    <Stack.Screen name={t("food")} component={Food} />
+    <Stack.Screen name={t("fruit")} component={Fruit} />
+    <Stack.Screen name={t("furniture")} component={Furniture} />
+    <Stack.Screen name={t("grain")} component={Grain} />
+    <Stack.Screen name={t("greenness")} component={Greenness} />
+    <Stack.Screen name={t("insects")} component={Insects} />
+    <Stack.Screen name={t("berries")} component={Berries} />
+    <Stack.Screen name={t("mammals")} component={Mammals} />
+    <Stack.Screen name={t("materials")} component={Materials} />
+    <Stack.Screen name={t("nature")} component={Nature} />
+    <Stack.Screen name={t("numbers")} component={Numbers} />
+    <Stack.Screen name={t("other")} component={Other} />
+    <Stack.Screen name={t("pronouns")} component={Pronouns} />
+    <Stack.Screen name={t("science")} component={Science} />
+    <Stack.Screen name={t("time")} component={Time} />
+    <Stack.Screen name={t("tools")} component={Tools} />
+    <Stack.Screen name={t("trees")} component={Trees} />
+    <Stack.Screen name={t("utensils")} component={Utensils} />
+    <Stack.Screen name={t("vegetables")} component={Vegetables} />
+    <Stack.Screen name={t("verbs")} component={Verbs} />
+    <Stack.Screen name={t("weapons")} component={Weapons} />
     <Stack.Screen name={WordSelectedName} component={WordSelected} options={({route}) => ({title: route.params.khadar.charAt(0).toUpperCase() + route.params.khadar.substring(1)})} />
   </Stack.Navigator>
-)
+  )
+
+}
 
 const Navigation = () => {
   const [alignment, setAlignment] = useState(false)
   const [dark, setDark] = useState(false);
   const dynamicColor = dark ? COLORS.WHITE : COLORS.VEINY_RED
   const isDarkTheme = dark ? darkMode : defaultMode
-  const iosPadding = Platform.OS === "ios" ? 20 : 0
+  const iosPadding = Platform.OS === "ios" ? 20 : 0  
+  const { t } = useTranslation()
   return (
     <Context.Provider value={{dark, setDark, alignment, setAlignment, dynamicColor, iosPadding}}>
       <NavigationContainer theme={isDarkTheme}>
@@ -167,7 +177,7 @@ const Navigation = () => {
             <Image source={require("./assets/sections/vocabulary.png")}  style={{width: 30, height: 30}} />
           )}}
            />
-          <Tab.Screen name={SettingsName} component={Settings} options={{headerShown: true, tabBarIcon: () => (
+          <Tab.Screen name={SettingsName} component={Settings} options={{headerShown: true, title: t("settings"), headerTitleStyle: {fontFamily: Platform.OS === "ios" ? "Palatino" : "serif"}, tabBarIcon: () => (
             <Image source={require("./assets/sections/settings.png")} style={{width: 30, height: 30}} />
           )}} />
         </Tab.Navigator>

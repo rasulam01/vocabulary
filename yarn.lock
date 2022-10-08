@@ -3416,11 +3416,6 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-i18next-react-native-language-detector@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/i18next-react-native-language-detector/-/i18next-react-native-language-detector-1.0.2.tgz#5c47482611a44262302a363d5be34a42b11ddfc6"
-  integrity sha512-ihg5pX5ESZ+Bx2ARI4loBNwcF3z6RyVmVKyV5QRF9Srbbdp/Jb7KW3o3NZINpc+lJasEok+L75gBHfwwXzI7xg==
-
 i18next@^21.10.0:
   version "21.10.0"
   resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.10.0.tgz#85429af55fdca4858345d0e16b584ec29520197d"
@@ -5591,15 +5586,15 @@ react-native-codegen@^0.69.2:
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
 
+react-native-element-dropdown@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-element-dropdown/-/react-native-element-dropdown-2.3.0.tgz#1d0d09778207f073b39216bb2ea10452648a8616"
+  integrity sha512-HzuR1+PVS3YJD835ZAmJ7gNzkIvYJady8EwJS0Nnu6NoEeLXyJTvrD2G+dkeBmckZ+FuGjUKeYqhs508gok83w==
+
 react-native-gradle-plugin@^0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.7.tgz#96602f909745239deab7b589443f14fce5da2056"
   integrity sha512-+4JpbIx42zGTONhBTIXSyfyHICHC29VTvhkkoUOJAh/XHPEixpuBduYgf6Y4y9wsN1ARlQhBBoptTvXvAFQf5g==
-
-react-native-locale-detector@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-native-locale-detector/-/react-native-locale-detector-1.0.1.tgz#c002261ecb60619e5952257c8c7fa31c2c15ed30"
-  integrity sha512-eL9NB1cNUzJ+XGbxkQXPcdn4DHPDEGodcxGvpTdSpUy9zbaSKOOG+HyJI5aCOEEODXf6+PwpdlZ6ZG7A3EGfuA==
 
 react-native-safe-area-context@^4.3.3:
   version "4.3.3"

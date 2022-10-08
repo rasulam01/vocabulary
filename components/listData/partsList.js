@@ -2,11 +2,11 @@ export const partsList = [
   // {
   //   src: require("../../assets/sections/rules.png"),
   //   title: "Правила",
-  //   navigateTo: "Subsections",
+  //   title: "Subsections",
   // },
   {
     src: require("../../assets/sections/dictionary.png"),
     title: "Словарь",
-    navigateTo: "Части речи",
+    title: "speech_parts",
   },
 ];
