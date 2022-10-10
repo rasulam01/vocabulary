@@ -43,7 +43,15 @@
         "category" : "Категория",
         "in_russian" : "На русском",
         "in_english" : "На английском",
-        "separator" : "/",
-        "word" : "Слово"
+        "separator" : "из",
+        "word" : "Слово",
+        "matches_found" : "Совпадений по запросу \"{{searchQuery}}\" : {{filteredQueryLength}}",
+        "words_in_category" : "Слов в категории : {{listLength}}",
+        "word_out_of" : "Слово {{index}} {{separator}} {{length}}",
+        "selected_category" : "Категория : {{category}}",
+        "disable_dark_mode" : "Отключить Тёмный режим",
+        "enable_dark_mode" : "Включить Тёмный режим",
+        "align_by_left" : "Выровнять текст в словаре с левой стороны",
+        "align_by_center" : "Выровнять текст в словаре по середине"
     }
 }

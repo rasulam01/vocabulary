@@ -9,8 +9,7 @@ import { useTranslation } from "react-i18next";
 export const WordList = ({ data, navigation }) => {
   const { dynamicColor } = React.useContext(Context);
   const [searchWord, setSearchWord] = useState("");
-  const { t } = useTranslation()
-  
+  const { t } = useTranslation();
 
   const filteredBySearch = data.filter(
     (item) =>
@@ -18,7 +17,7 @@ export const WordList = ({ data, navigation }) => {
       item.khadar.toLowerCase().includes(searchWord.toLowerCase()) ||
       item.english.toLowerCase().includes(searchWord.toLowerCase())
   );
-  
+
   return (
     <>
       <View
@@ -33,7 +32,7 @@ export const WordList = ({ data, navigation }) => {
           placeholder={t("placeholder")}
           placeholderTextColor={COLORS.DARK_GRAY}
           value={searchWord}
-          onChangeText={setSearchWord}          
+          onChangeText={setSearchWord}
           style={{
             borderBottomWidth: 1,
             borderBottomColor: COLORS.DARK_GRAY,
@@ -51,8 +50,13 @@ export const WordList = ({ data, navigation }) => {
           </View>
         ) : (
           <CustomText
-            title={`${searchWord ? `Совпадений по запросу "${searchWord.toLowerCase()}" :` : "Слов в категории :"} ${
-              searchWord ? filteredBySearch.length : data.length
+            title={`${
+              searchWord
+                ? t("matches_found", {
+                    searchQuery: searchWord.toLowerCase(),
+                    filteredQueryLength: filteredBySearch.length,
+                  })
+                : t("words_in_category", { listLength: data.length })
             }`}
             color={dynamicColor}
           />

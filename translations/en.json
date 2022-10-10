@@ -44,6 +44,15 @@
         "in_russian" : "In Russian",
         "in_english" : "In English",
         "separator" : "out of",
-        "word" : "Word"
+        "word" : "Word",
+        "matches_found" : "{{filteredQueryLength}} matches were found by requesting \"{{searchQuery}}\"",
+        "words_in_category" : "{{listLength}} words in a category",
+        "word_out_of" : "Word {{index}} {{separator}} {{length}}",
+        "selected_category" : "Category : {{category}}",
+        "disable_dark_mode" : "Disable Dark mode",
+        "enable_dark_mode" : "Enable Dark mode",
+        "align_by_left" : "Align vocabulary text on the left",
+        "align_by_center" : "Align vocabulary text in center"
+        
     }
 }

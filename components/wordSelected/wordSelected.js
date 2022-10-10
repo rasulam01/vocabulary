@@ -76,8 +76,8 @@ export const WordSelected = ({ route }) => {
           { flexDirection: "column", alignItems: "flex-start" },
         ]}
       >
-        <CustomText color={dynamicColor} title={`Слово ${index} ${t("separator")} ${length}.`} fontWeight="700"/>
-        <CustomText color={dynamicColor} title={`${t("category")}: ${category}.`} fontWeight="700"/>
+        <CustomText color={dynamicColor} title={`${t("word_out_of", {index: index, separator: t("separator"), length: length})}`} fontWeight="700"/>
+        <CustomText color={dynamicColor} title={`${t("selected_category", {category: category})}`} fontWeight="700"/>
         <CustomText color={dynamicColor} title={`${t("in_russian")}: ${russian}`} />
         <CustomText color={dynamicColor} title={`${t("in_english")}: ${english}`} />
       </View>

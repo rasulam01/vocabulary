@@ -30,10 +30,8 @@ export const Settings = () => {
   const changeAlignment = () => {
     setAlignment(!alignment);
   };
-  const darkModeText = dark ? "Disable Dark Mode" : "Enable Dark Mode";
-  const alignmentText = alignment
-    ? "Align vocabulary text by center"
-    : "Align vocabulary text by left side";
+  
+  
 
   const options = [{
     label: "English", value: "en"
@@ -43,8 +41,10 @@ export const Settings = () => {
 
   const { t, i18n } = useTranslation()
   const [value, setValue] = useState("ru")
-
-  
+  const alignmentText = alignment
+    ? t("align_by_center")
+    : t("align_by_left");
+  const darkModeText = dark ? t("disable_dark_mode") : t("enable_dark_mode");
   return (
     <SafeAreaView style={commonStyles.container}>
       <View style={[styles.section, { padding: iosPadding }]}>
