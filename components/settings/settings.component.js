@@ -23,6 +23,9 @@ export const Settings = () => {
     iosPadding,
     alignment,
     setAlignment,
+    language, 
+    setLanguage,
+    fontByLanguage
   } = React.useContext(Context);
   const setDarkness = () => {
     setDark(!dark);
@@ -67,7 +70,7 @@ export const Settings = () => {
         <View style={{paddingBottom: 10}}>
           <CustomText color={dynamicColor} title={t('language')} />
         </View>        
-        <Dropdown data={options} fontFamily={Platform.OS === "ios" ? "Palatino" : "serif"} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), i18n.changeLanguage(item.value)}} />
+        <Dropdown data={options} fontFamily={fontByLanguage} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), setLanguage(item.value), i18n.changeLanguage(item.value)}} />
       </View>
     </SafeAreaView>
   );

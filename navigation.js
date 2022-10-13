@@ -115,9 +115,11 @@ export const Context = React.createContext();
 
 export const StackNavigation = () => {
   const { t } = useTranslation();
+  const { language } = React.useContext(Context)  
+  const fontByLanguage = language === "ru" ? "Exo2-Regular" : "Bitter-Regular"  
   
   return (
-  <Stack.Navigator screenOptions={{gestureEnabled: false, headerTitleStyle: {fontFamily: Platform.OS === "ios" ? "Palatino" : "serif"}}} initialRouteName={VocabularyComponentName}>
+  <Stack.Navigator screenOptions={{gestureEnabled: false, headerTitleStyle: {fontFamily: fontByLanguage}}} initialRouteName={VocabularyComponentName}>
     <Stack.Screen name={VocabularyComponentName} component={Vocabulary} options={{headerTitle: t("languages")}} />
     <Stack.Screen name={t("parts")} component={VocabularyParts} />
     <Stack.Screen name={t("nouns")} component={Nouns} />
@@ -164,20 +166,23 @@ const Navigation = () => {
   const dynamicColor = dark ? COLORS.WHITE : COLORS.VEINY_RED
   const isDarkTheme = dark ? darkMode : defaultMode
   const iosPadding = Platform.OS === "ios" ? 20 : 0  
+  const [language, setLanguage] = useState("ru")
+  const fontByLanguage = language === "ru" ? "Exo2-Regular" : "Bitter-SemiBold"  
+  
   const { t } = useTranslation()
   return (
-    <Context.Provider value={{dark, setDark, alignment, setAlignment, dynamicColor, iosPadding}}>
+    <Context.Provider value={{dark, setDark, alignment, setAlignment, dynamicColor, iosPadding, language, setLanguage, fontByLanguage }}>
       <NavigationContainer theme={isDarkTheme}>
         <StatusBar barStyle={dark ? "light-content" : "dark-content"} />
         <Tab.Navigator
           initialRouteName={VocabularyName}
-          screenOptions={{ headerShown: false, tabBarActiveBackgroundColor: COLORS.CLOUDY_BLUE, tabBarLabel: () => null, tabBarInactiveBackgroundColor: dark ? COLORS.DARK_GRAY : COLORS.WHITE }}                              
+          screenOptions={{ headerShown: false, headerTitleStyle: {fontFamily: fontByLanguage},  tabBarActiveBackgroundColor: COLORS.CLOUDY_BLUE, tabBarLabel: () => null, tabBarInactiveBackgroundColor: dark ? COLORS.DARK_GRAY : COLORS.WHITE }}                              
         >
           <Tab.Screen name={VocabularyName} component={StackNavigation}  options={{tabBarIcon: () => (
             <Image source={require("./assets/sections/vocabulary.png")}  style={{width: 30, height: 30}} />
           )}}
            />
-          <Tab.Screen name={SettingsName} component={Settings} options={{headerShown: true, title: t("settings"), headerTitleStyle: {fontFamily: Platform.OS === "ios" ? "Palatino" : "serif"}, tabBarIcon: () => (
+          <Tab.Screen name={SettingsName} component={Settings} options={{headerShown: true, title: t("settings"), tabBarIcon: () => (
             <Image source={require("./assets/sections/settings.png")} style={{width: 30, height: 30}} />
           )}} />
         </Tab.Navigator>

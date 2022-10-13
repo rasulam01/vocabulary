@@ -4,7 +4,6 @@ import { CustomText } from "../custom/CustomText";
 import commonStyles from "../commonStyles";
 import { Context } from "../../navigation";
 import Sound from "react-native-sound";
-import { COLORS } from "../../colors";
 import { useTranslation } from "react-i18next";
 
 export const WordSelected = ({ route }) => {
@@ -20,7 +19,7 @@ export const WordSelected = ({ route }) => {
     english,
     additional_info,
     sound_src,
-    length
+    length,    
   } = route.params;
   const MIC_PATH = require("../../assets/sections/mic.png");
   Sound.setCategory("Playback", true);
@@ -51,8 +50,7 @@ export const WordSelected = ({ route }) => {
       >
         <CustomText
           color={dynamicColor}
-          title={khadar}
-          fontWeight="700"
+          title={khadar}         
           fontSize={20}
         />
         <TouchableOpacity
@@ -76,8 +74,8 @@ export const WordSelected = ({ route }) => {
           { flexDirection: "column", alignItems: "flex-start" },
         ]}
       >
-        <CustomText color={dynamicColor} title={`${t("word_out_of", {index: index, separator: t("separator"), length: length})}`} fontWeight="700"/>
-        <CustomText color={dynamicColor} title={`${t("selected_category", {category: category})}`} fontWeight="700"/>
+        <CustomText color={dynamicColor} title={`${t("word_out_of", {index: index, separator: t("separator"), length: length})}`}  />
+        <CustomText color={dynamicColor} title={`${t("selected_category", {category: category})}`}  />
         <CustomText color={dynamicColor} title={`${t("in_russian")}: ${russian}`} />
         <CustomText color={dynamicColor} title={`${t("in_english")}: ${english}`} />
       </View>
