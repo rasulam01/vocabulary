@@ -1,6 +1,6 @@
 export const otherData = [
   {
-    id: 3,
+    
     src: require("../../assets/food/other/water.webp"),
     category: "Другое",
     russian: "вода",
@@ -10,7 +10,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 4,
+    
     src: require("../../assets/food/other/vodka.webp"),
     category: "Другое",
     russian: "водка",
@@ -20,7 +20,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 5,
+    
     src: require("../../assets/food/other/walnut.webp"),
     category: "Другое",
     russian: "грецкий орех",
@@ -30,7 +30,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 6,
+    
     src: require("../../assets/food/other/wine.webp"),
     category: "Другое",
     russian: "вино",
@@ -40,7 +40,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 7,
+    
     src: require("../../assets/food/other/mushroom.webp"),
     category: "Другое",
     russian: "гриб",
@@ -50,7 +50,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 8,
+    
     src: require("../../assets/food/other/food.webp"),
     category: "Другое",
     russian: "еда",
@@ -60,7 +60,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 9,
+    
     src: require("../../assets/food/other/candy.webp"),
     category: "Другое",
     russian: "конфета",
@@ -70,7 +70,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 10,
+    
     src: require("../../assets/food/other/slice.webp"),
     category: "Другое",
     russian: "кусок",
@@ -80,7 +80,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 11,
+    
     src: require("../../assets/food/other/lemonade.webp"),
     category: "Другое",
     russian: "лимонад",
@@ -90,7 +90,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 12,
+    
     src: require("../../assets/food/other/honey.webp"),
     category: "Другое",
     russian: "мед",
@@ -100,7 +100,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 13,
+    
     src: require("../../assets/food/other/egg.webp"),
     category: "Другое",
     russian: "яйцо",
@@ -110,7 +110,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 14,
+    
     src: require("../../assets/food/other/hazelnut.webp"),
     category: "Другое",
     russian: "фундук",
@@ -120,7 +120,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 15,
+    
     src: require("../../assets/food/other/nut.webp"),
     category: "Другое",
     russian: "орех",
@@ -130,7 +130,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 16,
+    
     src: require("../../assets/food/other/olive.webp"),
     category: "Другое",
     russian: "оливка",
@@ -140,7 +140,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 17,
+    
     src: require("../../assets/food/other/pepper.webp"),
     category: "Другое",
     russian: "перец",
@@ -150,7 +150,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 18,
+    
     src: require("../../assets/food/other/salt.webp"),
     category: "Другое",
     russian: "соль",
@@ -160,7 +160,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 19,
+    
     src: require("../../assets/food/other/scrambled_eggs.webp"),
     category: "Другое",
     russian: "яичница",
@@ -170,7 +170,7 @@ export const otherData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 20,
+    
     src: require("../../assets/food/other/sugar.webp"),
     category: "Другое",
     russian: "сахар",

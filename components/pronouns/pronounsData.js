@@ -1,6 +1,6 @@
 export const pronounsData = [
   {
-    id: 1,
+    
     src: "",
     category: "Личные местоимения",
     russian: "я",
@@ -10,7 +10,7 @@ export const pronounsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 2,
+    
     src: "",
     category: "Личные местоимения",
     russian: "ты",
@@ -20,7 +20,7 @@ export const pronounsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 3,
+    
     src: "",
     category: "Личные местоимения",
     russian: "он, она, оно",
@@ -30,7 +30,7 @@ export const pronounsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 4,
+    
     src: "",
     category: "Личные местоимения",
     russian: "мы",
@@ -40,7 +40,7 @@ export const pronounsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 5,
+    
     src: "",
     category: "Личные местоимения",
     russian: "вы",
@@ -50,7 +50,7 @@ export const pronounsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 6,
+    
     src: "",
     category: "Личные местоимения",
     russian: "они",
@@ -60,7 +60,7 @@ export const pronounsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 7,
+    
     src: "",
     category: "Притяжательные местоимения",
     russian: "мой",
@@ -70,7 +70,7 @@ export const pronounsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 8,
+    
     src: "",
     category: "Притяжательные местоимения",
     russian: "твой",
@@ -80,7 +80,7 @@ export const pronounsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 9,
+    
     src: "",
     category: "Притяжательные местоимения",
     russian: "итIия",
@@ -90,7 +90,7 @@ export const pronounsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 10,
+    
     src: "",
     category: "Притяжательные местоимения",
     russian: "наш",
@@ -100,7 +100,7 @@ export const pronounsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 11,
+    
     src: "",
     category: "Притяжательные местоимения",
     russian: "ваш",
@@ -110,7 +110,7 @@ export const pronounsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 12,
+    
     src: "",
     category: "Притяжательные местоимения",
     russian: "их",

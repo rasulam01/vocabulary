@@ -1,6 +1,6 @@
 export const grainData = [
   {
-    id: 2,
+    
     src: require("../../assets/food/grain/yeast_dough.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "дрожжевое тесто",
@@ -10,7 +10,7 @@ export const grainData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 3,
+    
     src: require("../../assets/food/grain/groats.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "крупа",
@@ -20,7 +20,7 @@ export const grainData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 4,
+    
     src: require("../../assets/food/grain/corn.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "кукуруза",
@@ -30,7 +30,7 @@ export const grainData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 5,
+    
     src: require("../../assets/food/grain/corn_flour.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "кукурузная мука",
@@ -40,7 +40,7 @@ export const grainData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 6,
+    
     src: require("../../assets/food/grain/flour.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "мука",
@@ -50,7 +50,7 @@ export const grainData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 7,
+    
     src: require("../../assets/food/grain/millet.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "просо",
@@ -60,7 +60,7 @@ export const grainData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 8,
+    
     src: require("../../assets/food/grain/wheat.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "пшеница",
@@ -70,7 +70,7 @@ export const grainData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 9,
+    
     src: require("../../assets/food/grain/rice.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "рис",
@@ -80,7 +80,7 @@ export const grainData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 10,
+    
     src: require("../../assets/food/grain/layered_bread.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "слоеный хлеб",
@@ -90,7 +90,7 @@ export const grainData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 11,
+    
     src: require("../../assets/food/grain/dough.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "тесто",
@@ -100,7 +100,7 @@ export const grainData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 12,
+    
     src: require("../../assets/food/grain/bread.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "хлеб",
@@ -110,7 +110,7 @@ export const grainData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 13,
+    
     src: require("../../assets/food/grain/barley.webp"),
     category: "Злаки, зерновые, их производные",
     russian: "ячмень",

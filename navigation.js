@@ -116,7 +116,7 @@ export const Context = React.createContext();
 export const StackNavigation = () => {
   const { t } = useTranslation();
   const { language } = React.useContext(Context)  
-  const fontByLanguage = language === "ru" ? "Exo2-Regular" : "Bitter-Regular"  
+  const fontByLanguage = language === "ru" ? "Exo2-Regular" : "Bitter-SemiBold"  
   
   return (
   <Stack.Navigator screenOptions={{gestureEnabled: false, headerTitleStyle: {fontFamily: fontByLanguage}}} initialRouteName={VocabularyComponentName}>

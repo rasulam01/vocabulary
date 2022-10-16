@@ -1,6 +1,6 @@
 export const adjectivesData = [
   {
-    id: 1,
+    
     src: require("../../assets/adjectives/poor.webp"),
     category: "Прилагательные",
     russian: "бедный",
@@ -10,7 +10,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 2,
+    
     src: require("../../assets/adjectives/ill.webp"),
     category: "Прилагательные",
     russian: "больной",
@@ -20,7 +20,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 3,
+    
     src: require("../../assets/adjectives/big.webp"),
     category: "Прилагательные",
     russian: "большой",
@@ -30,7 +30,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 4,
+    
     src: require("../../assets/adjectives/fast.webp"),
     category: "Прилагательные",
     russian: "быстрый",
@@ -40,7 +40,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 5,
+    
     src: require("../../assets/adjectives/humid.webp"),
     category: "Прилагательные",
     russian: "влажный",
@@ -50,7 +50,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 6,
+    
     src: require("../../assets/adjectives/high.webp"),
     category: "Прилагательные",
     russian: "высокий",
@@ -59,9 +59,8 @@ export const adjectivesData = [
     additional_info: "",
     sound_src: "apple.m4a",
   },
-  //
   {
-    id: 7,
+    
     src: require("../../assets/adjectives/deep.webp"),
     category: "Прилагательные",
     russian: "глубокий",
@@ -71,7 +70,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 8,
+    
     src: require("../../assets/adjectives/deaf.webp"),
     category: "Прилагательные",
     russian: "глухой",
@@ -81,7 +80,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 9,
+    
     src: require("../../assets/adjectives/hot.webp"),
     category: "Прилагательные",
     russian: "горячий",
@@ -91,7 +90,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 10,
+    
     src: require("../../assets/adjectives/loud.webp"),
     category: "Прилагательные",
     russian: "громкий",
@@ -101,7 +100,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 11,
+    
     src: require("../../assets/adjectives/double.webp"),
     category: "Прилагательные",
     russian: "двойной",
@@ -111,7 +110,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 12,
+    
     src: require("../../assets/adjectives/expensive.webp"),
     category: "Прилагательные",
     russian: "дорогой",
@@ -121,7 +120,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 13,
+    
     src: require("../../assets/adjectives/beautiful.webp"),
     category: "Прилагательные",
     russian: "красивый",
@@ -131,7 +130,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 14,
+    
     src: require("../../assets/adjectives/robust.webp"),
     category: "Прилагательные",
     russian: "крепкий",
@@ -141,7 +140,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 15,
+    
     src: require("../../assets/adjectives/lightweight.webp"),
     category: "Прилагательные",
     russian: "легкий",
@@ -151,7 +150,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 16,
+    
     src: require("../../assets/adjectives/favorite.webp"),
     category: "Прилагательные",
     russian: "любимый",
@@ -161,7 +160,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 17,
+    
     src: require("../../assets/adjectives/slow.webp"),
     category: "Прилагательные",
     russian: "медленный",
@@ -171,7 +170,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 18,
+    
     src: require("../../assets/adjectives/wet.webp"),
     category: "Прилагательные",
     russian: "мокрый",
@@ -181,7 +180,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 20,
+    
     src: require("../../assets/adjectives/young.webp"),
     category: "Прилагательные",
     russian: "молодой",
@@ -191,7 +190,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 21,
+    
     src: require("../../assets/adjectives/soft.webp"),
     category: "Прилагательные",
     russian: "мягкий",
@@ -201,7 +200,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 22,
+    
     src: require("../../assets/adjectives/mute.webp"),
     category: "Прилагательные",
     russian: "немой",
@@ -211,7 +210,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 23,
+    
     src: require("../../assets/adjectives/low.webp"),
     category: "Прилагательные",
     russian: "низкий",
@@ -221,7 +220,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 24,
+    
     src: require("../../assets/adjectives/new.webp"),
     category: "Прилагательные",
     russian: "новый",
@@ -231,7 +230,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 25,
+    
     src: require("../../assets/adjectives/bad.webp"),
     category: "Прилагательные",
     russian: "плохой",
@@ -241,7 +240,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 26,
+    
     src: require("../../assets/adjectives/next.webp"),
     category: "Прилагательные",
     russian: "следующий",
@@ -251,7 +250,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 27,
+    
     src: require("../../assets/adjectives/previous.webp"),
     category: "Прилагательные",
     russian: "предыдущий",
@@ -261,7 +260,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 28,
+    
     src: require("../../assets/adjectives/visitor.webp"),
     category: "Прилагательные",
     russian: "приезжий",
@@ -271,7 +270,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 29,
+    
     src: require("../../assets/adjectives/light.webp"),
     category: "Прилагательные",
     russian: "светлый",
@@ -281,7 +280,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 30,
+    
     src: require("../../assets/adjectives/free.webp"),
     category: "Прилагательные",
     russian: "свободный",
@@ -291,7 +290,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 31,
+    
     src: require("../../assets/adjectives/strong.webp"),
     category: "Прилагательные",
     russian: "сильный",
@@ -301,7 +300,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 32,
+    
     src: require("../../assets/adjectives/sweet.webp"),
     category: "Прилагательные",
     russian: "сладкий",
@@ -311,7 +310,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 33,
+    
     src: require("../../assets/adjectives/blind.webp"),
     category: "Прилагательные",
     russian: "слепой",
@@ -321,7 +320,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 34,
+    
     src: require("../../assets/adjectives/middle.webp"),
     category: "Прилагательные",
     russian: "средний",
@@ -331,7 +330,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 35,
+    
     src: require("../../assets/adjectives/old.webp"),
     category: "Прилагательные",
     russian: "старый",
@@ -341,7 +340,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 36,
+    
     src: require("../../assets/adjectives/dry.webp"),
     category: "Прилагательные",
     russian: "сухой",
@@ -351,7 +350,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 37,
+    
     src: require("../../assets/adjectives/solid.webp"),
     category: "Прилагательные",
     russian: "твердый",
@@ -361,7 +360,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 38,
+    
     src: require("../../assets/adjectives/quiet.webp"),
     category: "Прилагательные",
     russian: "тихий",
@@ -371,7 +370,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 39,
+    
     src: require("../../assets/adjectives/heavy.webp"),
     category: "Прилагательные",
     russian: "тяжелый",
@@ -381,7 +380,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 40,
+    
     src: require("../../assets/adjectives/dark.webp"),
     category: "Прилагательные",
     russian: "темный",
@@ -391,7 +390,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 41,
+    
     src: require("../../assets/adjectives/cold.webp"),
     category: "Прилагательные",
     russian: "холодный",
@@ -401,7 +400,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 42,
+    
     src: require("../../assets/adjectives/white.webp"),
     category: "Прилагательные",
     russian: "белый",
@@ -411,7 +410,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 43,
+    
     src: require("../../assets/adjectives/black.webp"),
     category: "Прилагательные",
     russian: "черный",
@@ -421,7 +420,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 44,
+    
     src: require("../../assets/adjectives/fulvous.webp"),
     category: "Прилагательные",
     russian: "бурый",
@@ -431,7 +430,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 45,
+    
     src: require("../../assets/adjectives/yellow.webp"),
     category: "Прилагательные",
     russian: "желтый",
@@ -441,7 +440,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 46,
+    
     src: require("../../assets/adjectives/green.webp"),
     category: "Прилагательные",
     russian: "зеленый",
@@ -451,7 +450,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 47,
+    
     src: require("../../assets/adjectives/brown.webp"),
     category: "Прилагательные",
     russian: "коричневый",
@@ -461,7 +460,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 48,
+    
     src: require("../../assets/adjectives/red.webp"),
     category: "Прилагательные",
     russian: "красный",
@@ -471,7 +470,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 49,
+    
     src: require("../../assets/adjectives/sand.webp"),
     category: "Прилагательные",
     russian: "песочный",
@@ -481,7 +480,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 50,
+    
     src: require("../../assets/adjectives/blue.webp"),
     category: "Прилагательные",
     russian: "синий",
@@ -491,7 +490,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 51,
+    
     src: require("../../assets/adjectives/color.webp"),
     category: "Прилагательные",
     russian: "цвет",
@@ -501,7 +500,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 52,
+    
     src: require("../../assets/adjectives/lightblue.webp"),
     category: "Прилагательные",
     russian: "голубой",
@@ -511,7 +510,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 53,
+    
     src: require("../../assets/adjectives/small.webp"),
     category: "Прилагательные",
     russian: "маленький",
@@ -521,7 +520,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 54,
+    
     src: require("../../assets/adjectives/cool.webp"),
     category: "Прилагательные",
     russian: "прохладный",
@@ -531,7 +530,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 55,
+    
     src: require("../../assets/adjectives/warm.webp"),
     category: "Прилагательные",
     russian: "теплый",
@@ -541,7 +540,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 56,
+    
     src: require("../../assets/adjectives/sharp.webp"),
     category: "Прилагательные",
     russian: "острый",
@@ -551,7 +550,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 57,
+    
     src: require("../../assets/adjectives/sour.webp"),
     category: "Прилагательные",
     russian: "кислый",
@@ -561,7 +560,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 58,
+    
     src: require("../../assets/adjectives/bitter.webp"),
     category: "Прилагательные",
     russian: "горький",
@@ -571,7 +570,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 59,
+    
     src: require("../../assets/adjectives/spicy.webp"),
     category: "Прилагательные",
     russian: "перченый",
@@ -581,7 +580,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 60,
+    
     src: require("../../assets/adjectives/thin.webp"),
     category: "Прилагательные",
     russian: "тонкий",
@@ -591,7 +590,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 61,
+    
     src: require("../../assets/adjectives/fat.webp"),
     category: "Прилагательные",
     russian: "толстый",
@@ -601,7 +600,7 @@ export const adjectivesData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 61,
+    
     src: require("../../assets/adjectives/shallow.webp"),
     category: "Прилагательные",
     russian: "мелкий, неглубокий",

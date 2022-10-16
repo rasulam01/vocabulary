@@ -1,5 +1,5 @@
 export const treesData = [{
-    id: 1,
+    
     src: require("../../assets/nature/trees/birch.webp"),
     category: "Деревья",
     russian: "береза",
@@ -8,7 +8,7 @@ export const treesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   },   {
-    id: 2,
+    
     src: require("../../assets/nature/trees/oak.webp"),
     category: "Деревья",
     russian: "дуб",
@@ -17,7 +17,7 @@ export const treesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   },   {
-    id: 3,
+    
     src: require("../../assets/nature/trees/pine.webp"),
     category: "Деревья",
     russian: "сосна",
@@ -26,7 +26,7 @@ export const treesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   },   {
-    id: 4,
+    
     src: require("../../assets/nature/trees/willow.webp"),
     category: "Деревья",
     russian: "ива",
@@ -35,7 +35,7 @@ export const treesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   },   {
-    id: 5,
+    
     src: require("../../assets/nature/trees/linden.webp"),
     category: "Деревья",
     russian: "липа",
@@ -44,7 +44,7 @@ export const treesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   },   {
-    id: 6,
+    
     src: require("../../assets/nature/trees/poplar.webp"),
     category: "Деревья",
     russian: "тополь",
@@ -53,7 +53,7 @@ export const treesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 7,
+    
     src: require("../../assets/nature/trees/tree.webp"),
     category: "Деревья",
     russian: "дерево",
@@ -62,7 +62,7 @@ export const treesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 8,
+    
     src: require("../../assets/nature/trees/aspen.webp"),
     category: "Деревья",
     russian: "осина",

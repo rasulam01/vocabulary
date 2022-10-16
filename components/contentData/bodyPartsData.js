@@ -1,6 +1,6 @@
 export const bodyPartsData = [
     {
-        id: 1,
+        
         src: require("../../assets/body_parts/thigh.png"),
         category: "Части тела",
         russian: "бедро",
@@ -10,7 +10,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       },  
       {
-        id: 2,
+        
         src: require("../../assets/body_parts/beard.png"),
         category: "Части тела",
         russian: "борода",
@@ -20,7 +20,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 3,
+        
         src: require("../../assets/body_parts/eyebrow.png"),
         category: "Части тела",
         russian: "бровь",
@@ -30,7 +30,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 4,
+        
         src: require("../../assets/body_parts/vein.png"),
         category: "Части тела",
         russian: "вена",
@@ -40,7 +40,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 5,
+        
         src: require("../../assets/body_parts/hair.png"),
         category: "Части тела",
         russian: "волосы",
@@ -50,7 +50,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 6,
+        
         src: require("../../assets/body_parts/eye.png"),
         category: "Части тела",
         russian: "глаз",
@@ -60,7 +60,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 7,
+        
         src: require("../../assets/body_parts/shin.png"),
         category: "Части тела",
         russian: "голень",
@@ -70,7 +70,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 8,
+        
         src: require("../../assets/body_parts/head.png"),
         category: "Части тела",
         russian: "голова",
@@ -80,7 +80,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 9,
+        
         src: require("../../assets/body_parts/throat.png"),
         category: "Части тела",
         russian: "горло / глотка",
@@ -89,7 +89,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 10,
+        
         src: require("../../assets/body_parts/lip.png"),
         category: "Части тела",
         russian: "губа",
@@ -99,7 +99,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 11,
+        
         src: require("../../assets/body_parts/fecal.png"),
         category: "Части тела",
         russian: "дерьмо",
@@ -109,7 +109,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 12,
+        
         src: require("../../assets/body_parts/gum.png"),
         category: "Части тела",
         russian: "десна",
@@ -119,7 +119,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 13,
+        
         src: require("../../assets/body_parts/stomach.png"),
         category: "Части тела",
         russian: "желудок",
@@ -129,7 +129,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 14,
+        
         src: require("../../assets/body_parts/bile.png"),
         category: "Части тела",
         russian: "желчь",
@@ -139,7 +139,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 15,
+        
         src: require("../../assets/body_parts/belly.png"),
         category: "Части тела",
         russian: "живот",
@@ -149,7 +149,7 @@ export const bodyPartsData = [
         sound_src: "apple.m4a",
       }, 
       {
-        id: 16,
+        
         src: require("../../assets/body_parts/fat.png"),
         category: "Части тела",
         russian: "жир",
@@ -158,7 +158,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 17,
+        
         src: require("../../assets/body_parts/nape.png"),
         category: "Части тела",
         russian: "затылок",
@@ -167,7 +167,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 18,
+        
         src: require("../../assets/body_parts/adam_apple.png"),
         category: "Части тела",
         russian: "кадык",
@@ -176,7 +176,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 19,
+        
         src: require("../../assets/body_parts/bowel.png"),
         category: "Части тела",
         russian: "кишка",
@@ -185,7 +185,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 20,
+        
         src: require("../../assets/body_parts/skin.png"),
         category: "Части тела",
         russian: "кожа",
@@ -194,7 +194,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 21,
+        
         src: require("../../assets/body_parts/knee.png"),
         category: "Части тела",
         russian: "колено",
@@ -203,7 +203,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 22,
+        
         src: require("../../assets/body_parts/spinal_cord.png"),
         category: "Части тела",
         russian: "спинной мозг",
@@ -212,7 +212,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 23,
+        
         src: require("../../assets/body_parts/blood.png"),
         category: "Части тела",
         russian: "кровь",
@@ -221,7 +221,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 24,
+        
         src: require("../../assets/body_parts/tooth.png"),
         category: "Части тела",
         russian: "зуб",
@@ -230,7 +230,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 25,
+        
         src: require("../../assets/body_parts/face.png"),
         category: "Части тела",
         russian: "лицо",
@@ -239,7 +239,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 26,
+        
         src: require("../../assets/body_parts/forehead.png"),
         category: "Части тела",
         russian: "лоб",
@@ -248,7 +248,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 27,
+        
         src: require("../../assets/body_parts/elbow.png"),
         category: "Части тела",
         russian: "локоть",
@@ -257,7 +257,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 28,
+        
         src: require("../../assets/body_parts/brain.png"),
         category: "Части тела",
         russian: "мозг",
@@ -266,7 +266,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 29,
+        
         src: require("../../assets/body_parts/urine.png"),
         category: "Части тела",
         russian: "моча",
@@ -275,7 +275,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 30,
+        
         src: require("../../assets/body_parts/bladder.png"),
         category: "Части тела",
         russian: "мочевой пузырь",
@@ -284,7 +284,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 31,
+        
         src: require("../../assets/body_parts/palate.png"),
         category: "Части тела",
         russian: "нёбо",
@@ -293,7 +293,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 32,
+        
         src: require("../../assets/body_parts/leg.png"),
         category: "Части тела",
         russian: "нога",
@@ -302,7 +302,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 33,
+        
         src: require("../../assets/body_parts/nail.png"),
         category: "Части тела",
         russian: "ноготь",
@@ -311,7 +311,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 34,
+        
         src: require("../../assets/body_parts/nostril.png"),
         category: "Части тела",
         russian: "ноздря",
@@ -320,7 +320,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 35,
+        
         src: require("../../assets/body_parts/sinus.png"),
         category: "Части тела",
         russian: "пазуха",
@@ -329,7 +329,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 36,
+        
         src: require("../../assets/body_parts/finger.png"),
         category: "Части тела",
         russian: "палец",
@@ -338,7 +338,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 37,
+        
         src: require("../../assets/body_parts/liver.png"),
         category: "Части тела",
         russian: "печень",
@@ -347,7 +347,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 38,
+        
         src: require("../../assets/body_parts/armpit.png"),
         category: "Части тела",
         russian: "подмышка",
@@ -356,7 +356,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 39,
+        
         src: require("../../assets/body_parts/spine.png"),
         category: "Части тела",
         russian: "позвоночник",
@@ -365,7 +365,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 40,
+        
         src: require("../../assets/body_parts/sweat.png"),
         category: "Части тела",
         russian: "пот",
@@ -374,7 +374,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 41,
+        
         src: require("../../assets/body_parts/forearm.png"),
         category: "Части тела",
         russian: "предплечье",
@@ -383,7 +383,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 42,
+        
         src: require("../../assets/body_parts/heel.png"),
         category: "Части тела",
         russian: "пятка",
@@ -392,7 +392,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 43,
+        
         src: require("../../assets/body_parts/wound.png"),
         category: "Части тела",
         russian: "рана",
@@ -401,7 +401,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 44,
+        
         src: require("../../assets/body_parts/rib.png"),
         category: "Части тела",
         russian: "ребро",
@@ -410,7 +410,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 45,
+        
         src: require("../../assets/body_parts/eyelash.png"),
         category: "Части тела",
         russian: "ресница",
@@ -419,7 +419,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 46,
+        
         src: require("../../assets/body_parts/arm.png"),
         category: "Части тела",
         russian: "рука",
@@ -428,7 +428,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 47,
+        
         src: require("../../assets/body_parts/spleen.png"),
         category: "Части тела",
         russian: "селезень",
@@ -437,7 +437,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 48,
+        
         src: require("../../assets/body_parts/heart.png"),
         category: "Части тела",
         russian: "сердце",
@@ -446,7 +446,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 48,
+        
         src: require("../../assets/body_parts/skeleton.png"),
         category: "Части тела",
         russian: "скелет",
@@ -455,7 +455,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 49,
+        
         src: require("../../assets/body_parts/tear.png"),
         category: "Части тела",
         russian: "слеза",
@@ -464,7 +464,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 50,
+        
         src: require("../../assets/body_parts/saliva.png"),
         category: "Части тела",
         russian: "слюна",
@@ -473,7 +473,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 51,
+        
         src: require("../../assets/body_parts/back.png"),
         category: "Части тела",
         russian: "спина",
@@ -482,7 +482,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 52,
+        
         src: require("../../assets/body_parts/waist.png"),
         category: "Части тела",
         russian: "талия",
@@ -491,7 +491,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 53,
+        
         src: require("../../assets/body_parts/ear.png"),
         category: "Части тела",
         russian: "ухо",
@@ -500,7 +500,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 54,
+        
         src: require("../../assets/body_parts/jaw.png"),
         category: "Части тела",
         russian: "челюсть",
@@ -509,7 +509,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 55,
+        
         src: require("../../assets/body_parts/neck.png"),
         category: "Части тела",
         russian: "шея",
@@ -518,7 +518,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 56,
+        
         src: require("../../assets/body_parts/cheek.png"),
         category: "Части тела",
         russian: "щека",
@@ -527,7 +527,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 57,
+        
         src: require("../../assets/body_parts/buttock.png"),
         category: "Части тела",
         russian: "ягодица",
@@ -536,7 +536,7 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 58,
+        
         src: require("../../assets/body_parts/nose.png"),
         category: "Части тела",
         russian: "нос",
@@ -545,6 +545,4 @@ export const bodyPartsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }
-
-
 ]

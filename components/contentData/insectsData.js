@@ -1,6 +1,6 @@
 export const insectsData = [
     {
-        id: 1,
+        
         src: require("../../assets/animals/insects/butterfly.webp"),
         category: "Насекомые",
         russian: "бабочка",
@@ -10,7 +10,7 @@ export const insectsData = [
         sound_src: "apple.m4a",
     },
     {
-        id: 2,
+        
         src: require("../../assets/animals/insects/dragonfly.webp"),
         category: "Насекомые",
         russian: "стрекоза",
@@ -20,7 +20,7 @@ export const insectsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 3,
+        
         src: require("../../assets/animals/insects/beetle.webp"),
         category: "Насекомые",
         russian: "жук",
@@ -30,7 +30,7 @@ export const insectsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 4,
+        
         src: require("../../assets/animals/insects/mite.webp"),
         category: "Насекомые",
         russian: "клещ",
@@ -40,7 +40,7 @@ export const insectsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 5,
+        
         src: require("../../assets/animals/insects/fly.webp"),
         category: "Насекомые",
         russian: "муха",
@@ -50,7 +50,7 @@ export const insectsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 6,
+        
         src: require("../../assets/animals/insects/grasshopper.webp"),
         category: "Насекомые",
         russian: "кузнечик",
@@ -60,7 +60,7 @@ export const insectsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 7,
+        
         src: require("../../assets/animals/insects/moth.webp"),
         category: "Насекомые",
         russian: "моль",
@@ -70,7 +70,7 @@ export const insectsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 8,
+        
         src: require("../../assets/animals/insects/hornet.webp"),
         category: "Насекомые",
         russian: "оса",
@@ -80,7 +80,7 @@ export const insectsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 9,
+        
         src: require("../../assets/animals/insects/bee.webp"),
         category: "Насекомые",
         russian: "пчела",
@@ -90,7 +90,7 @@ export const insectsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 10,
+        
         src: require("../../assets/animals/insects/mole_cricket.webp"),
         category: "Насекомые",
         russian: "медведка",

@@ -1,6 +1,6 @@
 export const materialsData = [
     {
-      id: 1,
+      
       src: require("../../assets/materials/aluminium.webp"),
       category: "Материалы",
       russian: "алюминий",
@@ -10,7 +10,7 @@ export const materialsData = [
       sound_src: "apple.m4a",
     },
     {
-        id: 2,
+        
         src: require("../../assets/materials/gold.webp"),
         category: "Материалы",
         russian: "золото",
@@ -20,7 +20,7 @@ export const materialsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 3,
+        
         src: require("../../assets/materials/silver.webp"),
         category: "Материалы",
         russian: "серебро",
@@ -30,7 +30,7 @@ export const materialsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 4,
+        
         src: require("../../assets/materials/ivory.webp"),
         category: "Материалы",
         russian: "слоновая кость",
@@ -40,7 +40,7 @@ export const materialsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 5,
+        
         src: require("../../assets/materials/steel.webp"),
         category: "Материалы",
         russian: "сталь",
@@ -50,7 +50,7 @@ export const materialsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 6,
+        
         src: require("../../assets/materials/glass.webp"),
         category: "Материалы",
         russian: "стекло",
@@ -60,7 +60,7 @@ export const materialsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 7,
+        
         src: require("../../assets/materials/china.webp"),
         category: "Материалы",
         russian: "фарфор",
@@ -70,7 +70,7 @@ export const materialsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 8,
+        
         src: require("../../assets/materials/amber.webp"),
         category: "Материалы",
         russian: "янтарь",
@@ -80,7 +80,7 @@ export const materialsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 9,
+        
         src: require("../../assets/materials/paper.webp"),
         category: "Материалы",
         russian: "бумага",

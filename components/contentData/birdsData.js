@@ -1,6 +1,6 @@
 export const birdsData = [
     {
-        id: 1,
+        
         src: require("../../assets/animals/birds/sparrow.webp"),
         category: "Птицы",
         russian: "воробей",
@@ -10,7 +10,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 1,
+        
         src: require("../../assets/animals/birds/crow.webp"),
         category: "Птицы",
         russian: "ворона",
@@ -20,7 +20,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 3,
+        
         src: require("../../assets/animals/birds/pigeon.webp"),
         category: "Птицы",
         russian: "голубь",
@@ -30,7 +30,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 4,
+        
         src: require("../../assets/animals/birds/goose.webp"),
         category: "Птицы",
         russian: "гусь",
@@ -40,7 +40,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 5,
+        
         src: require("../../assets/animals/birds/woodpecker.webp"),
         category: "Птицы",
         russian: "дятел",
@@ -50,7 +50,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 6,
+        
         src: require("../../assets/animals/birds/turkey.webp"),
         category: "Птицы",
         russian: "индюк",
@@ -60,7 +60,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 7,
+        
         src: require("../../assets/animals/birds/cuckoo.webp"),
         category: "Птицы",
         russian: "кукушка",
@@ -70,7 +70,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 8,
+        
         src: require("../../assets/animals/birds/swallow.webp"),
         category: "Птицы",
         russian: "ласточка",
@@ -80,7 +80,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 9,
+        
         src: require("../../assets/animals/birds/eagle.webp"),
         category: "Птицы",
         russian: "орел",
@@ -90,7 +90,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 10,
+        
         src: require("../../assets/animals/birds/peacock.webp"),
         category: "Птицы",
         russian: "павлин",
@@ -100,7 +100,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 11,
+        
         src: require("../../assets/animals/birds/rooster.webp"),
         category: "Птицы",
         russian: "петух",
@@ -110,7 +110,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 12,
+        
         src: require("../../assets/animals/birds/bird.webp"),
         category: "Молочные продукты",
         russian: "птица",
@@ -120,7 +120,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 13,
+        
         src: require("../../assets/animals/birds/nightingale.webp"),
         category: "Птицы",
         russian: "соловей",
@@ -130,7 +130,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 14,
+        
         src: require("../../assets/animals/birds/magpie.webp"),
         category: "Птицы",
         russian: "сорока",
@@ -140,7 +140,7 @@ export const birdsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 15,
+        
         src: require("../../assets/animals/birds/owl.webp"),
         category: "Птицы",
         russian: "сова",

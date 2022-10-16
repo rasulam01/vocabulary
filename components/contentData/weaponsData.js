@@ -1,6 +1,6 @@
 export const weaponsData = [
     {
-      id: 1,
+      
       src: require("../../assets/weapons/pistol.webp"),
       category: "Оружия",
       russian: "пистолет",
@@ -10,7 +10,7 @@ export const weaponsData = [
       sound_src: "apple.m4a",
     },
     {
-        id: 2,
+        
         src: require("../../assets/weapons/gunpowder.webp"),
         category: "Оружия",
         russian: "порох",
@@ -20,7 +20,7 @@ export const weaponsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 3,
+        
         src: require("../../assets/weapons/bullet.webp"),
         category: "Оружия",
         russian: "пуля",
@@ -30,7 +30,7 @@ export const weaponsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 4,
+        
         src: require("../../assets/weapons/cannon.webp"),
         category: "Оружия",
         russian: "пушка",
@@ -40,7 +40,7 @@ export const weaponsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 5,
+        
         src: require("../../assets/weapons/rifle.webp"),
         category: "Оружия",
         russian: "ружье",
@@ -50,7 +50,7 @@ export const weaponsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 6,
+        
         src: require("../../assets/weapons/sabre.webp"),
         category: "Оружия",
         russian: "сабля",
@@ -59,7 +59,7 @@ export const weaponsData = [
         additional_info: "",
         sound_src: "apple.m4a",
       }, {
-        id: 7,
+        
         src: require("../../assets/weapons/arrow.webp"),
         category: "Оружия",
         russian: "стрела",

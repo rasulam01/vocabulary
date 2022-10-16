@@ -1,6 +1,6 @@
 export const fruitData = [
   {
-    id: 1,
+    
     src: require("../../assets/food/fruit/apple.webp"),
     category: "Фрукты",
     russian: "яблоко",
@@ -10,7 +10,7 @@ export const fruitData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 2,
+    
     src: require("../../assets/food/fruit/apricot.webp"),
     category: "Фрукты",
     russian: "абрикос",
@@ -20,7 +20,7 @@ export const fruitData = [
     sound_src: "apricot.m4a",
   },
   {
-    id: 3,
+    
     src: require("../../assets/food/fruit/quince.webp"),
     category: "Фрукты",
     russian: "айва",
@@ -30,7 +30,7 @@ export const fruitData = [
     sound_src: "quince.m4a",
   },
   {
-    id: 4,
+    
     src: require("../../assets/food/fruit/cherry_plum.webp"),
     category: "Фрукты",
     russian: "алыча",
@@ -40,7 +40,7 @@ export const fruitData = [
     sound_src: "cherry_plum.m4a",
   },
   {
-    id: 5,
+    
     src: require("../../assets/food/fruit/grape.webp"),
     category: "Фрукты",
     russian: "виноград",
@@ -50,7 +50,7 @@ export const fruitData = [
     sound_src: "grape.m4a",
   },
   {
-    id: 6,
+    
     src: require("../../assets/food/fruit/pear.webp"),
     category: "Фрукты",
     russian: "груша",
@@ -60,7 +60,7 @@ export const fruitData = [
     sound_src: "pear.m4a",
   },
   {
-    id: 7,
+    
     src: require("../../assets/food/fruit/plum.webp"),
     category: "Фрукты",
     russian: "слива",
@@ -70,7 +70,7 @@ export const fruitData = [
     sound_src: "plum.m4a",
   },
   {
-    id: 8,
+    
     src: require("../../assets/food/fruit/pumpkin.webp"),
     category: "Фрукты",
     russian: "тыква",
@@ -80,7 +80,7 @@ export const fruitData = [
     sound_src: "pumpkin.m4a",
   },
   {
-    id: 9,
+    
     src: require("../../assets/food/fruit/date.webp"),
     category: "Фрукты",
     russian: "финик",
@@ -90,7 +90,7 @@ export const fruitData = [
     sound_src: "date.m4a",
   },
   {
-    id: 10,
+    
     src: require("../../assets/food/fruit/fruit.webp"),
     category: "Фрукты",
     russian: "фрукты",
@@ -100,7 +100,7 @@ export const fruitData = [
     sound_src: "fruit.m4a",
   }, 
   {
-    id: 11,
+    
     src: require("../../assets/food/fruit/peach.webp"),
     category: "Фрукты",
     russian: "персик",

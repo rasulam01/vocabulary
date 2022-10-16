@@ -1,5 +1,5 @@
 export const numbersData = [{
-    id: 1,
+    
     src: require("../../assets/numbers/1.png"),
     category: "Глаголы",
     russian: "один",
@@ -8,7 +8,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 2,
+    
     src: require("../../assets/numbers/2.png"),
     category: "Глаголы",
     russian: "два",
@@ -17,7 +17,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 3,
+    
     src: require("../../assets/numbers/3.png"),
     category: "Глаголы",
     russian: "три",
@@ -26,7 +26,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 4,
+    
     src: require("../../assets/numbers/4.png"),
     category: "Глаголы",
     russian: "четыре",
@@ -35,7 +35,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 5,
+    
     src: require("../../assets/numbers/5.png"),
     category: "Глаголы",
     russian: "пять",
@@ -44,7 +44,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 6,
+    
     src: require("../../assets/numbers/6.png"),
     category: "Глаголы",
     russian: "шесть",
@@ -53,7 +53,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 7,
+    
     src: require("../../assets/numbers/7.png"),
     category: "Глаголы",
     russian: "семь",
@@ -62,7 +62,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 8,
+    
     src: require("../../assets/numbers/8.png"),
     category: "Глаголы",
     russian: "восемь",
@@ -71,7 +71,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 9,
+    
     src: require("../../assets/numbers/9.png"),
     category: "Глаголы",
     russian: "девять",
@@ -80,7 +80,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 10,
+    
     src: require("../../assets/numbers/10.png"),
     category: "Глаголы",
     russian: "десять",
@@ -89,7 +89,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 11,
+    
     src: require("../../assets/numbers/11.png"),
     category: "Глаголы",
     russian: "одиннадцать",
@@ -98,7 +98,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 12,
+    
     src: require("../../assets/numbers/12.png"),
     category: "Глаголы",
     russian: "двенадцать",
@@ -107,7 +107,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 13,
+    
     src: require("../../assets/numbers/13.png"),
     category: "Глаголы",
     russian: "тринадцать",
@@ -116,7 +116,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 14,
+    
     src: require("../../assets/numbers/14.png"),
     category: "Глаголы",
     russian: "четырнадцать",
@@ -125,7 +125,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 15,
+    
     src: require("../../assets/numbers/15.png"),
     category: "Глаголы",
     russian: "пятнадцать",
@@ -134,7 +134,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 16,
+    
     src: require("../../assets/numbers/16.png"),
     category: "Глаголы",
     russian: "шестнадцать",
@@ -143,7 +143,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 17,
+    
     src: require("../../assets/numbers/17.png"),
     category: "Глаголы",
     russian: "семнадцать",
@@ -152,7 +152,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 18,
+    
     src: require("../../assets/numbers/18.png"),
     category: "Глаголы",
     russian: "восемнадцать",
@@ -161,7 +161,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 19,
+    
     src: require("../../assets/numbers/0.png"),
     category: "Глаголы",
     russian: "ноль",
@@ -170,7 +170,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 20,
+    
     src: require("../../assets/numbers/19.png"),
     category: "Глаголы",
     russian: "девятнадцать",
@@ -179,7 +179,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 21,
+    
     src: require("../../assets/numbers/20.png"),
     category: "Глаголы",
     russian: "двадцать",
@@ -188,7 +188,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 22,
+    
     src: require("../../assets/numbers/21.png"),
     category: "Глаголы",
     russian: "двадцать один",
@@ -197,7 +197,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 23,
+    
     src: require("../../assets/numbers/22.png"),
     category: "Глаголы",
     russian: "двадцать два",
@@ -206,7 +206,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 24,
+    
     src: require("../../assets/numbers/23.png"),
     category: "Глаголы",
     russian: "двадцать три",
@@ -215,7 +215,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 25,
+    
     src: require("../../assets/numbers/24.png"),
     category: "Глаголы",
     russian: "двадцать четыре",
@@ -224,7 +224,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 26,
+    
     src: require("../../assets/numbers/25.png"),
     category: "Глаголы",
     russian: "двадцать пять",
@@ -233,16 +233,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 27,
-    src: require("../../assets/numbers/26.png"),
-    category: "Глаголы",
-    russian: "двадцать три",
-    khadar: "гьанухIябра",
-    english: "twenty three",
-    additional_info: "",
-    sound_src: "apple.m4a",
-  }, {
-    id: 28,
+    
     src: require("../../assets/numbers/27.png"),
     category: "Глаголы",
     russian: "двадцать семь",
@@ -251,7 +242,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 29,
+    
     src: require("../../assets/numbers/28.png"),
     category: "Глаголы",
     russian: "двадцать восемь",
@@ -260,7 +251,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 30,
+    
     src: require("../../assets/numbers/29.png"),
     category: "Глаголы",
     russian: "двадцать девять",
@@ -269,7 +260,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 31,
+    
     src: require("../../assets/numbers/30.png"),
     category: "Глаголы",
     russian: "тридцать",
@@ -278,7 +269,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 32,
+    
     src: require("../../assets/numbers/31.png"),
     category: "Глаголы",
     russian: "тридцать один",
@@ -287,7 +278,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 33,
+    
     src: require("../../assets/numbers/40.png"),
     category: "Глаголы",
     russian: "сорок",
@@ -296,7 +287,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 34,
+    
     src: require("../../assets/numbers/50.png"),
     category: "Глаголы",
     russian: "пятьдесят",
@@ -305,7 +296,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 35,
+    
     src: require("../../assets/numbers/60.png"),
     category: "Глаголы",
     russian: "шестьдесят",
@@ -314,7 +305,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 36,
+    
     src: require("../../assets/numbers/70.png"),
     category: "Глаголы",
     russian: "семьдесят",
@@ -323,7 +314,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 37,
+    
     src: require("../../assets/numbers/80.png"),
     category: "Глаголы",
     russian: "восемьдесят",
@@ -332,7 +323,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 38,
+    
     src: require("../../assets/numbers/90.png"),
     category: "Глаголы",
     russian: "девяносто",
@@ -341,7 +332,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 39,
+    
     src: require("../../assets/numbers/100.png"),
     category: "Глаголы",
     russian: "сто",
@@ -350,7 +341,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 40,
+    
     src: require("../../assets/numbers/200.png"),
     category: "Глаголы",
     russian: "двести",
@@ -359,7 +350,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 41,
+    
     src: require("../../assets/numbers/300.png"),
     category: "Глаголы",
     russian: "триста",
@@ -368,7 +359,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 42,
+    
     src: require("../../assets/numbers/400.png"),
     category: "Глаголы",
     russian: "четыреста",
@@ -377,7 +368,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 43,
+    
     src: require("../../assets/numbers/500.png"),
     category: "Глаголы",
     russian: "пятьсот",
@@ -386,7 +377,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 44,
+    
     src: require("../../assets/numbers/600.png"),
     category: "Глаголы",
     russian: "шестьсот",
@@ -395,7 +386,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 45,
+    
     src: require("../../assets/numbers/700.png"),
     category: "Глаголы",
     russian: "семьсот",
@@ -404,7 +395,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 46,
+    
     src: require("../../assets/numbers/800.png"),
     category: "Глаголы",
     russian: "восемьсот",
@@ -413,7 +404,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 47,
+    
     src: require("../../assets/numbers/900.png"),
     category: "Глаголы",
     russian: "девятьсот",
@@ -422,7 +413,7 @@ export const numbersData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 48,
+    
     src: require("../../assets/numbers/1000.png"),
     category: "Глаголы",
     russian: "тысяча",

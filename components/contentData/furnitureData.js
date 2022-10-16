@@ -1,6 +1,6 @@
 export const furnitureData = [
   {
-    id: 1,
+    
     src: require("../../assets/furniture/door.webp"),
     category: "Материалы",
     russian: "дверь",
@@ -10,7 +10,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 2,
+    
     src: require("../../assets/furniture/curtain.webp"),
     category: "Материалы",
     russian: "занавес",
@@ -20,7 +20,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 3,
+    
     src: require("../../assets/furniture/bed.webp"),
     category: "Материалы",
     russian: "кровать",
@@ -30,7 +30,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 4,
+    
     src: require("../../assets/furniture/stairs.webp"),
     category: "Материалы",
     russian: "лестница",
@@ -40,7 +40,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 5,
+    
     src: require("../../assets/furniture/mattress.webp"),
     category: "Материалы",
     russian: "матрас",
@@ -50,7 +50,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 6,
+    
     src: require("../../assets/furniture/closet.webp"),
     category: "Материалы",
     russian: "шкаф",
@@ -61,7 +61,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 7,
+    
     src: require("../../assets/furniture/shelf.webp"),
     category: "Материалы",
     russian: "полка",
@@ -71,7 +71,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 8,
+    
     src: require("../../assets/furniture/table.webp"),
     category: "Материалы",
     russian: "стол",
@@ -81,7 +81,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 9,
+    
     src: require("../../assets/furniture/roof.webp"),
     category: "Материалы",
     russian: "крыша",
@@ -91,7 +91,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 10,
+    
     src: require("../../assets/furniture/lamp.webp"),
     category: "Материалы",
     russian: "лампа",
@@ -101,7 +101,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 11,
+    
     src: require("../../assets/furniture/floor.webp"),
     category: "Материалы",
     russian: "пол",
@@ -111,7 +111,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 12,
+    
     src: require("../../assets/furniture/ceiling.webp"),
     category: "Материалы",
     russian: "потолок",
@@ -121,7 +121,7 @@ export const furnitureData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 13,
+    
     src: require("../../assets/furniture/wall.webp"),
     category: "Материалы",
     russian: "стена",

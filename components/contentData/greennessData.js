@@ -1,5 +1,5 @@
 export const greennessData = [{
-    id: 1,
+    
     src: require("../../assets/nature/greenness/log.webp"),
     category: "Растительность",
     russian: "бревно",
@@ -8,7 +8,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 2,
+    
     src: require("../../assets/nature/greenness/branch.webp"),
     category: "Растительность",
     russian: "ветвь",
@@ -17,7 +17,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 3,
+    
     src: require("../../assets/nature/greenness/timber.webp"),
     category: "Растительность",
     russian: "древесина",
@@ -26,7 +26,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 4,
+    
     src: require("../../assets/nature/greenness/greenness.webp"),
     category: "Растительность",
     russian: "зелень",
@@ -35,7 +35,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 5,
+    
     src: require("../../assets/nature/greenness/hedge.webp"),
     category: "Растительность",
     russian: "изгородь",
@@ -44,7 +44,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 6,
+    
     src: require("../../assets/nature/greenness/root.webp"),
     category: "Растительность",
     russian: "корень",
@@ -53,7 +53,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 7,
+    
     src: require("../../assets/nature/greenness/nettle.webp"),
     category: "Растительность",
     russian: "крапива",
@@ -62,7 +62,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 8,
+    
     src: require("../../assets/nature/greenness/bush.webp"),
     category: "Растительность",
     russian: "куст",
@@ -71,7 +71,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 9,
+    
     src: require("../../assets/nature/greenness/leaf.webp"),
     category: "Растительность",
     russian: "лист",
@@ -80,7 +80,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 10,
+    
     src: require("../../assets/nature/greenness/poppy.webp"),
     category: "Растительность",
     russian: "мак",
@@ -89,7 +89,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 11,
+    
     src: require("../../assets/nature/greenness/mint.webp"),
     category: "Растительность",
     russian: "мята",
@@ -98,7 +98,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 12,
+    
     src: require("../../assets/nature/greenness/manure.webp"),
     category: "Растительность",
     russian: "навоз",
@@ -107,7 +107,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 13,
+    
     src: require("../../assets/nature/greenness/stump.webp"),
     category: "Растительность",
     russian: "пень",
@@ -116,7 +116,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 14,
+    
     src: require("../../assets/nature/greenness/field.webp"),
     category: "Растительность",
     russian: "поле",
@@ -125,7 +125,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 15,
+    
     src: require("../../assets/nature/greenness/meadow.webp"),
     category: "Растительность",
     russian: "луг",
@@ -134,7 +134,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 16,
+    
     src: require("../../assets/nature/greenness/hay.webp"),
     category: "Растительность",
     russian: "сено",
@@ -143,7 +143,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 17,
+    
     src: require("../../assets/nature/greenness/weed.webp"),
     category: "Растительность",
     russian: "сорняк",
@@ -152,7 +152,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 18,
+    
     src: require("../../assets/nature/greenness/grass.webp"),
     category: "Растительность",
     russian: "трава",
@@ -161,7 +161,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 19,
+    
     src: require("../../assets/nature/greenness/cotton.webp"),
     category: "Растительность",
     russian: "хлопок",
@@ -170,7 +170,7 @@ export const greennessData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 20,
+    
     src: require("../../assets/nature/greenness/glade.webp"),
     category: "Растительность",
     russian: "поляна",

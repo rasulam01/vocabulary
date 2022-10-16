@@ -1,5 +1,5 @@
 export const clothesData = [{
-    id: 1,
+    
     src: require("../../assets/clothes/galoshes.webp"),
     category: "Одежда",
     russian: "галоши",
@@ -8,7 +8,7 @@ export const clothesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 2,
+    
     src: require("../../assets/clothes/astrakhan_papakha.webp"),
     category: "Одежда",
     russian: "каракулевая папаха",
@@ -17,7 +17,7 @@ export const clothesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 3,
+    
     src: require("../../assets/clothes/pocket.webp"),
     category: "Одежда",
     russian: "карман",
@@ -26,7 +26,7 @@ export const clothesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 4,
+    
     src: require("../../assets/clothes/socks.webp"),
     category: "Одежда",
     russian: "носки",
@@ -35,7 +35,7 @@ export const clothesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 5,
+    
     src: require("../../assets/clothes/shoes.webp"),
     category: "Одежда",
     russian: "обувь",
@@ -44,7 +44,7 @@ export const clothesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 6,
+    
     src: require("../../assets/clothes/gloves.webp"),
     category: "Одежда",
     russian: "перчатки",
@@ -53,7 +53,7 @@ export const clothesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 7,
+    
     src: require("../../assets/clothes/headscarf.webp"),
     category: "Одежда",
     russian: "платок",
@@ -62,7 +62,7 @@ export const clothesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 8,
+    
     src: require("../../assets/clothes/belt.webp"),
     category: "Одежда",
     russian: "ремень",
@@ -71,7 +71,7 @@ export const clothesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 9,
+    
     src: require("../../assets/clothes/shirt.webp"),
     category: "Одежда",
     russian: "рубашка",
@@ -80,7 +80,7 @@ export const clothesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 10,
+    
     src: require("../../assets/clothes/hat.webp"),
     category: "Одежда",
     russian: "шапка",
@@ -89,7 +89,7 @@ export const clothesData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 11,
+    
     src: require("../../assets/clothes/pants.webp"),
     category: "Одежда",
     russian: "штаны",

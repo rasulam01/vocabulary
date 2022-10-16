@@ -1,5 +1,5 @@
 export const scienceData = [{
-    id: 1,
+    
     src: require("../../assets/science/astronomy.webp"),
     category: "Наука",
     russian: "астрономия",
@@ -8,7 +8,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 3,
+    
     src: require("../../assets/science/biology.webp"),
     category: "Наука",
     russian: "биология",
@@ -17,7 +17,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 4,
+    
     src: require("../../assets/science/botanics.webp"),
     category: "Наука",
     russian: "ботаника",
@@ -26,7 +26,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 5,
+    
     src: require("../../assets/science/virus.webp"),
     category: "Наука",
     russian: "вирус",
@@ -35,7 +35,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 6,
+    
     src: require("../../assets/science/geography.webp"),
     category: "Наука",
     russian: "география",
@@ -44,7 +44,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 7,
+    
     src: require("../../assets/science/degree.webp"),
     category: "Наука",
     russian: "градус",
@@ -53,7 +53,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 8,
+    
     src: require("../../assets/science/diameter.webp"),
     category: "Наука",
     russian: "диаметр",
@@ -62,7 +62,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 9,
+    
     src: require("../../assets/science/history.webp"),
     category: "Наука",
     russian: "история",
@@ -71,7 +71,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 10,
+    
     src: require("../../assets/science/map.webp"),
     category: "Наука",
     russian: "карта",
@@ -80,7 +80,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 11,
+    
     src: require("../../assets/science/mathematics.webp"),
     category: "Наука",
     russian: "математика",
@@ -89,7 +89,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 12,
+    
     src: require("../../assets/science/microbe.webp"),
     category: "Наука",
     russian: "микроб",
@@ -98,7 +98,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 13,
+    
     src: require("../../assets/science/parasite.webp"),
     category: "Наука",
     russian: "паразит",
@@ -107,7 +107,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 14,
+    
     src: require("../../assets/science/radius.webp"),
     category: "Наука",
     russian: "радиус",
@@ -116,7 +116,7 @@ export const scienceData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 15,
+    
     src: require("../../assets/science/physics.webp"),
     category: "Наука",
     russian: "физика",

@@ -1,6 +1,6 @@
 export const crawlingData = [
     {
-        id: 1,
+        
         src: require("../../assets/animals/crawling/worm.webp"),
         category: "Ползучие",
         russian: "червь; глист",
@@ -10,7 +10,7 @@ export const crawlingData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 2,
+        
         src: require("../../assets/animals/crawling/snake.webp"),
         category: "Ползучие",
         russian: "змея",
@@ -20,7 +20,7 @@ export const crawlingData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 3,
+        
         src: require("../../assets/animals/crawling/spider.webp"),
         category: "Ползучие",
         russian: "паук",
@@ -30,7 +30,7 @@ export const crawlingData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 4,
+        
         src: require("../../assets/animals/crawling/scorpion.webp"),
         category: "Ползучие",
         russian: "скорпион",

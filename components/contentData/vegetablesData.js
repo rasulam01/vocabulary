@@ -1,6 +1,6 @@
 export const vegetablesData = [
     {
-      id: 1,
+      
       src: require("../../assets/food/vegetables/cabbage.webp"),
       category: "Овощи",
       russian: "капуста",
@@ -10,7 +10,7 @@ export const vegetablesData = [
       sound_src: "apple.m4a",
     },
     {
-      id: 2,
+      
       src: require("../../assets/food/vegetables/onion.webp"),
       category: "Овощи",
       russian: "лук",
@@ -20,7 +20,7 @@ export const vegetablesData = [
       sound_src: "apricot.m4a",
     },
     {
-      id: 3,
+      
       src: require("../../assets/food/vegetables/carrot.webp"),
       category: "Овощи",
       russian: "морковь",
@@ -30,7 +30,7 @@ export const vegetablesData = [
       sound_src: "quince.m4a",
     },
     {
-      id: 4,
+      
       src: require("../../assets/food/vegetables/cucumber.webp"),
       category: "Овощи",
       russian: "огурец",
@@ -40,7 +40,7 @@ export const vegetablesData = [
       sound_src: "cherry_plum.m4a",
     },
     {
-      id: 5,
+      
       src: require("../../assets/food/vegetables/tomato.webp"),
       category: "Овощи",
       russian: "помидор",
@@ -50,7 +50,7 @@ export const vegetablesData = [
       sound_src: "grape.m4a",
     },
     {
-      id: 6,
+      
       src: require("../../assets/food/vegetables/beet.webp"),
       category: "Овощи",
       russian: "свекла",
@@ -60,7 +60,7 @@ export const vegetablesData = [
       sound_src: "pear.m4a",
     },
     {
-      id: 7,
+      
       src: require("../../assets/food/vegetables/bean.webp"),
       category: "Овощи",
       russian: "фасоль",
@@ -70,7 +70,7 @@ export const vegetablesData = [
       sound_src: "plum.m4a",
     },
     {
-      id: 8,
+      
       src: require("../../assets/food/vegetables/garlic.webp"),
       category: "Овощи",
       russian: "чеснок",

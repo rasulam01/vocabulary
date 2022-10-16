@@ -1,37 +1,30 @@
 export const foodList = [
   {
-    src: require("../../assets/sections/food_fruit.png"),
-    title: "Фрукты",
+    src: require("../../assets/sections/food_fruit.png"),    
     title: "fruit",
   },
   {
-    src: require("../../assets/sections/food_vegetables.png"),
-    title: "Овощи",
+    src: require("../../assets/sections/food_vegetables.png"),    
     title: "vegetables",
   },
   {
-    src: require("../../assets/sections/food_berries.png"),
-    title: "Ягоды",
+    src: require("../../assets/sections/food_berries.png"),    
     title: "berries",
   },
   {
-    src: require("../../assets/sections/food_dairy.png"),
-    title: "Молочные продукты",
+    src: require("../../assets/sections/food_dairy.png"),    
     title: "dairy",
   },
   {
-    src: require("../../assets/sections/food_grain.png"),
-    title: "Злаковые, зерновые, их производные",
+    src: require("../../assets/sections/food_grain.png"),    
     title: "grain",
   },
   {
-    src: require("../../assets/sections/food_utensils.png"),
-    title: "Кухонная утварь",
+    src: require("../../assets/sections/food_utensils.png"),    
     title: "utensils",
   },
   {
-    src: require("../../assets/sections/food_other.png"),
-    title: "Другое",
+    src: require("../../assets/sections/food_other.png"),    
     title: "other",
   },
 ];

@@ -1,7 +1,7 @@
 export const dairyData = [
     
     {
-        id: 1,
+        
         src: require("../../assets/food/dairy/kefir.webp"),
         category: "Молочные продукты",
         russian: "кефир",
@@ -11,7 +11,7 @@ export const dairyData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 2,
+        
         src: require("../../assets/food/dairy/milk.webp"),
         category: "Молочные продукты",
         russian: "молоко",
@@ -21,7 +21,7 @@ export const dairyData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 3,
+        
         src: require("../../assets/food/dairy/butter.webp"),
         category: "Молочные продукты",
         russian: "сливочное масло",
@@ -31,7 +31,7 @@ export const dairyData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 4,
+        
         src: require("../../assets/food/dairy/sour_cream.webp"),
         category: "Молочные продукты",
         russian: "сметана",
@@ -41,7 +41,7 @@ export const dairyData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 5,
+        
         src: require("../../assets/food/dairy/cheese.webp"),
         category: "Молочные продукты",
         russian: "сыр",
@@ -51,7 +51,7 @@ export const dairyData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 6,
+        
         src: require("../../assets/food/dairy/ghee.webp"),
         category: "Молочные продукты",
         russian: "топленое масло",

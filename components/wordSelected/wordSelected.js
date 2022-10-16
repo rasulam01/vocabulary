@@ -9,8 +9,7 @@ import { useTranslation } from "react-i18next";
 export const WordSelected = ({ route }) => {
   const { t } = useTranslation()
   const { dynamicColor } = React.useContext(Context);
-  const {
-    // id,
+  const {    
     index,
     src,
     category,

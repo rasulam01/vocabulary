@@ -1,6 +1,6 @@
 export const mammalsData = [
     {
-        id: 1,
+        
         src: require("../../assets/animals/mammals/ram.webp"),
         category: "Млекопитающиеся",
         russian: "баран",
@@ -10,7 +10,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 2,
+        
         src: require("../../assets/animals/mammals/buffalo.webp"),
         category: "Млекопитающиеся",
         russian: "буйвол",
@@ -20,7 +20,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 3,
+        
         src: require("../../assets/animals/mammals/bull.webp"),
         category: "Млекопитающиеся",
         russian: "бык",
@@ -30,7 +30,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 4,
+        
         src: require("../../assets/animals/mammals/camel.webp"),
         category: "Млекопитающиеся",
         russian: "верблюд",
@@ -40,7 +40,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 5,
+        
         src: require("../../assets/animals/mammals/wolf.webp"),
         category: "Млекопитающиеся",
         russian: "волк",
@@ -50,7 +50,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 6,
+        
         src: require("../../assets/animals/mammals/gazelle.webp"),
         category: "Млекопитающиеся",
         russian: "газель",
@@ -60,7 +60,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 7,
+        
         src: require("../../assets/animals/mammals/dragon.webp"),
         category: "Млекопитающиеся",
         russian: "дракон",
@@ -70,7 +70,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 8,
+        
         src: require("../../assets/animals/mammals/hedgehog.webp"),
         category: "Млекопитающиеся",
         russian: "еж",
@@ -80,7 +80,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 9,
+        
         src: require("../../assets/animals/mammals/goat.webp"),
         category: "Млекопитающиеся",
         russian: "козел",
@@ -90,7 +90,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 10,
+        
         src: require("../../assets/animals/mammals/cow.webp"),
         category: "Млекопитающиеся",
         russian: "корова",
@@ -100,7 +100,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 11,
+        
         src: require("../../assets/animals/mammals/cat.webp"),
         category: "Млекопитающиеся",
         russian: "кошка",
@@ -110,7 +110,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 12,
+        
         src: require("../../assets/animals/mammals/rabbit.webp"),
         category: "Млекопитающиеся",
         russian: "кролик",
@@ -120,7 +120,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 13,
+        
         src: require("../../assets/animals/mammals/lion.webp"),
         category: "Млекопитающиеся",
         russian: "лев",
@@ -130,7 +130,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 14,
+        
         src: require("../../assets/animals/mammals/fox.webp"),
         category: "Млекопитающиеся",
         russian: "лиса",
@@ -140,7 +140,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 15,
+        
         src: require("../../assets/animals/mammals/horse.webp"),
         category: "Млекопитающиеся",
         russian: "лошадь",
@@ -150,7 +150,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 16,
+        
         src: require("../../assets/animals/mammals/bear.webp"),
         category: "Млекопитающиеся",
         russian: "медведь",
@@ -160,7 +160,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 17,
+        
         src: require("../../assets/animals/mammals/mouse.webp"),
         category: "Млекопитающиеся",
         russian: "мышь",
@@ -170,7 +170,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 18,
+        
         src: require("../../assets/animals/mammals/monkey.webp"),
         category: "Млекопитающиеся",
         russian: "обезьяна",
@@ -180,7 +180,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 19,
+        
         src: require("../../assets/animals/mammals/sheep.webp"),
         category: "Млекопитающиеся",
         russian: "овца",
@@ -190,7 +190,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 20,
+        
         src: require("../../assets/animals/mammals/donkey.webp"),
         category: "Млекопитающиеся",
         russian: "осел",
@@ -200,7 +200,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 21,
+        
         src: require("../../assets/animals/mammals/pig.webp"),
         category: "Млекопитающиеся",
         russian: "свинья",
@@ -210,7 +210,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 22,
+        
         src: require("../../assets/animals/mammals/elephant.webp"),
         category: "Млекопитающиеся",
         russian: "слон",
@@ -220,7 +220,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 23,
+        
         src: require("../../assets/animals/mammals/tiger.webp"),
         category: "Млекопитающиеся",
         russian: "тигр",
@@ -230,7 +230,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 24,
+        
         src: require("../../assets/animals/mammals/jackal.webp"),
         category: "Млекопитающиеся",
         russian: "шакал",
@@ -240,7 +240,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 25,
+        
         src: require("../../assets/animals/mammals/mutt.webp"),
         category: "Млекопитающиеся",
         russian: "щенок",
@@ -250,7 +250,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 26,
+        
         src: require("../../assets/animals/mammals/herd.webp"),
         category: "Млекопитающиеся",
         russian: "стадо",
@@ -260,7 +260,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 27,
+        
         src: require("../../assets/animals/mammals/dog.webp"),
         category: "Млекопитающиеся",
         russian: "собака",
@@ -270,7 +270,7 @@ export const mammalsData = [
         sound_src: "apple.m4a",
       },
       {
-        id: 28,
+        
         src: require("../../assets/animals/mammals/rat.webp"),
         category: "Ползучие",
         russian: "крыса",

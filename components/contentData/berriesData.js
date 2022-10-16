@@ -1,6 +1,6 @@
 export const berriesData = [
     {
-      id: 1,
+      
       src: require("../../assets/food/berries/watermelon.webp"),
       category: "Ягоды",
       russian: "арбуз",
@@ -10,7 +10,7 @@ export const berriesData = [
       sound_src: "apple.m4a",
     },
     {
-      id: 2,
+      
       src: require("../../assets/food/berries/cherry.webp"),
       category: "Ягоды",
       russian: "вишня",
@@ -20,7 +20,7 @@ export const berriesData = [
       sound_src: "apricot.m4a",
     },
     {
-      id: 3,
+      
       src: require("../../assets/food/berries/pomegranate.webp"),
       category: "Ягоды",
       russian: "гранат",
@@ -30,7 +30,7 @@ export const berriesData = [
       sound_src: "quince.m4a",
     },
     {
-      id: 4,
+      
       src: require("../../assets/food/berries/melon.webp"),
       category: "Ягоды",
       russian: "дыня",
@@ -40,7 +40,7 @@ export const berriesData = [
       sound_src: "cherry_plum.m4a",
     },
     {
-      id: 5,
+      
       src: require("../../assets/food/berries/blackberry.webp"),
       category: "Ягоды",
       russian: "ежевика",
@@ -50,7 +50,7 @@ export const berriesData = [
       sound_src: "grape.m4a",
     },
     {
-      id: 6,
+      
       src: require("../../assets/food/berries/strawberry.webp"),
       category: "Ягоды",
       russian: "земляника",
@@ -60,7 +60,7 @@ export const berriesData = [
       sound_src: "pear.m4a",
     },
     {
-      id: 7,
+      
       src: require("../../assets/food/berries/dogwood.webp"),
       category: "Ягоды",
       russian: "кизил",
@@ -70,7 +70,7 @@ export const berriesData = [
       sound_src: "plum.m4a",
     },
     {
-      id: 8,
+      
       src: require("../../assets/food/berries/raspberry.webp"),
       category: "Ягоды",
       russian: "малина",
@@ -80,7 +80,7 @@ export const berriesData = [
       sound_src: "pumpkin.m4a",
     },
     {
-        id: 8,
+        
         src: require("../../assets/food/berries/mulberry.webp"),
         category: "Ягоды",
         russian: "тутовник",
@@ -90,7 +90,7 @@ export const berriesData = [
         sound_src: "pumpkin.m4a",
       },
       {
-        id: 8,
+        
         src: require("../../assets/food/berries/persimmon.webp"),
         category: "Ягоды",
         russian: "хурма",
@@ -100,7 +100,7 @@ export const berriesData = [
         sound_src: "pumpkin.m4a",
       },
       {
-        id: 8,
+        
         src: require("../../assets/food/berries/sweet_cherry.webp"),
         category: "Ягоды",
         russian: "черешня",
@@ -110,7 +110,7 @@ export const berriesData = [
         sound_src: "pumpkin.m4a",
       },
       {
-        id: 8,
+        
         src: require("../../assets/food/berries/rosehip.webp"),
         category: "Ягоды",
         russian: "шиповник",

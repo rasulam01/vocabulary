@@ -1,5 +1,5 @@
 export const timeData = [{
-    id: 1,
+    
     src: require("../../assets/time/spring.webp"),
     category: "Время",
     russian: "весна",
@@ -8,7 +8,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 2,
+    
     src: require("../../assets/time/summer.webp"),
     category: "Время",
     russian: "лето",
@@ -17,7 +17,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 3,
+    
     src: require("../../assets/time/autumn.webp"),
     category: "Время",
     russian: "осень",
@@ -26,7 +26,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 4,
+    
     src: require("../../assets/time/winter.webp"),
     category: "Время",
     russian: "зима",
@@ -35,7 +35,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 5,
+    
     src: require("../../assets/time/morning.webp"),
     category: "Время",
     russian: "утро",
@@ -44,7 +44,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 7,
+    
     src: require("../../assets/time/evening.webp"),
     category: "Время",
     russian: "вечер",
@@ -53,7 +53,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 8,
+    
     src: require("../../assets/time/night.webp"),
     category: "Время",
     russian: "ночь",
@@ -62,7 +62,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 9,
+    
     src: require("../../assets/time/second.webp"),
     category: "Время",
     russian: "секунда",
@@ -71,7 +71,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 10,
+    
     src: require("../../assets/time/minute.webp"),
     category: "Время",
     russian: "минута",
@@ -80,7 +80,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 11,
+    
     src: require("../../assets/time/hour.webp"),
     category: "Время",
     russian: "час",
@@ -89,7 +89,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 12,
+    
     src: require("../../assets/time/day.webp"),
     category: "Время",
     russian: "день",
@@ -99,7 +99,7 @@ export const timeData = [{
     sound_src: "apple.m4a",
   },
   {
-    id: 13,
+    
     src: require("../../assets/time/daytime.webp"),
     category: "Время",
     russian: "дневное время",
@@ -108,7 +108,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 13,
+    
     src: require("../../assets/time/week.webp"),
     category: "Время",
     russian: "неделя",
@@ -117,7 +117,7 @@ export const timeData = [{
     additional_info: "Также имеет значение \"пятница\"",
     sound_src: "apple.m4a",
   }, {
-    id: 14,
+    
     src: require("../../assets/time/month.webp"),
     category: "Время",
     russian: "месяц",
@@ -126,7 +126,7 @@ export const timeData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 15,
+    
     src: require("../../assets/time/year.webp"),
     category: "Время",
     russian: "год",

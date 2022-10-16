@@ -1,6 +1,5 @@
 export const adverbsData = [
   {
-    id: 1,
     src: "",
     category: "Наречия",
     russian: "много",
@@ -10,7 +9,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 2,
     src: "",
     category: "Наречия",
     russian: "большинство",
@@ -20,7 +18,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 3,
     src: "",
     category: "Наречия",
     russian: "всегда",
@@ -30,7 +27,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 4,
     src: "",
     category: "Наречия",
     russian: "ещё",
@@ -40,7 +36,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 5,
     src: "",
     category: "Наречия",
     russian: "затем",
@@ -50,7 +45,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 6,
     src: "",
     category: "Наречия",
     russian: "как",
@@ -60,7 +54,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 7,
     src: "",
     category: "Наречия",
     russian: "когда",
@@ -70,7 +63,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 8,
     src: "",
     category: "Наречия",
     russian: "кто",
@@ -80,7 +72,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 9,
     src: "",
     category: "Наречия",
     russian: "куда",
@@ -90,7 +81,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 10,
     src: "",
     category: "Наречия",
     russian: "мало",
@@ -100,7 +90,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 11,
     src: "",
     category: "Наречия",
     russian: "но",
@@ -110,7 +99,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 12,
     src: "",
     category: "Наречия",
     russian: "откуда",
@@ -120,7 +108,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 13,
     src: "",
     category: "Наречия",
     russian: "отсюда",
@@ -130,7 +117,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 14,
     src: "",
     category: "Наречия",
     russian: "потому что",
@@ -140,7 +126,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 15,
     src: "",
     category: "Наречия",
     russian: "сколько",
@@ -150,7 +135,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 16,
     src: "",
     category: "Наречия",
     russian: "что",
@@ -160,7 +144,6 @@ export const adverbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 17,
     src: "",
     category: "Наречия",
     russian: "что-то",

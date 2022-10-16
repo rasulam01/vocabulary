@@ -1,5 +1,5 @@
 export const toolsData = [{
-  id: 1,
+  
   src: require("../../assets/tools/rake.webp"),
   category: "Инструменты",
   russian: "грабли",
@@ -8,7 +8,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 2,
+  
   src: require("../../assets/tools/plank.webp"),
   category: "Инструменты",
   russian: "доска",
@@ -17,7 +17,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 3,
+  
   src: require("../../assets/tools/firewood.webp"),
   category: "Инструменты",
   russian: "дрова",
@@ -26,7 +26,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 4,
+  
   src: require("../../assets/tools/needle.webp"),
   category: "Инструменты",
   russian: "иголка",
@@ -35,7 +35,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 5,
+  
   src: require("../../assets/tools/scythe.webp"),
   category: "Инструменты",
   russian: "коса",
@@ -44,7 +44,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 6,
+  
   src: require("../../assets/tools/shovel.webp"),
   category: "Инструменты",
   russian: "лопата",
@@ -53,7 +53,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 7,
+  
   src: require("../../assets/tools/hammer.webp"),
   category: "Инструменты",
   russian: "молоток",
@@ -62,7 +62,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 8,
+  
   src: require("../../assets/tools/nail_file.webp"),
   category: "Инструменты",
   russian: "напильник",
@@ -71,7 +71,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 9,
+  
   src: require("../../assets/tools/thread.webp"),
   category: "Инструменты",
   russian: "нитка",
@@ -80,7 +80,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 10,
+  
   src: require("../../assets/tools/scissors.webp"),
   category: "Инструменты",
   russian: "ножницы",
@@ -89,7 +89,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 11,
+  
   src: require("../../assets/tools/saw.webp"),
   category: "Инструменты",
   russian: "пила",
@@ -98,7 +98,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 12,
+  
   src: require("../../assets/tools/pliers.webp"),
   category: "Инструменты",
   russian: "плоскогубцы",
@@ -107,7 +107,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 13,
+  
   src: require("../../assets/tools/spring.webp"),
   category: "Инструменты",
   russian: "пружина",
@@ -116,7 +116,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 14,
+  
   src: require("../../assets/tools/button.webp"),
   category: "Инструменты",
   russian: "пуговица",
@@ -125,7 +125,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 15,
+  
   src: require("../../assets/tools/sickle.webp"),
   category: "Инструменты",
   russian: "серп",
@@ -134,7 +134,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 16,
+  
   src: require("../../assets/tools/axe.webp"),
   category: "Инструменты",
   russian: "топор",
@@ -143,7 +143,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 17,
+  
   src: require("../../assets/tools/awl.webp"),
   category: "Инструменты",
   russian: "шило",
@@ -152,7 +152,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 18,
+  
   src: require("../../assets/tools/tongs.webp"),
   category: "Инструменты",
   russian: "щипцы",
@@ -161,7 +161,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 19,
+  
   src: require("../../assets/tools/hoe.webp"),
   category: "Инструменты",
   russian: "тяпка",
@@ -170,7 +170,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 20,
+  
   src: require("../../assets/tools/pick.webp"),
   category: "Инструменты",
   russian: "кирка",
@@ -179,7 +179,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 21,
+  
   src: require("../../assets/tools/rope.webp"),
   category: "Инструменты",
   russian: "веревка",
@@ -188,7 +188,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 22,
+  
   src: require("../../assets/tools/beam.webp"),
   category: "Инструменты",
   russian: "балка",
@@ -197,7 +197,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 23,
+  
   src: require("../../assets/tools/binoculars.webp"),
   category: "Инструменты",
   russian: "бинокль",
@@ -206,7 +206,7 @@ export const toolsData = [{
   additional_info: "",
   sound_src: "apple.m4a",
 }, {
-  id: 24,
+  
   src: require("../../assets/tools/broom.webp"),
   category: "Инструменты",
   russian: "веник",

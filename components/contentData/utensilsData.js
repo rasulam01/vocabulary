@@ -1,5 +1,5 @@
 export const utensilsData = [{
-    id: 1,
+    
     src: require("../../assets/utensils/saucer.webp"),
     category: "Кухонная утварь",
     russian: "блюдце",
@@ -8,7 +8,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 2,
+    
     src: require("../../assets/utensils/fork.webp"),
     category: "Кухонная утварь",
     russian: "вилка",
@@ -17,7 +17,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 3,
+    
     src: require("../../assets/utensils/soup_plate.webp"),
     category: "Кухонная утварь",
     russian: "глубокая тарелка",
@@ -26,7 +26,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 4,
+    
     src: require("../../assets/utensils/colander.webp"),
     category: "Кухонная утварь",
     russian: "дуршлаг",
@@ -35,7 +35,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 5,
+    
     src: require("../../assets/utensils/pot.webp"),
     category: "Кухонная утварь",
     russian: "кастрюля",
@@ -44,7 +44,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 6,
+    
     src: require("../../assets/utensils/mug.webp"),
     category: "Кухонная утварь",
     russian: "кружка",
@@ -53,7 +53,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 7,
+    
     src: require("../../assets/utensils/bowl.webp"),
     category: "Кухонная утварь",
     russian: "миска",
@@ -62,7 +62,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 8,
+    
     src: require("../../assets/utensils/knife.webp"),
     category: "Кухонная утварь",
     russian: "нож",
@@ -71,7 +71,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 9,
+    
     src: require("../../assets/utensils/tray.webp"),
     category: "Кухонная утварь",
     russian: "поднос",
@@ -80,7 +80,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 10,
+    
     src: require("../../assets/utensils/ladle.webp"),
     category: "Кухонная утварь",
     russian: "половник",
@@ -89,7 +89,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 11,
+    
     src: require("../../assets/utensils/glass.webp"),
     category: "Кухонная утварь",
     russian: "стакан",
@@ -98,7 +98,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 12,
+    
     src: require("../../assets/utensils/plate.webp"),
     category: "Кухонная утварь",
     russian: "тарелка",
@@ -107,7 +107,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 13,
+    
     src: require("../../assets/utensils/grater.webp"),
     category: "Кухонная утварь",
     russian: "терка",
@@ -116,7 +116,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 14,
+    
     src: require("../../assets/utensils/apron.webp"),
     category: "Кухонная утварь",
     russian: "фартук",
@@ -125,7 +125,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 15,
+    
     src: require("../../assets/utensils/cup.webp"),
     category: "Кухонная утварь",
     russian: "чашка",
@@ -134,7 +134,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 16,
+    
     src: require("../../assets/utensils/skimmer.webp"),
     category: "Кухонная утварь",
     russian: "шумовка",
@@ -143,7 +143,7 @@ export const utensilsData = [{
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 17,
+    
     src: require("../../assets/utensils/kettle.webp"),
     category: "Кухонная утварь",
     russian: "чайник",

@@ -67,10 +67,9 @@ export const WordList = ({ data, navigation }) => {
           data={filteredBySearch.sort((firstByAlphabet, secondByAlphabet) =>
             firstByAlphabet.khadar.localeCompare(secondByAlphabet.khadar)
           )}
-          keyExtractor={(item) => item.src}
+          keyExtractor={(item) => item.khadar}
           renderItem={({ item, index }) => (
-            <Word
-              // id={item.id}
+            <Word              
               index={index + 1}
               src={item.src}
               russian={item.russian}
@@ -81,8 +80,7 @@ export const WordList = ({ data, navigation }) => {
               navigation={navigation}
               length={data.length}
               onPress={() =>
-                navigation.navigate("Selected Word", {
-                  // id: item.id,
+                navigation.navigate("Selected Word", {                  
                   index: index + 1,
                   src: item.src,
                   category: item.category,
@@ -102,11 +100,10 @@ export const WordList = ({ data, navigation }) => {
           data={data.sort((firstByAlphabet, secondByAlphabet) =>
             firstByAlphabet.khadar.localeCompare(secondByAlphabet.khadar)
           )}
-          keyExtractor={(item) => item.src}
+          keyExtractor={(item) => item.khadar}
           initialNumToRender={10}
           renderItem={({ item, index }) => (
-            <Word
-              // id={item.id}
+            <Word              
               index={index + 1}
               src={item.src}
               russian={item.russian}
@@ -117,8 +114,7 @@ export const WordList = ({ data, navigation }) => {
               navigation={navigation}
               length={data.length}
               onPress={() =>
-                navigation.navigate("Selected Word", {
-                  // id: item.id,
+                navigation.navigate("Selected Word", {                  
                   index: index + 1,
                   src: item.src,
                   category: item.category,

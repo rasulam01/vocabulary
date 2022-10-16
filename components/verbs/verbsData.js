@@ -1,6 +1,6 @@
 export const verbsData = [
   {
-    id: 1,
+    
     src: require("../../assets/verbs/take.webp"),
     category: "Глаголы",
     russian: "брать",
@@ -10,7 +10,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 2,
+    
     src: require("../../assets/verbs/hang.webp"),
     category: "Глаголы",
     russian: "вешать",
@@ -20,7 +20,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 3,
+    
     src: require("../../assets/verbs/see.webp"),
     category: "Глаголы",
     russian: "видеть",
@@ -30,7 +30,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 4,
+    
     src: require("../../assets/verbs/drink.webp"),
     category: "Глаголы",
     russian: "пить",
@@ -40,7 +40,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 5,
+    
     src: require("../../assets/verbs/speak.webp"),
     category: "Глаголы",
     russian: "говорить",
@@ -49,7 +49,7 @@ export const verbsData = [
     additional_info: "",
     sound_src: "apple.m4a",
   }, {
-    id: 6,
+    
     src: require("../../assets/verbs/burn.webp"),
     category: "Глаголы",
     russian: "гореть",
@@ -59,7 +59,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 7,
+    
     src: require("../../assets/verbs/do.webp"),
     category: "Глаголы",
     russian: "делать",
@@ -69,7 +69,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 8,
+    
     src: require("../../assets/verbs/live.webp"),
     category: "Глаголы",
     russian: "жить",
@@ -79,7 +79,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 9,
+    
     src: require("../../assets/verbs/close.webp"),
     category: "Глаголы",
     russian: "закрывать",
@@ -89,7 +89,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 10,
+    
     src: require("../../assets/verbs/know.webp"),
     category: "Глаголы",
     russian: "знать",
@@ -99,7 +99,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 11,
+    
     src: require("../../assets/verbs/paint.webp"),
     category: "Глаголы",
     russian: "красить",
@@ -109,7 +109,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 12,
+    
     src: require("../../assets/verbs/bite.webp"),
     category: "Глаголы",
     russian: "кусать",
@@ -119,7 +119,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 13,
+    
     src: require("../../assets/verbs/like.webp"),
     category: "Глаголы",
     russian: "нравиться",
@@ -129,7 +129,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 14,
+    
     src: require("../../assets/verbs/need.webp"),
     category: "Глаголы",
     russian: "нуждаться",
@@ -139,7 +139,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 15,
+    
     src: require("../../assets/verbs/put_on.webp"),
     category: "Глаголы",
     russian: "надеть",
@@ -149,7 +149,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 16,
+    
     src: require("../../assets/verbs/open.webp"),
     category: "Глаголы",
     russian: "открыть",
@@ -159,7 +159,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 17,
+    
     src: require("../../assets/verbs/write.webp"),
     category: "Глаголы",
     russian: "писать",
@@ -169,7 +169,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 18,
+    
     src: require("../../assets/verbs/swim.webp"),
     category: "Глаголы",
     russian: "плавать",
@@ -179,7 +179,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 19,
+    
     src: require("../../assets/verbs/cry.webp"),
     category: "Глаголы",
     russian: "плакать",
@@ -189,7 +189,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 20,
+    
     src: require("../../assets/verbs/cover.webp"),
     category: "Глаголы",
     russian: "покрыть",
@@ -199,7 +199,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 21,
+    
     src: require("../../assets/verbs/bring.webp"),
     category: "Глаголы",
     russian: "приносить",
@@ -209,7 +209,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 22,
+    
     src: require("../../assets/verbs/wake_up.webp"),
     category: "Глаголы",
     russian: "проснуться",
@@ -219,7 +219,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 23,
+    
     src: require("../../assets/verbs/repeat.webp"),
     category: "Глаголы",
     russian: "повторить",
@@ -229,7 +229,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 24,
+    
     src: require("../../assets/verbs/bow.webp"),
     category: "Глаголы",
     russian: "поклоняться",
@@ -239,7 +239,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 25,
+    
     src: require("../../assets/verbs/put.webp"),
     category: "Глаголы",
     russian: "положить",
@@ -249,7 +249,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 26,
+    
     src: require("../../assets/verbs/accept.webp"),
     category: "Глаголы",
     russian: "принять",
@@ -259,7 +259,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 27,
+    
     src: require("../../assets/verbs/say.webp"),
     category: "Глаголы",
     russian: "сказать",
@@ -269,7 +269,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 28,
+    
     src: require("../../assets/verbs/look.webp"),
     category: "Глаголы",
     russian: "смотреть",
@@ -279,7 +279,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 29,
+    
     src: require("../../assets/verbs/eat.webp"),
     category: "Глаголы",
     russian: "есть",
@@ -289,7 +289,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 30,
+    
     src: require("../../assets/verbs/increase.webp"),
     category: "Глаголы",
     russian: "увеличить",
@@ -299,7 +299,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 31,
+    
     src: require("../../assets/verbs/decrease.webp"),
     category: "Глаголы",
     russian: "уменьшить",
@@ -309,7 +309,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 32,
+    
     src: require("../../assets/verbs/read.webp"),
     category: "Глаголы",
     russian: "читать",
@@ -319,7 +319,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 33,
+    
     src: "",
     category: "Глаголы",
     russian: "являться, быть",
@@ -329,7 +329,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 34,
+    
     src: require("../../assets/verbs/run.webp"),
     category: "Глаголы",
     russian: "бежать",
@@ -339,7 +339,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 35,
+    
     src: require("../../assets/verbs/fall.webp"),
     category: "Глаголы",
     russian: "падать",
@@ -349,7 +349,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 36,
+    
     src: require("../../assets/verbs/lay.webp"),
     category: "Глаголы",
     russian: "лежать",
@@ -359,7 +359,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 37,
+    
     src: require("../../assets/verbs/stand.webp"),
     category: "Глаголы",
     russian: "стоять",
@@ -369,7 +369,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 38,
+    
     src: require("../../assets/verbs/mow.webp"),
     category: "Глаголы",
     russian: "косить",
@@ -379,7 +379,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 39,
+    
     src: require("../../assets/verbs/find.webp"),
     category: "Глаголы",
     russian: "найти",
@@ -389,7 +389,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 40,
+    
     src: require("../../assets/verbs/crawl.webp"),
     category: "Глаголы",
     russian: "ползать",
@@ -399,7 +399,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 41,
+    
     src: require("../../assets/verbs/show.webp"),
     category: "Глаголы",
     russian: "показать",
@@ -409,7 +409,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 42,
+    
     src: require("../../assets/verbs/be_hungry.webp"),
     category: "Глаголы",
     russian: "проголодаться",
@@ -419,7 +419,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 43,
+    
     src: require("../../assets/verbs/cut.webp"),
     category: "Глаголы",
     russian: "резать",
@@ -429,7 +429,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 44,
+    
     src: require("../../assets/verbs/turn_on.webp"),
     category: "Глаголы",
     russian: "включить",
@@ -439,7 +439,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 45,
+    
     src: require("../../assets/verbs/fly.webp"),
     category: "Глаголы",
     russian: "летать",
@@ -449,7 +449,7 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    id: 46,
+    
     src: require("../../assets/verbs/jump.webp"),
     category: "Глаголы",
     russian: "прыгать",
@@ -458,5 +458,24 @@ export const verbsData = [
     additional_info: "",
     sound_src: "apple.m4a",
   },
-
+  {
+    
+    src: require("../../assets/verbs/think.webp"),
+    category: "Глаголы",
+    russian: "думать",
+    khadar: "пикриукIас",
+    english: "to think",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  },
+  {
+    
+    src: require("../../assets/verbs/rest.webp"),
+    category: "Глаголы",
+    russian: "отдыхать",
+    khadar: "хIалукIас",
+    english: "to rest",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  },
 ];
