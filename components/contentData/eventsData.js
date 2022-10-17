@@ -1,7 +1,7 @@
 export const eventsData = [{
     
     src: require("../../assets/nature/events/coast.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "берег",
     khadar: "дуб",
     english: "coast",
@@ -10,7 +10,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/wind.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "ветер",
     khadar: "букма",
     english: "wind",
@@ -19,7 +19,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/air.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "воздух",
     khadar: "гьава",
     english: "air",
@@ -28,7 +28,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/clay.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "глина",
     khadar: "гIянжи",
     english: "clay",
@@ -37,7 +37,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/mountain.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "гора",
     khadar: "дубура",
     english: "mountain",
@@ -46,7 +46,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/thunder.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "гром",
     khadar: "гъугъу",
     english: "thunder",
@@ -55,7 +55,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/lightning.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "молния",
     khadar: "ламцIи",
     english: "lightning",
@@ -64,7 +64,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/rain.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "дождь",
     khadar: "заб",
     english: "rain",
@@ -73,7 +73,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/hail.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "град",
     khadar: "къапкъа",
     english: "hail",
@@ -82,7 +82,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/smoke.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "дым",
     khadar: "эръа",
     english: "smoke",
@@ -91,7 +91,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/star.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "звезда",
     khadar: "уръи",
     english: "star",
@@ -100,7 +100,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/ground.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "земля",
     khadar: "гонзари",
     english: "ground",
@@ -109,7 +109,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/hoarfrost.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "иней",
     khadar: "сулугъа",
     english: "hoarfrost",
@@ -118,7 +118,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/stone.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "камень",
     khadar: "гъархъа",
     english: "stone",
@@ -127,7 +127,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/drop.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "капля",
     khadar: "кIантI",
     english: "drop",
@@ -136,7 +136,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/sea.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "море",
     khadar: "урхьне",
     english: "sea",
@@ -145,7 +145,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/frost.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "мороз",
     khadar: "даръ",
     english: "frost",
@@ -154,7 +154,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/sky.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "небо",
     khadar: "зубре",
     english: "sky",
@@ -163,7 +163,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/fire.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "огонь",
     khadar: "цIа",
     english: "fire",
@@ -172,7 +172,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/web.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "паутина",
     khadar: "ав",
     english: "web",
@@ -181,7 +181,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/ash.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "пепел",
     khadar: "палда",
     english: "ash",
@@ -190,7 +190,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/soil.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "почва",
     khadar: "гIяижи",
     english: "soil",
@@ -199,7 +199,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/blizzard.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "пурга",
     khadar: "бурам",
     english: "blizzard",
@@ -208,7 +208,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/dust.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "пыль",
     khadar: "хум",
     english: "dust",
@@ -217,7 +217,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/rainbow.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "радуга",
     khadar: "зурхIаб",
     english: "rainbow",
@@ -226,7 +226,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/river.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "река",
     khadar: "хIаркI",
     english: "river",
@@ -235,7 +235,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/light.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "свет",
     khadar: "щаI",
     english: "light",
@@ -244,7 +244,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/snow.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "снег",
     khadar: "дирив",
     english: "snow",
@@ -253,7 +253,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/sun.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "солнце",
     khadar: "бирхIи",
     english: "sun",
@@ -262,7 +262,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/fog.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "туман",
     khadar: "дирав",
     english: "fog",
@@ -271,7 +271,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/seeds.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "семена",
     khadar: "гье",
     english: "seeds",
@@ -280,7 +280,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/oil.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "нефть",
     khadar: "нап",
     english: "oil",
@@ -289,7 +289,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/moon.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "луна",
     khadar: "бас",
     english: "moon",
@@ -298,7 +298,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/puddle.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "лужа",
     khadar: "щара",
     english: "puddle",
@@ -307,7 +307,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/dew.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "роса",
     khadar: "марка",
     english: "dew",
@@ -316,7 +316,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/waterfall.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "водопад",
     khadar: "чахIчахI",
     english: "waterfall",
@@ -325,7 +325,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/cave.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "пещера",
     khadar: "анакъ",
     english: "cave",
@@ -334,7 +334,7 @@ export const eventsData = [{
   }, {
     
     src: require("../../assets/nature/events/pond.webp"),
-    category: "Явления / окружающая среда",
+    category: "events",
     russian: "пруд",
     khadar: "кIав",
     english: "pond",

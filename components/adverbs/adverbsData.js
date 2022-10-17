@@ -1,7 +1,7 @@
 export const adverbsData = [
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "много",
     khadar: "дакъол",
     english: "many / much",
@@ -10,7 +10,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "большинство",
     khadar: "дакъмел",
     english: "majority",
@@ -19,7 +19,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "всегда",
     khadar: "мурталра",
     english: "always",
@@ -28,7 +28,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "ещё",
     khadar: "хатIира",
     english: "more",
@@ -37,7 +37,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "затем",
     khadar: "итирахIа",
     english: "then",
@@ -46,7 +46,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "как",
     khadar: "цен",
     english: "how",
@@ -55,7 +55,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "когда",
     khadar: "мурт",
     english: "when",
@@ -64,7 +64,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "кто",
     khadar: "чин",
     english: "who",
@@ -73,7 +73,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "куда",
     khadar: "кина",
     english: "where",
@@ -82,7 +82,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "мало",
     khadar: "камил",
     english: "few / little",
@@ -91,7 +91,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "но",
     khadar: "ама",
     english: "but",
@@ -100,7 +100,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "откуда",
     khadar: "кинакан",
     english: "where from",
@@ -109,7 +109,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "отсюда",
     khadar: "ишакан",
     english: "from here",
@@ -118,7 +118,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "потому что",
     khadar: "цес хIинану",
     english: "because",
@@ -127,7 +127,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "сколько",
     khadar: "чум",
     english: "how much",
@@ -136,7 +136,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "что",
     khadar: "це",
     english: "what",
@@ -145,7 +145,7 @@ export const adverbsData = [
   },
   {
     src: "",
-    category: "Наречия",
+    category: "adverbs",
     russian: "что-то",
     khadar: "зат",
     english: "something",

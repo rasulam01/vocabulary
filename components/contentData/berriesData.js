@@ -2,7 +2,7 @@ export const berriesData = [
     {
       
       src: require("../../assets/food/berries/watermelon.webp"),
-      category: "Ягоды",
+      category: "berries",
       russian: "арбуз",
       khadar: "харбуз",
       english: "watermelon",
@@ -12,7 +12,7 @@ export const berriesData = [
     {
       
       src: require("../../assets/food/berries/cherry.webp"),
-      category: "Ягоды",
+      category: "berries",
       russian: "вишня",
       khadar: "жиъа",
       english: "cherry",
@@ -22,7 +22,7 @@ export const berriesData = [
     {
       
       src: require("../../assets/food/berries/pomegranate.webp"),
-      category: "Ягоды",
+      category: "berries",
       russian: "гранат",
       khadar: "нар",
       english: "pomegranate",
@@ -32,7 +32,7 @@ export const berriesData = [
     {
       
       src: require("../../assets/food/berries/melon.webp"),
-      category: "Ягоды",
+      category: "berries",
       russian: "дыня",
       khadar: "пастан",
       english: "melon",
@@ -42,7 +42,7 @@ export const berriesData = [
     {
       
       src: require("../../assets/food/berries/blackberry.webp"),
-      category: "Ягоды",
+      category: "berries",
       russian: "ежевика",
       khadar: "ирбиъа",
       english: "blackberry",
@@ -52,7 +52,7 @@ export const berriesData = [
     {
       
       src: require("../../assets/food/berries/strawberry.webp"),
-      category: "Ягоды",
+      category: "berries",
       russian: "земляника",
       khadar: "гъалаъа",
       english: "strawberry",
@@ -62,7 +62,7 @@ export const berriesData = [
     {
       
       src: require("../../assets/food/berries/dogwood.webp"),
-      category: "Ягоды",
+      category: "berries",
       russian: "кизил",
       khadar: "жугьам",
       english: "dogwood",
@@ -72,7 +72,7 @@ export const berriesData = [
     {
       
       src: require("../../assets/food/berries/raspberry.webp"),
-      category: "Ягоды",
+      category: "berries",
       russian: "малина",
       khadar: "мамаргIя",
       english: "raspberry",
@@ -82,7 +82,7 @@ export const berriesData = [
     {
         
         src: require("../../assets/food/berries/mulberry.webp"),
-        category: "Ягоды",
+        category: "berries",
         russian: "тутовник",
         khadar: "тут",
         english: "mulberry",
@@ -92,7 +92,7 @@ export const berriesData = [
       {
         
         src: require("../../assets/food/berries/persimmon.webp"),
-        category: "Ягоды",
+        category: "berries",
         russian: "хурма",
         khadar: "гургуба",
         english: "persimmon",
@@ -102,7 +102,7 @@ export const berriesData = [
       {
         
         src: require("../../assets/food/berries/sweet_cherry.webp"),
-        category: "Ягоды",
+        category: "berries",
         russian: "черешня",
         khadar: "баъли",
         english: "sweet cherry",
@@ -112,7 +112,7 @@ export const berriesData = [
       {
         
         src: require("../../assets/food/berries/rosehip.webp"),
-        category: "Ягоды",
+        category: "berries",
         russian: "шиповник",
         khadar: "мизуха",
         english: "rosehip",

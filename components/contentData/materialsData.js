@@ -2,7 +2,7 @@ export const materialsData = [
     {
       
       src: require("../../assets/materials/aluminium.webp"),
-      category: "Материалы",
+      category: "materials",
       russian: "алюминий",
       khadar: "тутия",
       english: "aluminium",
@@ -12,7 +12,7 @@ export const materialsData = [
     {
         
         src: require("../../assets/materials/gold.webp"),
-        category: "Материалы",
+        category: "materials",
         russian: "золото",
         khadar: "мургье",
         english: "gold",
@@ -22,7 +22,7 @@ export const materialsData = [
       {
         
         src: require("../../assets/materials/silver.webp"),
-        category: "Материалы",
+        category: "materials",
         russian: "серебро",
         khadar: "мигь",
         english: "silver",
@@ -32,7 +32,7 @@ export const materialsData = [
       {
         
         src: require("../../assets/materials/ivory.webp"),
-        category: "Материалы",
+        category: "materials",
         russian: "слоновая кость",
         khadar: "магьи",
         english: "ivory",
@@ -42,7 +42,7 @@ export const materialsData = [
       {
         
         src: require("../../assets/materials/steel.webp"),
-        category: "Материалы",
+        category: "materials",
         russian: "сталь",
         khadar: "шандан",
         english: "steel",
@@ -52,7 +52,7 @@ export const materialsData = [
       {
         
         src: require("../../assets/materials/glass.webp"),
-        category: "Материалы",
+        category: "materials",
         russian: "стекло",
         khadar: "шиша",
         english: "glass",
@@ -62,7 +62,7 @@ export const materialsData = [
       {
         
         src: require("../../assets/materials/china.webp"),
-        category: "Материалы",
+        category: "materials",
         russian: "фарфор",
         khadar: "чини",
         english: "china",
@@ -72,7 +72,7 @@ export const materialsData = [
       {
         
         src: require("../../assets/materials/amber.webp"),
-        category: "Материалы",
+        category: "materials",
         russian: "янтарь",
         khadar: "юсру",
         english: "amber",
@@ -82,7 +82,7 @@ export const materialsData = [
       {
         
         src: require("../../assets/materials/paper.webp"),
-        category: "Материалы",
+        category: "materials",
         russian: "бумага",
         khadar: "къагъат",
         english: "paper",

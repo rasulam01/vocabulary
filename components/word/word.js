@@ -4,8 +4,6 @@ import { Context } from "../../navigation";
 import { CustomText } from "../custom/CustomText";
 import commonStyles from "../commonStyles";
 
-
-
 export const Word = ({ index, russian, khadar, english, onPress }) => {
   const { dynamicColor, alignment } = React.useContext(Context);
   return (

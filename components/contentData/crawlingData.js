@@ -2,7 +2,7 @@ export const crawlingData = [
     {
         
         src: require("../../assets/animals/crawling/worm.webp"),
-        category: "Ползучие",
+        category: "crawling",
         russian: "червь; глист",
         khadar: "мелякъ / шулерк",
         english: "worm",
@@ -12,7 +12,7 @@ export const crawlingData = [
       {
         
         src: require("../../assets/animals/crawling/snake.webp"),
-        category: "Ползучие",
+        category: "crawling",
         russian: "змея",
         khadar: "мусанабашан",
         english: "snake",
@@ -22,7 +22,7 @@ export const crawlingData = [
       {
         
         src: require("../../assets/animals/crawling/spider.webp"),
-        category: "Ползучие",
+        category: "crawling",
         russian: "паук",
         khadar: "пайлигьан",
         english: "spider",
@@ -32,7 +32,7 @@ export const crawlingData = [
       {
         
         src: require("../../assets/animals/crawling/scorpion.webp"),
-        category: "Ползучие",
+        category: "crawling",
         russian: "скорпион",
         khadar: "кьякьярав",
         english: "scorpion",

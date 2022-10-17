@@ -13,6 +13,8 @@
         "adverbs" : "Наречия",
         "numbers" : "Числительные",
         "pronouns" : "Местоимения",
+        "personal_pronouns" : "Личные местоимения",
+        "possessive_pronouns" : "Притяжательные местоимения",
         "food" : "Еда",
         "fruit" : "Фрукты",
         "vegetables" : "Овощи",

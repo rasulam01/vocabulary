@@ -3,7 +3,7 @@ export const dairyData = [
     {
         
         src: require("../../assets/food/dairy/kefir.webp"),
-        category: "Молочные продукты",
+        category: "dairy",
         russian: "кефир",
         khadar: "беръне",
         english: "kefir",
@@ -13,7 +13,7 @@ export const dairyData = [
       {
         
         src: require("../../assets/food/dairy/milk.webp"),
-        category: "Молочные продукты",
+        category: "dairy",
         russian: "молоко",
         khadar: "миъ",
         english: "milk",
@@ -23,7 +23,7 @@ export const dairyData = [
       {
         
         src: require("../../assets/food/dairy/butter.webp"),
-        category: "Молочные продукты",
+        category: "dairy",
         russian: "сливочное масло",
         khadar: "къама",
         english: "butter",
@@ -33,7 +33,7 @@ export const dairyData = [
       {
         
         src: require("../../assets/food/dairy/sour_cream.webp"),
-        category: "Молочные продукты",
+        category: "dairy",
         russian: "сметана",
         khadar: "гъайнакъ",
         english: "sour cream",
@@ -43,7 +43,7 @@ export const dairyData = [
       {
         
         src: require("../../assets/food/dairy/cheese.webp"),
-        category: "Молочные продукты",
+        category: "dairy",
         russian: "сыр",
         khadar: "нусаъ",
         english: "cheese",
@@ -53,7 +53,7 @@ export const dairyData = [
       {
         
         src: require("../../assets/food/dairy/ghee.webp"),
-        category: "Молочные продукты",
+        category: "dairy",
         russian: "топленое масло",
         khadar: "рахсаг",
         english: "ghee",

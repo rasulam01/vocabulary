@@ -1,4 +1,4 @@
-import { StyleSheet, Platform, Dimensions } from "react-native";
+import { StyleSheet, Platform } from "react-native";
 
 const androidPadding = Platform.OS === "android" ? 20 : 0;
 const iosPadding = Platform.OS === "ios" ? 20 : 0

@@ -1,7 +1,7 @@
 export const scienceData = [{
     
     src: require("../../assets/science/astronomy.webp"),
-    category: "Наука",
+    category: "science",
     russian: "астрономия",
     khadar: "астранумия",
     english: "astronomy",
@@ -10,7 +10,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/biology.webp"),
-    category: "Наука",
+    category: "science",
     russian: "биология",
     khadar: "биалугия",
     english: "biology",
@@ -19,7 +19,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/botanics.webp"),
-    category: "Наука",
+    category: "science",
     russian: "ботаника",
     khadar: "бятяника",
     english: "botanics",
@@ -28,7 +28,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/virus.webp"),
-    category: "Наука",
+    category: "science",
     russian: "вирус",
     khadar: "вирус",
     english: "virus",
@@ -37,7 +37,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/geography.webp"),
-    category: "Наука",
+    category: "science",
     russian: "география",
     khadar: "геограпия",
     english: "geography",
@@ -46,7 +46,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/degree.webp"),
-    category: "Наука",
+    category: "science",
     russian: "градус",
     khadar: "гарадус",
     english: "degree",
@@ -55,7 +55,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/diameter.webp"),
-    category: "Наука",
+    category: "science",
     russian: "диаметр",
     khadar: "диаметир",
     english: "diameter",
@@ -64,7 +64,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/history.webp"),
-    category: "Наука",
+    category: "science",
     russian: "история",
     khadar: "истурия",
     english: "history",
@@ -73,7 +73,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/map.webp"),
-    category: "Наука",
+    category: "science",
     russian: "карта",
     khadar: "карта",
     english: "map",
@@ -82,7 +82,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/mathematics.webp"),
-    category: "Наука",
+    category: "science",
     russian: "математика",
     khadar: "матиматика",
     english: "mathematics",
@@ -91,7 +91,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/microbe.webp"),
-    category: "Наука",
+    category: "science",
     russian: "микроб",
     khadar: "микруб",
     english: "microbe",
@@ -100,7 +100,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/parasite.webp"),
-    category: "Наука",
+    category: "science",
     russian: "паразит",
     khadar: "пярязит",
     english: "parasite",
@@ -109,7 +109,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/radius.webp"),
-    category: "Наука",
+    category: "science",
     russian: "радиус",
     khadar: "радиус",
     english: "radius",
@@ -118,7 +118,7 @@ export const scienceData = [{
   }, {
     
     src: require("../../assets/science/physics.webp"),
-    category: "Наука",
+    category: "science",
     russian: "физика",
     khadar: "пизика",
     english: "physics",

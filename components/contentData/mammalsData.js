@@ -2,7 +2,7 @@ export const mammalsData = [
     {
         
         src: require("../../assets/animals/mammals/ram.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "баран",
         khadar: "мас",
         english: "ram",
@@ -12,7 +12,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/buffalo.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "буйвол",
         khadar: "гамущ",
         english: "buffalo",
@@ -22,7 +22,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/bull.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "бык",
         khadar: "бугъа",
         english: "bull",
@@ -32,7 +32,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/camel.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "верблюд",
         khadar: "валреъ",
         english: "camel",
@@ -42,7 +42,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/wolf.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "волк",
         khadar: "бецI",
         english: "wolf",
@@ -52,7 +52,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/gazelle.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "газель",
         khadar: "жайран",
         english: "gazelle",
@@ -62,7 +62,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/dragon.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "дракон",
         khadar: "аждагьа",
         english: "dragon",
@@ -72,7 +72,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/hedgehog.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "еж",
         khadar: "кирпи",
         english: "hedgehog",
@@ -82,7 +82,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/goat.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "козел",
         khadar: "гIяжа",
         english: "goat",
@@ -92,7 +92,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/cow.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "корова",
         khadar: "къал",
         english: "cow",
@@ -102,7 +102,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/cat.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "кошка",
         khadar: "кату",
         english: "cat",
@@ -112,7 +112,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/rabbit.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "кролик",
         khadar: "гIяри",
         english: "rabbit",
@@ -122,7 +122,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/lion.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "лев",
         khadar: "арслангъатла",
         english: "lion",
@@ -132,7 +132,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/fox.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "лиса",
         khadar: "гурда",
         english: "fox",
@@ -142,7 +142,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/horse.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "лошадь",
         khadar: "ябу",
         english: "horse",
@@ -152,7 +152,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/bear.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "медведь",
         khadar: "синка",
         english: "bear",
@@ -162,7 +162,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/mouse.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "мышь",
         khadar: "гоца",
         english: "mouse",
@@ -172,7 +172,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/monkey.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "обезьяна",
         khadar: "маймун",
         english: "monkey",
@@ -182,7 +182,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/sheep.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "овца",
         khadar: "маза",
         english: "sheep",
@@ -192,7 +192,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/donkey.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "осел",
         khadar: "хIамхIа",
         english: "donkey",
@@ -202,7 +202,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/pig.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "свинья",
         khadar: "цура",
         english: "pig",
@@ -212,7 +212,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/elephant.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "слон",
         khadar: "пил",
         english: "elephant",
@@ -222,7 +222,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/tiger.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "тигр",
         khadar: "къаплан",
         english: "tiger",
@@ -232,7 +232,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/jackal.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "шакал",
         khadar: "хIахIбецI",
         english: "camel",
@@ -242,7 +242,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/mutt.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "щенок",
         khadar: "кIулай",
         english: "mutt",
@@ -252,7 +252,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/herd.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "стадо",
         khadar: "хIанкъ",
         english: "herd",
@@ -262,7 +262,7 @@ export const mammalsData = [
       {
         
         src: require("../../assets/animals/mammals/dog.webp"),
-        category: "Млекопитающиеся",
+        category: "mammalsся",
         russian: "собака",
         khadar: "хо",
         english: "dog",

@@ -33,6 +33,7 @@ import { Other } from "./components/content/other";
 import { Pronouns } from "./components/pronouns/pronouns";
 import { Science } from "./components/fields/science.component";
 import { Nouns } from "./components/nouns/nouns";
+import { Rules } from "./components/rules/rules";
 import { Settings } from "./components/settings/settings.component";
 import { Time } from "./components/fields/time.component";
 import { Tools } from "./components/fields/tools.component";
@@ -46,47 +47,12 @@ import { VocabularySpeechParts } from "./components/vocabularySpeechParts/vocabu
 import { Weapons } from "./components/fields/weapons.component";
 import { WordSelected } from "./components/wordSelected/wordSelected";
 
-
-
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
-const AdjectivesName = "Прилагательные";
-const AdverbsName = "Наречия";
-const AnimalsName = "Животные";
-const BerriesName = "Ягоды";
-const BirdsName = "Птицы";
-const BodyPartsName = "Части тела";
-const ClothesName = "Одежда";
-const CrawlingName = "Ползучие";
-const DairyName = "Молочные продукты";
-const EventsName = "Явления";
-const FoodName = "Еда";
-const FruitName = "Фрукты";
-const FurnitureName = "Мебель";
-const GrainName = "Злаковые";
-const GreennessName = "Растительность";
-const InsectsName = "Насекомые";
-const MammalsName = "Млекопитающие";
-const MaterialsName = "Материалы";
-const NatureName = "Природа";
-const NumbersName = "Числительные";
-const OtherName = "Другое";
-const PronounsName = "Местоимения";
-const ScienceName = "Наука";
 const SettingsName = "Настройки";
-const TimeName = "Время";
-const ToolsName = "Инструменты";
-const TreesName = "Деревья";
-const UtensilsName = "Кухонная утварь"
-const VegetablesName = "Овощи"
-const VerbsName = "Глаголы";
 const VocabularyName = "Vocabulary";
 const VocabularyComponentName = "Языки";
-const VocabularyPartsName = "Parts"
-const VocabularySpeechPartsName = "Части речи"
-const VocabularyNounsName = "Существительные";
-const WeaponsName = "Оружие"
 const WordSelectedName = "Selected Word"
 
 const defaultMode = {
@@ -110,8 +76,6 @@ export const iconSize = {width: 45, height: 45}
 export const arrowSize = {width: 20, height: 20}
 
 export const Context = React.createContext();
-
-
 
 export const StackNavigation = () => {
   const { t } = useTranslation();
@@ -146,6 +110,7 @@ export const StackNavigation = () => {
     <Stack.Screen name={t("numbers")} component={Numbers} />
     <Stack.Screen name={t("other")} component={Other} />
     <Stack.Screen name={t("pronouns")} component={Pronouns} />
+    <Stack.Screen name={t("rules")} component={Rules} />
     <Stack.Screen name={t("science")} component={Science} />
     <Stack.Screen name={t("time")} component={Time} />
     <Stack.Screen name={t("tools")} component={Tools} />
@@ -157,7 +122,6 @@ export const StackNavigation = () => {
     <Stack.Screen name={WordSelectedName} component={WordSelected} options={({route}) => ({title: route.params.khadar.charAt(0).toUpperCase() + route.params.khadar.substring(1)})} />
   </Stack.Navigator>
   )
-
 }
 
 const Navigation = () => {

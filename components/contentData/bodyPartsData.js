@@ -2,7 +2,7 @@ export const bodyPartsData = [
     {
         
         src: require("../../assets/body_parts/thigh.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "бедро",
         khadar: "урдур",
         english: "thigh",
@@ -12,7 +12,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/beard.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "борода",
         khadar: "муцIур",
         english: "beard",
@@ -22,7 +22,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/eyebrow.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "бровь",
         khadar: "нед",
         english: "eyebrow",
@@ -32,7 +32,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/vein.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "вена",
         khadar: "тамур",
         english: "vein",
@@ -42,7 +42,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/hair.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "волосы",
         khadar: "гъизбе",
         english: "hair",
@@ -52,7 +52,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/eye.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "глаз",
         khadar: "хIули",
         english: "eye",
@@ -62,7 +62,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/shin.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "голень",
         khadar: "кIинкI",
         english: "shin",
@@ -72,7 +72,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/head.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "голова",
         khadar: "бекI",
         english: "head",
@@ -82,7 +82,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/throat.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "горло / глотка",
         khadar: "сус",
         english: "throat",
@@ -91,7 +91,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/lip.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "губа",
         khadar: "кIонтI",
         english: "lip",
@@ -101,7 +101,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/fecal.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "дерьмо",
         khadar: "пухъ",
         english: "дерьмо",
@@ -111,7 +111,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/gum.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "десна",
         khadar: "какур?",
         english: "gum",
@@ -121,7 +121,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/stomach.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "желудок",
         khadar: "ашхазан",
         english: "stomach",
@@ -131,7 +131,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/bile.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "желчь",
         khadar: "гьими",
         english: "bile",
@@ -141,7 +141,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/belly.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "живот",
         khadar: "кони",
         english: "belly",
@@ -151,7 +151,7 @@ export const bodyPartsData = [
       {
         
         src: require("../../assets/body_parts/fat.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "жир",
         khadar: "хIале",
         english: "fat",
@@ -160,7 +160,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/nape.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "затылок",
         khadar: "хъантIа",
         english: "nape",
@@ -169,7 +169,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/adam_apple.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "кадык",
         khadar: "кирдан",
         english: "Adam's apple",
@@ -178,7 +178,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/bowel.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "кишка",
         khadar: "ичак",
         english: "bowel",
@@ -187,7 +187,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/skin.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "кожа",
         khadar: "кам",
         english: "skin",
@@ -196,7 +196,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/knee.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "колено",
         khadar: "кIункъа",
         english: "knee",
@@ -205,7 +205,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/spinal_cord.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "спинной мозг",
         khadar: "лигала мяхIа",
         english: "spinal cord",
@@ -214,7 +214,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/blood.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "кровь",
         khadar: "хIи",
         english: "blood",
@@ -223,7 +223,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/tooth.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "зуб",
         khadar: "цуа",
         english: "tooth",
@@ -232,7 +232,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/face.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "лицо",
         khadar: "бахI",
         english: "face",
@@ -241,7 +241,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/forehead.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "лоб",
         khadar: "анда",
         english: "forehead",
@@ -250,7 +250,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/elbow.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "локоть",
         khadar: "газабилакъ",
         english: "elbow",
@@ -259,7 +259,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/brain.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "мозг",
         khadar: "мяхIа",
         english: "brain",
@@ -268,7 +268,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/urine.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "моча",
         khadar: "жяхI",
         english: "urine",
@@ -277,7 +277,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/bladder.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "мочевой пузырь",
         khadar: "жяхIла коча",
         english: "bladder",
@@ -286,7 +286,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/palate.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "нёбо",
         khadar: "къак",
         english: "palate",
@@ -295,7 +295,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/leg.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "нога",
         khadar: "кьяш",
         english: "leg",
@@ -304,7 +304,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/nail.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "ноготь",
         khadar: "нико",
         english: "nail",
@@ -313,7 +313,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/nostril.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "ноздря",
         khadar: "тIели",
         english: "ноздря",
@@ -322,7 +322,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/sinus.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "пазуха",
         khadar: "шанкIа",
         english: "sinus",
@@ -331,7 +331,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/finger.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "палец",
         khadar: "тIул",
         english: "finger",
@@ -340,7 +340,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/liver.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "печень",
         khadar: "дулек",
         english: "liver",
@@ -349,7 +349,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/armpit.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "подмышка",
         khadar: "шанкIалаудиъ",
         english: "armpit",
@@ -358,7 +358,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/spine.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "позвоночник",
         khadar: "гъакъла лига",
         english: "spine",
@@ -367,7 +367,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/sweat.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "пот",
         khadar: "майъа",
         english: "sweat",
@@ -376,7 +376,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/forearm.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "предплечье",
         khadar: "билакъ",
         english: "forearm",
@@ -385,7 +385,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/heel.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "пятка",
         khadar: "къагIя",
         english: "heel",
@@ -394,7 +394,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/wound.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "рана",
         khadar: "дахъи",
         english: "wound",
@@ -403,7 +403,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/rib.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "ребро",
         khadar: "бургъун",
         english: "rib",
@@ -412,7 +412,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/eyelash.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "ресница",
         khadar: "кирпик",
         english: "eyelash",
@@ -421,7 +421,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/arm.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "рука",
         khadar: "някь",
         english: "arm",
@@ -430,7 +430,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/spleen.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "селезень",
         khadar: "къацIа",
         english: "spleen",
@@ -439,7 +439,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/heart.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "сердце",
         khadar: "уркIи",
         english: "heart",
@@ -448,7 +448,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/skeleton.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "скелет",
         khadar: "искелет",
         english: "skeleton",
@@ -457,7 +457,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/tear.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "слеза",
         khadar: "неръ",
         english: "tear",
@@ -466,7 +466,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/saliva.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "слюна",
         khadar: "щаркие",
         english: "saliva",
@@ -475,7 +475,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/back.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "спина",
         khadar: "гъакъ",
         english: "back",
@@ -484,7 +484,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/waist.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "талия",
         khadar: "бай",
         english: "waist",
@@ -493,7 +493,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/ear.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "ухо",
         khadar: "лихIи",
         english: "ear",
@@ -502,7 +502,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/jaw.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "челюсть",
         khadar: "къайкъай",
         english: "jaw",
@@ -511,7 +511,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/neck.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "шея",
         khadar: "къяб",
         english: "neck",
@@ -520,7 +520,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/cheek.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "щека",
         khadar: "лажи",
         english: "cheek",
@@ -529,7 +529,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/buttock.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "ягодица",
         khadar: "ирхъи",
         english: "buttock",
@@ -538,7 +538,7 @@ export const bodyPartsData = [
       }, {
         
         src: require("../../assets/body_parts/nose.png"),
-        category: "Части тела",
+        category: "body_parts",
         russian: "нос",
         khadar: "гъангъва",
         english: "nose",

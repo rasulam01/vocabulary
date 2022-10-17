@@ -2,7 +2,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/poor.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "бедный",
     khadar: "гъариб",
     english: "poor",
@@ -12,7 +12,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/ill.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "больной",
     khadar: "изнаба",
     english: "ill",
@@ -22,7 +22,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/big.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "большой",
     khadar: "гьугил",
     english: "big",
@@ -32,7 +32,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/fast.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "быстрый",
     khadar: "гьалакъ",
     english: "fast",
@@ -42,7 +42,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/humid.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "влажный",
     khadar: "тимил",
     english: "humid",
@@ -52,7 +52,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/high.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "высокий",
     khadar: "укьенил",
     english: "high",
@@ -62,7 +62,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/deep.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "глубокий",
     khadar: "мурхьил",
     english: "deep",
@@ -72,7 +72,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/deaf.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "глухой",
     khadar: "гIянца",
     english: "deaf",
@@ -82,7 +82,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/hot.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "горячий",
     khadar: "буцарил",
     english: "hot",
@@ -92,7 +92,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/loud.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "громкий",
     khadar: "цакьле",
     english: "loud",
@@ -102,7 +102,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/double.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "двойной",
     khadar: "кIудехIла",
     english: "double",
@@ -112,7 +112,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/expensive.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "дорогой",
     khadar: "багьай",
     english: "expensive",
@@ -122,7 +122,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/beautiful.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "красивый",
     khadar: "жагьой",
     english: "beautiful",
@@ -132,7 +132,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/robust.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "крепкий",
     khadar: "демъай",
     english: "robust",
@@ -142,7 +142,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/lightweight.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "легкий",
     khadar: "декьил",
     english: "light (weight)",
@@ -152,7 +152,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/favorite.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "любимый",
     khadar: "дигуй",
     english: "favorite",
@@ -162,7 +162,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/slow.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "медленный",
     khadar: "рахIатил",
     english: "slow",
@@ -172,7 +172,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/wet.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "мокрый",
     khadar: "шинил",
     english: "wet",
@@ -182,7 +182,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/young.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "молодой",
     khadar: "жагьил",
     english: "young",
@@ -192,7 +192,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/soft.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "мягкий",
     khadar: "кантIил",
     english: "soft",
@@ -202,7 +202,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/mute.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "немой",
     khadar: "гъайагьвара",
     english: "mute",
@@ -212,7 +212,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/low.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "низкий",
     khadar: "алашай",
     english: "low",
@@ -222,7 +222,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/new.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "новый",
     khadar: "сагай",
     english: "new",
@@ -232,7 +232,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/bad.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "плохой",
     khadar: "яман",
     english: "bad",
@@ -242,7 +242,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/next.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "следующий",
     khadar: "арагъакала",
     english: "next",
@@ -252,7 +252,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/previous.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "предыдущий",
     khadar: "гьадикала",
     english: "previous",
@@ -262,7 +262,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/visitor.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "приезжий",
     khadar: "дурашан",
     english: "visitor",
@@ -272,7 +272,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/light.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "светлый",
     khadar: "щаъил",
     english: "light (brightness)",
@@ -282,7 +282,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/free.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "свободный",
     khadar: "иркинле",
     english: "free",
@@ -292,7 +292,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/strong.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "сильный",
     khadar: "гучлу",
     english: "strong",
@@ -302,7 +302,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/sweet.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "сладкий",
     khadar: "миръил",
     english: "sweet",
@@ -312,7 +312,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/blind.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "слепой",
     khadar: "сукъур",
     english: "blind",
@@ -322,7 +322,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/middle.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "средний",
     khadar: "ургала",
     english: "middle",
@@ -332,7 +332,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/old.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "старый",
     khadar: "рухъна",
     english: "old",
@@ -342,7 +342,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/dry.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "сухой",
     khadar: "бугъуй",
     english: "old",
@@ -352,7 +352,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/solid.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "твердый",
     khadar: "чIачIе",
     english: "solid",
@@ -362,7 +362,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/quiet.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "тихий",
     khadar: "хархай",
     english: "quiet",
@@ -372,7 +372,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/heavy.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "тяжелый",
     khadar: "камхил",
     english: "heavy",
@@ -382,7 +382,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/dark.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "темный",
     khadar: "цIабил",
     english: "dark",
@@ -392,7 +392,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/cold.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "холодный",
     khadar: "даъил",
     english: "cold",
@@ -402,7 +402,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/white.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "белый",
     khadar: "цуба",
     english: "white",
@@ -412,7 +412,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/black.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "черный",
     khadar: "цудара",
     english: "black",
@@ -422,7 +422,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/fulvous.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "бурый",
     khadar: "къархIа",
     english: "fulvous",
@@ -432,7 +432,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/yellow.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "желтый",
     khadar: "букIута",
     english: "yellow",
@@ -442,7 +442,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/green.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "зеленый",
     khadar: "шиниша",
     english: "green",
@@ -452,7 +452,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/brown.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "коричневый",
     khadar: "нептIы",
     english: "brown",
@@ -462,7 +462,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/red.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "красный",
     khadar: "хIинтага",
     english: "red",
@@ -472,7 +472,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/sand.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "песочный",
     khadar: "гъаилатус",
     english: "sand",
@@ -482,7 +482,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/blue.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "синий",
     khadar: "ханца",
     english: "blue",
@@ -492,7 +492,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/color.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "цвет",
     khadar: "тус",
     english: "color",
@@ -502,7 +502,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/lightblue.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "голубой",
     khadar: "зубратус",
     english: "lightblue",
@@ -512,7 +512,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/small.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "маленький",
     khadar: "варгина",
     english: "small",
@@ -522,7 +522,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/cool.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "прохладный",
     khadar: "тахIауле",
     english: "cool",
@@ -532,7 +532,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/warm.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "теплый",
     khadar: "вагай",
     english: "warm",
@@ -542,7 +542,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/sharp.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "острый",
     khadar: "бугай",
     english: "sharp",
@@ -552,7 +552,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/sour.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "кислый",
     khadar: "цакIил",
     english: "sour",
@@ -562,7 +562,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/bitter.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "горький",
     khadar: "уткIуй",
     english: "bitter",
@@ -572,7 +572,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/spicy.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "перченый",
     khadar: "жангай",
     english: "spicy",
@@ -582,7 +582,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/thin.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "тонкий",
     khadar: "чукъай",
     english: "thin",
@@ -592,7 +592,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/fat.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "толстый",
     khadar: "церхил",
     english: "fat",
@@ -602,7 +602,7 @@ export const adjectivesData = [
   {
     
     src: require("../../assets/adjectives/shallow.webp"),
-    category: "Прилагательные",
+    category: "adjectives",
     russian: "мелкий, неглубокий",
     khadar: "сагIил",
     english: "shallow",

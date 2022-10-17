@@ -12,9 +12,6 @@ import commonStyles from "../commonStyles";
 import { useTranslation } from "react-i18next";
 import { Dropdown } from "react-native-element-dropdown";
 
-
-
-
 export const Settings = () => {
   const {
     dynamicColor,
@@ -22,8 +19,7 @@ export const Settings = () => {
     setDark,
     iosPadding,
     alignment,
-    setAlignment,
-    language, 
+    setAlignment,     
     setLanguage,
     fontByLanguage
   } = React.useContext(Context);
@@ -34,8 +30,6 @@ export const Settings = () => {
     setAlignment(!alignment);
   };
   
-  
-
   const options = [{
     label: "English", value: "en"
   }, {
@@ -66,8 +60,8 @@ export const Settings = () => {
           trackColor={{ false: COLORS.VEINY_RED, true: COLORS.BEACH_TURQUOISE }}
         />
       </View>
-      <View style={{paddingBottom: 10}}>
-        <View style={{paddingBottom: 10}}>
+      <View>
+        <View>
           <CustomText color={dynamicColor} title={t('language')} />
         </View>        
         <Dropdown data={options} fontFamily={fontByLanguage} selectedTextStyle={{color: dynamicColor}} itemTextStyle={{color: dynamicColor}} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), setLanguage(item.value), i18n.changeLanguage(item.value)}} />

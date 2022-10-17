@@ -1,7 +1,7 @@
 export const toolsData = [{
   
   src: require("../../assets/tools/rake.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "грабли",
   khadar: "гъарда",
   english: "rake",
@@ -10,7 +10,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/plank.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "доска",
   khadar: "уркъули",
   english: "plank",
@@ -19,7 +19,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/firewood.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "дрова",
   khadar: "урцули",
   english: "firewood",
@@ -28,7 +28,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/needle.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "иголка",
   khadar: "буреба",
   english: "needle",
@@ -37,7 +37,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/scythe.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "коса",
   khadar: "чури",
   english: "scythe",
@@ -46,7 +46,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/shovel.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "лопата",
   khadar: "бел",
   english: "shovel",
@@ -55,7 +55,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/hammer.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "молоток",
   khadar: "кьякь",
   english: "hammer",
@@ -64,7 +64,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/nail_file.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "напильник",
   khadar: "эгал",
   english: "nail file",
@@ -73,7 +73,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/thread.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "нитка",
   khadar: "кIи",
   english: "thread",
@@ -82,7 +82,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/scissors.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "ножницы",
   khadar: "кIуцмах",
   english: "scissors",
@@ -91,7 +91,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/saw.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "пила",
   khadar: "рас",
   english: "saw",
@@ -100,7 +100,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/pliers.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "плоскогубцы",
   khadar: "келпатI",
   english: "needle",
@@ -109,7 +109,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/spring.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "пружина",
   khadar: "пуржина",
   english: "spring",
@@ -118,7 +118,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/button.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "пуговица",
   khadar: "кIигIя",
   english: "button",
@@ -127,7 +127,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/sickle.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "серп",
   khadar: "мирща",
   english: "sickle",
@@ -136,7 +136,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/axe.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "топор",
   khadar: "барда",
   english: "axe",
@@ -145,7 +145,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/awl.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "шило",
   khadar: "дурда",
   english: "awl",
@@ -154,7 +154,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/tongs.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "щипцы",
   khadar: "маща",
   english: "tongs",
@@ -163,7 +163,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/hoe.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "тяпка",
   khadar: "гъудгъуд",
   english: "hoe",
@@ -172,7 +172,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/pick.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "кирка",
   khadar: "газа",
   english: "pick",
@@ -181,7 +181,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/rope.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "веревка",
   khadar: "гъайаъ",
   english: "rope",
@@ -190,7 +190,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/beam.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "балка",
   khadar: "зехии",
   english: "beam",
@@ -199,7 +199,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/binoculars.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "бинокль",
   khadar: "дурлама",
   english: "binoculars",
@@ -208,7 +208,7 @@ export const toolsData = [{
 }, {
   
   src: require("../../assets/tools/broom.webp"),
-  category: "Инструменты",
+  category: "tools",
   russian: "веник",
   khadar: "халтIа",
   english: "broom",

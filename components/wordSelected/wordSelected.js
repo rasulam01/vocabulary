@@ -38,7 +38,6 @@ export const WordSelected = ({ route }) => {
   const iconHeight = Dimensions.get("window").height / 4
   const iconSelectedSize = {width: iconWidth, height: iconHeight, resizeMode: "contain"}
 
-
   return (
     <SafeAreaView style={commonStyles.container}>
       <View

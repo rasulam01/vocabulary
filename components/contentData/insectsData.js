@@ -2,7 +2,7 @@ export const insectsData = [
     {
         
         src: require("../../assets/animals/insects/butterfly.webp"),
-        category: "Насекомые",
+        category: "insects",
         russian: "бабочка",
         khadar: "хаминдари",
         english: "butterfly",
@@ -12,7 +12,7 @@ export const insectsData = [
     {
         
         src: require("../../assets/animals/insects/dragonfly.webp"),
-        category: "Насекомые",
+        category: "insects",
         russian: "стрекоза",
         khadar: "цIерцI",
         english: "dragonfly",
@@ -22,7 +22,7 @@ export const insectsData = [
       {
         
         src: require("../../assets/animals/insects/beetle.webp"),
-        category: "Насекомые",
+        category: "insects",
         russian: "жук",
         khadar: "тусахIари",
         english: "beetle",
@@ -32,7 +32,7 @@ export const insectsData = [
       {
         
         src: require("../../assets/animals/insects/mite.webp"),
-        category: "Насекомые",
+        category: "insects",
         russian: "клещ",
         khadar: "кIакIари",
         english: "mite",
@@ -42,7 +42,7 @@ export const insectsData = [
       {
         
         src: require("../../assets/animals/insects/fly.webp"),
-        category: "Насекомые",
+        category: "insects",
         russian: "муха",
         khadar: "кIент",
         english: "fly",
@@ -52,7 +52,7 @@ export const insectsData = [
       {
         
         src: require("../../assets/animals/insects/grasshopper.webp"),
-        category: "Насекомые",
+        category: "insects",
         russian: "кузнечик",
         khadar: "урцIецIе",
         english: "grasshopper",
@@ -62,7 +62,7 @@ export const insectsData = [
       {
         
         src: require("../../assets/animals/insects/moth.webp"),
-        category: "Насекомые",
+        category: "insects",
         russian: "моль",
         khadar: "имс",
         english: "moth",
@@ -72,7 +72,7 @@ export const insectsData = [
       {
         
         src: require("../../assets/animals/insects/hornet.webp"),
-        category: "Насекомые",
+        category: "insects",
         russian: "оса",
         khadar: "гIиндир",
         english: "hornet",
@@ -82,7 +82,7 @@ export const insectsData = [
       {
         
         src: require("../../assets/animals/insects/bee.webp"),
-        category: "Насекомые",
+        category: "insects",
         russian: "пчела",
         khadar: "мирхъи",
         english: "bee",
@@ -92,7 +92,7 @@ export const insectsData = [
       {
         
         src: require("../../assets/animals/insects/mole_cricket.webp"),
-        category: "Насекомые",
+        category: "insects",
         russian: "медведка",
         khadar: "безалтуш",
         english: "mole cricket",

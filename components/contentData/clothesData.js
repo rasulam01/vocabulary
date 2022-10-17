@@ -1,7 +1,7 @@
 export const clothesData = [{
     
     src: require("../../assets/clothes/galoshes.webp"),
-    category: "Одежда",
+    category: "clothing",
     russian: "галоши",
     khadar: "калшуне",
     english: "galoshes",
@@ -10,7 +10,7 @@ export const clothesData = [{
   }, {
     
     src: require("../../assets/clothes/astrakhan_papakha.webp"),
-    category: "Одежда",
+    category: "clothing",
     russian: "каракулевая папаха",
     khadar: "бугъалакъапа",
     english: "astrakhan papakha",
@@ -19,7 +19,7 @@ export const clothesData = [{
   }, {
     
     src: require("../../assets/clothes/pocket.webp"),
-    category: "Одежда",
+    category: "clothing",
     russian: "карман",
     khadar: "киса",
     english: "pocket",
@@ -28,7 +28,7 @@ export const clothesData = [{
   }, {
     
     src: require("../../assets/clothes/socks.webp"),
-    category: "Одежда",
+    category: "clothing",
     russian: "носки",
     khadar: "чурпуне",
     english: "socks",
@@ -37,7 +37,7 @@ export const clothesData = [{
   }, {
     
     src: require("../../assets/clothes/shoes.webp"),
-    category: "Одежда",
+    category: "clothing",
     russian: "обувь",
     khadar: "кьяшкиле",
     english: "shoes",
@@ -46,7 +46,7 @@ export const clothesData = [{
   }, {
     
     src: require("../../assets/clothes/gloves.webp"),
-    category: "Одежда",
+    category: "clothing",
     russian: "перчатки",
     khadar: "гъулгъапуне",
     english: "gloves",
@@ -55,7 +55,7 @@ export const clothesData = [{
   }, {
     
     src: require("../../assets/clothes/headscarf.webp"),
-    category: "Одежда",
+    category: "clothing",
     russian: "платок",
     khadar: "явлукъ",
     english: "headscarf",
@@ -64,7 +64,7 @@ export const clothesData = [{
   }, {
     
     src: require("../../assets/clothes/belt.webp"),
-    category: "Одежда",
+    category: "clothing",
     russian: "ремень",
     khadar: "иръи",
     english: "belt",
@@ -73,7 +73,7 @@ export const clothesData = [{
   }, {
     
     src: require("../../assets/clothes/shirt.webp"),
-    category: "Одежда",
+    category: "clothing",
     russian: "рубашка",
     khadar: "хIава",
     english: "shirt",
@@ -82,7 +82,7 @@ export const clothesData = [{
   }, {
     
     src: require("../../assets/clothes/hat.webp"),
-    category: "Одежда",
+    category: "clothing",
     russian: "шапка",
     khadar: "къапа",
     english: "hat",
@@ -91,7 +91,7 @@ export const clothesData = [{
   }, {
     
     src: require("../../assets/clothes/pants.webp"),
-    category: "Одежда",
+    category: "clothing",
     russian: "штаны",
     khadar: "щалбар",
     english: "pants",

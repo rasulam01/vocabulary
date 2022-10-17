@@ -2,7 +2,7 @@ export const vegetablesData = [
     {
       
       src: require("../../assets/food/vegetables/cabbage.webp"),
-      category: "Овощи",
+      category: "vegetables",
       russian: "капуста",
       khadar: "гъапуста",
       english: "cabbage",
@@ -12,7 +12,7 @@ export const vegetablesData = [
     {
       
       src: require("../../assets/food/vegetables/onion.webp"),
-      category: "Овощи",
+      category: "vegetables",
       russian: "лук",
       khadar: "зерхьи",
       english: "onion",
@@ -22,7 +22,7 @@ export const vegetablesData = [
     {
       
       src: require("../../assets/food/vegetables/carrot.webp"),
-      category: "Овощи",
+      category: "vegetables",
       russian: "морковь",
       khadar: "намадари",
       english: "carrot",
@@ -32,7 +32,7 @@ export const vegetablesData = [
     {
       
       src: require("../../assets/food/vegetables/cucumber.webp"),
-      category: "Овощи",
+      category: "vegetables",
       russian: "огурец",
       khadar: "хIияр",
       english: "cucumber",
@@ -42,7 +42,7 @@ export const vegetablesData = [
     {
       
       src: require("../../assets/food/vegetables/tomato.webp"),
-      category: "Овощи",
+      category: "vegetables",
       russian: "помидор",
       khadar: "памадур",
       english: "tomato",
@@ -52,7 +52,7 @@ export const vegetablesData = [
     {
       
       src: require("../../assets/food/vegetables/beet.webp"),
-      category: "Овощи",
+      category: "vegetables",
       russian: "свекла",
       khadar: "кIахIа",
       english: "beet",
@@ -62,7 +62,7 @@ export const vegetablesData = [
     {
       
       src: require("../../assets/food/vegetables/bean.webp"),
-      category: "Овощи",
+      category: "vegetables",
       russian: "фасоль",
       khadar: "кIаръа",
       english: "bean",
@@ -72,7 +72,7 @@ export const vegetablesData = [
     {
       
       src: require("../../assets/food/vegetables/garlic.webp"),
-      category: "Овощи",
+      category: "vegetables",
       russian: "чеснок",
       khadar: "итанзерхьи",
       english: "garlic",

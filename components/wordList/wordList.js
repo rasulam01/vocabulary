@@ -83,7 +83,7 @@ export const WordList = ({ data, navigation }) => {
                 navigation.navigate("Selected Word", {                  
                   index: index + 1,
                   src: item.src,
-                  category: item.category,
+                  category: t(item.category),
                   russian: item.russian,
                   khadar: item.khadar,
                   english: item.english,
@@ -117,7 +117,7 @@ export const WordList = ({ data, navigation }) => {
                 navigation.navigate("Selected Word", {                  
                   index: index + 1,
                   src: item.src,
-                  category: item.category,
+                  category: t(item.category),
                   russian: item.russian,
                   khadar: item.khadar,
                   english: item.english,

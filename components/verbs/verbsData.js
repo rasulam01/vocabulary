@@ -1,8 +1,7 @@
 export const verbsData = [
   {
-    
     src: require("../../assets/verbs/take.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "брать",
     khadar: "арасес",
     english: "to take",
@@ -10,9 +9,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/hang.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "вешать",
     khadar: "ардирэс",
     english: "to hang",
@@ -20,9 +18,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/see.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "видеть",
     khadar: "кебаэс",
     english: "to see",
@@ -30,9 +27,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/drink.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "пить",
     khadar: "бержес",
     english: "to drink",
@@ -40,18 +36,17 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/speak.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "говорить",
     khadar: "укIас",
     english: "to speak",
     additional_info: "",
     sound_src: "apple.m4a",
-  }, {
-    
+  },
+  {
     src: require("../../assets/verbs/burn.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "гореть",
     khadar: "игос",
     english: "to burn",
@@ -59,9 +54,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/do.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "делать",
     khadar: "барес",
     english: "to do",
@@ -69,9 +63,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/live.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "жить",
     khadar: "яшадиукIас",
     english: "to live",
@@ -79,9 +72,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/close.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "закрывать",
     khadar: "депбарес",
     english: "to close",
@@ -89,9 +81,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/know.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "знать",
     khadar: "багьес",
     english: "to know",
@@ -99,9 +90,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/paint.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "красить",
     khadar: "рандарес",
     english: "to paint",
@@ -109,9 +99,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/bite.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "кусать",
     khadar: "ацIукIас",
     english: "to bite",
@@ -119,9 +108,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/like.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "нравиться",
     khadar: "ахIбизес",
     english: "to like",
@@ -129,9 +117,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/need.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "нуждаться",
     khadar: "гIянес",
     english: "to need",
@@ -139,9 +126,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/put_on.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "надеть",
     khadar: "икIос",
     english: "to put on",
@@ -149,9 +135,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/open.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "открыть",
     khadar: "ипхъес",
     english: "to open",
@@ -159,9 +144,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/write.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "писать",
     khadar: "белкIес",
     english: "to write",
@@ -169,9 +153,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/swim.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "плавать",
     khadar: "юздуукIас",
     english: "to swim",
@@ -179,9 +162,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/cry.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "плакать",
     khadar: "исес",
     english: "to cry",
@@ -189,9 +171,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/cover.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "покрыть",
     khadar: "къаппарес",
     english: "to cover",
@@ -199,9 +180,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/bring.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "приносить",
     khadar: "гатес",
     english: "to bring",
@@ -209,9 +189,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/wake_up.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "проснуться",
     khadar: "тIатIугьес",
     english: "to wake up",
@@ -219,9 +198,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/repeat.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "повторить",
     khadar: "тикрарбарес",
     english: "to repeat",
@@ -229,9 +207,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/bow.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "поклоняться",
     khadar: "суждабарес",
     english: "to bow",
@@ -239,9 +216,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/put.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "положить",
     khadar: "буцес",
     english: "to put",
@@ -249,9 +225,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/accept.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "принять",
     khadar: "кьабулбарес",
     english: "to accept",
@@ -259,9 +234,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/say.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "сказать",
     khadar: "эс",
     english: "to say",
@@ -269,9 +243,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/look.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "смотреть",
     khadar: "тIарукIас",
     english: "to look",
@@ -279,9 +252,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/eat.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "есть",
     khadar: "букес",
     english: "to eat",
@@ -289,9 +261,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/increase.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "увеличить",
     khadar: "дакъбарес",
     english: "to increase",
@@ -299,9 +270,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/decrease.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "уменьшить",
     khadar: "камбарес",
     english: "to decrease",
@@ -309,9 +279,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/read.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "читать",
     khadar: "бучIес",
     english: "to read",
@@ -319,9 +288,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: "",
-    category: "Глаголы",
+    category: "verbs",
     russian: "являться, быть",
     khadar: "угьес",
     english: "to be",
@@ -329,9 +297,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/run.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "бежать",
     khadar: "дуцукIас",
     english: "to run",
@@ -339,9 +306,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/fall.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "падать",
     khadar: "кайкес",
     english: "to fall",
@@ -349,9 +315,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/lay.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "лежать",
     khadar: "кайхес",
     english: "to lay",
@@ -359,9 +324,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/stand.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "стоять",
     khadar: "айтес",
     english: "to stand",
@@ -369,9 +333,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/mow.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "косить",
     khadar: "ирщес",
     english: "to mow",
@@ -379,9 +342,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/find.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "найти",
     khadar: "баргес",
     english: "to find",
@@ -389,9 +351,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/crawl.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "ползать",
     khadar: "хусукIас",
     english: "to crawl",
@@ -399,9 +360,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/show.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "показать",
     khadar: "къабакъес",
     english: "to show",
@@ -409,9 +369,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/be_hungry.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "проголодаться",
     khadar: "гушуес",
     english: "to be hungry",
@@ -419,9 +378,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/cut.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "резать",
     khadar: "балгъес",
     english: "to cut",
@@ -429,9 +387,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/turn_on.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "включить",
     khadar: "бикьес",
     english: "to turn on",
@@ -439,9 +396,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/fly.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "летать",
     khadar: "урцес",
     english: "to fly",
@@ -449,9 +405,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/jump.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "прыгать",
     khadar: "парсукIас",
     english: "to jump",
@@ -459,9 +414,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/think.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "думать",
     khadar: "пикриукIас",
     english: "to think",
@@ -469,9 +423,8 @@ export const verbsData = [
     sound_src: "apple.m4a",
   },
   {
-    
     src: require("../../assets/verbs/rest.webp"),
-    category: "Глаголы",
+    category: "verbs",
     russian: "отдыхать",
     khadar: "хIалукIас",
     english: "to rest",

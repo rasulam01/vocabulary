@@ -13,6 +13,8 @@
         "adverbs" : "Adverbs",
         "numbers" : "Numbers",
         "pronouns" : "Pronouns",
+        "personal_pronouns" : "Personal pronouns",
+        "possessive_pronouns" : "Possessive pronouns",
         "food" : "Food",
         "fruit" : "Fruit",
         "vegetables" : "Vegetables",

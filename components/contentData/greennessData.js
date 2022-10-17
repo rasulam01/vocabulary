@@ -1,7 +1,7 @@
 export const greennessData = [{
     
     src: require("../../assets/nature/greenness/log.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "бревно",
     khadar: "зехли",
     english: "log",
@@ -10,7 +10,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/branch.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "ветвь",
     khadar: "къали",
     english: "branch",
@@ -19,7 +19,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/timber.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "древесина",
     khadar: "дуз",
     english: "timber",
@@ -28,7 +28,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/greenness.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "зелень",
     khadar: "къалтIа",
     english: "greenness",
@@ -37,7 +37,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/hedge.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "изгородь",
     khadar: "чули",
     english: "hedge",
@@ -46,7 +46,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/root.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "корень",
     khadar: "макъ",
     english: "root",
@@ -55,7 +55,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/nettle.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "крапива",
     khadar: "низбе",
     english: "nettle",
@@ -64,7 +64,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/bush.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "куст",
     khadar: "хъалта",
     english: "bush",
@@ -73,7 +73,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/leaf.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "лист",
     khadar: "кIапIи",
     english: "leaf",
@@ -82,7 +82,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/poppy.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "мак",
     khadar: "пIялпIялаги",
     english: "poppy",
@@ -91,7 +91,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/mint.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "мята",
     khadar: "шумери",
     english: "mint",
@@ -100,7 +100,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/manure.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "навоз",
     khadar: "декь",
     english: "manure",
@@ -109,7 +109,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/stump.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "пень",
     khadar: "хъитIа",
     english: "stump",
@@ -118,7 +118,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/field.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "поле",
     khadar: "аулакъ",
     english: "field",
@@ -127,7 +127,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/meadow.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "луг",
     khadar: "сага",
     english: "meadow",
@@ -136,7 +136,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/hay.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "сено",
     khadar: "мура",
     english: "hay",
@@ -145,7 +145,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/weed.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "сорняк",
     khadar: "ернек",
     english: "weed",
@@ -154,7 +154,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/grass.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "трава",
     khadar: "къар",
     english: "grass",
@@ -163,7 +163,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/cotton.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "хлопок",
     khadar: "бамба",
     english: "cotton",
@@ -172,7 +172,7 @@ export const greennessData = [{
   }, {
     
     src: require("../../assets/nature/greenness/glade.webp"),
-    category: "Растительность",
+    category: "greenness",
     russian: "поляна",
     khadar: "гIянкIа",
     english: "glade",

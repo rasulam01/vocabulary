@@ -1,7 +1,7 @@
 export const treesData = [{
     
     src: require("../../assets/nature/trees/birch.webp"),
-    category: "Деревья",
+    category: "trees",
     russian: "береза",
     khadar: "гIянъа",
     english: "birch",
@@ -10,7 +10,7 @@ export const treesData = [{
   },   {
     
     src: require("../../assets/nature/trees/oak.webp"),
-    category: "Деревья",
+    category: "trees",
     russian: "дуб",
     khadar: "мич",
     english: "oak",
@@ -19,7 +19,7 @@ export const treesData = [{
   },   {
     
     src: require("../../assets/nature/trees/pine.webp"),
-    category: "Деревья",
+    category: "trees",
     russian: "сосна",
     khadar: "яда",
     english: "pine",
@@ -28,7 +28,7 @@ export const treesData = [{
   },   {
     
     src: require("../../assets/nature/trees/willow.webp"),
-    category: "Деревья",
+    category: "trees",
     russian: "ива",
     khadar: "жар",
     english: "willow",
@@ -37,7 +37,7 @@ export const treesData = [{
   },   {
     
     src: require("../../assets/nature/trees/linden.webp"),
-    category: "Деревья",
+    category: "trees",
     russian: "липа",
     khadar: "щима",
     english: "linden",
@@ -46,7 +46,7 @@ export const treesData = [{
   },   {
     
     src: require("../../assets/nature/trees/poplar.webp"),
-    category: "Деревья",
+    category: "trees",
     russian: "тополь",
     khadar: "ахътерек",
     english: "poplar",
@@ -55,7 +55,7 @@ export const treesData = [{
   }, {
     
     src: require("../../assets/nature/trees/tree.webp"),
-    category: "Деревья",
+    category: "trees",
     russian: "дерево",
     khadar: "гъотI",
     english: "tree",
@@ -64,7 +64,7 @@ export const treesData = [{
   }, {
     
     src: require("../../assets/nature/trees/aspen.webp"),
-    category: "Деревья",
+    category: "trees",
     russian: "осина",
     khadar: "пялпялаг",
     english: "aspen",

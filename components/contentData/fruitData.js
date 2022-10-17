@@ -2,7 +2,7 @@ export const fruitData = [
   {
     
     src: require("../../assets/food/fruit/apple.webp"),
-    category: "Фрукты",
+    category: "fruit",
     russian: "яблоко",
     khadar: "гIинц",
     english: "apple",
@@ -12,7 +12,7 @@ export const fruitData = [
   {
     
     src: require("../../assets/food/fruit/apricot.webp"),
-    category: "Фрукты",
+    category: "fruit",
     russian: "абрикос",
     khadar: "корага",
     english: "apricot",
@@ -22,7 +22,7 @@ export const fruitData = [
   {
     
     src: require("../../assets/food/fruit/quince.webp"),
-    category: "Фрукты",
+    category: "fruit",
     russian: "айва",
     khadar: "гимиргьи",
     english: "quince",
@@ -32,7 +32,7 @@ export const fruitData = [
   {
     
     src: require("../../assets/food/fruit/cherry_plum.webp"),
-    category: "Фрукты",
+    category: "fruit",
     russian: "алыча",
     khadar: "цимихI",
     english: "cherry plum",
@@ -42,7 +42,7 @@ export const fruitData = [
   {
     
     src: require("../../assets/food/fruit/grape.webp"),
-    category: "Фрукты",
+    category: "fruit",
     russian: "виноград",
     khadar: "тIутIи",
     english: "grape",
@@ -52,7 +52,7 @@ export const fruitData = [
   {
     
     src: require("../../assets/food/fruit/pear.webp"),
-    category: "Фрукты",
+    category: "fruit",
     russian: "груша",
     khadar: "алмут",
     english: "pear",
@@ -62,7 +62,7 @@ export const fruitData = [
   {
     
     src: require("../../assets/food/fruit/plum.webp"),
-    category: "Фрукты",
+    category: "fruit",
     russian: "слива",
     khadar: "кIакIан",
     english: "plum",
@@ -72,7 +72,7 @@ export const fruitData = [
   {
     
     src: require("../../assets/food/fruit/pumpkin.webp"),
-    category: "Фрукты",
+    category: "fruit",
     russian: "тыква",
     khadar: "гонзари",
     english: "pumpkin",
@@ -82,7 +82,7 @@ export const fruitData = [
   {
     
     src: require("../../assets/food/fruit/date.webp"),
-    category: "Фрукты",
+    category: "fruit",
     russian: "финик",
     khadar: "финик",
     english: "date",
@@ -92,8 +92,8 @@ export const fruitData = [
   {
     
     src: require("../../assets/food/fruit/fruit.webp"),
-    category: "Фрукты",
-    russian: "фрукты",
+    category: "fruit",
+    russian: "fruit",
     khadar: "цIедехь",
     english: "fruit",
     additional_info: "",
@@ -102,7 +102,7 @@ export const fruitData = [
   {
     
     src: require("../../assets/food/fruit/peach.webp"),
-    category: "Фрукты",
+    category: "fruit",
     russian: "персик",
     khadar: "щаптIал",
     english: "peach",

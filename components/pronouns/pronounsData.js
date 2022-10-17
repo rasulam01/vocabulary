@@ -2,7 +2,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Личные местоимения",
+    category: "personal_pronouns",
     russian: "я",
     khadar: "нуни",
     english: "I",
@@ -12,7 +12,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Личные местоимения",
+    category: "personal_pronouns",
     russian: "ты",
     khadar: "хIу",
     english: "you",
@@ -22,7 +22,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Личные местоимения",
+    category: "personal_pronouns",
     russian: "он, она, оно",
     khadar: "итI",
     english: "he, she, it",
@@ -32,7 +32,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Личные местоимения",
+    category: "personal_pronouns",
     russian: "мы",
     khadar: "нуша",
     english: "we",
@@ -42,7 +42,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Личные местоимения",
+    category: "personal_pronouns",
     russian: "вы",
     khadar: "хIуша",
     english: "you",
@@ -52,7 +52,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Личные местоимения",
+    category: "personal_pronouns",
     russian: "они",
     khadar: "итIи",
     english: "they",
@@ -62,7 +62,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Притяжательные местоимения",
+    category: "possessive_pronouns",
     russian: "мой",
     khadar: "дия",
     english: "my",
@@ -72,7 +72,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Притяжательные местоимения",
+    category: "possessive_pronouns",
     russian: "твой",
     khadar: "хIа",
     english: "your",
@@ -82,7 +82,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Притяжательные местоимения",
+    category: "possessive_pronouns",
     russian: "итIия",
     khadar: "его, её",
     english: "his, her, its",
@@ -92,7 +92,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Притяжательные местоимения",
+    category: "possessive_pronouns",
     russian: "наш",
     khadar: "нушия",
     english: "our",
@@ -102,7 +102,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Притяжательные местоимения",
+    category: "possessive_pronouns",
     russian: "ваш",
     khadar: "хIушия",
     english: "your",
@@ -112,7 +112,7 @@ export const pronounsData = [
   {
     
     src: "",
-    category: "Притяжательные местоимения",
+    category: "possessive_pronouns",
     russian: "их",
     khadar: "итIила",
     english: "their",

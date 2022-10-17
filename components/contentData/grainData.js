@@ -2,7 +2,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/yeast_dough.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "дрожжевое тесто",
     khadar: "хамир",
     english: "yeast dough",
@@ -12,7 +12,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/groats.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "крупа",
     khadar: "курпа",
     english: "groats",
@@ -22,7 +22,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/corn.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "кукуруза",
     khadar: "хIежненке",
     english: "corn",
@@ -32,7 +32,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/corn_flour.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "кукурузная мука",
     khadar: "мучере",
     english: "corn flour",
@@ -42,7 +42,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/flour.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "мука",
     khadar: "декъ",
     english: "flour",
@@ -52,7 +52,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/millet.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "просо",
     khadar: "мучи",
     english: "millet",
@@ -62,7 +62,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/wheat.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "пшеница",
     khadar: "анкIи",
     english: "wheat",
@@ -72,7 +72,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/rice.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "рис",
     khadar: "дуги",
     english: "rice",
@@ -82,7 +82,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/layered_bread.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "слоеный хлеб",
     khadar: "гъатламаги",
     english: "layered bread",
@@ -92,7 +92,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/dough.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "тесто",
     khadar: "бащанаги",
     english: "dough",
@@ -102,7 +102,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/bread.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "хлеб",
     khadar: "азихъ",
     english: "bread",
@@ -112,7 +112,7 @@ export const grainData = [
   {
     
     src: require("../../assets/food/grain/barley.webp"),
-    category: "Злаки, зерновые, их производные",
+    category: "grain",
     russian: "ячмень",
     khadar: "мухъа",
     english: "barley",

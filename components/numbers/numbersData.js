@@ -1,7 +1,7 @@
 export const numbersData = [{
     
     src: require("../../assets/numbers/1.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "один",
     khadar: "ца",
     english: "one",
@@ -10,7 +10,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/2.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "два",
     khadar: "кIуял",
     english: "two",
@@ -19,7 +19,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/3.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "три",
     khadar: "хIябал",
     english: "three",
@@ -28,7 +28,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/4.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "четыре",
     khadar: "онгъал",
     english: "four",
@@ -37,7 +37,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/5.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "пять",
     khadar: "шуял",
     english: "five",
@@ -46,7 +46,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/6.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "шесть",
     khadar: "урегал",
     english: "six",
@@ -55,7 +55,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/7.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "семь",
     khadar: "ярхIал",
     english: "seven",
@@ -64,7 +64,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/8.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "восемь",
     khadar: "гахIал",
     english: "eight",
@@ -73,7 +73,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/9.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "девять",
     khadar: "урчIебал",
     english: "nine",
@@ -82,7 +82,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/10.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "десять",
     khadar: "яцал",
     english: "ten",
@@ -91,7 +91,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/11.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "одиннадцать",
     khadar: "яцнуцара",
     english: "eleven",
@@ -100,7 +100,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/12.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "двенадцать",
     khadar: "яцнукIара",
     english: "twelve",
@@ -109,7 +109,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/13.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "тринадцать",
     khadar: "яцнухIябра",
     english: "thirteen",
@@ -118,7 +118,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/14.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "четырнадцать",
     khadar: "яцнуонгъра",
     english: "fourteen",
@@ -127,7 +127,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/15.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "пятнадцать",
     khadar: "яцнушура",
     english: "fifteen",
@@ -136,7 +136,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/16.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "шестнадцать",
     khadar: "яцнуурегра",
     english: "sixteen",
@@ -145,7 +145,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/17.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "семнадцать",
     khadar: "яцнуярхIа",
     english: "seventeen",
@@ -154,7 +154,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/18.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "восемнадцать",
     khadar: "яцнугахIа",
     english: "eighteen",
@@ -163,7 +163,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/0.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "ноль",
     khadar: "ноль",
     english: "zero",
@@ -172,7 +172,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/19.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "девятнадцать",
     khadar: "яцнуурчIебал",
     english: "nineteen",
@@ -181,7 +181,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/20.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "двадцать",
     khadar: "гьаял",
     english: "twenty",
@@ -190,7 +190,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/21.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "двадцать один",
     khadar: "гьануцара",
     english: "twenty one",
@@ -199,7 +199,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/22.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "двадцать два",
     khadar: "гьанукIара",
     english: "twenty two",
@@ -208,7 +208,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/23.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "двадцать три",
     khadar: "гьанухIябра",
     english: "twenty three",
@@ -217,7 +217,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/24.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "двадцать четыре",
     khadar: "гьануонгъва",
     english: "twenty four",
@@ -226,7 +226,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/25.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "двадцать пять",
     khadar: "гьанушура",
     english: "twenty five",
@@ -235,7 +235,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/27.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "двадцать семь",
     khadar: "гьануярхIа",
     english: "twenty seven",
@@ -244,7 +244,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/28.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "двадцать восемь",
     khadar: "гьанугахIа",
     english: "twenty eight",
@@ -253,7 +253,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/29.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "двадцать девять",
     khadar: "гьануурчIебал",
     english: "twenty nine",
@@ -262,7 +262,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/30.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "тридцать",
     khadar: "хIябцале",
     english: "thirty",
@@ -271,7 +271,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/31.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "тридцать один",
     khadar: "хIябцале ца",
     english: "thirty one",
@@ -280,7 +280,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/40.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "сорок",
     khadar: "онгъцале",
     english: "fourty",
@@ -289,7 +289,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/50.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "пятьдесят",
     khadar: "шуцале",
     english: "fifty",
@@ -298,7 +298,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/60.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "шестьдесят",
     khadar: "урегцале",
     english: "sixty",
@@ -307,7 +307,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/70.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "семьдесят",
     khadar: "ярхIцале",
     english: "seventy",
@@ -316,7 +316,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/80.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "восемьдесят",
     khadar: "гахIцале",
     english: "eighty",
@@ -325,7 +325,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/90.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "девяносто",
     khadar: "урчIебцале",
     english: "ninety",
@@ -334,7 +334,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/100.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "сто",
     khadar: "даршал",
     english: "hundred",
@@ -343,7 +343,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/200.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "двести",
     khadar: "кIударш",
     english: "two hundred",
@@ -352,7 +352,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/300.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "триста",
     khadar: "хIябдарш",
     english: "three hundred",
@@ -361,7 +361,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/400.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "четыреста",
     khadar: "онгъдарш",
     english: "four hundred",
@@ -370,7 +370,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/500.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "пятьсот",
     khadar: "шударш",
     english: "five hundred",
@@ -379,7 +379,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/600.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "шестьсот",
     khadar: "урегдарш",
     english: "six hundred",
@@ -388,7 +388,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/700.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "семьсот",
     khadar: "ярхIдарш",
     english: "seven hundred",
@@ -397,7 +397,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/800.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "восемьсот",
     khadar: "гахIдарш",
     english: "eight hundred",
@@ -406,7 +406,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/900.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "девятьсот",
     khadar: "урчIебдарш",
     english: "nine hundred",
@@ -415,7 +415,7 @@ export const numbersData = [{
   }, {
     
     src: require("../../assets/numbers/1000.png"),
-    category: "Глаголы",
+    category: "numbers",
     russian: "тысяча",
     khadar: "азир",
     english: "thousand",

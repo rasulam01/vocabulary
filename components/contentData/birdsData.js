@@ -2,7 +2,7 @@ export const birdsData = [
     {
         
         src: require("../../assets/animals/birds/sparrow.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "воробей",
         khadar: "тIавтIав",
         english: "sparrow",
@@ -12,7 +12,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/crow.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "ворона",
         khadar: "гъана",
         english: "crow",
@@ -22,7 +22,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/pigeon.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "голубь",
         khadar: "лахьиъ",
         english: "pigeon",
@@ -32,7 +32,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/goose.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "гусь",
         khadar: "къаз",
         english: "goose",
@@ -42,7 +42,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/woodpecker.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "дятел",
         khadar: "къутIкъутIи",
         english: "woodpecker",
@@ -52,7 +52,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/turkey.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "индюк",
         khadar: "гургур",
         english: "turkey",
@@ -62,7 +62,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/cuckoo.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "кукушка",
         khadar: "утук",
         english: "cuckoo",
@@ -72,7 +72,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/swallow.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "ласточка",
         khadar: "гъагатIи",
         english: "swallow",
@@ -82,7 +82,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/eagle.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "орел",
         khadar: "гъуш",
         english: "eagle",
@@ -92,7 +92,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/peacock.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "павлин",
         khadar: "тIавус",
         english: "peacock",
@@ -102,7 +102,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/rooster.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "петух",
         khadar: "дагъай",
         english: "rooster",
@@ -122,7 +122,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/nightingale.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "соловей",
         khadar: "булбул",
         english: "nightingale",
@@ -132,7 +132,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/magpie.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "сорока",
         khadar: "кIамкIамаги",
         english: "magpie",
@@ -142,7 +142,7 @@ export const birdsData = [
       {
         
         src: require("../../assets/animals/birds/owl.webp"),
-        category: "Птицы",
+        category: "birds",
         russian: "сова",
         khadar: "тIуми",
         english: "owl",

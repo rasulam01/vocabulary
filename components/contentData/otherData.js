@@ -2,7 +2,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/water.webp"),
-    category: "Другое",
+    category: "other",
     russian: "вода",
     khadar: "шин",
     english: "water",
@@ -12,7 +12,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/vodka.webp"),
-    category: "Другое",
+    category: "other",
     russian: "водка",
     khadar: "хIярякьи",
     english: "vodka",
@@ -22,7 +22,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/walnut.webp"),
-    category: "Другое",
+    category: "other",
     russian: "грецкий орех",
     khadar: "гъиве",
     english: "walnut",
@@ -32,7 +32,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/wine.webp"),
-    category: "Другое",
+    category: "other",
     russian: "вино",
     khadar: "чагьир",
     english: "wine",
@@ -42,7 +42,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/mushroom.webp"),
-    category: "Другое",
+    category: "other",
     russian: "гриб",
     khadar: "къашкъар",
     english: "mushroom",
@@ -52,7 +52,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/food.webp"),
-    category: "Другое",
+    category: "other",
     russian: "еда",
     khadar: "берконе",
     english: "food",
@@ -62,7 +62,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/candy.webp"),
-    category: "Другое",
+    category: "other",
     russian: "конфета",
     khadar: "кемпет",
     english: "candy",
@@ -72,7 +72,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/slice.webp"),
-    category: "Другое",
+    category: "other",
     russian: "кусок",
     khadar: "къац",
     english: "slice",
@@ -82,7 +82,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/lemonade.webp"),
-    category: "Другое",
+    category: "other",
     russian: "лимонад",
     khadar: "лиманат",
     english: "lemonade",
@@ -92,7 +92,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/honey.webp"),
-    category: "Другое",
+    category: "other",
     russian: "мед",
     khadar: "варъа",
     english: "honey",
@@ -102,7 +102,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/egg.webp"),
-    category: "Другое",
+    category: "other",
     russian: "яйцо",
     khadar: "гигари",
     english: "egg",
@@ -112,7 +112,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/hazelnut.webp"),
-    category: "Другое",
+    category: "other",
     russian: "фундук",
     khadar: "сирмуга",
     english: "hazelnut",
@@ -122,7 +122,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/nut.webp"),
-    category: "Другое",
+    category: "other",
     russian: "орех",
     khadar: "гъив",
     english: "nut",
@@ -132,7 +132,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/olive.webp"),
-    category: "Другое",
+    category: "other",
     russian: "оливка",
     khadar: "зайтун",
     english: "olive",
@@ -142,7 +142,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/pepper.webp"),
-    category: "Другое",
+    category: "other",
     russian: "перец",
     khadar: "жибжи",
     english: "pepper",
@@ -152,7 +152,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/salt.webp"),
-    category: "Другое",
+    category: "other",
     russian: "соль",
     khadar: "зеъ",
     english: "salt",
@@ -162,7 +162,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/scrambled_eggs.webp"),
-    category: "Другое",
+    category: "other",
     russian: "яичница",
     khadar: "гигала гъайнакъ",
     english: "scrambled eggs",
@@ -172,7 +172,7 @@ export const otherData = [
   {
     
     src: require("../../assets/food/other/sugar.webp"),
-    category: "Другое",
+    category: "other",
     russian: "сахар",
     khadar: "шекер",
     english: "sugar",

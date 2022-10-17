@@ -2,7 +2,7 @@ export const weaponsData = [
     {
       
       src: require("../../assets/weapons/pistol.webp"),
-      category: "Оружия",
+      category: "weapons",
       russian: "пистолет",
       khadar: "тапанга",
       english: "pistol",
@@ -12,7 +12,7 @@ export const weaponsData = [
     {
         
         src: require("../../assets/weapons/gunpowder.webp"),
-        category: "Оружия",
+        category: "weapons",
         russian: "порох",
         khadar: "янсав",
         english: "gunpowder",
@@ -22,7 +22,7 @@ export const weaponsData = [
       {
         
         src: require("../../assets/weapons/bullet.webp"),
-        category: "Оружия",
+        category: "weapons",
         russian: "пуля",
         khadar: "хIархIа",
         english: "bullet",
@@ -32,7 +32,7 @@ export const weaponsData = [
       {
         
         src: require("../../assets/weapons/cannon.webp"),
-        category: "Оружия",
+        category: "weapons",
         russian: "пушка",
         khadar: "туп",
         english: "cannon",
@@ -42,7 +42,7 @@ export const weaponsData = [
       {
         
         src: require("../../assets/weapons/rifle.webp"),
-        category: "Оружия",
+        category: "weapons",
         russian: "ружье",
         khadar: "тупанг",
         english: "rifle",
@@ -52,7 +52,7 @@ export const weaponsData = [
       {
         
         src: require("../../assets/weapons/sabre.webp"),
-        category: "Оружия",
+        category: "weapons",
         russian: "сабля",
         khadar: "мушкIа",
         english: "sabre",
@@ -61,7 +61,7 @@ export const weaponsData = [
       }, {
         
         src: require("../../assets/weapons/arrow.webp"),
-        category: "Оружия",
+        category: "weapons",
         russian: "стрела",
         khadar: "урчи",
         english: "arrow",

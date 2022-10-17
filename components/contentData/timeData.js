@@ -1,7 +1,7 @@
 export const timeData = [{
     
     src: require("../../assets/time/spring.webp"),
-    category: "Время",
+    category: "time",
     russian: "весна",
     khadar: "хIюяб",
     english: "spring",
@@ -10,7 +10,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/summer.webp"),
-    category: "Время",
+    category: "time",
     russian: "лето",
     khadar: "дуцмур",
     english: "summer",
@@ -19,7 +19,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/autumn.webp"),
-    category: "Время",
+    category: "time",
     russian: "осень",
     khadar: "бехьни",
     english: "autumn",
@@ -28,7 +28,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/winter.webp"),
-    category: "Время",
+    category: "time",
     russian: "зима",
     khadar: "эни",
     english: "winter",
@@ -37,7 +37,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/morning.webp"),
-    category: "Время",
+    category: "time",
     russian: "утро",
     khadar: "салау",
     english: "morning",
@@ -46,7 +46,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/evening.webp"),
-    category: "Время",
+    category: "time",
     russian: "вечер",
     khadar: "берхакъ",
     english: "evening",
@@ -55,7 +55,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/night.webp"),
-    category: "Время",
+    category: "time",
     russian: "ночь",
     khadar: "дуге",
     english: "night",
@@ -64,7 +64,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/second.webp"),
-    category: "Время",
+    category: "time",
     russian: "секунда",
     khadar: "секунд",
     english: "second",
@@ -73,7 +73,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/minute.webp"),
-    category: "Время",
+    category: "time",
     russian: "минута",
     khadar: "минут",
     english: "minute",
@@ -82,7 +82,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/hour.webp"),
-    category: "Время",
+    category: "time",
     russian: "час",
     khadar: "саат",
     english: "hour",
@@ -91,7 +91,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/day.webp"),
-    category: "Время",
+    category: "time",
     russian: "день",
     khadar: "бари",
     english: "day",
@@ -101,8 +101,8 @@ export const timeData = [{
   {
     
     src: require("../../assets/time/daytime.webp"),
-    category: "Время",
-    russian: "дневное время",
+    category: "time",
+    russian: "дневное time",
     khadar: "бари",
     english: "daytime",
     additional_info: "",
@@ -110,7 +110,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/week.webp"),
-    category: "Время",
+    category: "time",
     russian: "неделя",
     khadar: "жумагIя",
     english: "week",
@@ -119,7 +119,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/month.webp"),
-    category: "Время",
+    category: "time",
     russian: "месяц",
     khadar: "бас",
     english: "month",
@@ -128,7 +128,7 @@ export const timeData = [{
   }, {
     
     src: require("../../assets/time/year.webp"),
-    category: "Время",
+    category: "time",
     russian: "год",
     khadar: "дус",
     english: "year",

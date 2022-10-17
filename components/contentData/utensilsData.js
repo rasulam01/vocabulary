@@ -1,7 +1,7 @@
 export const utensilsData = [{
     
     src: require("../../assets/utensils/saucer.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "блюдце",
     khadar: "нарбики",
     english: "saucer",
@@ -10,7 +10,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/fork.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "вилка",
     khadar: "бултане",
     english: "fork",
@@ -19,7 +19,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/soup_plate.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "глубокая тарелка",
     khadar: "сукра",
     english: "soup plate",
@@ -28,7 +28,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/colander.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "дуршлаг",
     khadar: "чулпу",
     english: "colander",
@@ -37,7 +37,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/pot.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "кастрюля",
     khadar: "щенк",
     english: "pot",
@@ -46,7 +46,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/mug.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "кружка",
     khadar: "крушка",
     english: "mug",
@@ -55,7 +55,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/bowl.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "миска",
     khadar: "гIям",
     english: "bowl",
@@ -64,7 +64,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/knife.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "нож",
     khadar: "дис",
     english: "knife",
@@ -73,7 +73,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/tray.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "поднос",
     khadar: "кIабатI",
     english: "tray",
@@ -82,7 +82,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/ladle.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "половник",
     khadar: "чумуч",
     english: "ladle",
@@ -91,7 +91,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/glass.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "стакан",
     khadar: "истакан",
     english: "glass",
@@ -100,7 +100,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/plate.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "тарелка",
     khadar: "бушхап",
     english: "plate",
@@ -109,7 +109,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/grater.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "терка",
     khadar: "терка",
     english: "grater",
@@ -118,7 +118,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/apron.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "фартук",
     khadar: "пяртук",
     english: "apron",
@@ -127,7 +127,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/cup.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "чашка",
     khadar: "щашка",
     english: "cup",
@@ -136,7 +136,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/skimmer.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "шумовка",
     khadar: "квашин",
     english: "skimmer",
@@ -145,7 +145,7 @@ export const utensilsData = [{
   }, {
     
     src: require("../../assets/utensils/kettle.webp"),
-    category: "Кухонная утварь",
+    category: "utensils",
     russian: "чайник",
     khadar: "чайник",
     english: "kettle",
