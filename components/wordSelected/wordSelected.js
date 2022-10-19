@@ -7,8 +7,7 @@ import Sound from "react-native-sound";
 import { useTranslation } from "react-i18next";
 
 export const WordSelected = ({ route }) => {
-  const { t } = useTranslation()
-  const { dynamicColor } = React.useContext(Context);
+  const { t } = useTranslation()  
   const {    
     index,
     src,
@@ -46,8 +45,7 @@ export const WordSelected = ({ route }) => {
           { justifyContent: "center", alignItems: "flex-end" },
         ]}        
       >
-        <CustomText
-          color={dynamicColor}
+        <CustomText          
           title={khadar}         
           fontSize={20}
         />
@@ -72,10 +70,10 @@ export const WordSelected = ({ route }) => {
           { flexDirection: "column", alignItems: "flex-start" },
         ]}
       >
-        <CustomText color={dynamicColor} title={`${t("word_out_of", {index: index, separator: t("separator"), length: length})}`}  />
-        <CustomText color={dynamicColor} title={`${t("selected_category", {category: category})}`}  />
-        <CustomText color={dynamicColor} title={`${t("in_russian")}: ${russian}`} />
-        <CustomText color={dynamicColor} title={`${t("in_english")}: ${english}`} />
+        <CustomText title={`${t("word_out_of", {index: index, separator: t("separator"), length: length})}`}  />
+        <CustomText title={`${t("selected_category", {category: category})}`}  />
+        <CustomText title={`${t("in_russian")}: ${russian}`} />
+        <CustomText title={`${t("in_english")}: ${english}`} />
       </View>
       <View
         style={[
@@ -83,7 +81,7 @@ export const WordSelected = ({ route }) => {
           { flexDirection: "column", alignItems: "flex-start" },
         ]}
       >
-        <CustomText color={dynamicColor} title={additional_info} />
+        <CustomText title={additional_info} />
       </View>
     </SafeAreaView>
   );

@@ -15,7 +15,7 @@ import commonStyles from "../commonStyles";
 const ARROW_PATH = require("../../assets/sections/arrow.png")
 
 export const VocabularySection = ({ imageSource, title, onPress }) => {
-  const { dynamicColor } = React.useContext(Context);
+  
   return (
     <TouchableWithoutFeedback onPress={onPress}>
       <View style={commonStyles.section}>
@@ -24,7 +24,7 @@ export const VocabularySection = ({ imageSource, title, onPress }) => {
             source={imageSource}
             style={[iconSize, { marginRight: 20, resizeMode: "contain" }]}
           />
-          <CustomText color={dynamicColor} title={title} />
+          <CustomText  title={title} />
         </View>
         <View>
           <Image source={ARROW_PATH} style={arrowSize} />

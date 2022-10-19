@@ -45,7 +45,7 @@ export const Settings = () => {
   return (
     <SafeAreaView style={commonStyles.container}>
       <View style={[styles.section, { padding: iosPadding }]}>
-        <CustomText color={dynamicColor} title={darkModeText} />
+        <CustomText  title={darkModeText} />
         <Switch
           value={dark}
           onValueChange={setDarkness}
@@ -53,7 +53,7 @@ export const Settings = () => {
         />
       </View>
       <View style={[styles.section, { padding: iosPadding }]}>
-        <CustomText color={dynamicColor} title={alignmentText} />
+        <CustomText  title={alignmentText} />
         <Switch
           value={alignment}
           onValueChange={changeAlignment}
@@ -62,9 +62,9 @@ export const Settings = () => {
       </View>
       <View>
         <View>
-          <CustomText color={dynamicColor} title={t('language')} />
+          <CustomText title={t('language')} />
         </View>        
-        <Dropdown data={options} fontFamily={fontByLanguage} selectedTextStyle={{color: dynamicColor}} itemTextStyle={{color: dynamicColor}} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), setLanguage(item.value), i18n.changeLanguage(item.value)}} />
+        <Dropdown data={options} fontFamily={fontByLanguage} containerStyle={{backgroundColor: COLORS.CLOUDY_BLUE}}  selectedTextStyle={{color: dynamicColor}} itemTextStyle={{color: dynamicColor}} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), setLanguage(item.value), i18n.changeLanguage(item.value)}} />
       </View>
     </SafeAreaView>
   );

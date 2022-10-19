@@ -1,10 +1,13 @@
 import React from "react";
 import { SafeAreaView } from "react-native";
 import commonStyles from "../commonStyles";
-import { CustomText } from "../custom/CustomText";
+import { rulesData } from "../listData/rulesList";
+import { VocabularyList } from "../vocabularyList/vocabularyList";
 
-export const Rules = () => (
+export const Rules = ({ navigation }) => {
+  return (
     <SafeAreaView style={commonStyles.container}>
-        <CustomText title="faggots" />
+      <VocabularyList data={rulesData} navigation={navigation} />
     </SafeAreaView>
-)
+  );
+};

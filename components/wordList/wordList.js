@@ -6,8 +6,8 @@ import { Context } from "../../navigation";
 import { COLORS } from "../../colors";
 import { useTranslation } from "react-i18next";
 
-export const WordList = ({ data, navigation }) => {
-  const { dynamicColor } = React.useContext(Context);
+export const WordList = ({ data, navigation }) => {  
+  const { dynamicColor } = React.useContext(Context)
   const [searchWord, setSearchWord] = useState("");
   const { t } = useTranslation();
 
@@ -30,7 +30,7 @@ export const WordList = ({ data, navigation }) => {
       >
         <TextInput
           placeholder={t("placeholder")}
-          placeholderTextColor={COLORS.DARK_GRAY}
+          placeholderTextColor={dynamicColor}
           value={searchWord}
           onChangeText={setSearchWord}
           style={{
@@ -42,8 +42,7 @@ export const WordList = ({ data, navigation }) => {
         {searchWord && !filteredBySearch.length ? (
           <View>
             <CustomText
-              title={t("no_match")}
-              color={dynamicColor}
+              title={t("no_match")}              
               fontWeight="700"
               textAlign="center"
             />
@@ -57,8 +56,7 @@ export const WordList = ({ data, navigation }) => {
                     filteredQueryLength: filteredBySearch.length,
                   })
                 : t("words_in_category", { listLength: data.length })
-            }`}
-            color={dynamicColor}
+            }`}            
           />
         )}
       </View>
