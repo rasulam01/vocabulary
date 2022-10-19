@@ -4,6 +4,7 @@ import {
   View,  
   StyleSheet,
   Switch,  
+  Image
 } from "react-native";
 import { Context } from "../../navigation";
 import { COLORS } from "../../colors";
@@ -31,13 +32,14 @@ export const Settings = () => {
   };
   
   const options = [{
-    label: "English", value: "en"
+    label: "English", value: "en", image: require("../../assets/flags/united-kingdom.png")
   }, {
-    label: "Русский", value: "ru"
+    label: "Русский", value: "ru", image: require("../../assets/flags/russia.png")
   }]
 
   const { t, i18n } = useTranslation()
   const [value, setValue] = useState("ru")
+  const [country, setCountry] = useState(require("../../assets/flags/russia.png"))
   const alignmentText = alignment
     ? t("align_by_center")
     : t("align_by_left");
@@ -64,8 +66,8 @@ export const Settings = () => {
         <View>
           <CustomText title={t('language')} />
         </View>        
-        <Dropdown data={options} fontFamily={fontByLanguage} containerStyle={{backgroundColor: COLORS.CLOUDY_BLUE}}  selectedTextStyle={{color: dynamicColor}} itemTextStyle={{color: dynamicColor}} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), setLanguage(item.value), i18n.changeLanguage(item.value)}} />
-      </View>
+        <Dropdown data={options} fontFamily={fontByLanguage} renderLeftIcon={() => (<Image source={country} style={{width: 25, height: 25, marginRight: 12, marginLeft: 1}} />)}  containerStyle={{backgroundColor: COLORS.CLOUDY_BLUE}} selectedTextStyle={{color: dynamicColor}} itemTextStyle={{color: COLORS.VEINY_RED}} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), setCountry(item.image), setLanguage(item.value), i18n.changeLanguage(item.value)}} iconStyle={{tintColor: dynamicColor}} />
+      </View>      
     </SafeAreaView>
   );
 };

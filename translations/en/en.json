@@ -1,6 +1,7 @@
 {
     "translation" : {
-        "alphabet" : "Alphabet",
+        "alphabet" : "Alphabet and its nuances",
+        "alphabet_text" : "Written Khadar language is based off the cyrillic writing system with the inclusion of some elements that represent sounds used in Arabic. \n \n Here are the symbol combinations that result in sounds that are of mostly Arabic origin: \n \n 1. Symbol combinations \"гь\" and\"хь\" result a sound close to that of the arabic letter ه. \n \n 2. Symbol combinations \"гъ\" and\"хъ\" result in a sound close to that of the arabic letter غ. \n \n 3. Symbol combination \"xI\" results in a sound close to that of the arabic letter ح. \n \n 4. Symbol combinations \"къ\" and \"кI\" result in a sound close to that of the arabic letter ق. \n \n 5. Symbol combination \"кь\" results in a sound close to that of the arabic letter ك. \n \n 6. Symbol combination \"пI\": while pronouncing, your lips connect and then separate under pressure. \n \n 7. Symbol combination \"тI\": while pronouncing, the tip of the tongue connects and then separates from the upper palate, near the teeth foundation, under pressure.",
         "settings" : "Settings",
         "language" : "Language",
         "languages" : "Languages",

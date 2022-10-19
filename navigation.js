@@ -11,6 +11,7 @@ import { Image, Platform, StatusBar } from "react-native";
 import { useTranslation } from "react-i18next";
 import { Adjectives } from "./components/adjectives/adjectives";
 import { Adverbs } from "./components/adverbs/adverbs";
+import { Alphabet } from "./components/alphabet/alphabet";
 import { Animals } from "./components/fields/animals.component";
 import { Berries } from "./components/content/berries";
 import { Birds } from "./components/content/birds";
@@ -85,6 +86,7 @@ export const StackNavigation = () => {
   return (
   <Stack.Navigator screenOptions={{gestureEnabled: false, headerTitleStyle: {fontFamily: fontByLanguage}}} initialRouteName={VocabularyComponentName}>
     <Stack.Screen name={VocabularyComponentName} component={Vocabulary} options={{headerTitle: t("languages")}} />
+    <Stack.Screen name={t("alphabet")} component={Alphabet} />
     <Stack.Screen name={t("parts")} component={VocabularyParts} />
     <Stack.Screen name={t("nouns")} component={Nouns} />
     <Stack.Screen name={t("speech_parts")} component={VocabularySpeechParts} />
