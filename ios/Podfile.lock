@@ -290,6 +290,10 @@ PODS:
     - RCTTypeSafety
     - React-Core
     - ReactCommon/turbomodule/core
+  - react-native-yandex-mobile-ads (0.5.0):
+    - React-Core
+    - YandexMobileAds (= 5.2.1)
+    - YandexMobileAdsInstream (= 0.12.0)
   - React-perflogger (0.69.5)
   - React-RCTActionSheet (0.69.5):
     - React-Core/RCTActionSheetHeaders (= 0.69.5)
@@ -369,6 +373,20 @@ PODS:
   - RNVectorIcons (9.2.0):
     - React-Core
   - SocketRocket (0.6.0)
+  - YandexMobileAds (5.2.1):
+    - YandexMobileAds/Static (= 5.2.1)
+  - YandexMobileAds/Static (5.2.1):
+    - YandexMobileMetrica (< 5.0.0, >= 4.0.0)
+  - YandexMobileAdsInstream (0.12.0):
+    - YandexMobileAds (~> 5.2.0)
+  - YandexMobileMetrica (4.4.0):
+    - YandexMobileMetrica/Static (= 4.4.0)
+  - YandexMobileMetrica/Static (4.4.0):
+    - YandexMobileMetrica/Static/Core (= 4.4.0)
+    - YandexMobileMetrica/Static/Crashes (= 4.4.0)
+  - YandexMobileMetrica/Static/Core (4.4.0)
+  - YandexMobileMetrica/Static/Crashes (4.4.0):
+    - YandexMobileMetrica/Static/Core
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -418,6 +436,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - react-native-yandex-mobile-ads (from `../node_modules/react-native-yandex-mobile-ads`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -452,6 +471,9 @@ SPEC REPOS:
     - libevent
     - OpenSSL-Universal
     - SocketRocket
+    - YandexMobileAds
+    - YandexMobileAdsInstream
+    - YandexMobileMetrica
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -495,6 +517,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-yandex-mobile-ads:
+    :path: "../node_modules/react-native-yandex-mobile-ads"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -564,6 +588,7 @@ SPEC CHECKSUMS:
   React-jsinspector: e385fb7a1440ae3f3b2cd1a139ca5aadaab43c10
   React-logger: 15c734997c06fe9c9b88e528fb7757601e7a56df
   react-native-safe-area-context: b456e1c40ec86f5593d58b275bd0e9603169daca
+  react-native-yandex-mobile-ads: 53eb94198ea2d1a567ec9edd6e6dca0625568ed2
   React-perflogger: 367418425c5e4a9f0f80385ee1eaacd2a7348f8e
   React-RCTActionSheet: e4885e7136f98ded1137cd3daccc05eaed97d5a6
   React-RCTAnimation: 7c5a74f301c9b763343ba98a3dd776ed2676993f
@@ -581,6 +606,9 @@ SPEC CHECKSUMS:
   RNSoundPlayer: 369105c565b8fe6ea0a43fc882dc81eba444e842
   RNVectorIcons: fcc2f6cb32f5735b586e66d14103a74ce6ad61f8
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+  YandexMobileAds: 3d7708df615f92815a3acedf9869da46d0b4d65e
+  YandexMobileAdsInstream: 9af68b07d930a9d16b343838ebffe6605ef086a2
+  YandexMobileMetrica: baf7cea47cb87fc9af963c4f747ce8dd7df3d7c0
   Yoga: c2b1f2494060865ac1f27e49639e72371b1205fa
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 

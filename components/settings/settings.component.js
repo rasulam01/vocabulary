@@ -4,7 +4,8 @@ import {
   View,  
   StyleSheet,
   Switch,  
-  Image
+  Image,
+  Platform
 } from "react-native";
 import { Context } from "../../navigation";
 import { COLORS } from "../../colors";
@@ -54,7 +55,7 @@ export const Settings = () => {
           trackColor={{ false: COLORS.VEINY_RED, true: COLORS.BEACH_TURQUOISE }}
         />
       </View>
-      <View style={[styles.section, { padding: iosPadding }]}>
+      <View style={styles.section}>
         <CustomText  title={alignmentText} />
         <Switch
           value={alignment}
@@ -62,11 +63,11 @@ export const Settings = () => {
           trackColor={{ false: COLORS.VEINY_RED, true: COLORS.BEACH_TURQUOISE }}
         />
       </View>
-      <View>
+      <View style={Platform.OS === "ios" ? {paddingHorizontal: 20} : null}>
         <View>
           <CustomText title={t('language')} />
         </View>        
-        <Dropdown data={options} fontFamily={fontByLanguage} renderLeftIcon={() => (<Image source={country} style={{width: 25, height: 25, marginRight: 12, marginLeft: 1}} />)}  containerStyle={{backgroundColor: COLORS.CLOUDY_BLUE}} selectedTextStyle={{color: dynamicColor}} itemTextStyle={{color: COLORS.VEINY_RED}} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), setCountry(item.image), setLanguage(item.value), i18n.changeLanguage(item.value)}} iconStyle={{tintColor: dynamicColor}} />
+        <Dropdown data={options} fontFamily={fontByLanguage} renderLeftIcon={() => (<Image source={country} style={{ width: 25, height: 25, marginRight: 12}} />)}  containerStyle={{backgroundColor: COLORS.CLOUDY_BLUE}} selectedTextStyle={{color: dynamicColor}} itemTextStyle={{color: COLORS.VEINY_RED}} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), setCountry(item.image), setLanguage(item.value), i18n.changeLanguage(item.value)}} iconStyle={{tintColor: dynamicColor}} />
       </View>      
     </SafeAreaView>
   );

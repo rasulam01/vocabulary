@@ -23,7 +23,6 @@
     "react-native-screens": "^3.17.0",
     "react-native-sound": "^0.11.2",
     "react-native-sound-player": "^0.13.2",
-    "react-native-splash-screen": "^3.3.0",
     "react-native-vector-icons": "^9.2.0",
     "react-native-yandex-mobile-ads": "^0.5.0"
   },
