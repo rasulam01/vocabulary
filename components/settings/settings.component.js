@@ -67,7 +67,7 @@ export const Settings = () => {
         <View>
           <CustomText title={t('language')} />
         </View>        
-        <Dropdown data={options} fontFamily={fontByLanguage} renderLeftIcon={() => (<Image source={country} style={{ width: 25, height: 25, marginRight: 12, marginLeft: 1}} />)}  containerStyle={{backgroundColor: COLORS.CLOUDY_BLUE}} selectedTextStyle={{color: dynamicColor}} itemTextStyle={{color: COLORS.VEINY_RED}} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), setCountry(item.image), setLanguage(item.value), i18n.changeLanguage(item.value)}} iconStyle={{tintColor: dynamicColor}} />
+        <Dropdown data={options} fontFamily={fontByLanguage} renderLeftIcon={() => (<Image source={country} style={{ width: 25, height: 25, marginRight: 12, marginLeft: 1}} />)} containerStyle={{backgroundColor: COLORS.CLOUDY_BLUE}} selectedTextStyle={{color: dynamicColor}} itemTextStyle={{color: COLORS.VEINY_RED}} labelField="label" valueField="value" placeholder="Select language" value={value} onChange={item => {setValue(item.value), setCountry(item.image), setLanguage(item.value), i18n.changeLanguage(item.value)}} iconStyle={{tintColor: dynamicColor}} />
       </View>      
     </SafeAreaView>
   );

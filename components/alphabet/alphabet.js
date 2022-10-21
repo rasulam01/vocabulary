@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 export const Alphabet = () => {
     const { t } = useTranslation()
     return (
-    <SafeAreaView style={[commonStyles.container, {margin: 20}]}>
+    <SafeAreaView style={[commonStyles.container, {margin: 10}]}>
         <ScrollView>
             <CustomText title={t("alphabet_text")} />
         </ScrollView>        
