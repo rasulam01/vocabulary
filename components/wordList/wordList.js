@@ -22,9 +22,9 @@ export const WordList = ({ data, navigation }) => {
     <>
       <View
         style={[
-          { paddingBottom: 20 },
+          { paddingBottom: 5 },
           Platform.OS === "ios"
-            ? { marginTop: 30, marginLeft: 20, paddingLeft: 17 }
+            ? { marginTop: 25, paddingLeft: 17 }
             : "",
         ]}
       >
@@ -36,7 +36,8 @@ export const WordList = ({ data, navigation }) => {
           style={{
             borderBottomWidth: 1,
             borderBottomColor: COLORS.DARK_GRAY,
-            marginBottom: 12,
+            marginBottom: 20,
+            width: "90%"
           }}
         />
         {searchWord && !filteredBySearch.length ? (

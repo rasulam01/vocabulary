@@ -40,6 +40,7 @@ export const Settings = () => {
 
   const { t, i18n } = useTranslation()
   const [value, setValue] = useState("ru")
+  const border = {marginBottom: 10, borderTopWidth: 1, borderBottomWidth: 1, borderTopColor: '#e3ab12', borderBottomColor: '#e3ab12', backgroundColor: dark ? '#1f2926' : '#12e3a4' }
   const [country, setCountry] = useState(require("../../assets/flags/russia.png"))
   const alignmentText = alignment
     ? t("align_by_center")
@@ -47,7 +48,7 @@ export const Settings = () => {
   const darkModeText = dark ? t("disable_dark_mode") : t("enable_dark_mode");
   return (
     <SafeAreaView style={commonStyles.container}>
-      <View style={[styles.section, { padding: iosPadding }]}>
+      <View style={[styles.section, border, { padding: iosPadding, marginTop: 10 }]}>
         <CustomText  title={darkModeText} />
         <Switch
           value={dark}
@@ -55,7 +56,7 @@ export const Settings = () => {
           trackColor={{ false: COLORS.VEINY_RED, true: COLORS.BEACH_TURQUOISE }}
         />
       </View>
-      <View style={[styles.section, {padding: iosPadding}]}>
+      <View style={[styles.section, border, {padding: iosPadding}]}>
         <CustomText title={alignmentText} />
         <Switch
           value={alignment}
@@ -63,7 +64,7 @@ export const Settings = () => {
           trackColor={{ false: COLORS.VEINY_RED, true: COLORS.BEACH_TURQUOISE }}
         />
       </View>
-      <View style={Platform.OS === "ios" ? {paddingHorizontal: 20} : null}>
+      <View style={[border, {padding: iosPadding}]}>
         <View>
           <CustomText title={t('language')} />
         </View>        
@@ -78,6 +79,5 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    paddingBottom: 10,
   },
 });
