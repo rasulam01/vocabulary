@@ -47,8 +47,8 @@ export const Settings = () => {
     : t("align_by_left");
   const darkModeText = dark ? t("disable_dark_mode") : t("enable_dark_mode");
   return (
-    <SafeAreaView style={commonStyles.container}>
-      <View style={[styles.section, border, { padding: iosPadding, marginTop: 10 }]}>
+    <SafeAreaView style={{flex: 1}}>
+      <View style={[styles.section, border, { padding: 15, marginTop: 10 }]}>
         <CustomText  title={darkModeText} />
         <Switch
           value={dark}
@@ -56,7 +56,7 @@ export const Settings = () => {
           trackColor={{ false: COLORS.VEINY_RED, true: COLORS.BEACH_TURQUOISE }}
         />
       </View>
-      <View style={[styles.section, border, {padding: iosPadding}]}>
+      <View style={[styles.section, border, {padding: 15}]}>
         <CustomText title={alignmentText} />
         <Switch
           value={alignment}
@@ -64,7 +64,7 @@ export const Settings = () => {
           trackColor={{ false: COLORS.VEINY_RED, true: COLORS.BEACH_TURQUOISE }}
         />
       </View>
-      <View style={[border, {padding: iosPadding}]}>
+      <View style={[border, {padding: 15}]}>
         <View>
           <CustomText title={t('language')} />
         </View>        

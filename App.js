@@ -12,12 +12,11 @@ import {
   MobileAds,
   InterstitialAdManager,
 } from "react-native-yandex-mobile-ads";
+import SplashScreen from "react-native-splash-screen";
 
 MobileAds.initialize({ userConsent: true, locationConsent: true });
 
-
-
-  InterstitialAdManager.showAd("R-M-1959796-1")
+InterstitialAdManager.showAd("R-M-1959796-1")
   .then((didClick) => {
     console.log("clicked: " + didClick);
   })
@@ -25,6 +24,12 @@ MobileAds.initialize({ userConsent: true, locationConsent: true });
     console.log("error: " + error);
   });
 
-const App = () => <Navigation />;
+const App = () => {
+  React.useEffect(() => {
+    SplashScreen.hide();
+  });
+
+  return <Navigation />;
+};
 
 export default App;
