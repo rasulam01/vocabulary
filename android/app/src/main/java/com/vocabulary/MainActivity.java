@@ -18,16 +18,16 @@ public class MainActivity extends ReactActivity {
     return "vocabulary";
   }
 
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-  super.onCreate(null);
-  }
-
   // @Override
   // protected void onCreate(Bundle savedInstanceState) {
-  //   SplashScreen.show(this);  // here
-  //   super.onCreate(savedInstanceState);
+  // super.onCreate(null);
   // }
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    SplashScreen.show(this);  // here
+    super.onCreate(savedInstanceState);
+  }
 
 
 
