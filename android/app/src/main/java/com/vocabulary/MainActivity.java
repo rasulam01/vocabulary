@@ -4,6 +4,8 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
 import android.os.Bundle;
+import org.devio.rn.splashscreen.SplashScreen;
+// import com.cboy.rn.splashscreen.SplashScreen;
 
 public class MainActivity extends ReactActivity {
 
@@ -20,6 +22,14 @@ public class MainActivity extends ReactActivity {
   protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(null);
   }
+
+  // @Override
+  // protected void onCreate(Bundle savedInstanceState) {
+  //   SplashScreen.show(this);  // here
+  //   super.onCreate(savedInstanceState);
+  // }
+
+
 
 
 
