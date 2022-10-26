@@ -55,10 +55,10 @@ export const WordSelected = ({ route }) => {
           }}
           hitSlop={25}          
         >
-          <Image
+          {/* <Image
             source={MIC_PATH}
             style={{ width: 20, height: 20, marginLeft: 5 }}
-          />
+          /> */}
         </TouchableOpacity>
       </View>
       <View style={{alignItems: 'center', paddingBottom: 20}}>

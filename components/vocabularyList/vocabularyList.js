@@ -10,6 +10,7 @@ export const VocabularyList = ({ data, navigation }) => {
     <FlatList
       data={data}
       keyExtractor={(item) => item.src}
+      initialNumToRender={10}
       renderItem={({ item }) => (
         <VocabularySection
           imageSource={item.src}

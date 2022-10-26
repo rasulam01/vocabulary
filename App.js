@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from "react";
+import React, { useEffect } from "react";
 import Navigation from "./navigation";
 import {
   MobileAds,
@@ -16,17 +16,20 @@ import SplashScreen from "react-native-splash-screen";
 
 MobileAds.initialize({ userConsent: true, locationConsent: true });
 
-InterstitialAdManager.showAd("R-M-1959796-1")
-  .then((didClick) => {
-    console.log("clicked: " + didClick);
-  })
-  .catch((error) => {
-    console.log("error: " + error);
-  });
-
 const App = () => {
-  React.useEffect(() => {
-    SplashScreen.hide();
+  useEffect(() => {
+    setTimeout(() => {
+      SplashScreen.hide();
+    }, 2000);
+    setTimeout(() => {
+      InterstitialAdManager.showAd("R-M-1959796-1")
+        .then((didClick) => {
+          console.log("clicked: " + didClick);
+        })
+        .catch((error) => {
+          console.log("error: " + error);
+        });
+    }, 2000);
   });
 
   return <Navigation />;

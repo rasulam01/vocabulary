@@ -83,8 +83,8 @@ export const pronounsData = [
     
     src: "",
     category: "possessive_pronouns",
-    russian: "итIия",
-    khadar: "его, её",
+    russian: "его, её",
+    khadar: "итIия",
     english: "his, her, its",
     additional_info: "",
     sound_src: "apple.m4a",

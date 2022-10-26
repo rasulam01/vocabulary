@@ -7,12 +7,13 @@ import {
   Platform,
 } from "react-native";
 import { CustomText } from "../custom/CustomText";
-import { Context } from "../../navigation";
 import { iconSize } from "../../navigation";
 import { arrowSize } from "../../navigation";
 import commonStyles from "../commonStyles";
 
+
 const ARROW_PATH = require("../../assets/sections/arrow.png")
+
 
 export const VocabularySection = ({ imageSource, title, onPress }) => {
   
