@@ -25,7 +25,7 @@ export const VocabularySection = ({ imageSource, title, onPress }) => {
             source={imageSource}
             style={[iconSize, { marginRight: 20, resizeMode: "contain" }]}
           />
-          <CustomText  title={title} />
+          <CustomText title={title} />
         </View>
         <View>
           <Image source={ARROW_PATH} style={arrowSize} />
