@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Word } from "../word/word";
-import { FlatList, View, TextInput } from "react-native";
+import { FlatList, View, TextInput, Platform } from "react-native";
 import { CustomText } from "../custom/CustomText";
 import { Context } from "../../navigation";
 import { COLORS } from "../../colors";
@@ -22,7 +22,7 @@ export const WordList = ({ data, navigation }) => {
     <>
       <View
         style={[
-          { paddingBottom: 5 },
+          { paddingBottom: Platform.OS === "android" ? 20 : 5 },
           Platform.OS === "ios"
             ? { marginTop: 25, paddingLeft: 17 }
             : "",
@@ -37,7 +37,7 @@ export const WordList = ({ data, navigation }) => {
             borderBottomWidth: 1,
             borderBottomColor: COLORS.DARK_GRAY,
             marginBottom: 20,
-            width: "90%"
+            width: "85%"
           }}
         />
         {searchWord && !filteredBySearch.length ? (
