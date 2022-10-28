@@ -23,12 +23,6 @@ const App = () => {
     }, 2000);
     setTimeout(() => {
       InterstitialAdManager.showAd("R-M-1959796-1")
-        .then((didClick) => {
-          console.log("clicked: " + didClick);
-        })
-        .catch((error) => {
-          console.log("error: " + error);
-        });
     }, 2000);
   });
 

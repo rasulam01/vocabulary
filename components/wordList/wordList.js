@@ -6,8 +6,8 @@ import { Context } from "../../navigation";
 import { COLORS } from "../../colors";
 import { useTranslation } from "react-i18next";
 
-export const WordList = ({ data, navigation }) => {  
-  const { dynamicColor } = React.useContext(Context)
+export const WordList = ({ data, navigation }) => {
+  const { dynamicColor } = React.useContext(Context);
   const [searchWord, setSearchWord] = useState("");
   const { t } = useTranslation();
 
@@ -18,16 +18,41 @@ export const WordList = ({ data, navigation }) => {
       item.english.toLowerCase().includes(searchWord.toLowerCase())
   );
 
+  const renderWord = ({ item, index }) => (
+    <Word
+      index={index + 1}
+      src={item.src}
+      russian={item.russian}
+      khadar={item.khadar}
+      english={item.english}
+      additional_info={item.additional_info}
+      sound_src={item.sound_src}
+      navigation={navigation}
+      length={data.length}
+      onPress={() =>
+        navigation.navigate("Selected Word", {
+          index: index + 1,
+          src: item.src,
+          category: t(item.category),
+          russian: item.russian,
+          khadar: item.khadar,
+          english: item.english,
+          additional_info: item.additional_info,
+          sound_src: item.sound_src,
+          length: data.length,
+        })
+      }
+    />
+  );
+
+  const inputField = [
+    { paddingBottom: Platform.OS === "android" ? 20 : 5 },
+    Platform.OS === "ios" ? { marginTop: 25, paddingLeft: 17 } : "",
+  ];
+
   return (
     <>
-      <View
-        style={[
-          { paddingBottom: Platform.OS === "android" ? 20 : 5 },
-          Platform.OS === "ios"
-            ? { marginTop: 25, paddingLeft: 17 }
-            : "",
-        ]}
-      >
+      <View style={inputField}>
         <TextInput
           placeholder={t("placeholder")}
           placeholderTextColor={dynamicColor}
@@ -37,13 +62,13 @@ export const WordList = ({ data, navigation }) => {
             borderBottomWidth: 1,
             borderBottomColor: COLORS.DARK_GRAY,
             marginBottom: 20,
-            width: "85%"
+            width: "85%",
           }}
         />
         {searchWord && !filteredBySearch.length ? (
           <View>
             <CustomText
-              title={t("no_match")}              
+              title={t("no_match")}
               fontWeight="700"
               textAlign="center"
             />
@@ -57,7 +82,7 @@ export const WordList = ({ data, navigation }) => {
                     filteredQueryLength: filteredBySearch.length,
                   })
                 : t("words_in_category", { listLength: data.length })
-            }`}            
+            }`}
           />
         )}
       </View>
@@ -67,32 +92,7 @@ export const WordList = ({ data, navigation }) => {
             firstByAlphabet.khadar.localeCompare(secondByAlphabet.khadar)
           )}
           keyExtractor={(item) => item.khadar}
-          renderItem={({ item, index }) => (
-            <Word              
-              index={index + 1}
-              src={item.src}
-              russian={item.russian}
-              khadar={item.khadar}
-              english={item.english}
-              additional_info={item.additional_info}
-              sound_src={item.sound_src}
-              navigation={navigation}
-              length={data.length}
-              onPress={() =>
-                navigation.navigate("Selected Word", {                  
-                  index: index + 1,
-                  src: item.src,
-                  category: t(item.category),
-                  russian: item.russian,
-                  khadar: item.khadar,
-                  english: item.english,
-                  additional_info: item.additional_info,
-                  sound_src: item.sound_src,
-                  length: data.length,
-                })
-              }
-            />
-          )}
+          renderItem={renderWord}
         />
       ) : (
         <FlatList
@@ -100,33 +100,7 @@ export const WordList = ({ data, navigation }) => {
             firstByAlphabet.khadar.localeCompare(secondByAlphabet.khadar)
           )}
           keyExtractor={(item) => item.khadar}
-          initialNumToRender={10}
-          renderItem={({ item, index }) => (
-            <Word              
-              index={index + 1}
-              src={item.src}
-              russian={item.russian}
-              khadar={item.khadar}
-              english={item.english}
-              additional_info={item.additional_info}
-              sound_src={item.sound_src}
-              navigation={navigation}
-              length={data.length}
-              onPress={() =>
-                navigation.navigate("Selected Word", {                  
-                  index: index + 1,
-                  src: item.src,
-                  category: t(item.category),
-                  russian: item.russian,
-                  khadar: item.khadar,
-                  english: item.english,
-                  additional_info: item.additional_info,
-                  sound_src: item.sound_src,
-                  length: data.length,
-                })
-              }
-            />
-          )}
+          renderItem={renderWord}
         />
       )}
     </>

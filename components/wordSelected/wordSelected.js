@@ -2,7 +2,6 @@ import React from "react";
 import { SafeAreaView, View, Image, TouchableOpacity, Dimensions } from "react-native";
 import { CustomText } from "../custom/CustomText";
 import commonStyles from "../commonStyles";
-import { Context } from "../../navigation";
 import Sound from "react-native-sound";
 import { useTranslation } from "react-i18next";
 
@@ -19,23 +18,24 @@ export const WordSelected = ({ route }) => {
     sound_src,
     length,    
   } = route.params;
-  const MIC_PATH = require("../../assets/sections/mic.png");
+  // const MIC_PATH = require("../../assets/sections/mic.png");
   Sound.setCategory("Playback", true);
   const play = () => {
     const audio = new Sound(sound_src, Sound.MAIN_BUNDLE, (err) => {
       if (err) {
-        console.log("error: ", err);
         return;
-      } else {
-        audio.play((res) => {
-          console.log("result: ", res);
-        })
       }
+      audio.play(() => {
+        audio.release()
+      })
+      
     });
+    
   };
   const iconWidth = Dimensions.get("window").width / 2
   const iconHeight = Dimensions.get("window").height / 4
   const iconSelectedSize = {width: iconWidth, height: iconHeight, resizeMode: "contain"}
+
 
   return (
     <SafeAreaView style={commonStyles.container}>
@@ -49,17 +49,17 @@ export const WordSelected = ({ route }) => {
           title={khadar}         
           fontSize={20}
         />
-        <TouchableOpacity
+        {/* <TouchableOpacity
           onPress={() => {
             play()
           }}
           hitSlop={25}          
         >
-          {/* <Image
+          <Image
             source={MIC_PATH}
             style={{ width: 20, height: 20, marginLeft: 5 }}
-          /> */}
-        </TouchableOpacity>
+          />
+        </TouchableOpacity> */}
       </View>
       <View style={{alignItems: 'center', paddingBottom: 20}}>
         <Image source={src} style={iconSelectedSize} />
