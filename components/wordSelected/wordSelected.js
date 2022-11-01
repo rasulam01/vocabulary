@@ -19,23 +19,20 @@ export const WordSelected = ({ route }) => {
     length,    
   } = route.params;
   // const MIC_PATH = require("../../assets/sections/mic.png");
-  Sound.setCategory("Playback", true);
-  const play = () => {
-    const audio = new Sound(sound_src, Sound.MAIN_BUNDLE, (err) => {
-      if (err) {
-        return;
-      }
-      audio.play(() => {
-        audio.release()
-      })
-      
-    });
-    
-  };
+  // Sound.setCategory("Playback", true);
+  // const play = () => {
+  //   const audio = new Sound(sound_src, Sound.MAIN_BUNDLE, (err) => {
+  //     if (err) {
+  //       return;
+  //     }
+  //     audio.play(() => {
+  //       audio.release()
+  //     })
+  //   });
+  // };
   const iconWidth = Dimensions.get("window").width / 2
   const iconHeight = Dimensions.get("window").height / 4
   const iconSelectedSize = {width: iconWidth, height: iconHeight, resizeMode: "contain"}
-
 
   return (
     <SafeAreaView style={commonStyles.container}>

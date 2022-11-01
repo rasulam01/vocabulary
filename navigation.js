@@ -31,6 +31,7 @@ import { Materials } from "./components/fields/materials.component";
 import { Nature } from "./components/fields/nature.component";
 import { Numbers } from "./components/numbers/numbers";
 import { Other } from "./components/content/other";
+import { Passive } from "./components/passive/passive";
 import { Pronouns } from "./components/pronouns/pronouns";
 import { Science } from "./components/fields/science.component";
 import { Nouns } from "./components/nouns/nouns";
@@ -111,6 +112,7 @@ export const StackNavigation = () => {
     <Stack.Screen name={t("nature")} component={Nature} />
     <Stack.Screen name={t("numbers")} component={Numbers} />
     <Stack.Screen name={t("other")} component={Other} />
+    <Stack.Screen name={t("passive")} component={Passive} />
     <Stack.Screen name={t("pronouns")} component={Pronouns} />
     <Stack.Screen name={t("rules")} component={Rules} />
     <Stack.Screen name={t("science")} component={Science} />

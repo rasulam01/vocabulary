@@ -4,12 +4,12 @@ import { CustomText } from "../custom/CustomText";
 import commonStyles from "../commonStyles";
 import { useTranslation } from "react-i18next";
 
-export const Alphabet = () => {
+export const Passive = () => {
     const { t } = useTranslation()
     return (
     <SafeAreaView style={commonStyles.marginContainer}>
         <ScrollView>
-            <CustomText title={t("alphabet_text")} />
+            <CustomText title={t("passive_text")} />
         </ScrollView>        
     </SafeAreaView>
     )
