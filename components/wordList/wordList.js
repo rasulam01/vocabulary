@@ -58,6 +58,7 @@ export const WordList = ({ data, navigation }) => {
             borderBottomColor: COLORS.DARK_GRAY,
             marginBottom: 20,
             width: "85%",
+            paddingBottom: 10
           }}
         />
         {searchWord && !filteredBySearch.length ? (
@@ -88,6 +89,7 @@ export const WordList = ({ data, navigation }) => {
           )}
           keyExtractor={(item) => item.khadar}
           renderItem={renderWord}
+          style={styles.list}
         />
       ) : (
         <FlatList
@@ -96,6 +98,7 @@ export const WordList = ({ data, navigation }) => {
           )}
           keyExtractor={(item) => item.khadar}
           renderItem={renderWord}
+          style={styles.list}
         />
       )}
     </>
@@ -107,5 +110,8 @@ const styles = StyleSheet.create({
     paddingBottom: Platform.OS === "android" ? 20 : 5,
     paddingLeft: Platform.OS === "ios" ? 17 : 0,
     marginTop: Platform.OS === "ios" ? 25 : 0
+  },
+  list: {
+    marginTop: Platform.OS === "ios" ? 15 : 0
   }
 })
