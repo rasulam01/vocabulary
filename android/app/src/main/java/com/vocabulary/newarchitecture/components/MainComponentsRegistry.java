@@ -1,4 +1,4 @@
-package com.vocabulary.newarchitecture.components;
+package com.dialectvocabulary.dialect.application.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

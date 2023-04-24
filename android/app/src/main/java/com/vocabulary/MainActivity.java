@@ -1,4 +1,4 @@
-package com.vocabulary;
+package com.dialectvocabulary.dialect.application;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
