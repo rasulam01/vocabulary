@@ -10,20 +10,28 @@ import { CustomText } from "../custom/CustomText";
 import { iconSize } from "../../navigation";
 import { arrowSize } from "../../navigation";
 import commonStyles from "../commonStyles";
+import Sound from "react-native-sound";
 
-
-const ARROW_PATH = require("../../assets/sections/arrow.png")
-
+const ARROW_PATH = require("../../assets/sections/arrow.png");
 
 export const VocabularySection = ({ imageSource, title, onPress }) => {
-  
+  Sound.setCategory("Playback", true);
+  const play = () => {
+    const pageFlip = new Sound("page-flip.wav", Sound.MAIN_BUNDLE, () => {
+      pageFlip.play(() => {
+        pageFlip.release();
+      });
+    });
+  };
+
   return (
-    <TouchableWithoutFeedback onPress={onPress}>
+    <TouchableWithoutFeedback onPress={onPress} onPressOut={() => play()}>
       <View style={commonStyles.section}>
         <View style={styles.sectionPiece}>
           <Image
             source={imageSource}
             style={[iconSize, { marginRight: 20, resizeMode: "contain" }]}
+            
           />
           <CustomText title={title} />
         </View>

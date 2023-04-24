@@ -7,6 +7,11 @@ export default StyleSheet.create({
     flex: 1,
     padding: androidPadding,
   },
+  marginContainer: {
+    flex: 1,
+    padding: androidPadding,
+    margin: 10,
+  },
   section: {
     flexDirection: "row",
     justifyContent: "space-between",

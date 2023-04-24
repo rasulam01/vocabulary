@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Word } from "../word/word";
-import { FlatList, View, TextInput, Platform } from "react-native";
+import { FlatList, View, TextInput, Platform, StyleSheet } from "react-native";
 import { CustomText } from "../custom/CustomText";
 import { Context } from "../../navigation";
 import { COLORS } from "../../colors";
@@ -45,14 +45,9 @@ export const WordList = ({ data, navigation }) => {
     />
   );
 
-  const inputField = [
-    { paddingBottom: Platform.OS === "android" ? 20 : 5 },
-    Platform.OS === "ios" ? { marginTop: 25, paddingLeft: 17 } : "",
-  ];
-
   return (
     <>
-      <View style={inputField}>
+      <View style={styles.inputField}>
         <TextInput
           placeholder={t("placeholder")}
           placeholderTextColor={dynamicColor}
@@ -63,6 +58,7 @@ export const WordList = ({ data, navigation }) => {
             borderBottomColor: COLORS.DARK_GRAY,
             marginBottom: 20,
             width: "85%",
+            paddingBottom: 10
           }}
         />
         {searchWord && !filteredBySearch.length ? (
@@ -93,6 +89,7 @@ export const WordList = ({ data, navigation }) => {
           )}
           keyExtractor={(item) => item.khadar}
           renderItem={renderWord}
+          style={styles.list}
         />
       ) : (
         <FlatList
@@ -101,8 +98,20 @@ export const WordList = ({ data, navigation }) => {
           )}
           keyExtractor={(item) => item.khadar}
           renderItem={renderWord}
+          style={styles.list}
         />
       )}
     </>
   );
 };
+
+const styles = StyleSheet.create({
+  inputField: {
+    paddingBottom: Platform.OS === "android" ? 20 : 5,
+    paddingLeft: Platform.OS === "ios" ? 17 : 0,
+    marginTop: Platform.OS === "ios" ? 25 : 0
+  },
+  list: {
+    marginTop: Platform.OS === "ios" ? 15 : 0
+  }
+})

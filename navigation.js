@@ -7,7 +7,7 @@ import { COLORS } from "./colors";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React, { useState } from "react";
-import { Image, Platform, StatusBar } from "react-native";
+import { Image, Platform, StatusBar, TouchableOpacity } from "react-native";
 import { useTranslation } from "react-i18next";
 import { Adjectives } from "./components/adjectives/adjectives";
 import { Adverbs } from "./components/adverbs/adverbs";
@@ -31,6 +31,7 @@ import { Materials } from "./components/fields/materials.component";
 import { Nature } from "./components/fields/nature.component";
 import { Numbers } from "./components/numbers/numbers";
 import { Other } from "./components/content/other";
+import { Passive } from "./components/passive/passive";
 import { Pronouns } from "./components/pronouns/pronouns";
 import { Science } from "./components/fields/science.component";
 import { Nouns } from "./components/nouns/nouns";
@@ -80,12 +81,12 @@ export const Context = React.createContext();
 
 export const StackNavigation = () => {
   const { t } = useTranslation();
-  const { language } = React.useContext(Context)  
+  const { language, dark } = React.useContext(Context)  
   const fontByLanguage = language === "ru" ? "Exo2-Regular" : "Bitter-SemiBold"  
   
   return (
-  <Stack.Navigator screenOptions={{gestureEnabled: false, headerTitleStyle: {fontFamily: fontByLanguage}}} initialRouteName={VocabularyComponentName}>
-    <Stack.Screen name={VocabularyComponentName} component={Vocabulary} options={{headerTitle: t("languages")}} />
+  <Stack.Navigator screenOptions={({navigation}) => ({gestureEnabled: false, headerLeft: () => (<TouchableOpacity hitSlop={15} onPress={() => navigation.goBack()}><Image source={require("./assets/back_button/left-arrow.png")} style={{width: 20, height: 20, tintColor: dark ? COLORS.WHITE : COLORS.OIL_BLACK}} /></TouchableOpacity>),  headerTitleStyle: {fontFamily: fontByLanguage}})} initialRouteName={VocabularyComponentName}>
+    <Stack.Screen name={VocabularyComponentName} component={Vocabulary} options={{headerTitle: t("languages"), headerLeft: null}} />
     <Stack.Screen name={t("alphabet")} component={Alphabet} />
     <Stack.Screen name={t("parts")} component={VocabularyParts} />
     <Stack.Screen name={t("nouns")} component={Nouns} />
@@ -111,6 +112,7 @@ export const StackNavigation = () => {
     <Stack.Screen name={t("nature")} component={Nature} />
     <Stack.Screen name={t("numbers")} component={Numbers} />
     <Stack.Screen name={t("other")} component={Other} />
+    <Stack.Screen name={t("passive")} component={Passive} />
     <Stack.Screen name={t("pronouns")} component={Pronouns} />
     <Stack.Screen name={t("rules")} component={Rules} />
     <Stack.Screen name={t("science")} component={Science} />
@@ -144,7 +146,7 @@ const Navigation = () => {
           initialRouteName={VocabularyName}
           screenOptions={{ headerShown: false, headerTitleStyle: {fontFamily: fontByLanguage},  tabBarActiveBackgroundColor: COLORS.CLOUDY_BLUE, tabBarLabel: () => null, tabBarInactiveBackgroundColor: dark ? COLORS.DARK_GRAY : COLORS.WHITE }}                              
         >
-          <Tab.Screen name={VocabularyName} component={StackNavigation}  options={{tabBarIcon: () => (
+          <Tab.Screen name={VocabularyName} component={StackNavigation} options={{tabBarIcon: () => (
             <Image source={require("./assets/sections/vocabulary.png")}  style={{width: 30, height: 30}} />
           )}}
            />
