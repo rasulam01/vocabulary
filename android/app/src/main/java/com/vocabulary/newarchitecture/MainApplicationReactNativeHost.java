@@ -1,4 +1,4 @@
-package com.dialectvocabulary.dialect.application.newarchitecture;
+package com.vocabularydialect.dialect.application.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.dialectvocabulary.dialect.application.BuildConfig;
-import com.dialectvocabulary.dialect.application.newarchitecture.components.MainComponentsRegistry;
-import com.dialectvocabulary.dialect.application.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.vocabularydialect.dialect.application.BuildConfig;
+import com.vocabularydialect.dialect.application.newarchitecture.components.MainComponentsRegistry;
+import com.vocabularydialect.dialect.application.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

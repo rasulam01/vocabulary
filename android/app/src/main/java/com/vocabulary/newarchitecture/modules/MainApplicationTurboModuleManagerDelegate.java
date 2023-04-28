@@ -1,4 +1,4 @@
-package com.dialectvocabulary.dialect.application.newarchitecture.modules;
+package com.vocabularydialect.dialect.application.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

@@ -609,6 +609,26 @@ export const adjectivesData = [
     additional_info: "",
     sound_src: "apple.m4a",
   },
+  {
+    
+    src: require("../../assets/adjectives/cheap.webp"),
+    category: "adjectives",
+    russian: "дешевый",
+    khadar: "учузил",
+    english: "cheap",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  },
+  {
+    
+    src: require("../../assets/adjectives/free_of_charge.webp"),
+    category: "adjectives",
+    russian: "бесплатный",
+    khadar: "ахъиял",
+    english: "free (of charge)",
+    additional_info: "",
+    sound_src: "apple.m4a",
+  },
   
   
 ];
