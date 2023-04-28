@@ -214,4 +214,44 @@ export const toolsData = [{
   english: "broom",
   additional_info: "",
   sound_src: "apple.m4a",
+},
+{
+  
+  src: require("../../assets/tools/nail.webp"),
+  category: "tools",
+  russian: "гвоздь",
+  khadar: "гIябуле",
+  english: "nail",
+  additional_info: "",
+  sound_src: "apple.m4a",
+},
+{
+  
+  src: require("../../assets/tools/paddle.webp"),
+  category: "tools",
+  russian: "весло",
+  khadar: "шалхъа",
+  english: "paddle",
+  additional_info: "",
+  sound_src: "apple.m4a",
+},
+{
+  
+  src: require("../../assets/tools/paddle.webp"),
+  category: "tools",
+  russian: "весло",
+  khadar: "шалхъа",
+  english: "paddle",
+  additional_info: "",
+  sound_src: "apple.m4a",
+},
+{
+  
+  src: require("../../assets/tools/screw.webp"),
+  category: "tools",
+  russian: "гайка",
+  khadar: "гайка",
+  english: "screw",
+  additional_info: "",
+  sound_src: "apple.m4a",
 },]
